@@ -34,7 +34,7 @@ When adding new pages, always:
 
 - **Server Components** (default): Pages, layouts, static sections
 - **Client Components** (`'use client'`): Forms, interactive UI (LanguageSelector, MobileMenu)
-- Components organized by feature: `components/landing/`, `components/forms/`, `components/legal/`, `components/seo/`
+- Components organized by feature: `components/landing/`, `components/forms/`, `components/legal/`, `components/seo/`, `components/contact/`
 
 ### SEO Implementation
 

@@ -36,6 +36,7 @@
     "pageTitle": "Contact Us",
     "pageSubtitle": "Have a question or need help? We're here for you.",
     "formTitle": "Send us a message",
+    "floatingButton": "Support",
     "nameLabel": "Your Name",
     "namePlaceholder": "Enter your full name",
     "emailLabel": "Email Address",

@@ -49,11 +49,6 @@ export const metadata: Metadata = {
     images: ['/assets/twitter-card.png'],
     creator: '@donkycapital',
   },
-  icons: {
-    icon: '/favicon.ico',
-    apple: '/apple-touch-icon.png',
-  },
-  manifest: '/site.webmanifest',
 }
 
 export default function RootLayout({
@@ -63,6 +58,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon-96x96.png" sizes="96x96" type="image/png" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
