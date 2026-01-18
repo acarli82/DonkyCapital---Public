@@ -1,0 +1,279 @@
+{
+  "appName": "DonkyCapital",
+  "tagline": "Monitora, Analizza, Ottimizza i Tuoi Investimenti",
+  "common": {
+    "loading": "Caricamento...",
+    "cancel": "Annulla",
+    "save": "Salva",
+    "submit": "Invia"
+  },
+  "earlyAccess": {
+    "title": "Partecipa al Programma Early Access",
+    "intro": "Stiamo selezionando un numero limitato di utenti per il nostro Programma Early Access. Gli utenti invitati avranno accesso gratuito alla piattaforma per sempre, anche dopo il lancio ufficiale.",
+    "freeForever": "L'accesso gratuito è personale e permanente per i membri del Programma Early Access.",
+    "whyJoin": "Perché Partecipare al Programma Early Access?",
+    "benefit1Title": "Accesso Anticipato alle Funzionalità",
+    "benefit1Desc": "Prova in anteprima le nuove funzionalità prima di tutti",
+    "benefit2Title": "Possibilità di Inviare Feedback al Team",
+    "benefit2Desc": "La tua opinione conta - aiutaci a migliorare il prodotto",
+    "benefit3Title": "Contributo Diretto allo Sviluppo",
+    "benefit3Desc": "Influenza la direzione futura della piattaforma",
+    "benefit4Title": "Accesso Gratuito a Vita",
+    "benefit4Desc": "Mantieni l'accesso premium per sempre",
+    "formTitle": "Richiedi l'Accesso Anticipato",
+    "emailLabel": "Inserisci il tuo indirizzo email",
+    "notesLabel": "Note aggiuntive (opzionale)",
+    "notesPlaceholder": "Raccontaci perché vorresti partecipare al Programma Early Access...",
+    "submitButton": "Richiedi l'Accesso Anticipato",
+    "submitting": "Invio in corso...",
+    "successTitle": "Richiesta Inviata!",
+    "successMessage": "Grazie per il tuo interesse nel nostro Programma Early Access. Ti contatteremo presto!",
+    "submitAnother": "Invia un'altra Richiesta",
+    "emailInvalid": "Inserisci un indirizzo email valido",
+    "submitError": "Impossibile inviare la richiesta. Riprova."
+  },
+  "contact": {
+    "pageTitle": "Contattaci",
+    "pageSubtitle": "Hai domande o bisogno di aiuto? Siamo qui per te.",
+    "formTitle": "Inviaci un messaggio",
+    "nameLabel": "Nome",
+    "namePlaceholder": "Inserisci il tuo nome completo",
+    "emailLabel": "Indirizzo Email",
+    "emailPlaceholder": "tua.email@esempio.com",
+    "subjectLabel": "Oggetto",
+    "subjectPlaceholder": "Di cosa si tratta?",
+    "messageLabel": "Messaggio",
+    "messagePlaceholder": "Dicci come possiamo aiutarti...",
+    "submitButton": "Invia Messaggio",
+    "submitting": "Invio in corso...",
+    "successTitle": "Messaggio Inviato!",
+    "successMessage": "Grazie per averci contattato. Ti risponderemo il prima possibile.",
+    "sendAnother": "Invia un Altro Messaggio",
+    "nameRequired": "Il nome è obbligatorio",
+    "emailRequired": "L'email è obbligatoria",
+    "emailInvalid": "Inserisci un indirizzo email valido",
+    "subjectRequired": "L'oggetto è obbligatorio",
+    "messageRequired": "Il messaggio è obbligatorio",
+    "submitError": "Invio fallito. Riprova."
+  },
+  "landing": {
+    "header": {
+      "features": "Features",
+      "pricing": "Plan",
+      "login": "Login",
+      "startFree": "Inizia Gratis"
+    },
+    "widgetsCarousel": {
+      "title": "Libertà di analisi: 48 modi diversi di guardare ai tuoi asset."
+    },
+    "hero": {
+      "badge": "Portfolio manager personalizzabile",
+      "title": "Monitora, Analizza, Ottimizza",
+      "titleSuffix": "i Tuoi Investimenti",
+      "description": "Prendi il controllo completo dei tuoi investimenti con DonkyCapital, il tracker portafoglio più flessibile e potente sul mercato. Monitora azioni, ETF, fondi, obbligazioni e crypto in un'unica dashboard personalizzabile. Importa transazioni da CSV, collega conti broker, e ottieni analisi avanzate con grafici interattivi, heatmap performance e P&L dettagliato. Gestione portafoglio multi-asset professionale accessibile a tutti.",
+      "ctaButton": "Inizia Gratis",
+      "gdprCompliant": "GDPR compliant",
+      "encryptedData": "Dati criptati",
+      "multiLanguage": "Multi-lingua",
+      "multiCurrency": "Multi-valuta"
+    },
+    "features": {
+      "customizableDashboard": {
+        "title": "Dashboard 100% Personalizzabile",
+        "description": "Drag & drop, salvataggio configurazioni, dashboard multiple: crea la vista perfetta per la tua strategia di investimento."
+      },
+      "advancedAnalytics": {
+        "title": "Analytics Avanzati",
+        "description": "Performance multi-periodo, Profit & Loss dettagliato, heatmap visive per identificare opportunità e rischi rapidamente."
+      },
+      "multiPortfolio": {
+        "title": "Multi-Portfolio",
+        "description": "Gestisci più portafogli, importa transazioni CSV e ottieni calcoli in real-time.",
+        "manyMore": "+ molti altri in fase di integrazione",
+        "securityNote": "Non chiediamo mai accesso al tuo broker. I tuoi dati restano solo tuoi."
+      }
+    },
+    "useCases": {
+      "retailInvestor": {
+        "title": "Investitore Retail",
+        "quote": "Ho ETF su 3 broker diversi: finalmente li vedo tutti in un posto."
+      },
+      "partTimeTrader": {
+        "title": "Trader Part-Time",
+        "quote": "Traccio P&L per ogni posizione, so esattamente quanto guadagno."
+      },
+      "financialAdvisor": {
+        "title": "Financial Advisor",
+        "quote": "Gestisco 20 clienti, ogni dashboard è personalizzata per le loro esigenze."
+      }
+    },
+    "pricing": {
+      "title": "Piani",
+      "earlyProgramActive": "Early Program Attivo",
+      "limitedAccess": "Accesso limitato:",
+      "earlyProgramDesc": "Stiamo selezionando i primi 100 utenti per l'Early Program. Accedi gratis a tutte le funzionalità Premium durante la fase beta.",
+      "mostPopular": "Più popolare",
+      "perMonth": "/ mese",
+      "perEarlyAccess": "/ early access",
+      "requestEarlyAccess": "Richiedi Early Access",
+      "plans": {
+        "free": {
+          "name": "Free",
+          "features": {
+            "portfolios": "1 portafoglio",
+            "transactions": "100 transazioni",
+            "dashboards": "3 dashboard",
+            "brokerImport": "Importazione dai principali broker",
+            "portfolioValue": "Valore portafogli",
+            "performanceAnalysis": "Analisi performance",
+            "allocationAnalysis": "Analisi allocazione e rischi",
+            "profitLoss": "P&L"
+          }
+        },
+        "standard": {
+          "name": "Standard",
+          "features": {
+            "portfolios": "5 portafogli",
+            "transactions": "500 transazioni",
+            "dashboards": "5 dashboard"
+          }
+        },
+        "premium": {
+          "name": "Premium",
+          "features": {
+            "portfolios": "10 portafogli",
+            "transactions": "Transazioni illimitate",
+            "dashboards": "8 dashboard"
+          }
+        }
+      }
+    },
+    "faq": {
+      "title": "Domande Frequenti",
+      "questions": {
+        "dataSecurity": {
+          "question": "È sicuro collegare i miei dati finanziari?",
+          "answer": "Non chiediamo mai accesso diretto al tuo broker. Tutti i dati vengono importati tramite file CSV che tu stesso carichi manualmente. I tuoi dati sono criptati e archiviati in server sicuri in Europa, completamente conformi al GDPR."
+        },
+        "brokerImport": {
+          "question": "Posso importare transazioni da altri broker?",
+          "answer": "Sì, supportiamo l'importazione da molti broker tramite file CSV. Attualmente abbiamo template ottimizzati per Moneyfarm, Degiro, Scalable Capital, Directa e molti altri. Se il tuo broker non è nell'elenco, puoi comunque importare i dati utilizzando il nostro formato CSV generico."
+        },
+        "pricing": {
+          "question": "Quanto costa?",
+          "answer": "Attualmente stiamo selezionando i primi 100 utenti per l'Early Program con accesso gratuito a tutte le funzionalità Premium. Dopo il periodo beta, avremo tre piani: Free (€0/mese), Standard (€5.99/mese) e Premium (€9.99/mese). Gli early adopters manterranno l'accesso gratuito alla piattaforma per sempre."
+        }
+      }
+    },
+    "cta": {
+      "title": "Pronto a prendere il controllo dei tuoi investimenti?",
+      "subtitle": "Setup in 2 minuti. Nessun vincolo. Cancella quando vuoi.",
+      "button": "Inizia Gratis - Nessuna Carta Richiesta"
+    },
+    "footer": {
+      "privacyPolicy": "Privacy Policy",
+      "termsAndConditions": "Terms & Conditions",
+      "secureConnection": "Connessione Sicura",
+      "protectedData": "Dati Protetti",
+      "copyright": "© {{year}} DonkyCapital. Tutti i diritti riservati."
+    }
+  },
+  "widgets": {
+    "names": {
+      "portfolio-trends": "Andamento Portafogli",
+      "heatmap": "Heatmap Performance",
+      "line-chart": "Grafico Performance",
+      "stack-chart": "Composizione Temporale",
+      "pie-chart": "Allocazione",
+      "allocation-breakdown": "Breakdown Allocazione",
+      "performance-table": "Tabella Rendimenti",
+      "profit-loss": "Profit & Loss",
+      "transactions-list": "Transazioni Recenti",
+      "portfolio-table": "Tabella Portafogli",
+      "holdings-summary": "Posizioni Aperte",
+      "performance-metrics": "Sintesi Portafogli"
+    },
+    "descriptions": {
+      "portfolio-trends": "Evoluzione temporale del valore dei portafogli con grafico ad aree impilate.",
+      "heatmap": "Mappa di calore che confronta visivamente performance e peso per categoria.",
+      "line-chart": "Andamento temporale del valore per portfolio/tipo/classe/valuta/settore/paese.",
+      "stack-chart": "Visualizza la composizione percentuale del portafoglio nel tempo.",
+      "pie-chart": "Grafico a torta che visualizza la distribuzione percentuale del portafoglio.",
+      "allocation-breakdown": "Tabella analitica che elenca peso, valore e performance per ogni categoria.",
+      "performance-table": "Performance su 6 orizzonti temporali con icone trend (1G, 1S, 1M, 3M, 6M, 1A).",
+      "profit-loss": "Vista completa dei profitti e delle perdite del portafoglio.",
+      "transactions-list": "Lista delle ultime transazioni effettuate in ordine cronologico.",
+      "portfolio-table": "Tabella completa che elenca tutti i portafogli con i relativi valori chiave.",
+      "holdings-summary": "Elenco completo delle posizioni attualmente aperte con PMC e performance.",
+      "performance-metrics": "Panoramica sintetica del portafoglio con cinque indicatori chiave."
+    },
+    "badges": {
+      "trending": "Trending",
+      "visual": "Visuale",
+      "versatile": "Versatile",
+      "stacked": "Stacked",
+      "analytical": "Analitico",
+      "multiPeriod": "Multi-periodo",
+      "complete": "Completo",
+      "history": "Cronologia",
+      "detailed": "Dettagliato",
+      "holdings": "Holdings",
+      "essential": "Essenziale"
+    },
+    "tags": {
+      "areaChart": "Area chart",
+      "timeSeries": "Serie temporale",
+      "comparison": "Comparazione",
+      "heatmap": "Heatmap",
+      "performanceColors": "Colori performance",
+      "bubbles": "Bolle",
+      "lineChart": "Line chart",
+      "multiGrouping": "Multi-raggruppamento",
+      "historical": "Storico",
+      "100stacked": "100% stacked",
+      "evolution": "Evoluzione",
+      "multiCategory": "Multi-categoria",
+      "pieChart": "Pie chart",
+      "percentages": "Percentuali",
+      "detail": "Dettaglio",
+      "weightValue": "Peso + Valore",
+      "performance": "Performance",
+      "tableView": "Vista tabellare",
+      "6periods": "6 periodi",
+      "trendIcons": "Icone trend",
+      "totalPL": "P&L totale",
+      "flexibleFilters": "Filtri flessibili",
+      "chronologicalList": "Lista cronologica",
+      "period": "Periodo",
+      "multiPortfolio": "Multi-portafoglio",
+      "analysis": "Analisi",
+      "livePositions": "Posizioni live",
+      "pmcValues": "PMC e valori",
+      "pl": "P&L",
+      "keyMetrics": "Metriche chiave",
+      "aggregateValues": "Valori aggregati"
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "DonkyCapital - Monitora, Analizza, Ottimizza i Tuoi Investimenti",
+      "description": "Prendi il controllo completo dei tuoi investimenti con DonkyCapital, il tracker portafoglio più flessibile e potente sul mercato. Monitora azioni, ETF, fondi, obbligazioni e crypto in un'unica dashboard personalizzabile."
+    },
+    "earlyAccess": {
+      "title": "Programma Early Access - DonkyCapital",
+      "description": "Partecipa al Programma Early Access di DonkyCapital e ottieni accesso gratuito a tutte le funzionalità Premium per sempre. Sii tra i primi 100 utenti selezionati."
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy - DonkyCapital",
+      "description": "Leggi la Privacy Policy di DonkyCapital per capire come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali. Conforme al GDPR."
+    },
+    "termsAndConditions": {
+      "title": "Termini e Condizioni - DonkyCapital",
+      "description": "Leggi i Termini e Condizioni di DonkyCapital per comprendere le regole di utilizzo della nostra piattaforma di gestione portafoglio."
+    },
+    "contact": {
+      "title": "Contattaci - DonkyCapital",
+      "description": "Contatta DonkyCapital per domande, supporto o feedback. Siamo qui per aiutarti a gestire i tuoi investimenti."
+    }
+  }
+}

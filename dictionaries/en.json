@@ -1,0 +1,279 @@
+{
+  "appName": "DonkyCapital",
+  "tagline": "Monitor, Analyze, Optimize Your Investments",
+  "common": {
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "save": "Save",
+    "submit": "Submit"
+  },
+  "earlyAccess": {
+    "title": "Join the Early Access Program",
+    "intro": "We are selecting a limited number of users for our Early Access Program. Invited users will have free access to the platform forever, even after the official launch.",
+    "freeForever": "Free access is personal and permanent for Early Access Program members.",
+    "whyJoin": "Why Join the Early Access Program?",
+    "benefit1Title": "Early Access to Features",
+    "benefit1Desc": "Be among the first to try new functionalities",
+    "benefit2Title": "Send Feedback to the Team",
+    "benefit2Desc": "Your opinion matters - help us improve",
+    "benefit3Title": "Direct Contribution to Development",
+    "benefit3Desc": "Influence the future of the platform",
+    "benefit4Title": "Lifetime Free Access",
+    "benefit4Desc": "Keep premium access forever",
+    "formTitle": "Request Early Access",
+    "emailLabel": "Enter your email address",
+    "notesLabel": "Additional notes (optional)",
+    "notesPlaceholder": "Tell us why you would like to join the Early Access Program...",
+    "submitButton": "Request Early Access",
+    "submitting": "Submitting...",
+    "successTitle": "Request Submitted!",
+    "successMessage": "Thank you for your interest in our Early Access Program. We will contact you soon!",
+    "submitAnother": "Submit Another Request",
+    "emailInvalid": "Please enter a valid email address",
+    "submitError": "Failed to submit your request. Please try again."
+  },
+  "contact": {
+    "pageTitle": "Contact Us",
+    "pageSubtitle": "Have a question or need help? We're here for you.",
+    "formTitle": "Send us a message",
+    "nameLabel": "Your Name",
+    "namePlaceholder": "Enter your full name",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "your.email@example.com",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "What is this about?",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us how we can help you...",
+    "submitButton": "Send Message",
+    "submitting": "Sending...",
+    "successTitle": "Message Sent!",
+    "successMessage": "Thank you for contacting us. We will get back to you as soon as possible.",
+    "sendAnother": "Send Another Message",
+    "nameRequired": "Name is required",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email address",
+    "subjectRequired": "Subject is required",
+    "messageRequired": "Message is required",
+    "submitError": "Failed to send your message. Please try again."
+  },
+  "landing": {
+    "header": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "login": "Login",
+      "startFree": "Get Started Free"
+    },
+    "widgetsCarousel": {
+      "title": "Freedom of analysis: 48 different ways to look at your assets."
+    },
+    "hero": {
+      "badge": "Customizable portfolio manager",
+      "title": "Monitor, Analyze, Optimize",
+      "titleSuffix": "Your Investments",
+      "description": "Take complete control of your investments with DonkyCapital, the most flexible and powerful portfolio tracker on the market. Monitor stocks, ETFs, funds, bonds, and crypto in a single customizable dashboard. Import transactions from CSV, connect broker accounts, and get advanced analytics with interactive charts, performance heatmaps, and detailed P&L. Professional multi-asset portfolio management accessible to everyone.",
+      "ctaButton": "Get Started Free",
+      "gdprCompliant": "GDPR compliant",
+      "encryptedData": "Encrypted data",
+      "multiLanguage": "Multi-language",
+      "multiCurrency": "Multi-currency"
+    },
+    "features": {
+      "customizableDashboard": {
+        "title": "100% Customizable Dashboard",
+        "description": "Drag & drop, save configurations, multiple dashboards: create the perfect view for your investment strategy."
+      },
+      "advancedAnalytics": {
+        "title": "Advanced Analytics",
+        "description": "Multi-period performance, detailed Profit & Loss, visual heatmaps to quickly identify opportunities and risks."
+      },
+      "multiPortfolio": {
+        "title": "Multi-Portfolio",
+        "description": "Manage multiple portfolios, import CSV transactions, and get real-time calculations.",
+        "manyMore": "+ many more being integrated",
+        "securityNote": "We never ask for access to your broker. Your data stays yours alone."
+      }
+    },
+    "useCases": {
+      "retailInvestor": {
+        "title": "Retail Investor",
+        "quote": "I have ETFs across 3 different brokers: finally I see them all in one place."
+      },
+      "partTimeTrader": {
+        "title": "Part-Time Trader",
+        "quote": "I track P&L for every position, I know exactly how much I'm earning."
+      },
+      "financialAdvisor": {
+        "title": "Financial Advisor",
+        "quote": "I manage 20 clients, each dashboard is customized for their needs."
+      }
+    },
+    "pricing": {
+      "title": "Pricing",
+      "earlyProgramActive": "Early Program Active",
+      "limitedAccess": "Limited access:",
+      "earlyProgramDesc": "We are selecting the first 100 users for the Early Program. Get free access to all Premium features during the beta phase.",
+      "mostPopular": "Most Popular",
+      "perMonth": "/ month",
+      "perEarlyAccess": "/ early access",
+      "requestEarlyAccess": "Request Early Access",
+      "plans": {
+        "free": {
+          "name": "Free",
+          "features": {
+            "portfolios": "1 portfolio",
+            "transactions": "100 transactions",
+            "dashboards": "3 dashboards",
+            "brokerImport": "Import from main brokers",
+            "portfolioValue": "Portfolio value",
+            "performanceAnalysis": "Performance analysis",
+            "allocationAnalysis": "Allocation and risk analysis",
+            "profitLoss": "P&L"
+          }
+        },
+        "standard": {
+          "name": "Standard",
+          "features": {
+            "portfolios": "5 portfolios",
+            "transactions": "500 transactions",
+            "dashboards": "5 dashboards"
+          }
+        },
+        "premium": {
+          "name": "Premium",
+          "features": {
+            "portfolios": "10 portfolios",
+            "transactions": "Unlimited transactions",
+            "dashboards": "8 dashboards"
+          }
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "questions": {
+        "dataSecurity": {
+          "question": "Is it safe to connect my financial data?",
+          "answer": "We never ask for direct access to your broker. All data is imported via CSV files that you manually upload. Your data is encrypted and stored on secure servers in Europe, fully compliant with GDPR."
+        },
+        "brokerImport": {
+          "question": "Can I import transactions from other brokers?",
+          "answer": "Yes, we support importing from many brokers via CSV files. We currently have optimized templates for Moneyfarm, Degiro, Scalable Capital, Directa, and many others. If your broker is not on the list, you can still import data using our generic CSV format."
+        },
+        "pricing": {
+          "question": "How much does it cost?",
+          "answer": "We are currently selecting the first 100 users for the Early Program with free access to all Premium features. After the beta period, we will have three plans: Free (€0/month), Standard (€5.99/month), and Premium (€9.99/month). Early adopters will maintain free access to the platform forever."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to take control of your investments?",
+      "subtitle": "2-minute setup. No commitment. Cancel anytime.",
+      "button": "Get Started Free - No Card Required"
+    },
+    "footer": {
+      "privacyPolicy": "Privacy Policy",
+      "termsAndConditions": "Terms & Conditions",
+      "secureConnection": "Secure Connection",
+      "protectedData": "Protected Data",
+      "copyright": "© {{year}} DonkyCapital. All rights reserved."
+    }
+  },
+  "widgets": {
+    "names": {
+      "portfolio-trends": "Portfolio Trends",
+      "heatmap": "Performance Heatmap",
+      "line-chart": "Performance Chart",
+      "stack-chart": "Temporal Composition",
+      "pie-chart": "Allocation",
+      "allocation-breakdown": "Allocation Breakdown",
+      "performance-table": "Performance Table",
+      "profit-loss": "Profit & Loss",
+      "transactions-list": "Recent Transactions",
+      "portfolio-table": "Portfolio Table",
+      "holdings-summary": "Open Positions",
+      "performance-metrics": "Portfolio Summary"
+    },
+    "descriptions": {
+      "portfolio-trends": "Temporal evolution of portfolio value with stacked area chart.",
+      "heatmap": "Heat map visually comparing performance and weight by category.",
+      "line-chart": "Temporal performance trend by portfolio/type/class/currency/sector/country.",
+      "stack-chart": "Displays the percentage composition of the portfolio over time.",
+      "pie-chart": "Pie chart displaying portfolio percentage distribution.",
+      "allocation-breakdown": "Analytical table listing weight, value, and performance for each category.",
+      "performance-table": "Performance over 6 time horizons with trend icons (1D, 1W, 1M, 3M, 6M, 1Y).",
+      "profit-loss": "Complete view of portfolio profits and losses.",
+      "transactions-list": "List of the latest transactions in chronological order.",
+      "portfolio-table": "Complete table listing all portfolios with their key values.",
+      "holdings-summary": "Complete list of currently open positions with ALP and performance.",
+      "performance-metrics": "Synthetic overview of the portfolio with five key indicators."
+    },
+    "badges": {
+      "trending": "Trending",
+      "visual": "Visual",
+      "versatile": "Versatile",
+      "stacked": "Stacked",
+      "analytical": "Analytical",
+      "multiPeriod": "Multi-period",
+      "complete": "Complete",
+      "history": "History",
+      "detailed": "Detailed",
+      "holdings": "Holdings",
+      "essential": "Essential"
+    },
+    "tags": {
+      "areaChart": "Area chart",
+      "timeSeries": "Time series",
+      "comparison": "Comparison",
+      "heatmap": "Heatmap",
+      "performanceColors": "Performance colors",
+      "bubbles": "Bubbles",
+      "lineChart": "Line chart",
+      "multiGrouping": "Multi-grouping",
+      "historical": "Historical",
+      "100stacked": "100% stacked",
+      "evolution": "Evolution",
+      "multiCategory": "Multi-category",
+      "pieChart": "Pie chart",
+      "percentages": "Percentages",
+      "detail": "Detail",
+      "weightValue": "Weight + Value",
+      "performance": "Performance",
+      "tableView": "Table view",
+      "6periods": "6 periods",
+      "trendIcons": "Trend icons",
+      "totalPL": "Total P&L",
+      "flexibleFilters": "Flexible filters",
+      "chronologicalList": "Chronological list",
+      "period": "Period",
+      "multiPortfolio": "Multi-portfolio",
+      "analysis": "Analysis",
+      "livePositions": "Live positions",
+      "pmcValues": "ALP and values",
+      "pl": "P&L",
+      "keyMetrics": "Key metrics",
+      "aggregateValues": "Aggregate values"
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "DonkyCapital - Monitor, Analyze, Optimize Your Investments",
+      "description": "Take complete control of your investments with DonkyCapital, the most flexible and powerful portfolio tracker on the market. Monitor stocks, ETFs, funds, bonds, and crypto in a single customizable dashboard."
+    },
+    "earlyAccess": {
+      "title": "Early Access Program - DonkyCapital",
+      "description": "Join the DonkyCapital Early Access Program and get free access to all Premium features forever. Be among the first 100 users selected."
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy - DonkyCapital",
+      "description": "Read the DonkyCapital Privacy Policy to understand how we collect, use, and protect your personal data. GDPR compliant."
+    },
+    "termsAndConditions": {
+      "title": "Terms and Conditions - DonkyCapital",
+      "description": "Read the DonkyCapital Terms and Conditions to understand the rules for using our portfolio management platform."
+    },
+    "contact": {
+      "title": "Contact Us - DonkyCapital",
+      "description": "Contact DonkyCapital for questions, support, or feedback. We're here to help you manage your investments."
+    }
+  }
+}
