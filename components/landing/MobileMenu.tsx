@@ -94,7 +94,7 @@ export default function MobileMenu({ dict, lang }: MobileMenuProps) {
           <div className="border-t border-white/10 my-2" />
 
           <a
-            href="https://app.donkycapital.com/auth"
+            href={`https://app.donkycapital.com/${lang}/auth`}
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsOpen(false)}
