@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
-import { usePathname, useRouter } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 import { i18n, localeNames, type Locale } from '@/lib/i18n/config'
 
 interface LanguageSelectorProps {
@@ -12,7 +12,6 @@ export default function LanguageSelector({ currentLang }: LanguageSelectorProps)
   const [isOpen, setIsOpen] = useState(false)
   const dropdownRef = useRef<HTMLDivElement>(null)
   const pathname = usePathname()
-  const router = useRouter()
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -25,15 +24,17 @@ export default function LanguageSelector({ currentLang }: LanguageSelectorProps)
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [])
 
-  const handleLanguageChange = (newLang: Locale) => {
+  const getNewPath = (newLang: Locale) => {
     // Replace the current language in the path
-    const newPath = pathname.replace(`/${currentLang}`, `/${newLang}`)
+    return pathname.replace(`/${currentLang}`, `/${newLang}`)
+  }
 
+  const handleLanguageChange = (newLang: Locale) => {
     // Set cookie for language preference
     document.cookie = `NEXT_LOCALE=${newLang}; path=/; max-age=31536000`
 
-    router.push(newPath)
-    setIsOpen(false)
+    // Use window.location for static export compatibility
+    window.location.href = getNewPath(newLang)
   }
 
   return (
