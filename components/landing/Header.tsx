@@ -49,6 +49,8 @@ export default function Header({ dict, lang }: HeaderProps) {
 
         <a
           href="https://app.donkycapital.com/auth"
+          target="_blank"
+          rel="noopener noreferrer"
           className="px-4 py-2 rounded-[10px] text-sm font-semibold border border-white/5 hover:border-white/10 hover:bg-white/5 transition-colors"
         >
           {dict.landing.header.login}

@@ -95,6 +95,8 @@ export default function MobileMenu({ dict, lang }: MobileMenuProps) {
 
           <a
             href="https://app.donkycapital.com/auth"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setIsOpen(false)}
             className="block py-3 text-white/70 hover:text-white transition-colors"
           >
