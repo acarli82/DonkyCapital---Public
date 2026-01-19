@@ -276,5 +276,26 @@
       "title": "Contactez-nous - DonkyCapital",
       "description": "Contactez DonkyCapital pour des questions, du support ou des retours. Nous sommes là pour vous aider à gérer vos investissements."
     }
+  },
+  "cookieConsent": {
+    "title": "Votre vie privée compte",
+    "description": "Nous utilisons des cookies pour améliorer votre expérience de navigation, afficher du contenu personnalisé et analyser notre trafic. En cliquant sur \"Tout accepter\", vous consentez à l'utilisation des cookies.",
+    "acceptAll": "Tout accepter",
+    "rejectAll": "Tout refuser",
+    "customize": "Personnaliser",
+    "savePreferences": "Enregistrer les préférences",
+    "necessary": {
+      "title": "Cookies nécessaires",
+      "description": "Ces cookies sont essentiels au bon fonctionnement du site. Ils ne peuvent pas être désactivés."
+    },
+    "analytics": {
+      "title": "Cookies analytiques",
+      "description": "Ces cookies nous aident à comprendre comment les visiteurs interagissent avec notre site en collectant des informations de manière anonyme."
+    },
+    "marketing": {
+      "title": "Cookies marketing",
+      "description": "Ces cookies sont utilisés pour suivre les visiteurs sur les sites web afin d'afficher des publicités pertinentes."
+    },
+    "privacyPolicy": "Politique de confidentialité"
   }
 }

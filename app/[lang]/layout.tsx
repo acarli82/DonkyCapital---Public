@@ -1,8 +1,11 @@
+import { Suspense } from 'react'
 import { i18n, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/getDictionary'
 import Header from '@/components/landing/Header'
 import Footer from '@/components/landing/Footer'
 import FloatingContactButton from '@/components/contact/FloatingContactButton'
+import CookieConsent from '@/components/cookies/CookieConsent'
+import GoogleAnalytics from '@/components/analytics/GoogleAnalytics'
 import type { Metadata } from 'next'
 
 export async function generateStaticParams() {
@@ -44,6 +47,9 @@ export default async function LangLayout({
 
   return (
     <>
+      <Suspense fallback={null}>
+        <GoogleAnalytics />
+      </Suspense>
       <div className="min-h-screen bg-background">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
           <Header dict={dict} lang={params.lang} />
@@ -52,6 +58,7 @@ export default async function LangLayout({
         </div>
         <FloatingContactButton dict={dict} />
       </div>
+      <CookieConsent dict={dict} privacyPolicyUrl={`/${params.lang}/privacy-policy`} />
     </>
   )
 }
