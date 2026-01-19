@@ -10,6 +10,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'donkycapital.com',
       },
+output: 'export',
+  images: {
+    unoptimized: true,
+  },
     ],
   },
 }
