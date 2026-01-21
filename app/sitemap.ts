@@ -6,6 +6,7 @@ const baseUrl = 'https://www.donkycapital.com'
 export default function sitemap(): MetadataRoute.Sitemap {
   const pages = [
     { path: '', priority: 1.0, changeFrequency: 'weekly' as const },
+    { path: '/about', priority: 0.8, changeFrequency: 'monthly' as const },
     { path: '/early-access', priority: 0.8, changeFrequency: 'monthly' as const },
     { path: '/contact', priority: 0.7, changeFrequency: 'monthly' as const },
     { path: '/privacy-policy', priority: 0.5, changeFrequency: 'yearly' as const },

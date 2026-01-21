@@ -62,6 +62,13 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon-96x96.png" sizes="96x96" type="image/png" />
+        {/* Preload hero image for LCP optimization */}
+        <link
+          rel="preload"
+          as="image"
+          href="/assets/dashboard/dashboard.webp"
+          type="image/webp"
+        />
       </head>
       <body className={inter.className}>{children}</body>
     </html>

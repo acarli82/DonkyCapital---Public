@@ -15,20 +15,8 @@ interface FAQ {
 export default function FAQSection({ dict }: FAQSectionProps) {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null)
 
-  const faqs: FAQ[] = [
-    {
-      question: dict.landing.faq.questions.dataSecurity.question,
-      answer: dict.landing.faq.questions.dataSecurity.answer
-    },
-    {
-      question: dict.landing.faq.questions.brokerImport.question,
-      answer: dict.landing.faq.questions.brokerImport.answer
-    },
-    {
-      question: dict.landing.faq.questions.pricing.question,
-      answer: dict.landing.faq.questions.pricing.answer
-    }
-  ]
+  // FAQ questions are now stored as an array in the dictionary
+  const faqs: FAQ[] = dict.landing.faq.questions as FAQ[]
 
   const handleToggle = (index: number) => {
     setExpandedIndex(expandedIndex === index ? null : index)

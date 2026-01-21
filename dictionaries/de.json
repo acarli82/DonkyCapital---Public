@@ -69,8 +69,8 @@
     },
     "hero": {
       "badge": "Anpassbarer Portfolio-Manager",
-      "title": "Überwachen, Analysieren, Optimieren",
-      "titleSuffix": "Ihre Investitionen",
+      "title": "Der Depot-Tracker, der deine",
+      "titleSuffix": "Excel-Tabellen ersetzt.",
       "description": "Übernehmen Sie die volle Kontrolle über Ihre Investitionen mit DonkyCapital, dem flexibelsten und leistungsstärksten Portfolio-Tracker auf dem Markt. Überwachen Sie Aktien, ETFs, Fonds, Anleihen und Krypto in einem einzigen anpassbaren Dashboard. Importieren Sie Transaktionen aus CSV, verbinden Sie Broker-Konten und erhalten Sie erweiterte Analysen mit interaktiven Diagrammen, Performance-Heatmaps und detaillierter P&L. Professionelles Multi-Asset-Portfolio-Management für jeden zugänglich.",
       "ctaButton": "Kostenlos starten",
       "gdprCompliant": "DSGVO-konform",
@@ -93,6 +93,10 @@
         "manyMore": "+ viele weitere werden integriert",
         "securityNote": "Wir fragen nie nach Zugang zu Ihrem Broker. Ihre Daten bleiben Ihre."
       }
+    },
+    "seoHeadings": {
+      "h2Features": "Überwache Allokation, Rebalancing und Rendite in Echtzeit.",
+      "h3EtfTracker": "Professioneller ETF Sparplan Tracker für eine tiefe Depot-Analyse."
     },
     "useCases": {
       "retailInvestor": {
@@ -151,20 +155,36 @@
     },
     "faq": {
       "title": "Häufig gestellte Fragen",
-      "questions": {
-        "dataSecurity": {
-          "question": "Ist es sicher, meine Finanzdaten zu verbinden?",
-          "answer": "Wir fragen nie nach direktem Zugang zu Ihrem Broker. Alle Daten werden über CSV-Dateien importiert, die Sie manuell hochladen. Ihre Daten werden verschlüsselt und auf sicheren Servern in Europa gespeichert, vollständig DSGVO-konform."
+      "questions": [
+        {
+          "question": "Warum ist Donky Capital die beste Excel-Alternative für Investments?",
+          "answer": "Ein automatischer Depot-Tracker, der manuelle Tabellen ersetzt, Echtzeit-Kurse liefert und die Asset Allocation ohne Formeln berechnet."
         },
-        "brokerImport": {
-          "question": "Kann ich Transaktionen von anderen Brokern importieren?",
-          "answer": "Ja, wir unterstützen den Import von vielen Brokern über CSV-Dateien. Derzeit haben wir optimierte Vorlagen für Moneyfarm, Degiro, Scalable Capital, Directa und viele andere. Wenn Ihr Broker nicht auf der Liste steht, können Sie Daten trotzdem mit unserem generischen CSV-Format importieren."
+        {
+          "question": "Muss ich meine Broker-Zugangsdaten teilen?",
+          "answer": "Nein. Ihre Sicherheit ist uns wichtig: Importieren Sie Ihre CSV-Dateien sicher, ohne jemals Ihr Passwort einzugeben."
         },
-        "pricing": {
-          "question": "Wie viel kostet es?",
-          "answer": "Derzeit wählen wir die ersten 100 Benutzer für das Early Program mit kostenlosem Zugang zu allen Premium-Funktionen aus. Nach der Beta-Phase werden wir drei Pläne haben: Kostenlos (€0/Monat), Standard (€5,99/Monat) und Premium (€9,99/Monat). Early Adopters erhalten dauerhaft kostenlosen Zugang zur Plattform."
+        {
+          "question": "Kann ich Scalable Capital Daten ohne Prime+ exportieren?",
+          "answer": "Ja! Mit unserer Chrome-Extension können Sie Transaktionen kostenlos als CSV exportieren, auch wenn Sie keinen Prime+-Account haben."
+        },
+        {
+          "question": "Wie nutze ich Donky Capital als Scalable Capital Tracker?",
+          "answer": "Einfach Daten exportieren und hochladen. Erhalten Sie eine professionelle Depot-Analyse Ihrer ETFs und Aktien in Sekunden."
+        },
+        {
+          "question": "Welche Assets kann ich importieren?",
+          "answer": "Überwachen Sie ETFs, Aktien, Anleihen, Kryptowährungen und nicht börsennotierte Fonds in einem einzigen Depot-Tracker."
+        },
+        {
+          "question": "Kann ich es mobil nutzen?",
+          "answer": "Ja, Donky Capital ist eine PWA (Progressive Web App). Sie können sie direkt auf Ihrem Smartphone installieren und Ihr Depot jederzeit checken."
+        },
+        {
+          "question": "Was passiert mit meinen Daten?",
+          "answer": "Ihre Daten werden sicher in Europa gespeichert und verschlüsselt. Wir speichern keine Broker-Passwörter und garantieren maximale Privatsphäre."
         }
-      }
+      ]
     },
     "cta": {
       "title": "Bereit, die Kontrolle über Ihre Investitionen zu übernehmen?",
@@ -176,8 +196,21 @@
       "termsAndConditions": "Geschäftsbedingungen",
       "secureConnection": "Sichere Verbindung",
       "protectedData": "Geschützte Daten",
-      "copyright": "© {{year}} DonkyCapital. Alle Rechte vorbehalten."
+      "copyright": "© {{year}} DonkyCapital. Alle Rechte vorbehalten.",
+      "aboutUs": "Über Uns",
+      "contact": "Kontakt",
+      "siteMap": "Seitenübersicht"
     }
+  },
+  "about": {
+    "pageTitle": "Unsere Geschichte",
+    "pageSubtitle": "Von Investoren für Investoren entwickelt.",
+    "h1": "Von Investoren für Investoren entwickelt.",
+    "h1Text": "Donky Capital entstand aus der Notwendigkeit, Depots bei verschiedenen Brokern effizient zu vergleichen. Wir wollten eine Lösung, die mehr bietet als Excel, aber nicht unsere Privatsphäre opfert.",
+    "h2Security": "Maximale Sicherheit ohne Broker-Login.",
+    "h2SecurityText": "Im Gegensatz zu anderen Depot-Trackern verlangen wir keinen Zugriff auf Ihr Bankkonto. Sie exportieren Ihre Daten einfach selbst und laden sie bei uns hoch. Ihre Sicherheit steht an erster Stelle.",
+    "h3Dashboard": "Ihre Strategie, Ihr Dashboard.",
+    "h3DashboardText": "Jeder Investor ist anders. Deshalb bieten wir keine Standardansichten, sondern voll personalisierbare Dashboards für Ihr Monitoring und Rebalancing."
   },
   "widgets": {
     "names": {
@@ -257,8 +290,12 @@
   },
   "seo": {
     "home": {
-      "title": "DonkyCapital - Überwachen, Analysieren, Optimieren Sie Ihre Investitionen",
-      "description": "Übernehmen Sie die volle Kontrolle über Ihre Investitionen mit DonkyCapital, dem flexibelsten und leistungsstärksten Portfolio-Tracker auf dem Markt."
+      "title": "Donky Capital | Depot-Tracker & Excel-Alternative für Investitionen",
+      "description": "Überwachen Sie Ihre Investments in Echtzeit. Die smarte Excel-Alternative für Ihr Depot und ETFs. Jetzt kostenlos testen."
+    },
+    "about": {
+      "title": "Über Uns - Donky Capital | Depot-Tracker",
+      "description": "Erfahren Sie mehr über unsere Mission: Depot-Management für jeden zugänglich zu machen mit einem modernen und leistungsstarken Investment-Tracker."
     },
     "earlyAccess": {
       "title": "Early Access Programm - DonkyCapital",

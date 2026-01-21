@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
-import Image from 'next/image'
+import OptimizedImage from '@/components/common/OptimizedImage'
 import type { Dictionary } from '@/lib/i18n/getDictionary'
 
 interface WidgetsCarouselProps {
@@ -139,13 +139,12 @@ export default function WidgetsCarousel({ dict }: WidgetsCarouselProps) {
               >
                 <div className="flex flex-col h-full">
                   <div className="h-60 md:h-[400px] rounded-[10px] overflow-hidden mb-4 bg-[#292929] border border-white/5">
-                    <Image
+                    <OptimizedImage
                       src={widget.image}
                       alt={widgetAltTexts[widget.nameKey] || dict.widgets.names[widget.nameKey as keyof typeof dict.widgets.names]}
                       width={600}
                       height={400}
                       className="w-full h-full object-cover"
-                      loading="lazy"
                     />
                   </div>
 

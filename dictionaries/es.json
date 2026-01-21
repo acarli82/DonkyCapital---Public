@@ -69,8 +69,8 @@
     },
     "hero": {
       "badge": "Gestor de cartera personalizable",
-      "title": "Monitorea, Analiza, Optimiza",
-      "titleSuffix": "Tus Inversiones",
+      "title": "El Portfolio Tracker que sustituye",
+      "titleSuffix": "tus hojas de Excel.",
       "description": "Toma el control completo de tus inversiones con DonkyCapital, el tracker de cartera más flexible y potente del mercado. Monitorea acciones, ETFs, fondos, bonos y crypto en un solo tablero personalizable. Importa transacciones desde CSV, conecta cuentas de corredores y obtén análisis avanzados con gráficos interactivos, mapas de calor de rendimiento y P&L detallado. Gestión de cartera multi-activos profesional accesible para todos.",
       "ctaButton": "Comenzar Gratis",
       "gdprCompliant": "Cumple con RGPD",
@@ -93,6 +93,10 @@
         "manyMore": "+ muchos más en proceso de integración",
         "securityNote": "Nunca pedimos acceso a tu corredor. Tus datos permanecen solo tuyos."
       }
+    },
+    "seoHeadings": {
+      "h2Features": "Controla tu exposición, reequilibrio y rendimientos en vivo.",
+      "h3EtfTracker": "Un Tracker de ETF avanzado para analizar todas tus posiciones."
     },
     "useCases": {
       "retailInvestor": {
@@ -151,20 +155,32 @@
     },
     "faq": {
       "title": "Preguntas Frecuentes",
-      "questions": {
-        "dataSecurity": {
-          "question": "¿Es seguro conectar mis datos financieros?",
-          "answer": "Nunca pedimos acceso directo a tu corredor. Todos los datos se importan a través de archivos CSV que tú subes manualmente. Tus datos están encriptados y almacenados en servidores seguros en Europa, totalmente conformes con el RGPD."
+      "questions": [
+        {
+          "question": "¿Por qué es la mejor alternativa a Excel para mis inversiones?",
+          "answer": "Es un Seguimiento de cartera automático que te ahorra tiempo, actualiza precios de ETF en vivo y analiza tu riesgo sin usar Excel."
         },
-        "brokerImport": {
-          "question": "¿Puedo importar transacciones de otros corredores?",
-          "answer": "Sí, admitimos la importación desde muchos corredores a través de archivos CSV. Actualmente tenemos plantillas optimizadas para Moneyfarm, Degiro, Scalable Capital, Directa y muchos otros. Si tu corredor no está en la lista, aún puedes importar datos utilizando nuestro formato CSV genérico."
+        {
+          "question": "¿Tengo que compartir mis claves del bróker?",
+          "answer": "No. La privacidad es clave: importa tus movimientos mediante archivos CSV sin necesidad de dar acceso directo a tus cuentas bancarias."
         },
-        "pricing": {
-          "question": "¿Cuánto cuesta?",
-          "answer": "Actualmente estamos seleccionando los primeros 100 usuarios para el Programa Early Access con acceso gratuito a todas las funciones Premium. Después del período beta, tendremos tres planes: Gratis (€0/mes), Estándar (€5,99/mes) y Premium (€9,99/mes). Los early adopters mantendrán el acceso gratuito a la plataforma para siempre."
+        {
+          "question": "¿Puedo exportar datos de Scalable Capital sin Prime+?",
+          "answer": "¡Sí! Nuestra extensión de Chrome te permite descargar el CSV de tus transacciones gratis, ahorrándote el coste mensual del plan Prime+."
+        },
+        {
+          "question": "¿Qué activos puedo importar?",
+          "answer": "Monitoriza ETF, acciones, bonos, cripto y fondos no cotizados. Es el seguimiento de cartera ideal para todos tus activos."
+        },
+        {
+          "question": "¿Puedo usarlo en el móvil?",
+          "answer": "Sí, Donky Capital es una PWA. Instálala en tu dispositivo móvil para controlar tus inversiones fácilmente desde cualquier lugar."
+        },
+        {
+          "question": "¿Qué pasa con mis datos?",
+          "answer": "Tus datos están alojados en Europa y encriptados. Priorizamos tu seguridad y nunca solicitamos tus claves de acceso al bróker."
         }
-      }
+      ]
     },
     "cta": {
       "title": "¿Listo para tomar el control de tus inversiones?",
@@ -176,8 +192,21 @@
       "termsAndConditions": "Términos y Condiciones",
       "secureConnection": "Conexión Segura",
       "protectedData": "Datos Protegidos",
-      "copyright": "© {{year}} DonkyCapital. Todos los derechos reservados."
+      "copyright": "© {{year}} DonkyCapital. Todos los derechos reservados.",
+      "aboutUs": "Quiénes Somos",
+      "contact": "Contacto",
+      "siteMap": "Mapa del Sitio"
     }
+  },
+  "about": {
+    "pageTitle": "Nuestra Historia",
+    "pageSubtitle": "Creado por inversores, para inversores.",
+    "h1": "Creado por inversores, para inversores.",
+    "h1Text": "Donky Capital nació para comparar y unificar la visión de carteras dispersas en diferentes brókeres, sin las limitaciones de las hojas de cálculo tradicionales.",
+    "h2Security": "Seguridad total sin compartir claves.",
+    "h2SecurityText": "Somos el seguimiento de cartera seguro. No necesitas darnos tus contraseñas de acceso al bróker; simplemente importa tus datos y empieza a analizar tu rentabilidad con total tranquilidad.",
+    "h3Dashboard": "Tu estrategia, tu panel de control.",
+    "h3DashboardText": "Creemos en la personalización. Configura tu dashboard para que se adapte a tu forma de invertir y no al revés."
   },
   "widgets": {
     "names": {
@@ -257,8 +286,12 @@
   },
   "seo": {
     "home": {
-      "title": "DonkyCapital - Supervisa, Analiza, Optimiza Tus Inversiones",
-      "description": "Toma el control completo de tus inversiones con DonkyCapital, el tracker de cartera más flexible y potente del mercado."
+      "title": "Donky Capital | Seguimiento de Cartera y Alternativa Excel",
+      "description": "Monitoriza tus inversiones en tiempo real. La alternativa inteligente a Excel para gestionar tu cartera y ETF. Empieza gratis."
+    },
+    "about": {
+      "title": "Quiénes Somos - Donky Capital | Seguimiento de Cartera",
+      "description": "Descubre nuestra misión: hacer la gestión de cartera accesible para todos con un tracker de inversiones moderno y potente."
     },
     "earlyAccess": {
       "title": "Programa de Acceso Anticipado - DonkyCapital",

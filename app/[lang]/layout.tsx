@@ -1,19 +1,31 @@
-import { Suspense } from 'react'
+import dynamic from 'next/dynamic'
 import { i18n, type Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/getDictionary'
 import Header from '@/components/landing/Header'
 import Footer from '@/components/landing/Footer'
-import FloatingContactButton from '@/components/contact/FloatingContactButton'
-import CookieConsent from '@/components/cookies/CookieConsent'
-import GoogleAnalytics from '@/components/analytics/GoogleAnalytics'
 import type { Metadata } from 'next'
+
+// Lazy load non-critical components (equivalent to defer/async for their JS)
+const FloatingContactButton = dynamic(
+  () => import('@/components/contact/FloatingContactButton'),
+  { ssr: false }
+)
+const CookieConsent = dynamic(
+  () => import('@/components/cookies/CookieConsent'),
+  { ssr: false }
+)
+const GoogleAnalytics = dynamic(
+  () => import('@/components/analytics/GoogleAnalytics'),
+  { ssr: false }
+)
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }))
 }
 
-export async function generateMetadata({ params }: { params: { lang: Locale } }): Promise<Metadata> {
-  const dict = await getDictionary(params.lang)
+export async function generateMetadata({ params }: { params: Promise<{ lang: Locale }> }): Promise<Metadata> {
+  const { lang } = await params
+  const dict = await getDictionary(lang)
 
   const alternateLanguages: Record<string, string> = {}
   i18n.locales.forEach((locale) => {
@@ -24,14 +36,14 @@ export async function generateMetadata({ params }: { params: { lang: Locale } })
     title: dict.seo.home.title,
     description: dict.seo.home.description,
     alternates: {
-      canonical: `https://www.donkycapital.com/${params.lang}`,
+      canonical: `https://www.donkycapital.com/${lang}`,
       languages: {
         ...alternateLanguages,
         'x-default': 'https://www.donkycapital.com/en',
       },
     },
     other: {
-      'Content-Language': params.lang,
+      'Content-Language': lang,
     },
   }
 }
@@ -41,24 +53,23 @@ export default async function LangLayout({
   params,
 }: {
   children: React.ReactNode
-  params: { lang: Locale }
+  params: Promise<{ lang: Locale }>
 }) {
-  const dict = await getDictionary(params.lang)
+  const { lang } = await params
+  const dict = await getDictionary(lang)
 
   return (
     <>
-      <Suspense fallback={null}>
-        <GoogleAnalytics />
-      </Suspense>
+      <GoogleAnalytics />
       <div className="min-h-screen bg-background">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
-          <Header dict={dict} lang={params.lang} />
-          <main>{children}</main>
-          <Footer dict={dict} />
+          <Header dict={dict} lang={lang} />
+          <main className="pt-24">{children}</main>
+          <Footer dict={dict} lang={lang} />
         </div>
         <FloatingContactButton dict={dict} />
       </div>
-      <CookieConsent dict={dict} privacyPolicyUrl={`/${params.lang}/privacy-policy`} />
+      <CookieConsent dict={dict} privacyPolicyUrl={`/${lang}/privacy-policy`} />
     </>
   )
 }

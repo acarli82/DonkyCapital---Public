@@ -1,0 +1,127 @@
+Agisci come un esperto SEO Senior specializzato in Fintech. 
+Ottimizza l'home page.
+Obiettivo: Posizionare la pagina per 3 intenti di ricerca:
+    Categoria (Portfolio Tracker)
+    Prodotto specifico (ETF Tracker)
+    Sostituzione (Excel alternative)
+
+Linee guida:
+    Mantieni un tono professionale, moderno e rassicurante.
+    Usa la keyword 'Alternativa Excel' come gancio principale di vendita.
+    Produci il contenuto per le seguenti 5 lingue, trovi la traduzione delle parole sul readme
+
+Tag Title (max 60 car): Deve contenere Brand e Keyword principale.
+Meta Description (max 150 car): Deve spingere al clic (CTR) citando l'automazione.
+H1 (Main Headline): Focus sulla sostituzione dei fogli manuali.
+H2 (Sub-headline): Focus su monitoraggio e bilanciamento.
+H3 (Feature): Focus specifico sull'ETF Tracking.
+
+Italiano
+    Title: Donky Capital | Portfolio Tracker e Alternativa Excel
+    Meta: Monitora i tuoi investimenti in tempo reale. L'alternativa intelligente a Excel per gestire portafoglio, ETF e dividendi. Provalo gratis.
+    H1: Il Portfolio Tracker che sostituisce i tuoi fogli Excel.
+    H2: Monitora esposizione, bilanciamento e rendimenti in tempo reale.
+    H3: Un ETF Tracker avanzato per analizzare ogni tua posizione.
+
+🇬🇧 English
+    Title: Donky Capital | Portfolio Tracker & Excel Alternative
+    Meta: Track your investments in real-time. The smart Excel alternative to manage your portfolio, ETFs, and dividends. Start for free.
+    H1: The Portfolio Tracker that replaces your spreadsheets.
+    H2: Monitor exposure, rebalancing, and performance in real-time.
+    H3: Advanced ETF Tracker to analyze all your holdings.
+
+🇩🇪 Deutsch
+   Title: Donky Capital | Portfolio Tracker & Excel Alternative
+    Meta: Überwachen Sie Ihre Investments in Echtzeit. Die smarte Excel-Alternative für Ihr Depot e ETFs. Jetzt kostenlos testen.
+    H1: Der Portfolio Tracker, der deine Excel-Tabellen ersetzt.
+    H2: Überwache Allokation, Rebalancing und Rendite in Echtzeit.
+    H3: Professioneller ETF Tracker für eine tiefe Depot-Analyse.
+🇫🇷 Français
+    Title: Donky Capital | Suivi de Portefeuille et Alternative Excel
+    Meta: Suivez vos investissements en temps réel. L'alternative intelligente à Excel pour gérer votre portefeuille et ETF. Essai gratuit.
+    H1: Le Portfolio Tracker qui remplace vos feuilles Excel.
+    H2: Analysez votre exposition, rééquilibrage et performance en direct.
+    H3: Un Tracker ETF avancé per maîtriser vos investissements.
+🇪🇸 Español
+    Title: Donky Capital | Seguimiento de Cartera y Alternativa Excel
+    Meta: Monitoriza tus inversiones en tiempo real. La alternativa inteligente a Excel para gestionar tu cartera y ETF. Empieza gratis.
+    H1: El Portfolio Tracker que sustituye tus hojas de Excel.
+    H2: Controla tu exposición, reequilibrio y rendimientos en vivo.
+    H3: Un Tracker de ETF avanzado para analizar todas tus posiciones.
+	
+	
+CHI SIAMO	
+Implementiamo la pagina chi siamo e linkiamola nel footer della landing page. Il footer, le faq e il menu in alto sarà uguale anche sulla pagina chi siamo.
+Il footer rivediamolo per vedere la classica lista dei link in verticale, senza perdere i link ai social.
+Aggiungiamo anche il link contatti, rimanderà ad una pagina, che conterrà il form di contatto già esistente adesso ma piu' grande,  riporta anche i controlli per evitare spam, tipo controllo sul tempo di invio.
+Ogni volta che aggiungi una nuova pagina ricorda di aggiornare la sitemap con link in tutte le lingue
+
+Italiano: La nostra Storia
+
+H1: Creato da investitori, per investitori. Siamo nati da un'esigenza reale: gestire capitali su broker diversi senza perdere il controllo della performance complessiva. Come te, eravamo stanchi di usare Excel o di dover condividere le password dei nostri conti con app terze per avere un'analisi decente.
+H2: La sicurezza prima di tutto. Donky Capital è l'alternativa sicura ai portfolio tracker tradizionali. Abbiamo eliminato il rischio: non ti chiederemo mai i dati di accesso del tuo broker. Ti basta esportare i tuoi dati e caricarli sulla nostra piattaforma per sbloccare una potenza di analisi senza precedenti.
+H3: La tua strategia, la tua dashboard. Non crediamo nelle viste standard. Ogni investitore è unico. Per questo abbiamo creato un sistema dove sei tu a decidere come visualizzare i tuoi asset, monitorare l'esposizione e bilanciare il portafoglio secondo la tua strategia.
+🇬🇧 English: Our Story
+
+H1: Built by investors, for investors. We started with a simple problem: managing multiple brokers while trying to get a clear picture of total performance. Like you, we were tired of manual spreadsheets and uncomfortable sharing broker credentials with third-party apps.
+H2: Privacy as a core principle. Donky Capital is the secure portfolio tracker you’ve been looking for. We never ask for your broker login. Simply export your data and import it into our platform to access professional-grade analytics safely.
+H3: Your strategy, your dashboard. Default views don't work for serious investors. We provide a fully customizable environment where you decide how to monitor exposure and rebalance your portfolio according to your personal goals.
+🇩🇪 Deutsch: Unsere Geschichte
+
+H1: Von Investoren für Investoren entwickelt. Donky Capital entstand aus der Notwendigkeit, Depots bei verschiedenen Brokern effizient zu vergleichen. Wir wollten eine Lösung, die mehr bietet als Excel, aber nicht unsere Privatsphäre opfert.
+H2: Maximale Sicherheit ohne Broker-Login. Im Gegensatz zu anderen Depot-Trackern verlangen wir keinen Zugriff auf Ihr Bankkonto. Sie exportieren Ihre Daten einfach selbst und laden sie bei uns hoch. Ihre Sicherheit steht an erster Stelle.
+H3: Ihre Strategie, Ihr Dashboard. Jeder Investor ist anders. Deshalb bieten wir keine Standardansichten, sondern voll personalisierbare Dashboards für Ihr Monitoring und Rebalancing.
+🇫🇷 Français: Notre Histoire
+
+H1: Créé par des investisseurs, pour des investisseurs. Nous avons lancé Donky Capital pour résoudre un problème commun : centraliser la performance de plusieurs courtiers sans compromettre la sécurité.
+H2: La protection des données avant tout. Oubliez le partage de vos codes d'accès. Donky Capital est l'alternative sécurisée qui vous permet d'importer vos données sans jamais donner vos identifiants bancaires.
+H3: Votre stratégie, votre tableau de bord. Votre stratégie est unique, votre interface doit l'être aussi. Personnalisez vos vues pour un suivi d'exposition et un rééquilibrage sur mesure.
+🇪🇸 Español: Nuestra Historia
+
+H1: Creado por inversores, para inversores. Donky Capital nació para comparar y unificar la visión de carteras dispersas en diferentes brókeres, sin las limitaciones de las hojas de cálculo tradicionales.
+H2: Seguridad total sin compartir claves. Somos el seguimiento de cartera seguro. No necesitas darnos tus contraseñas de acceso al bróker; simplemente importa tus datos y empieza a analizar tu rentabilidad con total tranquilidad.
+H3: Tu estrategia, tu panel de control. Creemos en la personalización. Configura tu dashboard para que se adapte a tu forma de invertir y no al revés.
+
+
+Rivediamo le FAQ come segue:
+
+Lingua,Categoria,Domanda,Risposta Ottimizzata SEO
+IT,Alternativa Excel,Perché Donky Capital è la migliore alternativa a Excel per gli investimenti?,"È un Portfolio Tracker automatico che elimina l'inserimento manuale, aggiorna i prezzi di ETF/Azioni in tempo reale e calcola l'esposizione senza formule complesse."
+IT,Sicurezza,Devo condividere le password del mio broker?,Assolutamente no. Donky Capital garantisce la massima privacy: importi i dati tramite file CSV/PDF senza mai inserire le tue credenziali bancarie.
+IT,Scalable / Risparmio,Posso esportare i dati da Scalable Capital senza il piano Prime+?,"Sì! Grazie alla nostra estensione Chrome gratuita, puoi scaricare il CSV delle transazioni anche con il piano Free, risparmiando il costo dell'abbonamento Prime+."
+IT,Competitor,Qual è la differenza tra Donky Capital e Getquin?,"Donky Capital offre una personalizzazione totale delle dashboard e non richiede mai l'accesso diretto ai tuoi conti, mettendo la tua privacy al primo posto."
+IT,Directa,Posso usare Donky Capital come tracker per Directa?,"Sì, siamo il miglior Directa Tracker per trasformare i dati tecnici di Directa in grafici moderni, analizzando performance e bilanciamento in un clic."
+EN,Excel Alt,Why is Donky Capital the best investment Excel alternative?,"It is a smart Portfolio Tracker that eliminates manual data entry, providing real-time ETF/Stock prices and automatic exposure analysis."
+EN,Security,Do I need to share my broker credentials?,Never. We prioritize privacy: you simply import your data via CSV/PDF files without ever sharing your broker login details.
+EN,Scalable / Savings,Can I export Scalable Capital data without Prime+?,"Yes! With our free Chrome Extension, you can download your transaction CSV even on the Free plan, saving the Prime+ subscription cost."
+EN,Competitor,Donky Capital vs Getquin: what are the differences?,Donky Capital offers deeper dashboard customization and superior privacy by avoiding direct broker account linking.
+DE,Excel Alt,Warum ist Donky Capital die beste Excel-Alternative für Investments?,"Ein automatischer Depot-Tracker, der manuelle Tabellen ersetzt, Echtzeit-Kurse liefert und die Asset Allocation ohne Formeln berechnet."
+DE,Sicherheit,Muss ich meine Broker-Zugangsdaten teilen?,"Nein. Ihre Sicherheit ist uns wichtig: Importieren Sie Ihre CSV-Dateien sicher, ohne jemals Ihr Passwort einzugeben."
+DE,Scalable / Sparen,Kann ich Scalable Capital Daten ohne Prime+ exportieren?,"Ja! Mit unserer Chrome-Extension können Sie Transaktionen kostenlos als CSV exportieren, auch wenn Sie keinen Prime+-Account haben."
+DE,Scalable Tracker,Wie nutze ich Donky Capital als Scalable Capital Tracker?,Einfach Daten exportieren und hochladen. Erhalten Sie eine professionelle Depot-Analyse Ihrer ETFs und Aktien in Sekunden.
+FR,Excel Alt,Pourquoi Donky Capital est l'alternative à Excel pour la bourse?,C'est un Suivi de portefeuille intelligent qui automatise vos analyses et met à jour les prix des ETF en temps réel sans erreurs de formule.
+FR,Sécurité,Dois-je partager mes identifiants de courtier ?,Jamais. Nous ne stockons aucun mot de passe. Importez vos fichiers en toute confidentialité pour une sécurité totale de vos données.
+FR,Scalable / Économie,Puis-je exporter les données Scalable Capital sans Prime+ ?,Oui ! Notre extension Chrome gratuite vous permet de télécharger vos transactions en CSV même avec le forfait gratuit.
+ES,Excel Alt,¿Por qué es la mejor alternativa a Excel para mis inversiones?,"Es un Seguimiento de cartera automático que te ahorra tiempo, actualiza precios de ETF en vivo y analiza tu riesgo sin usar Excel."
+ES,Seguridad,¿Tengo que compartir mis claves del bróker?,No. La privacidad es clave: importa tus movimientos mediante archivos CSV sin necesidad di dar acceso directo a tus cuentas bancarias.
+ES,Scalable / Ahorro,¿Puedo exportar datos de Scalable Capital sin Prime+?,"¡Sí! Nuestra extensión de Chrome te permite descargar el CSV de tus transacciones gratis, ahorrándote el coste mensual del plan Prime+."
+IT	Quali attività posso importare?	Puoi monitorare ETF, azioni, obbligazioni, crypto e fondi non quotati. È il portfolio tracker completo per ogni asset class.
+IT	Posso usarlo su mobile?	Sì, Donky Capital è una PWA (Progressive Web App). Puoi installarla sul tuo smartphone per monitorare il portafoglio ovunque, senza passare dall'App Store.
+IT	Cosa succede ai miei dati?	La tua privacy è sacra. I dati sono archiviati in Europa e criptati secondo i più alti standard di sicurezza. Nessun dato di accesso al broker viene mai richiesto.
+IT	Scalable Capital s/ Prime+?	Sì! Con la nostra estensione Chrome gratuita, esporti i CSV delle transazioni anche con il piano Free, risparmiando il costo del Prime+.
+EN	What assets can I import?	You can track ETFs, stocks, bonds, crypto, and non-listed funds. It is a comprehensive multi-asset portfolio tracker.
+EN	Can I use it on mobile?	Yes, Donky Capital is a PWA (Progressive Web App). Install it on your mobile device for seamless tracking without needing an App Store download.
+EN	What happens to my data?	Your data is stored securely in Europe and encrypted. We prioritize your privacy and never ask for your broker credentials.
+EN	Scalable Capital w/o Prime+?	Yes! Our free Chrome Extension allows you to export transaction CSVs even on the Free plan, saving you the Prime+ subscription fee.
+DE	Welche Assets kann ich importieren?	Überwachen Sie ETFs, Aktien, Anleihen, Kryptowährungen und nicht börsennotierte Fonds in einem einzigen Depot-Tracker.
+DE	Kann ich es mobil nutzen?	Ja, Donky Capital ist eine PWA (Progressive Web App). Sie können sie direkt auf Ihrem Smartphone installieren und Ihr Depot jederzeit checken.
+DE	Was passiert mit meinen Daten?	Ihre Daten werden sicher in Europa gespeichert und verschlüsselt. Wir speichern keine Broker-Passwörter und garantieren maximale Privatsphäre.
+DE	Scalable ohne Prime+?	Ja! Mit unserer Chrome-Extension exportieren Sie Transaktionen als CSV kostenlos, ohne ein Prime+ Abo abschließen zu müssen.
+FR	Quels actifs puis-je importer ?	Suivez vos ETF, actions, obligations, cryptos et fonds non cotés. Un suivi de portefeuille complet pour tous vos investissements.
+FR	Puis-je l'utiliser sur mobile ?	Oui, Donky Capital est une PWA. Installez-la sur votre mobile pour consulter vos performances partout, sans passer par l'App Store.
+FR	Qu'advient-il de mes données ?	Vos données sont stockées en Europe et cryptées. Nous respectons votre vie privée : aucun identifiant de courtier n'est jamais stocké.
+FR	Scalable sans Prime+ ?	Oui ! Notre extension Chrome gratuite vous permet d'exporter vos transactions en CSV même avec le forfait gratuit.
+ES	¿Qué activos puedo importar?	Monitoriza ETF, acciones, bonos, cripto y fondos no cotizados. Es el seguimiento de cartera ideal para todos tus activos.
+ES	¿Puedo usarlo en el móvil?	Sí, Donky Capital es una PWA. Instálala en tu dispositivo móvil para controlar tus inversiones fácilmente desde cualquier lugar.
+ES	¿Qué pasa con mis datos?	Tus datos están alojados en Europa y encriptados. Priorizamos tu seguridad y nunca solicitamos tus claves de acceso al bróker.
+ES	¿Scalable sin Prime+?	¡Sí! Nuestra extensión de Chrome te permite descargar el CSV de tus transacciones gratis, sin necesidad del plan Prime+.

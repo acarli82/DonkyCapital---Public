@@ -43,6 +43,9 @@ When adding new pages, always:
 - Auto-generated `sitemap.xml` (`app/sitemap.ts`) with language alternates
 - Auto-generated `robots.txt` (`app/robots.ts`)
 
+Ogni volta che aggiungi una nuova pagina ricorda di aggiornare la sitemap con link in tutte le lingue
+
+
 ### API Integration
 
 - Public API client: `lib/api/public-api.ts`
@@ -92,3 +95,18 @@ export default async function NewPage({ params }: { params: Promise<{ lang: Loca
 
 ### New Translation Keys
 Add to all 5 files in `dictionaries/` (en.json, it.json, de.json, fr.json, es.json).
+
+
+
+## SEO Word by Language
+Optimize all for this word, beetween Language
+Keyword Base	IT	EN	DE	FR	ES
+Monitoraggio Portafoglio	Portfolio Tracker	Portfolio Tracker	Depot-Tracker	Suivi de portefeuille	Seguimiento de cartera
+ETF Tracker	ETF Tracker	ETF Tracker	ETF Sparplan Tracker	Suivi ETF	Rastreador de ETF
+Alternativa Excel investimenti	Investment Excel alternative	Excel Alternative Investment	Alternative Excel bourse	Alternativa Excel inversiones
+
+## Pagine dedicate
+#"The best way to track your Degiro portfolio in 2026" (EN)
+#"La miglior dashboard per il tuo portafoglio Scalable Capital" (IT)
+#Importare file CSV Degiro
+#Scalable Capital Tracker, possibilità di esportare da Scalable i propri dati senza pagare prime+

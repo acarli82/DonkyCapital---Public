@@ -12,7 +12,8 @@ interface HeaderProps {
 
 export default function Header({ dict, lang }: HeaderProps) {
   return (
-    <header className="flex items-center justify-between gap-4 py-6">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[#0f151d]/95 backdrop-blur-sm border-b border-white/5">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4 py-6">
       {/* Logo */}
       <Link
         href={`/${lang}`}
@@ -68,6 +69,7 @@ export default function Header({ dict, lang }: HeaderProps) {
       <div className="flex md:hidden items-center gap-3">
         <LanguageSelector currentLang={lang} />
         <MobileMenu dict={dict} lang={lang} />
+      </div>
       </div>
     </header>
   )

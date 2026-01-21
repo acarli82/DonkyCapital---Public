@@ -69,8 +69,8 @@
     },
     "hero": {
       "badge": "Customizable portfolio manager",
-      "title": "Monitor, Analyze, Optimize",
-      "titleSuffix": "Your Investments",
+      "title": "The Portfolio Tracker that replaces",
+      "titleSuffix": "your spreadsheets.",
       "description": "Take complete control of your investments with DonkyCapital, the most flexible and powerful portfolio tracker on the market. Monitor stocks, ETFs, funds, bonds, and crypto in a single customizable dashboard. Import transactions from CSV, connect broker accounts, and get advanced analytics with interactive charts, performance heatmaps, and detailed P&L. Professional multi-asset portfolio management accessible to everyone.",
       "ctaButton": "Get Started Free",
       "gdprCompliant": "GDPR compliant",
@@ -93,6 +93,10 @@
         "manyMore": "+ many more being integrated",
         "securityNote": "We never ask for access to your broker. Your data stays yours alone."
       }
+    },
+    "seoHeadings": {
+      "h2Features": "Monitor exposure, rebalancing, and performance in real-time.",
+      "h3EtfTracker": "Advanced ETF Tracker to analyze all your holdings."
     },
     "useCases": {
       "retailInvestor": {
@@ -151,20 +155,36 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "questions": {
-        "dataSecurity": {
-          "question": "Is it safe to connect my financial data?",
-          "answer": "We never ask for direct access to your broker. All data is imported via CSV files that you manually upload. Your data is encrypted and stored on secure servers in Europe, fully compliant with GDPR."
+      "questions": [
+        {
+          "question": "Why is Donky Capital the best investment Excel alternative?",
+          "answer": "It is a smart Portfolio Tracker that eliminates manual data entry, providing real-time ETF/Stock prices and automatic exposure analysis."
         },
-        "brokerImport": {
-          "question": "Can I import transactions from other brokers?",
-          "answer": "Yes, we support importing from many brokers via CSV files. We currently have optimized templates for Moneyfarm, Degiro, Scalable Capital, Directa, and many others. If your broker is not on the list, you can still import data using our generic CSV format."
+        {
+          "question": "Do I need to share my broker credentials?",
+          "answer": "Never. We prioritize privacy: you simply import your data via CSV/PDF files without ever sharing your broker login details."
         },
-        "pricing": {
-          "question": "How much does it cost?",
-          "answer": "We are currently selecting the first 100 users for the Early Program with free access to all Premium features. After the beta period, we will have three plans: Free (€0/month), Standard (€5.99/month), and Premium (€9.99/month). Early adopters will maintain free access to the platform forever."
+        {
+          "question": "Can I export Scalable Capital data without Prime+?",
+          "answer": "Yes! With our free Chrome Extension, you can download your transaction CSV even on the Free plan, saving the Prime+ subscription cost."
+        },
+        {
+          "question": "Donky Capital vs Getquin: what are the differences?",
+          "answer": "Donky Capital offers deeper dashboard customization and superior privacy by avoiding direct broker account linking."
+        },
+        {
+          "question": "What assets can I import?",
+          "answer": "You can track ETFs, stocks, bonds, crypto, and non-listed funds. It is a comprehensive multi-asset portfolio tracker."
+        },
+        {
+          "question": "Can I use it on mobile?",
+          "answer": "Yes, Donky Capital is a PWA (Progressive Web App). Install it on your mobile device for seamless tracking without needing an App Store download."
+        },
+        {
+          "question": "What happens to my data?",
+          "answer": "Your data is stored securely in Europe and encrypted. We prioritize your privacy and never ask for your broker credentials."
         }
-      }
+      ]
     },
     "cta": {
       "title": "Ready to take control of your investments?",
@@ -176,8 +196,21 @@
       "termsAndConditions": "Terms & Conditions",
       "secureConnection": "Secure Connection",
       "protectedData": "Protected Data",
-      "copyright": "© {{year}} DonkyCapital. All rights reserved."
+      "copyright": "© {{year}} DonkyCapital. All rights reserved.",
+      "aboutUs": "About Us",
+      "contact": "Contact",
+      "siteMap": "Site Map"
     }
+  },
+  "about": {
+    "pageTitle": "Our Story",
+    "pageSubtitle": "Built by investors, for investors.",
+    "h1": "Built by investors, for investors.",
+    "h1Text": "We started with a simple problem: managing multiple brokers while trying to get a clear picture of total performance. Like you, we were tired of manual spreadsheets and uncomfortable sharing broker credentials with third-party apps.",
+    "h2Security": "Privacy as a core principle.",
+    "h2SecurityText": "Donky Capital is the secure portfolio tracker you've been looking for. We never ask for your broker login. Simply export your data and import it into our platform to access professional-grade analytics safely.",
+    "h3Dashboard": "Your strategy, your dashboard.",
+    "h3DashboardText": "Default views don't work for serious investors. We provide a fully customizable environment where you decide how to monitor exposure and rebalance your portfolio according to your personal goals."
   },
   "widgets": {
     "names": {
@@ -257,8 +290,12 @@
   },
   "seo": {
     "home": {
-      "title": "DonkyCapital - Monitor, Analyze, Optimize Your Investments",
-      "description": "Take complete control of your investments with DonkyCapital, the most flexible and powerful portfolio tracker on the market. Monitor stocks, ETFs, funds, bonds, and crypto in a single customizable dashboard."
+      "title": "Donky Capital | Portfolio Tracker & Excel Alternative for Investments",
+      "description": "Track your investments in real-time. The smart Excel alternative to manage your portfolio, ETFs, and dividends. Start for free."
+    },
+    "about": {
+      "title": "About Us - Donky Capital | Portfolio Tracker",
+      "description": "Learn about our mission: making portfolio management accessible to everyone with a modern and powerful investment tracker."
     },
     "earlyAccess": {
       "title": "Early Access Program - DonkyCapital",

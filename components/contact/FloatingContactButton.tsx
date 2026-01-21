@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { usePathname } from 'next/navigation'
 import { submitContactForm } from '@/lib/api/public-api'
 import type { Dictionary } from '@/lib/i18n/getDictionary'
 
@@ -9,7 +10,11 @@ interface FloatingContactButtonProps {
 }
 
 export default function FloatingContactButton({ dict }: FloatingContactButtonProps) {
+  const pathname = usePathname()
   const [isOpen, setIsOpen] = useState(false)
+
+  // Hide the floating button on contact pages
+  const isContactPage = pathname?.includes('/contact')
   const [formData, setFormData] = useState({
     email: '',
     message: '',
@@ -88,6 +93,11 @@ export default function FloatingContactButton({ dict }: FloatingContactButtonPro
     } finally {
       setSubmitting(false)
     }
+  }
+
+  // Don't render on contact pages
+  if (isContactPage) {
+    return null
   }
 
   return (

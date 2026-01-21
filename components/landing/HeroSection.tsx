@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/image'
+import OptimizedImage from '@/components/common/OptimizedImage'
 import type { Dictionary } from '@/lib/i18n/getDictionary'
 import type { Locale } from '@/lib/i18n/config'
 
@@ -77,7 +77,7 @@ export default function HeroSection({ dict, lang }: HeroSectionProps) {
           <div className="relative flex items-center justify-center min-h-[200px] md:min-h-[400px] rounded-lg">
             {/* Glow effect */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[95%] h-[95%] bg-[radial-gradient(circle,rgba(16,185,129,0.3)_0%,transparent_70%)] blur-[40px] animate-pulse-glow" />
-            <Image
+            <OptimizedImage
               src="/assets/dashboard/dashboard.png"
               alt="Dashboard DonkyCapital con analisi performance portafoglio, heatmap settori e grafici investimenti personalizzabili"
               width={1200}

@@ -69,8 +69,8 @@
     },
     "hero": {
       "badge": "Portfolio manager personalizzabile",
-      "title": "Monitora, Analizza, Ottimizza",
-      "titleSuffix": "i Tuoi Investimenti",
+      "title": "Il Portfolio Tracker che sostituisce",
+      "titleSuffix": "i tuoi fogli Excel.",
       "description": "Prendi il controllo completo dei tuoi investimenti con DonkyCapital, il tracker portafoglio più flessibile e potente sul mercato. Monitora azioni, ETF, fondi, obbligazioni e crypto in un'unica dashboard personalizzabile. Importa transazioni da CSV, collega conti broker, e ottieni analisi avanzate con grafici interattivi, heatmap performance e P&L dettagliato. Gestione portafoglio multi-asset professionale accessibile a tutti.",
       "ctaButton": "Inizia Gratis",
       "gdprCompliant": "GDPR compliant",
@@ -93,6 +93,10 @@
         "manyMore": "+ molti altri in fase di integrazione",
         "securityNote": "Non chiediamo mai accesso al tuo broker. I tuoi dati restano solo tuoi."
       }
+    },
+    "seoHeadings": {
+      "h2Features": "Monitora esposizione, bilanciamento e rendimenti in tempo reale.",
+      "h3EtfTracker": "Un ETF Tracker avanzato per analizzare ogni tua posizione."
     },
     "useCases": {
       "retailInvestor": {
@@ -151,20 +155,40 @@
     },
     "faq": {
       "title": "Domande Frequenti",
-      "questions": {
-        "dataSecurity": {
-          "question": "È sicuro collegare i miei dati finanziari?",
-          "answer": "Non chiediamo mai accesso diretto al tuo broker. Tutti i dati vengono importati tramite file CSV che tu stesso carichi manualmente. I tuoi dati sono criptati e archiviati in server sicuri in Europa, completamente conformi al GDPR."
+      "questions": [
+        {
+          "question": "Perché Donky Capital è la migliore alternativa a Excel per gli investimenti?",
+          "answer": "È un Portfolio Tracker automatico che elimina l'inserimento manuale, aggiorna i prezzi di ETF/Azioni in tempo reale e calcola l'esposizione senza formule complesse."
         },
-        "brokerImport": {
-          "question": "Posso importare transazioni da altri broker?",
-          "answer": "Sì, supportiamo l'importazione da molti broker tramite file CSV. Attualmente abbiamo template ottimizzati per Moneyfarm, Degiro, Scalable Capital, Directa e molti altri. Se il tuo broker non è nell'elenco, puoi comunque importare i dati utilizzando il nostro formato CSV generico."
+        {
+          "question": "Devo condividere le password del mio broker?",
+          "answer": "Assolutamente no. Donky Capital garantisce la massima privacy: importi i dati tramite file CSV/PDF senza mai inserire le tue credenziali bancarie."
         },
-        "pricing": {
-          "question": "Quanto costa?",
-          "answer": "Attualmente stiamo selezionando i primi 100 utenti per l'Early Program con accesso gratuito a tutte le funzionalità Premium. Dopo il periodo beta, avremo tre piani: Free (€0/mese), Standard (€5.99/mese) e Premium (€9.99/mese). Gli early adopters manterranno l'accesso gratuito alla piattaforma per sempre."
+        {
+          "question": "Posso esportare i dati da Scalable Capital senza il piano Prime+?",
+          "answer": "Sì! Grazie alla nostra estensione Chrome gratuita, puoi scaricare il CSV delle transazioni anche con il piano Free, risparmiando il costo dell'abbonamento Prime+."
+        },
+        {
+          "question": "Qual è la differenza tra Donky Capital e Getquin?",
+          "answer": "Donky Capital offre una personalizzazione totale delle dashboard e non richiede mai l'accesso diretto ai tuoi conti, mettendo la tua privacy al primo posto."
+        },
+        {
+          "question": "Posso usare Donky Capital come tracker per Directa?",
+          "answer": "Sì, siamo il miglior Directa Tracker per trasformare i dati tecnici di Directa in grafici moderni, analizzando performance e bilanciamento in un clic."
+        },
+        {
+          "question": "Quali attività posso importare?",
+          "answer": "Puoi monitorare ETF, azioni, obbligazioni, crypto e fondi non quotati. È il portfolio tracker completo per ogni asset class."
+        },
+        {
+          "question": "Posso usarlo su mobile?",
+          "answer": "Sì, Donky Capital è una PWA (Progressive Web App). Puoi installarla sul tuo smartphone per monitorare il portafoglio ovunque, senza passare dall'App Store."
+        },
+        {
+          "question": "Cosa succede ai miei dati?",
+          "answer": "La tua privacy è sacra. I dati sono archiviati in Europa e criptati secondo i più alti standard di sicurezza. Nessun dato di accesso al broker viene mai richiesto."
         }
-      }
+      ]
     },
     "cta": {
       "title": "Pronto a prendere il controllo dei tuoi investimenti?",
@@ -176,8 +200,21 @@
       "termsAndConditions": "Terms & Conditions",
       "secureConnection": "Connessione Sicura",
       "protectedData": "Dati Protetti",
-      "copyright": "© {{year}} DonkyCapital. Tutti i diritti riservati."
+      "copyright": "© {{year}} DonkyCapital. Tutti i diritti riservati.",
+      "aboutUs": "Chi Siamo",
+      "contact": "Contatti",
+      "siteMap": "Mappa del Sito"
     }
+  },
+  "about": {
+    "pageTitle": "La nostra Storia",
+    "pageSubtitle": "Creato da investitori, per investitori.",
+    "h1": "Creato da investitori, per investitori.",
+    "h1Text": "Siamo nati da un'esigenza reale: gestire capitali su broker diversi senza perdere il controllo della performance complessiva. Come te, eravamo stanchi di usare Excel o di dover condividere le password dei nostri conti con app terze per avere un'analisi decente.",
+    "h2Security": "La sicurezza prima di tutto.",
+    "h2SecurityText": "Donky Capital è l'alternativa sicura ai portfolio tracker tradizionali. Abbiamo eliminato il rischio: non ti chiederemo mai i dati di accesso del tuo broker. Ti basta esportare i tuoi dati e caricarli sulla nostra piattaforma per sbloccare una potenza di analisi senza precedenti.",
+    "h3Dashboard": "La tua strategia, la tua dashboard.",
+    "h3DashboardText": "Non crediamo nelle viste standard. Ogni investitore è unico. Per questo abbiamo creato un sistema dove sei tu a decidere come visualizzare i tuoi asset, monitorare l'esposizione e bilanciare il portafoglio secondo la tua strategia."
   },
   "widgets": {
     "names": {
@@ -257,8 +294,12 @@
   },
   "seo": {
     "home": {
-      "title": "DonkyCapital - Monitora, Analizza, Ottimizza i Tuoi Investimenti",
-      "description": "Prendi il controllo completo dei tuoi investimenti con DonkyCapital, il tracker portafoglio più flessibile e potente sul mercato. Monitora azioni, ETF, fondi, obbligazioni e crypto in un'unica dashboard personalizzabile."
+      "title": "Donky Capital | Portfolio Tracker e Alternativa Excel per Investimenti",
+      "description": "Monitora i tuoi investimenti in tempo reale. L'alternativa intelligente a Excel per gestire portafoglio, ETF e dividendi. Provalo gratis."
+    },
+    "about": {
+      "title": "Chi Siamo - Donky Capital | Portfolio Tracker",
+      "description": "Scopri chi siamo e la nostra missione: rendere la gestione del portafoglio accessibile a tutti con un tracker investimenti moderno e potente."
     },
     "earlyAccess": {
       "title": "Programma Early Access - DonkyCapital",

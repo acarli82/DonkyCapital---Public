@@ -42,7 +42,18 @@ export default function FeaturesSection({ dict }: FeaturesSectionProps) {
   ]
 
   return (
-    <section id="features" className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+    <section id="features" className="mt-8">
+      {/* SEO H2 Heading */}
+      <h2 className="text-xl md:text-2xl font-bold mb-4 text-center">
+        {dict.landing.seoHeadings.h2Features}
+      </h2>
+
+      {/* SEO H3 Heading */}
+      <h3 className="text-base md:text-lg text-white/70 mb-6 text-center">
+        {dict.landing.seoHeadings.h3EtfTracker}
+      </h3>
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
       {features.map((feature, index) => (
         <div
           key={index}
@@ -90,6 +101,7 @@ export default function FeaturesSection({ dict }: FeaturesSectionProps) {
           )}
         </div>
       ))}
+      </div>
     </section>
   )
 }

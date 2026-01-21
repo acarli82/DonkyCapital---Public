@@ -2,7 +2,7 @@ import type { Dictionary } from '@/lib/i18n/getDictionary'
 
 interface JsonLdProps {
   dict: Dictionary
-  page: 'home' | 'earlyAccess' | 'privacyPolicy' | 'termsAndConditions' | 'contact'
+  page: 'home' | 'earlyAccess' | 'privacyPolicy' | 'termsAndConditions' | 'contact' | 'about'
 }
 
 export default function JsonLd({ dict, page }: JsonLdProps) {
@@ -53,35 +53,32 @@ export default function JsonLd({ dict, page }: JsonLdProps) {
     }
   }
 
+  // FAQ questions are now stored as an array
+  const faqQuestions = dict.landing.faq.questions as Array<{ question: string; answer: string }>
+
   const faqSchema = page === 'home' ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: dict.landing.faq.questions.dataSecurity.question,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: dict.landing.faq.questions.dataSecurity.answer
-        }
-      },
-      {
-        '@type': 'Question',
-        name: dict.landing.faq.questions.brokerImport.question,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: dict.landing.faq.questions.brokerImport.answer
-        }
-      },
-      {
-        '@type': 'Question',
-        name: dict.landing.faq.questions.pricing.question,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: dict.landing.faq.questions.pricing.answer
-        }
+    mainEntity: faqQuestions.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer
       }
-    ]
+    }))
+  } : null
+
+  const aboutPageSchema = page === 'about' ? {
+    '@context': 'https://schema.org',
+    '@type': 'AboutPage',
+    name: dict.about.pageTitle,
+    description: dict.seo.about.description,
+    mainEntity: {
+      '@type': 'Organization',
+      name: 'DonkyCapital',
+      url: 'https://www.donkycapital.com'
+    }
   } : null
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -92,6 +89,10 @@ export default function JsonLd({ dict, page }: JsonLdProps) {
     if (faqSchema) {
       schemas.push(faqSchema)
     }
+  }
+
+  if (page === 'about' && aboutPageSchema) {
+    schemas.push(aboutPageSchema)
   }
 
   return (

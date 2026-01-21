@@ -1,8 +1,10 @@
 import Link from 'next/link'
 import type { Dictionary } from '@/lib/i18n/getDictionary'
+import type { Locale } from '@/lib/i18n/config'
 
 interface FooterProps {
   dict: Dictionary
+  lang: Locale
 }
 
 const socialLinks = [
@@ -46,65 +48,95 @@ const socialLinks = [
   },
 ]
 
-export default function Footer({ dict }: FooterProps) {
+export default function Footer({ dict, lang }: FooterProps) {
   const currentYear = new Date().getFullYear()
 
   return (
     <footer className="mt-24 pt-16 border-t border-white/10">
-      <div className="flex flex-col items-center gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
         {/* Brand Section */}
-        <div className="text-center">
-          <h3 className="text-lg font-bold mb-1">{dict.appName}</h3>
-          <p className="text-sm text-white/70">{dict.tagline}</p>
-        </div>
-
-        {/* Social Links */}
-        <div className="flex items-center gap-3">
-          {socialLinks.map((social) => (
-            <a
-              key={social.name}
-              href={social.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={social.name}
-              className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 text-white/60 hover:bg-primary/10 hover:text-primary transition-colors"
-            >
-              {social.icon}
-            </a>
-          ))}
-        </div>
-
-        {/* Security Badges */}
-        <div className="flex flex-col sm:flex-row items-center gap-4 text-xs text-white/60">
-          <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="opacity-70">
-              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
-              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
-            </svg>
-            <span>{dict.landing.footer.secureConnection}</span>
-          </div>
-          <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="opacity-70">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-            </svg>
-            <span>{dict.landing.footer.protectedData}</span>
+        <div>
+          <h3 className="text-lg font-bold mb-2">{dict.appName}</h3>
+          <p className="text-sm text-white/70 mb-4">{dict.tagline}</p>
+          {/* Social Links */}
+          <div className="flex items-center gap-3">
+            {socialLinks.map((social) => (
+              <a
+                key={social.name}
+                href={social.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={social.name}
+                className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 text-white/60 hover:bg-primary/10 hover:text-primary transition-colors"
+              >
+                {social.icon}
+              </a>
+            ))}
           </div>
         </div>
 
-        {/* Legal Links & Copyright */}
-        <div className="w-full pt-8 border-t border-white/5 text-center">
-          <div className="flex flex-wrap justify-center gap-4 mb-4 text-sm text-white/50">
-            <Link href="/privacy-policy" className="hover:text-white transition-colors">
-              {dict.landing.footer.privacyPolicy}
-            </Link>
-            <Link href="/terms-and-conditions" className="hover:text-white transition-colors">
-              {dict.landing.footer.termsAndConditions}
-            </Link>
-          </div>
-          <p className="text-xs text-white/30">
-            {dict.landing.footer.copyright.replace('{{year}}', currentYear.toString())}
-          </p>
+        {/* Site Map */}
+        <div>
+          <h4 className="font-semibold mb-4">{dict.landing.footer.siteMap}</h4>
+          <ul className="space-y-2 text-sm text-white/60">
+            <li>
+              <Link href={`/${lang}/about`} className="hover:text-white transition-colors">
+                {dict.landing.footer.aboutUs}
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/contact`} className="hover:text-white transition-colors">
+                {dict.landing.footer.contact}
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/early-access`} className="hover:text-white transition-colors">
+                Early Access
+              </Link>
+            </li>
+          </ul>
         </div>
+
+        {/* Legal Links */}
+        <div>
+          <h4 className="font-semibold mb-4">Legal</h4>
+          <ul className="space-y-2 text-sm text-white/60">
+            <li>
+              <Link href={`/${lang}/privacy-policy`} className="hover:text-white transition-colors">
+                {dict.landing.footer.privacyPolicy}
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/terms-and-conditions`} className="hover:text-white transition-colors">
+                {dict.landing.footer.termsAndConditions}
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Security Badges */}
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-8 text-xs text-white/60">
+        <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="opacity-70">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+          </svg>
+          <span>{dict.landing.footer.secureConnection}</span>
+        </div>
+        <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="opacity-70">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+          <span>{dict.landing.footer.protectedData}</span>
+        </div>
+      </div>
+
+      {/* Copyright */}
+      <div className="pt-8 border-t border-white/5 text-center">
+        <p className="text-xs text-white/30">
+          {dict.landing.footer.copyright.replace('{{year}}', currentYear.toString())}
+        </p>
       </div>
     </footer>
   )

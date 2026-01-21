@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import type { Dictionary } from '@/lib/i18n/getDictionary'
 import { submitContactForm } from '@/lib/api/public-api'
 
@@ -9,29 +9,37 @@ interface ContactFormProps {
 }
 
 export default function ContactForm({ dict }: ContactFormProps) {
-  const [name, setName] = useState('')
   const [email, setEmail] = useState('')
-  const [subject, setSubject] = useState('')
   const [message, setMessage] = useState('')
+  const [honeypot, setHoneypot] = useState('')
   const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [success, setSuccess] = useState(false)
+  const [canSubmit, setCanSubmit] = useState(false)
+  const [submitTimer, setSubmitTimer] = useState(3)
+
+  // Submit delay timer (anti-spam: 3 seconds)
+  useEffect(() => {
+    if (submitTimer > 0) {
+      const timer = setTimeout(() => setSubmitTimer(submitTimer - 1), 1000)
+      return () => clearTimeout(timer)
+    } else {
+      setCanSubmit(true)
+    }
+  }, [submitTimer])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setError(null)
 
-    // Validation
-    if (!name.trim()) {
-      setError(dict.contact.nameRequired)
+    // Anti-spam: reject if honeypot is filled
+    if (honeypot) {
       return
     }
+
+    // Validation
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       setError(dict.contact.emailInvalid)
-      return
-    }
-    if (!subject.trim()) {
-      setError(dict.contact.subjectRequired)
       return
     }
     if (!message.trim()) {
@@ -43,20 +51,21 @@ export default function ContactForm({ dict }: ContactFormProps) {
 
     try {
       await submitContactForm({
-        name,
+        name: 'Contact Form',
         email,
-        subject,
+        subject: 'Contact Form Message',
         message,
+        honeypot,
       })
 
       setSuccess(true)
-      setName('')
       setEmail('')
-      setSubject('')
       setMessage('')
-    } catch (err: any) {
+      setHoneypot('')
+    } catch (err: unknown) {
       console.error('Error submitting message:', err)
-      setError(err.message || dict.contact.submitError)
+      const errorMessage = err instanceof Error ? err.message : dict.contact.submitError
+      setError(errorMessage)
     } finally {
       setSubmitting(false)
     }
@@ -101,18 +110,16 @@ export default function ContactForm({ dict }: ContactFormProps) {
         </div>
       )}
 
-      <div>
-        <label htmlFor="name" className="block text-sm font-medium mb-2">{dict.contact.nameLabel}</label>
-        <input
-          type="text"
-          id="name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          required
-          className="w-full px-4 py-3 rounded-lg bg-white/5 border border-white/10 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors"
-          placeholder={dict.contact.namePlaceholder}
-        />
-      </div>
+      {/* Honeypot field - hidden from users, bots will fill it */}
+      <input
+        type="text"
+        name="honeypot"
+        value={honeypot}
+        onChange={(e) => setHoneypot(e.target.value)}
+        className="hidden"
+        tabIndex={-1}
+        autoComplete="off"
+      />
 
       <div>
         <label htmlFor="email" className="block text-sm font-medium mb-2">{dict.contact.emailLabel}</label>
@@ -128,25 +135,12 @@ export default function ContactForm({ dict }: ContactFormProps) {
       </div>
 
       <div>
-        <label htmlFor="subject" className="block text-sm font-medium mb-2">{dict.contact.subjectLabel}</label>
-        <input
-          type="text"
-          id="subject"
-          value={subject}
-          onChange={(e) => setSubject(e.target.value)}
-          required
-          className="w-full px-4 py-3 rounded-lg bg-white/5 border border-white/10 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors"
-          placeholder={dict.contact.subjectPlaceholder}
-        />
-      </div>
-
-      <div>
         <label htmlFor="message" className="block text-sm font-medium mb-2">{dict.contact.messageLabel}</label>
         <textarea
           id="message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          rows={5}
+          rows={6}
           required
           className="w-full px-4 py-3 rounded-lg bg-white/5 border border-white/10 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary transition-colors resize-none"
           placeholder={dict.contact.messagePlaceholder}
@@ -155,7 +149,7 @@ export default function ContactForm({ dict }: ContactFormProps) {
 
       <button
         type="submit"
-        disabled={submitting}
+        disabled={submitting || !canSubmit}
         className="w-full py-3 rounded-[10px] font-semibold btn-gradient text-white flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {submitting ? (
@@ -166,6 +160,8 @@ export default function ContactForm({ dict }: ContactFormProps) {
             </svg>
             {dict.contact.submitting}
           </>
+        ) : !canSubmit ? (
+          `${dict.contact.submitButton} (${submitTimer}s)`
         ) : (
           dict.contact.submitButton
         )}
