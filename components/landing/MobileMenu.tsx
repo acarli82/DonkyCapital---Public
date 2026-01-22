@@ -64,14 +64,14 @@ export default function MobileMenu({ dict, lang }: MobileMenuProps) {
           <Link
             href={`/${lang}#features`}
             onClick={() => setIsOpen(false)}
-            className="block py-3 text-white/70 hover:text-white transition-colors"
+            className="block py-3 text-white/80 hover:text-white transition-colors"
           >
             {dict.landing.header.features}
           </Link>
           <Link
             href={`/${lang}#pricing`}
             onClick={() => setIsOpen(false)}
-            className="block py-3 text-white/70 hover:text-white transition-colors"
+            className="block py-3 text-white/80 hover:text-white transition-colors"
           >
             {dict.landing.header.pricing}
           </Link>
@@ -83,7 +83,7 @@ export default function MobileMenu({ dict, lang }: MobileMenuProps) {
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsOpen(false)}
-            className="block py-3 text-white/70 hover:text-white transition-colors"
+            className="block py-3 text-white/80 hover:text-white transition-colors"
           >
             {dict.landing.header.login}
           </a>

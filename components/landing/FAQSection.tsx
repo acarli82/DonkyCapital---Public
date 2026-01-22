@@ -64,7 +64,7 @@ export default function FAQSection({ dict }: FAQSectionProps) {
                 expandedIndex === index ? 'max-h-[500px] pb-4' : 'max-h-0'
               }`}
             >
-              <p className="text-white/60 text-sm">
+              <p className="text-white/80 text-sm">
                 {faq.answer}
               </p>
             </div>

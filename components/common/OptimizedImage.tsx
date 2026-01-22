@@ -26,19 +26,22 @@ export default function OptimizedImage({
   const basePath = src.substring(0, lastDotIndex)
   const extension = src.substring(lastDotIndex + 1).toLowerCase()
 
+  // Common img props
+  const imgProps = {
+    src,
+    alt,
+    width,
+    height,
+    className,
+    loading: priority ? 'eager' as const : 'lazy' as const,
+    decoding: priority ? 'sync' as const : 'async' as const,
+    // @ts-expect-error - fetchpriority is valid HTML but not in React types yet
+    fetchpriority: priority ? 'high' : undefined,
+  }
+
   // Skip WebP conversion for SVG
   if (extension === 'svg') {
-    return (
-      <img
-        src={src}
-        alt={alt}
-        width={width}
-        height={height}
-        className={className}
-        loading={priority ? 'eager' : 'lazy'}
-        decoding={priority ? 'sync' : 'async'}
-      />
-    )
+    return <img {...imgProps} />
   }
 
   const webpSrc = `${basePath}.webp`
@@ -46,16 +49,7 @@ export default function OptimizedImage({
   return (
     <picture>
       <source srcSet={webpSrc} type="image/webp" />
-      <img
-        src={src}
-        alt={alt}
-        width={width}
-        height={height}
-        className={className}
-        loading={priority ? 'eager' : 'lazy'}
-        decoding={priority ? 'sync' : 'async'}
-        {...(priority && { fetchPriority: 'high' as const })}
-      />
+      <img {...imgProps} />
     </picture>
   )
 }

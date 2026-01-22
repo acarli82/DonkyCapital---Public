@@ -13,7 +13,7 @@ export default function HeroSection({ dict, lang }: HeroSectionProps) {
     <section className="mb-8">
       <div className="bg-gradient-to-br from-primary/5 to-green-600/5 rounded-[10px] p-6 md:p-9 shadow-lg border border-white/[0.03] animate-fade-up">
         {/* Badge */}
-        <div className="inline-block bg-card px-3 py-1.5 rounded-full text-white/60 text-[13px] mb-3">
+        <div className="inline-block bg-card px-3 py-1.5 rounded-full text-white/80 text-[13px] mb-3">
           {dict.landing.hero.badge}
         </div>
 
@@ -26,7 +26,7 @@ export default function HeroSection({ dict, lang }: HeroSectionProps) {
         </h1>
 
         {/* Description */}
-        <p className="text-white/70 mb-5 max-w-[720px]">
+        <p className="text-white/80 mb-5 max-w-[720px]">
           {dict.landing.hero.description}
         </p>
 
@@ -41,7 +41,7 @@ export default function HeroSection({ dict, lang }: HeroSectionProps) {
         </div>
 
         {/* Feature Badges */}
-        <div className="flex flex-wrap gap-3 items-center mt-4 text-white/60 text-[13px]">
+        <div className="flex flex-wrap gap-3 items-center mt-4 text-white/80 text-[13px]">
           <div className="flex items-center gap-1.5">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>

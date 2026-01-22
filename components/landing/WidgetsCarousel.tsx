@@ -171,7 +171,7 @@ export default function WidgetsCarousel({ dict }: WidgetsCarouselProps) {
                     </span>
                   </div>
 
-                  <p className="text-white/60 text-sm mb-4 h-10 overflow-hidden">
+                  <p className="text-white/80 text-sm mb-4 h-10 overflow-hidden">
                     {dict.widgets.descriptions[widget.descriptionKey as keyof typeof dict.widgets.descriptions]}
                   </p>
 
@@ -211,8 +211,8 @@ export default function WidgetsCarousel({ dict }: WidgetsCarouselProps) {
           </svg>
         </button>
 
-        {/* Dots */}
-        <div className="flex justify-center gap-2 mt-6">
+        {/* Dots - with larger touch targets for accessibility */}
+        <div className="flex justify-center gap-1 mt-6">
           {widgets.map((_, idx) => {
             const normalizedIndex = currentIndex % totalWidgets
             const isActive = normalizedIndex === idx
@@ -220,11 +220,13 @@ export default function WidgetsCarousel({ dict }: WidgetsCarouselProps) {
               <button
                 key={idx}
                 onClick={() => setCurrentIndex(totalWidgets + idx)}
-                className={`h-2 rounded transition-all ${
-                  isActive ? 'w-5 bg-primary' : 'w-2 bg-white/20'
-                }`}
+                className="p-3 -m-1"
                 aria-label={`Go to slide ${idx + 1}`}
-              />
+              >
+                <span className={`block h-2 rounded transition-all ${
+                  isActive ? 'w-5 bg-primary' : 'w-2 bg-white/20'
+                }`} />
+              </button>
             )
           })}
         </div>

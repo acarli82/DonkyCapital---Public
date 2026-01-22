@@ -88,7 +88,7 @@ export default function PricingSection({ dict, lang }: PricingSectionProps) {
 
       {/* Early Program Banner */}
       <div className="p-3 rounded-lg bg-primary/5 border border-primary/10 mb-4">
-        <p className="text-white/60 text-sm">
+        <p className="text-white/80 text-sm">
           <span className="font-semibold">{dict.landing.pricing.limitedAccess}</span>
           {' '}{dict.landing.pricing.earlyProgramDesc}
         </p>
@@ -118,13 +118,13 @@ export default function PricingSection({ dict, lang }: PricingSectionProps) {
 
             {/* Pricing */}
             <div className="mb-3">
-              <p className="text-white/60 text-sm line-through decoration-2">
+              <p className="text-white/80 text-sm line-through decoration-2">
                 {plan.originalPrice}
                 <span className="text-sm font-normal">{dict.landing.pricing.perMonth}</span>
               </p>
               <div>
                 <span className="text-xl font-bold text-primary">{plan.currentPrice}</span>
-                <span className="text-sm font-normal text-primary/70 ml-1">
+                <span className="text-sm font-normal text-primary ml-1">
                   {dict.landing.pricing.perEarlyAccess}
                 </span>
               </div>
@@ -136,7 +136,7 @@ export default function PricingSection({ dict, lang }: PricingSectionProps) {
                 <li
                   key={idx}
                   className={`flex items-center gap-2 text-sm ${
-                    feature.highlighted ? 'text-primary font-medium' : 'text-white/60'
+                    feature.highlighted ? 'text-primary font-medium' : 'text-white/80'
                   }`}
                 >
                   <svg

@@ -26,7 +26,7 @@ function TermsEN() {
       <h1 className="text-2xl md:text-3xl font-bold mb-2 text-primary">
         DonkyCapital Terms and Conditions
       </h1>
-      <p className="text-white/60 text-sm mb-6 font-semibold">
+      <p className="text-white/80 text-sm mb-6 font-semibold">
         Last Updated: December 11, 2025
       </p>
 
@@ -183,7 +183,7 @@ function TermsEN() {
       </p>
 
       <div className="mt-8 pt-6 border-t border-white/10">
-        <p className="text-white/60 text-sm">
+        <p className="text-white/80 text-sm">
           For questions: <a href="mailto:support@donkycapital.com" className="text-primary hover:underline">support@donkycapital.com</a>
         </p>
       </div>
@@ -197,7 +197,7 @@ function TermsIT() {
       <h1 className="text-2xl md:text-3xl font-bold mb-2 text-primary">
         Termini e Condizioni di DonkyCapital
       </h1>
-      <p className="text-white/60 text-sm mb-6 font-semibold">
+      <p className="text-white/80 text-sm mb-6 font-semibold">
         Ultimo aggiornamento: 11 dicembre 2025
       </p>
 
@@ -355,7 +355,7 @@ function TermsIT() {
       </p>
 
       <div className="mt-8 pt-6 border-t border-white/10">
-        <p className="text-white/60 text-sm">
+        <p className="text-white/80 text-sm">
           Per domande: <a href="mailto:support@donkycapital.com" className="text-primary hover:underline">support@donkycapital.com</a>
         </p>
       </div>
@@ -369,7 +369,7 @@ function TermsDE() {
       <h1 className="text-2xl md:text-3xl font-bold mb-2 text-primary">
         DonkyCapital Allgemeine Geschäftsbedingungen
       </h1>
-      <p className="text-white/60 text-sm mb-6 font-semibold">
+      <p className="text-white/80 text-sm mb-6 font-semibold">
         Letzte Aktualisierung: 11. Dezember 2025
       </p>
 
@@ -526,7 +526,7 @@ function TermsDE() {
       </p>
 
       <div className="mt-8 pt-6 border-t border-white/10">
-        <p className="text-white/60 text-sm">
+        <p className="text-white/80 text-sm">
           Bei Fragen: <a href="mailto:support@donkycapital.com" className="text-primary hover:underline">support@donkycapital.com</a>
         </p>
       </div>
@@ -540,7 +540,7 @@ function TermsFR() {
       <h1 className="text-2xl md:text-3xl font-bold mb-2 text-primary">
         Conditions générales de DonkyCapital
       </h1>
-      <p className="text-white/60 text-sm mb-6 font-semibold">
+      <p className="text-white/80 text-sm mb-6 font-semibold">
         Dernière mise à jour : 11 décembre 2025
       </p>
 
@@ -697,7 +697,7 @@ function TermsFR() {
       </p>
 
       <div className="mt-8 pt-6 border-t border-white/10">
-        <p className="text-white/60 text-sm">
+        <p className="text-white/80 text-sm">
           Pour toute question : <a href="mailto:support@donkycapital.com" className="text-primary hover:underline">support@donkycapital.com</a>
         </p>
       </div>
@@ -711,7 +711,7 @@ function TermsES() {
       <h1 className="text-2xl md:text-3xl font-bold mb-2 text-primary">
         Términos y condiciones de DonkyCapital
       </h1>
-      <p className="text-white/60 text-sm mb-6 font-semibold">
+      <p className="text-white/80 text-sm mb-6 font-semibold">
         Última actualización: 11 de diciembre de 2025
       </p>
 
@@ -868,7 +868,7 @@ function TermsES() {
       </p>
 
       <div className="mt-8 pt-6 border-t border-white/10">
-        <p className="text-white/60 text-sm">
+        <p className="text-white/80 text-sm">
           Para preguntas: <a href="mailto:support@donkycapital.com" className="text-primary hover:underline">support@donkycapital.com</a>
         </p>
       </div>

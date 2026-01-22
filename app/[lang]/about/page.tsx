@@ -51,7 +51,7 @@ export default async function AboutPage({
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             {dict.about.h1}
           </h1>
-          <p className="text-lg text-white/70">
+          <p className="text-lg text-white/80">
             {dict.about.pageSubtitle}
           </p>
         </div>
@@ -59,7 +59,7 @@ export default async function AboutPage({
         {/* Origin Story Section */}
         <section className="mb-12">
           <div className="card p-6">
-            <p className="text-white/70 leading-relaxed">
+            <p className="text-white/80 leading-relaxed">
               {dict.about.h1Text}
             </p>
           </div>
@@ -69,7 +69,7 @@ export default async function AboutPage({
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-4">{dict.about.h2Security}</h2>
           <div className="card p-6">
-            <p className="text-white/70 leading-relaxed">
+            <p className="text-white/80 leading-relaxed">
               {dict.about.h2SecurityText}
             </p>
           </div>
@@ -79,7 +79,7 @@ export default async function AboutPage({
         <section className="mb-12">
           <h3 className="text-xl font-bold mb-4">{dict.about.h3Dashboard}</h3>
           <div className="card p-6">
-            <p className="text-white/70 leading-relaxed">
+            <p className="text-white/80 leading-relaxed">
               {dict.about.h3DashboardText}
             </p>
           </div>

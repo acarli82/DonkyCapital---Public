@@ -76,7 +76,7 @@ export default function LanguageSelector({ currentLang }: LanguageSelectorProps)
               key={locale}
               onClick={() => handleLanguageChange(locale)}
               className={`w-full px-4 py-2 text-left text-sm hover:bg-white/5 transition-colors ${
-                locale === currentLang ? 'text-primary font-medium' : 'text-white/70'
+                locale === currentLang ? 'text-primary font-medium' : 'text-white/80'
               }`}
             >
               {localeNames[locale]}

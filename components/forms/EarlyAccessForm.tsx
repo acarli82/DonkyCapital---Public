@@ -53,7 +53,7 @@ export default function EarlyAccessForm({ dict }: EarlyAccessFormProps) {
           </svg>
         </div>
         <h2 className="text-2xl font-bold mb-2">{dict.earlyAccess.successTitle}</h2>
-        <p className="text-white/70 mb-6">{dict.earlyAccess.successMessage}</p>
+        <p className="text-white/80 mb-6">{dict.earlyAccess.successMessage}</p>
         <button
           onClick={() => setSuccess(false)}
           className="px-6 py-2.5 rounded-[10px] font-semibold border border-white/10 hover:border-white/20 hover:bg-white/5 transition-colors"

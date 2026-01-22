@@ -26,7 +26,7 @@ function PrivacyEN() {
       <h1 className="text-2xl md:text-3xl font-bold mb-2 text-primary">
         DonkyCapital Privacy Policy
       </h1>
-      <p className="text-white/60 text-sm mb-6 italic">
+      <p className="text-white/80 text-sm mb-6 italic">
         Last Updated: December 11, 2025
       </p>
 
@@ -254,7 +254,7 @@ function PrivacyEN() {
       </p>
 
       <div className="mt-8 pt-6 border-t border-white/10">
-        <p className="text-white/60 text-sm">
+        <p className="text-white/80 text-sm">
           For questions: <a href="mailto:privacy@donkycapital.com" className="text-primary hover:underline">privacy@donkycapital.com</a>
         </p>
       </div>
@@ -268,7 +268,7 @@ function PrivacyIT() {
       <h1 className="text-2xl md:text-3xl font-bold mb-2 text-primary">
         Informativa sulla Privacy di DonkyCapital
       </h1>
-      <p className="text-white/60 text-sm mb-6 italic">
+      <p className="text-white/80 text-sm mb-6 italic">
         Ultimo aggiornamento: 11 dicembre 2025
       </p>
 
@@ -496,7 +496,7 @@ function PrivacyIT() {
       </p>
 
       <div className="mt-8 pt-6 border-t border-white/10">
-        <p className="text-white/60 text-sm">
+        <p className="text-white/80 text-sm">
           Per domande: <a href="mailto:privacy@donkycapital.com" className="text-primary hover:underline">privacy@donkycapital.com</a>
         </p>
       </div>
@@ -510,7 +510,7 @@ function PrivacyDE() {
       <h1 className="text-2xl md:text-3xl font-bold mb-2 text-primary">
         DonkyCapital Datenschutzrichtlinie
       </h1>
-      <p className="text-white/60 text-sm mb-6 italic">
+      <p className="text-white/80 text-sm mb-6 italic">
         Letzte Aktualisierung: 11. Dezember 2025
       </p>
 
@@ -736,7 +736,7 @@ function PrivacyDE() {
       </p>
 
       <div className="mt-8 pt-6 border-t border-white/10">
-        <p className="text-white/60 text-sm">
+        <p className="text-white/80 text-sm">
           Bei Fragen: <a href="mailto:privacy@donkycapital.com" className="text-primary hover:underline">privacy@donkycapital.com</a>
         </p>
       </div>
@@ -750,7 +750,7 @@ function PrivacyFR() {
       <h1 className="text-2xl md:text-3xl font-bold mb-2 text-primary">
         Politique de confidentialité de DonkyCapital
       </h1>
-      <p className="text-white/60 text-sm mb-6 italic">
+      <p className="text-white/80 text-sm mb-6 italic">
         Dernière mise à jour : 11 décembre 2025
       </p>
 
@@ -976,7 +976,7 @@ function PrivacyFR() {
       </p>
 
       <div className="mt-8 pt-6 border-t border-white/10">
-        <p className="text-white/60 text-sm">
+        <p className="text-white/80 text-sm">
           Pour toute question : <a href="mailto:privacy@donkycapital.com" className="text-primary hover:underline">privacy@donkycapital.com</a>
         </p>
       </div>
@@ -990,7 +990,7 @@ function PrivacyES() {
       <h1 className="text-2xl md:text-3xl font-bold mb-2 text-primary">
         Política de privacidad de DonkyCapital
       </h1>
-      <p className="text-white/60 text-sm mb-6 italic">
+      <p className="text-white/80 text-sm mb-6 italic">
         Última actualización: 11 de diciembre de 2025
       </p>
 
@@ -1216,7 +1216,7 @@ function PrivacyES() {
       </p>
 
       <div className="mt-8 pt-6 border-t border-white/10">
-        <p className="text-white/60 text-sm">
+        <p className="text-white/80 text-sm">
           Para preguntas: <a href="mailto:privacy@donkycapital.com" className="text-primary hover:underline">privacy@donkycapital.com</a>
         </p>
       </div>

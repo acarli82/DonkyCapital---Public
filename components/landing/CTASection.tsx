@@ -15,7 +15,7 @@ export default function CTASection({ dict, lang }: CTASectionProps) {
           <h2 className="text-lg font-semibold mb-1.5">
             {dict.landing.cta.title}
           </h2>
-          <p className="text-white/60 text-sm">
+          <p className="text-white/80 text-sm">
             {dict.landing.cta.subtitle}
           </p>
         </div>

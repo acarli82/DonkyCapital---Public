@@ -37,7 +37,7 @@ export default async function EarlyAccessPage({
         {/* Main Hero Box */}
         <div className="bg-gradient-to-br from-primary/5 to-green-600/5 rounded-[10px] p-6 md:p-9 shadow-lg border border-white/[0.03] mb-8">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-card px-3 py-1.5 rounded-full text-white/60 text-[13px] mb-3">
+          <div className="inline-flex items-center gap-2 bg-card px-3 py-1.5 rounded-full text-white/80 text-[13px] mb-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-yellow-500">
               <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
             </svg>
@@ -52,7 +52,7 @@ export default async function EarlyAccessPage({
           </h1>
 
           {/* Description */}
-          <p className="text-white/70 mb-3 max-w-[800px] leading-relaxed">
+          <p className="text-white/80 mb-3 max-w-[800px] leading-relaxed">
             {dict.earlyAccess.intro}
           </p>
 

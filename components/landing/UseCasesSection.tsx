@@ -31,7 +31,7 @@ export default function UseCasesSection({ dict }: UseCasesSectionProps) {
           <p className="font-semibold mb-1.5">
             {useCase.title}
           </p>
-          <p className="text-white/60 text-sm italic">
+          <p className="text-white/80 text-sm italic">
             &ldquo;{useCase.quote}&rdquo;
           </p>
         </div>

@@ -49,7 +49,7 @@ export default function FeaturesSection({ dict }: FeaturesSectionProps) {
       </h2>
 
       {/* SEO H3 Heading */}
-      <h3 className="text-base md:text-lg text-white/70 mb-6 text-center">
+      <h3 className="text-base md:text-lg text-white/80 mb-6 text-center">
         {dict.landing.seoHeadings.h3EtfTracker}
       </h3>
 
@@ -71,7 +71,7 @@ export default function FeaturesSection({ dict }: FeaturesSectionProps) {
           </h3>
 
           {/* Description */}
-          <p className="text-white/60 text-sm">
+          <p className="text-white/80 text-sm">
             {feature.description}
           </p>
 

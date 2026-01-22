@@ -57,7 +57,7 @@ export default function Footer({ dict, lang }: FooterProps) {
         {/* Brand Section */}
         <div>
           <h3 className="text-lg font-bold mb-2">{dict.appName}</h3>
-          <p className="text-sm text-white/70 mb-4">{dict.tagline}</p>
+          <p className="text-sm text-white/80 mb-4">{dict.tagline}</p>
           {/* Social Links */}
           <div className="flex items-center gap-3">
             {socialLinks.map((social) => (
@@ -67,7 +67,7 @@ export default function Footer({ dict, lang }: FooterProps) {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={social.name}
-                className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 text-white/60 hover:bg-primary/10 hover:text-primary transition-colors"
+                className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 text-white/80 hover:bg-primary/10 hover:text-primary transition-colors"
               >
                 {social.icon}
               </a>
@@ -78,7 +78,7 @@ export default function Footer({ dict, lang }: FooterProps) {
         {/* Site Map */}
         <div>
           <h4 className="font-semibold mb-4">{dict.landing.footer.siteMap}</h4>
-          <ul className="space-y-2 text-sm text-white/60">
+          <ul className="space-y-2 text-sm text-white/80">
             <li>
               <Link href={`/${lang}/about`} className="hover:text-white transition-colors">
                 {dict.landing.footer.aboutUs}
@@ -100,7 +100,7 @@ export default function Footer({ dict, lang }: FooterProps) {
         {/* Legal Links */}
         <div>
           <h4 className="font-semibold mb-4">Legal</h4>
-          <ul className="space-y-2 text-sm text-white/60">
+          <ul className="space-y-2 text-sm text-white/80">
             <li>
               <Link href={`/${lang}/privacy-policy`} className="hover:text-white transition-colors">
                 {dict.landing.footer.privacyPolicy}
@@ -116,7 +116,7 @@ export default function Footer({ dict, lang }: FooterProps) {
       </div>
 
       {/* Security Badges */}
-      <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-8 text-xs text-white/60">
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-8 text-xs text-white/80">
         <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary">
           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="opacity-70">
             <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
