@@ -285,31 +285,32 @@
     }
   },
   "seo": {
-    "home": {
-      "title": "Donky Capital | Suivi de Portefeuille et Alternative Excel",
-      "description": "Suivez vos investissements en temps réel. L'alternative intelligente à Excel pour gérer votre portefeuille et ETF. Essai gratuit."
-    },
-    "about": {
-      "title": "Qui Sommes-Nous - Donky Capital | Suivi de Portefeuille",
-      "description": "Découvrez notre mission: rendre la gestion de portefeuille accessible à tous avec un tracker d'investissement moderne et puissant."
-    },
-    "earlyAccess": {
-      "title": "Programme d'Accès Anticipé - DonkyCapital",
-      "description": "Rejoignez le Programme d'Accès Anticipé de DonkyCapital et obtenez un accès gratuit à toutes les fonctionnalités Premium pour toujours."
-    },
-    "privacyPolicy": {
-      "title": "Politique de Confidentialité - DonkyCapital",
-      "description": "Lisez la Politique de Confidentialité de DonkyCapital pour comprendre comment nous collectons, utilisons et protégeons vos données personnelles. Conforme au RGPD."
-    },
-    "termsAndConditions": {
-      "title": "Conditions Générales - DonkyCapital",
-      "description": "Lisez les Conditions Générales de DonkyCapital pour comprendre les règles d'utilisation de notre plateforme de gestion de portefeuille."
-    },
-    "contact": {
-      "title": "Contactez-nous - DonkyCapital",
-      "description": "Contactez DonkyCapital pour des questions, du support ou des retours. Nous sommes là pour vous aider à gérer vos investissements."
-    }
-  },
+	  "home": {
+		"title": "DonkyCapital | Meilleur Portfolio Tracker",
+		"description": "Adieu Excel. Suivez vos actions, ETF et cryptos en temps réel avec les tableaux de bord personnalisables de DonkyCapital."
+	  },
+	  "about": {
+		"title": "À Propos | La Mission de DonkyCapital",
+		"description": "Découvrez DonkyCapital : le tracker moderne conçu pour une gestion des investissements simple et personnalisable."
+	  },
+	  "earlyAccess": {
+		"title": "Early Access : Fonctions Premium Gratuites à vie | DonkyCapital",
+		"description": "Rejoignez les 100 premiers utilisateurs : accès Premium gratuit à vie. Gérez vos investissements sans abonnement récurrent."
+	  },
+	  "privacyPolicy": {
+		"title": "Privacy Policy | Protection des Données DonkyCapital",
+		"description": "Politique de confidentialité de DonkyCapital. Découvrez comment nous protégeons vos données conformément au GDPR."
+	  },
+	  "termsAndConditions": {
+		"title": "Conditions Générales d'Utilisation | DonkyCapital",
+		"description": "Lisez les conditions d'utilisation de DonkyCapital, la plateforme pour l'analyse de votre portefeuille d'investissement."
+	  },
+	  "contact": {
+		"title": "Contactez-nous | Support et Feedback | DonkyCapital",
+		"description": "Des questions ? Contactez l'équipe DonkyCapital. Nous sommes là pour vous aider à gérer votre capital."
+	  }
+	}
+	,
   "cookieConsent": {
     "title": "Votre vie privée compte",
     "description": "Nous utilisons des cookies pour améliorer votre expérience de navigation, afficher du contenu personnalisé et analyser notre trafic. En cliquant sur \"Tout accepter\", vous consentez à l'utilisation des cookies.",

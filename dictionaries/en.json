@@ -289,31 +289,31 @@
     }
   },
   "seo": {
-    "home": {
-      "title": "Donky Capital | Portfolio Tracker & Excel Alternative for Investments",
-      "description": "Track your investments in real-time. The smart Excel alternative to manage your portfolio, ETFs, and dividends. Start for free."
-    },
-    "about": {
-      "title": "About Us - Donky Capital | Portfolio Tracker",
-      "description": "Learn about our mission: making portfolio management accessible to everyone with a modern and powerful investment tracker."
-    },
-    "earlyAccess": {
-      "title": "Early Access Program - DonkyCapital",
-      "description": "Join the DonkyCapital Early Access Program and get free access to all Premium features forever. Be among the first 100 users selected."
-    },
-    "privacyPolicy": {
-      "title": "Privacy Policy - DonkyCapital",
-      "description": "Read the DonkyCapital Privacy Policy to understand how we collect, use, and protect your personal data. GDPR compliant."
-    },
-    "termsAndConditions": {
-      "title": "Terms and Conditions - DonkyCapital",
-      "description": "Read the DonkyCapital Terms and Conditions to understand the rules for using our portfolio management platform."
-    },
-    "contact": {
-      "title": "Contact Us - DonkyCapital",
-      "description": "Contact DonkyCapital for questions, support, or feedback. We're here to help you manage your investments."
-    }
-  },
+	  "home": {
+		"title": "DonkyCapital | Best Portfolio Tracker",
+		"description": "Goodbye Excel. Track stocks, ETFs and crypto in real time with DonkyCapital's customizable dashboards."
+	  },
+	  "about": {
+		"title": "About Us | The DonkyCapital Mission",
+		"description": "Discover DonkyCapital: the modern tracker created for simple and customizable investment management."
+	  },
+	  "earlyAccess": {
+		"title": "Early Access: Premium Features Free for life | DonkyCapital",
+		"description": "Become one of the first 100 users: get free Premium access for life. Manage your investments without recurring subscriptions.<"
+	  },
+	  "privacyPolicy": {
+		"title": "Privacy Policy | DonkyCapital Data Protection",
+		"description": "DonkyCapital Privacy Policy. Find out how we protect your data in compliance with GDPR."
+	  },
+	  "termsAndConditions": {
+		"title": "Terms and Conditions of Use | DonkyCapital",
+		"description": "Read the terms and conditions of use for DonkyCapital, the platform for your investment portfolio analysis."
+	  },
+	  "contact": {
+		"title": "Contact Us | Support and Feedback | DonkyCapital",
+		"description": "Have questions or need support? Contact the DonkyCapital team. We are here to help you manage your capital."
+	  }
+	},
   "cookieConsent": {
     "title": "We value your privacy",
     "description": "We use cookies to enhance your browsing experience, serve personalized content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies.",

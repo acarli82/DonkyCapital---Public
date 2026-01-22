@@ -292,9 +292,9 @@
       "aggregateValues": "Valori aggregati"
     }
   },
-  "seo": {
+"seo": {
     "home": {
-      "title": "Donky Capital | Miglior Portfolio Tracker in Italiano",
+      "title": "DonkyCapital | Miglior Portfolio Tracker in Italiano",
       "description": "Addio Excel. Monitora azioni, ETF e crypto in tempo reale con le dashboard personalizzabili di DonkyCapital."
     },
     "about": {
@@ -303,20 +303,22 @@
     },
     "earlyAccess": {
       "title": "Early Access: Funzioni Premium Gratis per sempre | DonkyCapital",
-      "description": "Diventa uno dei primi 100 utenti: ottieni l'accesso Premium gratuito a vita. Gestisci i tuoi investimenti senza abbonamenti ricorrenti"
+     "description": "Diventa uno dei primi 100 utenti: ottieni l'accesso Premium gratuito a vita. Gestisci i tuoi investimenti senza abbonamenti ricorrenti"
     },
     "privacyPolicy": {
       "title": "Privacy Policy | Protezione Dati DonkyCapital",
-      "description": "Informativa sulla privacy di DonkyCapital. Scopri come proteggiamo i tuoi dati in conformità con il GDPR."
+      "description": "Informativa sulla privacy di DonkyCapital. Scopri come proteggiamo i tuoi dati in conformità con il RGPD."
     },
     "termsAndConditions": {
       "title": "Termini e Condizioni d'Uso | DonkyCapital",
       "description": "Leggi i termini e le condizioni d'uso di DonkyCapital, la piattaforma  per l'analisi del tuo portafoglio investimenti."
     },
+
     "contact": {
       "title": "Contattaci | Supporto e Feedback | DonkyCapital",
       "description": "Hai domande o bisogno di supporto? Contatta il team di DonkyCapital. Siamo qui per aiutarti a gestire il tuo capitale."
     }
+
   },
   
   "cookieConsent": {

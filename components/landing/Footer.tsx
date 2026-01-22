@@ -134,7 +134,7 @@ export default function Footer({ dict, lang }: FooterProps) {
 
       {/* Copyright */}
       <div className="pt-8 border-t border-white/5 text-center">
-        <p className="text-xs text-white/30">
+        <p className="text-xs text-white/60">
           {dict.landing.footer.copyright.replace('{{year}}', currentYear.toString())}
         </p>
       </div>

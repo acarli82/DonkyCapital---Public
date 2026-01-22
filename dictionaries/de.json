@@ -289,31 +289,32 @@
     }
   },
   "seo": {
-    "home": {
-      "title": "Donky Capital | Depot-Tracker & Excel-Alternative für Investitionen",
-      "description": "Überwachen Sie Ihre Investments in Echtzeit. Die smarte Excel-Alternative für Ihr Depot und ETFs. Jetzt kostenlos testen."
-    },
-    "about": {
-      "title": "Über Uns - Donky Capital | Depot-Tracker",
-      "description": "Erfahren Sie mehr über unsere Mission: Depot-Management für jeden zugänglich zu machen mit einem modernen und leistungsstarken Investment-Tracker."
-    },
-    "earlyAccess": {
-      "title": "Early Access Programm - DonkyCapital",
-      "description": "Treten Sie dem DonkyCapital Early Access Programm bei und erhalten Sie dauerhaft kostenlosen Zugang zu allen Premium-Funktionen."
-    },
-    "privacyPolicy": {
-      "title": "Datenschutzerklärung - DonkyCapital",
-      "description": "Lesen Sie die DonkyCapital Datenschutzerklärung, um zu verstehen, wie wir Ihre persönlichen Daten sammeln, verwenden und schützen. DSGVO-konform."
-    },
-    "termsAndConditions": {
-      "title": "Geschäftsbedingungen - DonkyCapital",
-      "description": "Lesen Sie die DonkyCapital Geschäftsbedingungen, um die Nutzungsregeln unserer Portfolio-Management-Plattform zu verstehen."
-    },
-    "contact": {
-      "title": "Kontakt - DonkyCapital",
-      "description": "Kontaktieren Sie DonkyCapital für Fragen, Support oder Feedback. Wir sind hier, um Ihnen bei der Verwaltung Ihrer Investitionen zu helfen."
-    }
-  },
+	  "home": {
+		"title": "DonkyCapital | Bester Portfolio Tracker",
+		"description": "Schluss mit Excel. Verfolgen Sie Aktien, ETFs und Kryptos in Echtzeit mit den anpassbaren Dashboards von DonkyCapital."
+	  },
+	  "about": {
+		"title": "Über Uns | Die DonkyCapital Mission",
+		"description": "Entdecken Sie DonkyCapital: Der moderne Tracker für eine einfache und anpassbare Investmentverwaltung."
+	  },
+	  "earlyAccess": {
+		"title": "Early Access: Premium-Funktionen lebenslang gratis | DonkyCapital",
+		"description": "Gehören Sie zu den ersten 100 Nutzern: lebenslanger Gratis-Premium-Zugang. Verwalten Sie Investments ohne Abo-Gebühren."
+	  },
+	  "privacyPolicy": {
+		"title": "Datenschutzerklärung | DonkyCapital Datenschutz",
+		"description": "Datenschutzerklärung von DonkyCapital. Erfahren Sie, wie wir Ihre Daten gemäß DSGVO schützen."
+	  },
+	  "termsAndConditions": {
+		"title": "Nutzungsbedingungen | DonkyCapital",
+		"description": "Lesen Sie die Nutzungsbedingungen von DonkyCapital, der Plattform für Ihre Investment-Portfolio-Analyse."
+	  },
+	  "contact": {
+		"title": "Kontakt | Support und Feedback | DonkyCapital",
+		"description": "Haben Sie Fragen? Kontaktieren Sie das DonkyCapital-Team. Wir helfen Ihnen gerne bei der Verwaltung Ihres Kapitals."
+	  }
+	}
+	,
   "cookieConsent": {
     "title": "Ihre Privatsphäre ist uns wichtig",
     "description": "Wir verwenden Cookies, um Ihre Browser-Erfahrung zu verbessern, personalisierte Inhalte anzuzeigen und unseren Datenverkehr zu analysieren. Durch Klicken auf \"Alle akzeptieren\" stimmen Sie der Verwendung von Cookies zu.",
