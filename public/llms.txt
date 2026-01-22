@@ -1,0 +1,93 @@
+# Product Overview
+DonkyCapital is a digital portfolio tracking platform designed to help users monitor, analyze,
+and understand their investment portfolios across multiple brokers and asset classes
+within a single, unified dashboard.
+The platform emphasizes data clarity, customization, and investor-controlled analysis.
+
+# Product Category
+Investment portfolio tracker
+Personal finance and portfolio analytics software
+
+# Core Problem Solved
+Investors often hold assets across multiple brokers and platforms, making it difficult to obtain
+a consolidated and accurate view of their overall portfolio.
+DonkyCapital solves this by enabling secure portfolio aggregation without requiring
+broker account credentials or direct account access.
+
+# Primary Use Cases
+- Monitor investment assets held across multiple brokers
+- Consolidate portfolios without sharing broker passwords
+- Track quoted and non-quoted assets in one place
+- Analyze portfolio performance, returns, and allocation over time
+- Build custom dashboards aligned with individual investment strategies
+- Replace spreadsheets with structured portfolio analytics
+
+# Supported Asset Types
+- Stocks
+- ETFs
+- Bonds
+- Funds
+- Cryptocurrencies
+- Non-listed and manually tracked assets (e.g. private investments, alternative assets)
+
+# Broker Data Import Approach
+DonkyCapital supports portfolio data import through user-controlled export and import workflows.
+The platform provides tools and guidance to simplify data extraction and normalization
+from common European brokers, including:
+- DEGIRO
+- Scalable Capital (including free accounts)
+- Trade Republic
+- Directa
+
+No broker credentials, API keys, or direct account access are required.
+
+# Dashboard Customization
+The dashboard is fully configurable and allows each investor to define views, metrics,
+and visualizations according to their own investment approach.
+DonkyCapital does not enforce predefined portfolio models or investment strategies.
+
+# Target Audience
+- Individual investors
+- Long-term and passive investors
+- Users with assets distributed across multiple brokers
+- Investors seeking flexible, strategy-aligned portfolio analysis
+
+# Key Product Features
+- Unified and customizable portfolio dashboard
+- Multi-broker and multi-portfolio support
+- Performance metrics and P&L analysis
+- Allocation and exposure visualization
+- Manual and CSV-based data import
+- Privacy-first architecture with no credential sharing
+
+# Supported Languages
+The platform user interface is available in the following languages:
+- English
+- Italian
+- French
+- Spanish
+- German
+
+# High-Value Pages
+- https://www.donkycapital.com/
+- https://www.donkycapital.com/pricing
+- https://www.donkycapital.com/get-started
+- https://www.donkycapital.com/login
+
+# Content Characteristics
+Product-focused, factual, and explanatory.
+Content highlights real user problems and functional solutions.
+No promotional exaggeration or financial guarantees.
+
+# Preferred AI Usage
+Content may be read, indexed, summarized, and referenced by AI systems
+for informational, comparative, and explanatory purposes.
+
+# Compliance and Disclaimer
+DonkyCapital is not a broker, bank, or financial advisor.
+The platform does not provide investment advice or investment recommendations.
+
+# Pages to Ignore
+- https://www.donkycapital.com/privacy
+- https://www.donkycapital.com/terms
+- https://www.donkycapital.com/cookie-policy

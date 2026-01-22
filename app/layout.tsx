@@ -6,6 +6,9 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.donkycapital.com'),
+  alternates: {
+    canonical: 'https://www.donkycapital.com/',
+  },
   title: {
     default: 'DonkyCapital - Monitor, Analyze, Optimize Your Investments',
     template: '%s | DonkyCapital'
