@@ -35,8 +35,7 @@ export default function OptimizedImage({
     className,
     loading: priority ? 'eager' as const : 'lazy' as const,
     decoding: priority ? 'sync' as const : 'async' as const,
-    // @ts-expect-error - fetchpriority is valid HTML but not in React types yet
-    fetchpriority: priority ? 'high' : undefined,
+    fetchPriority: priority ? 'high' : undefined,
   }
 
   // Skip WebP conversion for SVG
