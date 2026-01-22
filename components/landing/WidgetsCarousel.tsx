@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import OptimizedImage from '@/components/common/OptimizedImage'
 import type { Dictionary } from '@/lib/i18n/getDictionary'
 
@@ -18,12 +18,25 @@ interface Widget {
 
 export default function WidgetsCarousel({ dict }: WidgetsCarouselProps) {
   const [isMobile, setIsMobile] = useState(false)
+  const resizeTimeoutRef = useRef<NodeJS.Timeout | null>(null)
 
   useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth < 768)
-    checkMobile()
-    window.addEventListener('resize', checkMobile)
-    return () => window.removeEventListener('resize', checkMobile)
+    // Check initial value without causing reflow during render
+    const mediaQuery = window.matchMedia('(max-width: 767px)')
+    setIsMobile(mediaQuery.matches)
+
+    // Use matchMedia listener (more efficient than resize)
+    const handleChange = (e: MediaQueryListEvent) => {
+      // Debounce state updates
+      if (resizeTimeoutRef.current) clearTimeout(resizeTimeoutRef.current)
+      resizeTimeoutRef.current = setTimeout(() => setIsMobile(e.matches), 100)
+    }
+
+    mediaQuery.addEventListener('change', handleChange)
+    return () => {
+      mediaQuery.removeEventListener('change', handleChange)
+      if (resizeTimeoutRef.current) clearTimeout(resizeTimeoutRef.current)
+    }
   }, [])
 
   const itemsVisible = isMobile ? 1 : 2
@@ -128,7 +141,8 @@ export default function WidgetsCarousel({ dict }: WidgetsCarouselProps) {
             className="flex"
             style={{
               transform: `translateX(${translateX}%)`,
-              transition: isTransitioning ? 'transform 2s cubic-bezier(0.4, 0, 0.2, 1)' : 'none'
+              transition: isTransitioning ? 'transform 2s cubic-bezier(0.4, 0, 0.2, 1)' : 'none',
+              willChange: 'transform'
             }}
           >
             {extendedWidgets.map((widget, index) => (

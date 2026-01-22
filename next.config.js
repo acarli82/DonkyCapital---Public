@@ -15,6 +15,11 @@ const nextConfig = {
       },
     ],
   },
+
+  // Target modern browsers only - removes unnecessary polyfills (~43KB savings)
+  experimental: {
+    optimizePackageImports: ['react-ga4'],
+  },
 };
 
 module.exports = nextConfig;
