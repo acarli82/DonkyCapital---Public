@@ -54,7 +54,7 @@ export default function OptimizedImage({
         className={className}
         loading={priority ? 'eager' : 'lazy'}
         decoding={priority ? 'sync' : 'async'}
-        fetchPriority={priority ? 'high' : 'auto'}
+        {...(priority && { fetchPriority: 'high' as const })}
       />
     </picture>
   )

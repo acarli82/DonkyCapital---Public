@@ -30,8 +30,8 @@ const config: Config = {
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
         pulseGlow: {
-          '0%, 100%': { boxShadow: '0 8px 32px rgba(16, 185, 129, 0.25)' },
-          '50%': { boxShadow: '0 8px 48px rgba(16, 185, 129, 0.4)' },
+          '0%, 100%': { opacity: '1', transform: 'scale(1)' },
+          '50%': { opacity: '0.85', transform: 'scale(1.02)' },
         },
         ping: {
           '75%, 100%': { transform: 'scale(2)', opacity: '0' },
