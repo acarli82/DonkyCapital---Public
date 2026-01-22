@@ -123,7 +123,7 @@ export default function CookieConsent({ dict, privacyPolicyUrl }: CookieConsentP
             <div className="flex flex-wrap gap-2">
               <button
                 onClick={handleAcceptAll}
-                className="flex-1 min-w-[120px] px-3 py-2 bg-primary hover:bg-primary-dark text-white text-sm font-medium rounded-lg transition-colors"
+                className="flex-1 min-w-[120px] px-3 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-medium rounded-lg transition-colors"
               >
                 {t.acceptAll}
               </button>
@@ -212,7 +212,7 @@ export default function CookieConsent({ dict, privacyPolicyUrl }: CookieConsentP
             <div className="flex gap-2">
               <button
                 onClick={handleSaveCustom}
-                className="flex-1 px-3 py-2 bg-primary hover:bg-primary-dark text-white text-sm font-medium rounded-lg transition-colors"
+                className="flex-1 px-3 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-medium rounded-lg transition-colors"
               >
                 {t.savePreferences}
               </button>
