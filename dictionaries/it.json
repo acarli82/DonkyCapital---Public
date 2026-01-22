@@ -294,30 +294,31 @@
   },
   "seo": {
     "home": {
-      "title": "Donky Capital | Portfolio Tracker e Alternativa Excel per Investimenti",
-      "description": "Monitora i tuoi investimenti in tempo reale. L'alternativa intelligente a Excel per gestire portafoglio, ETF e dividendi. Provalo gratis."
+      "title": "Donky Capital | Miglior Portfolio Tracker in Italiano",
+      "description": "Addio Excel. Monitora azioni, ETF e crypto in tempo reale con le dashboard personalizzabili di DonkyCapital."
     },
     "about": {
-      "title": "Chi Siamo - Donky Capital | Portfolio Tracker",
-      "description": "Scopri chi siamo e la nostra missione: rendere la gestione del portafoglio accessibile a tutti con un tracker investimenti moderno e potente."
+      "title": "Chi Siamo | La Missione di DonkyCapital",
+      "description": "Scopri DonkyCapital: il tracker moderno nato per la gestione degli investimenti semplice e personalizzabile."
     },
     "earlyAccess": {
-      "title": "Programma Early Access - DonkyCapital",
-      "description": "Partecipa al Programma Early Access di DonkyCapital e ottieni accesso gratuito a tutte le funzionalità Premium per sempre. Sii tra i primi 100 utenti selezionati."
+      "title": "Early Access: Funzioni Premium Gratis per sempre | DonkyCapital",
+      "description": "Diventa uno dei primi 100 utenti: ottieni l'accesso Premium gratuito a vita. Gestisci i tuoi investimenti senza abbonamenti ricorrenti"
     },
     "privacyPolicy": {
-      "title": "Privacy Policy - DonkyCapital",
-      "description": "Leggi la Privacy Policy di DonkyCapital per capire come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali. Conforme al GDPR."
+      "title": "Privacy Policy | Protezione Dati DonkyCapital",
+      "description": "Informativa sulla privacy di DonkyCapital. Scopri come proteggiamo i tuoi dati in conformità con il GDPR."
     },
     "termsAndConditions": {
-      "title": "Termini e Condizioni - DonkyCapital",
-      "description": "Leggi i Termini e Condizioni di DonkyCapital per comprendere le regole di utilizzo della nostra piattaforma di gestione portafoglio."
+      "title": "Termini e Condizioni d'Uso | DonkyCapital",
+      "description": "Leggi i termini e le condizioni d'uso di DonkyCapital, la piattaforma  per l'analisi del tuo portafoglio investimenti."
     },
     "contact": {
-      "title": "Contattaci - DonkyCapital",
-      "description": "Contatta DonkyCapital per domande, supporto o feedback. Siamo qui per aiutarti a gestire i tuoi investimenti."
+      "title": "Contattaci | Supporto e Feedback | DonkyCapital",
+      "description": "Hai domande o bisogno di supporto? Contatta il team di DonkyCapital. Siamo qui per aiutarti a gestire il tuo capitale."
     }
   },
+  
   "cookieConsent": {
     "title": "La tua privacy è importante",
     "description": "Utilizziamo i cookie per migliorare la tua esperienza di navigazione, mostrare contenuti personalizzati e analizzare il nostro traffico. Cliccando \"Accetta Tutti\", acconsenti all'uso dei cookie.",

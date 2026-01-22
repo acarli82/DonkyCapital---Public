@@ -25,8 +25,16 @@ export default function LanguageSelector({ currentLang }: LanguageSelectorProps)
   }, [])
 
   const getNewPath = (newLang: Locale) => {
-    // Replace the current language in the path
-    return pathname.replace(`/${currentLang}`, `/${newLang}`)
+    // Handle root path with just locale
+    if (pathname === `/${currentLang}` || pathname === `/${currentLang}/`) {
+      return `/${newLang}`
+    }
+    // Handle paths that start with locale
+    if (pathname.startsWith(`/${currentLang}/`)) {
+      return pathname.replace(`/${currentLang}/`, `/${newLang}/`)
+    }
+    // Fallback: prepend new locale (in case pathname doesn't have locale)
+    return `/${newLang}${pathname.startsWith('/') ? pathname : '/' + pathname}`
   }
 
   const handleLanguageChange = (newLang: Locale) => {
