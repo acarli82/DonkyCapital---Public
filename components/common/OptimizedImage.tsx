@@ -35,7 +35,7 @@ export default function OptimizedImage({
     className,
     loading: priority ? 'eager' as const : 'lazy' as const,
     decoding: priority ? 'sync' as const : 'async' as const,
-    fetchPriority: priority ? 'high' : undefined,
+    fetchPriority: priority ? 'high' as const : undefined,
   }
 
   // Skip WebP conversion for SVG
