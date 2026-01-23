@@ -1,10 +1,12 @@
 import { MetadataRoute } from 'next'
-import { i18n } from '@/lib/i18n/config'
+import { i18n, type Locale } from '@/lib/i18n/config'
+import { scalableCapitalSlugs } from '@/lib/pages/scalable-capital-slugs'
 
 const baseUrl = 'https://www.donkycapital.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages = [
+  // Standard pages with the same path across all languages
+  const standardPages = [
     { path: '', priority: 1.0, changeFrequency: 'weekly' as const },
     { path: '/about', priority: 0.8, changeFrequency: 'monthly' as const },
     { path: '/early-access', priority: 0.8, changeFrequency: 'monthly' as const },
@@ -15,7 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const sitemapEntries: MetadataRoute.Sitemap = []
 
-  for (const page of pages) {
+  // Add standard pages
+  for (const page of standardPages) {
     for (const locale of i18n.locales) {
       const url = `${baseUrl}/${locale}${page.path}`
 
@@ -23,7 +26,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       for (const altLocale of i18n.locales) {
         alternates[altLocale] = `${baseUrl}/${altLocale}${page.path}`
       }
-      // x-default points to English
       alternates['x-default'] = `${baseUrl}/en${page.path}`
 
       sitemapEntries.push({
@@ -36,6 +38,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
         },
       })
     }
+  }
+
+  // Add Scalable Capital pages with language-specific slugs
+  for (const locale of i18n.locales) {
+    const slug = scalableCapitalSlugs[locale as Locale]
+    const url = `${baseUrl}/${locale}/${slug}`
+
+    const alternates: Record<string, string> = {}
+    for (const altLocale of i18n.locales) {
+      alternates[altLocale] = `${baseUrl}/${altLocale}/${scalableCapitalSlugs[altLocale as Locale]}`
+    }
+    alternates['x-default'] = `${baseUrl}/en/${scalableCapitalSlugs.en}`
+
+    sitemapEntries.push({
+      url,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+      alternates: {
+        languages: alternates,
+      },
+    })
   }
 
   return sitemapEntries

@@ -26,7 +26,7 @@ export default async function HomePage({
     <>
       <JsonLd dict={dict} page="home" />
       <HeroSection dict={dict} lang={params.lang} />
-      <FeaturesSection dict={dict} />
+      <FeaturesSection dict={dict} lang={params.lang} />
       <WidgetsCarousel dict={dict} />
       <UseCasesSection dict={dict} />
       <PricingSection dict={dict} lang={params.lang} />

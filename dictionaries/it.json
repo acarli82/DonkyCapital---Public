@@ -317,10 +317,122 @@
     "contact": {
       "title": "Contattaci | Supporto e Feedback | DonkyCapital",
       "description": "Hai domande o bisogno di supporto? Contatta il team di DonkyCapital. Siamo qui per aiutarti a gestire il tuo capitale."
+    },
+    "scalableCapital": {
+      "title": "Come esportare le transazioni da Scalable Capital e importarle in DonkyCapital",
+      "description": "Scopri come esportare le transazioni da Scalable Capital anche senza PRIME+ e importarle in DonkyCapital per analizzare asset, bilanciamento, esposizione e performance."
     }
-
   },
   
+  "scalableCapital": {
+    "pageTitle": "Come esportare le transazioni da Scalable Capital e importarle in DonkyCapital",
+    "pageDescription": "Guida completa per esportare le transazioni da Scalable Capital anche senza account PRIME+ e importarle in DonkyCapital, con vista su asset, bilanciamento, esposizione e performance.",
+    "intro": "Se utilizzi <strong>Scalable Capital</strong> per investire in ETF, azioni o fondi comuni, probabilmente ti sei chiesto come tenere traccia di tutte le tue operazioni in modo semplice e veloce. In questa guida completa ti spiegherò <strong>come esportare le tue transazioni da Scalable Capital utilizzando l'estensione Chrome \"Scalable Capital Transaction Exporter\"</strong> e <strong>come importarle in DonkyCapital</strong>, il portfolio tracker che ti permette di gestire tutti i tuoi investimenti in un'unica dashboard, senza usare fogli Excel complicati.",
+    "whyExportTitle": "Perché esportare i dati da Scalable Capital",
+    "whyExportText1": "Scalable Capital è uno dei broker più utilizzati in Europa, grazie a piattaforme moderne e intuitive. Tuttavia, molte funzioni di esportazione delle transazioni sono disponibili solo per i clienti PRIME+.",
+    "whyExportText2": "Se non vuoi pagare un piano aggiuntivo o semplicemente vuoi avere maggiore controllo sui tuoi dati, l'estensione Chrome <strong>Scalable Capital Transaction Exporter</strong> è la soluzione ideale.",
+    "whyExportList": [
+      "Scaricare le tue transazioni in <strong>CSV, Excel (XLSX)</strong> anche senza un account <strong>PRIME+</strong>;",
+      "Mantenere tutti i dati <strong>sul tuo dispositivo</strong>, senza inviarli a server esterni;",
+      "Usare i file esportati per analisi personali o importarli in DonkyCapital;",
+      "Ottenere report dettagliati senza costi aggiuntivi."
+    ],
+    "whyExportQuote": "Questo significa che anche chi ha un account gratuito può finalmente ottenere tutte le informazioni sulle proprie transazioni e avere un controllo completo del proprio portafoglio.",
+    "whyDonkyTitle": "Perché usare DonkyCapital invece del sito Scalable Capital",
+    "whyDonkyText1": "Il sito di Scalable Capital mostra solo lo storico operazioni e alcune informazioni di base sugli investimenti. Non offre una <strong>visione completa del portafoglio</strong> in termini di:",
+    "whyDonkyList": [
+      "Composizione degli <strong>asset</strong>;",
+      "<strong>Bilanciamento</strong> del portafoglio;",
+      "<strong>Esposizione</strong> settoriale o geografica;",
+      "Performance complessiva nel tempo."
+    ],
+    "whyDonkyText2": "Con DonkyCapital, invece, puoi avere <strong>una dashboard completa e personalizzata</strong>, dove visualizzare tutto il tuo patrimonio in un colpo d'occhio, analizzare l'andamento dei tuoi investimenti e prendere decisioni più informate.",
+    "whyDonkyQuote": "In altre parole, DonkyCapital ti permette di vedere ciò che Scalable Capital non ti mostra: un vero controllo totale del tuo portafoglio.",
+    "step1Title": "Passo 1 — Installare l'estensione Chrome",
+    "step1List": [
+      "Apri Google Chrome sul tuo computer.",
+      "Vai alla pagina ufficiale dell'estensione: Scalable Capital Transaction Exporter su Chrome Web Store.",
+      "Clicca su <strong>\"Aggiungi a Chrome\"</strong> e conferma l'installazione.",
+      "Una volta installata, vedrai l'icona dell'estensione vicino alla barra degli indirizzi."
+    ],
+    "step1Tip": "Consiglio: tieni sempre aggiornata l'estensione per assicurarti che funzioni correttamente con le nuove versioni di Scalable Capital.",
+    "step2Title": "Passo 2 — Esportare le transazioni",
+    "step2List": [
+      "Accedi al tuo account Scalable Capital.",
+      "Vai alla sezione <strong>\"Transazioni\"</strong> o <strong>\"Storico operazioni\"</strong>.",
+      "Seleziona il periodo di tempo desiderato (es. ultimi 12 mesi).",
+      "Clicca sull'icona Download dell'estensione Chrome.",
+      "Scegli il formato del file da esportare: CSV, Excel o JSON."
+    ],
+    "step2Text": "Il file esportato contiene tutte le informazioni principali: data della transazione, titolo dell'asset (ETF, azione o fondo), quantità, prezzo e tipo di operazione (acquisto, vendita, dividendo).",
+    "step2Highlight": "Anche senza un account PRIME+, puoi ottenere tutte le transazioni e importarle su DonkyCapital per una gestione completa del portafoglio.",
+    "step3Title": "Passo 3 — Importare i dati in DonkyCapital",
+    "step3List": [
+      "Accedi a DonkyCapital.com e apri il tuo account.",
+      "Scegli il portafoglio nel quale importare le transazioni e seleziona <strong>\"Importa Transazioni\"</strong>.",
+      "Carica il file CSV esportato da Scalable Capital.",
+      "Conferma e attendi l'elaborazione del file."
+    ],
+    "step3Text": "In pochi secondi, tutte le tue transazioni saranno visibili nella dashboard DonkyCapital, con report dettagliati su:",
+    "step3ReportList": [
+      "Composizione del portafoglio;",
+      "Bilanciamento tra asset;",
+      "Esposizione settoriale e geografica;",
+      "Performance e profitti/perdite;",
+      "Confronto tra più portafogli se ne gestisci diversi."
+    ],
+    "step3Highlight": "Questo livello di analisi <strong>non è disponibile sul sito di Scalable Capital</strong>, che si limita alle transazioni storiche.",
+    "privacyTitle": "Privacy e sicurezza dei dati",
+    "privacyList": [
+      "L'estensione <strong>non invia dati a server esterni</strong>: tutto avviene sul tuo browser.",
+      "DonkyCapital <strong>non richiede credenziali di accesso al broker</strong> per importare i file CSV/Excel.",
+      "Puoi salvare i file esportati sul tuo computer o su un cloud personale, senza rischi."
+    ],
+    "tipsTitle": "Consigli pratici per gestire le transazioni",
+    "tipsList": [
+      "Esporta regolarmente i dati, ad esempio ogni mese, così DonkyCapital sarà sempre aggiornato.",
+      "Mantieni i file CSV/Excel in una cartella dedicata sul tuo PC per avere sempre una copia di backup.",
+      "Controlla sempre i dati dopo l'importazione per verificare che tutte le transazioni siano corrette.",
+      "Approfitta del fatto che anche gli account gratuiti possono ottenere tutte le informazioni necessarie, senza dover sottoscrivere un piano PRIME+."
+    ],
+    "faqTitle": "Domande frequenti (FAQ)",
+    "faq": [
+      {
+        "question": "Posso usare questa procedura con account gratuiti di Scalable Capital?",
+        "answer": "Sì, anche senza PRIME+ puoi esportare tutte le transazioni e importarle in DonkyCapital."
+      },
+      {
+        "question": "L'estensione funziona su Mac e Windows?",
+        "answer": "Sì, basta usare Google Chrome o un browser basato su Chromium."
+      },
+      {
+        "question": "Posso importare transazioni di più anni?",
+        "answer": "Sì, selezionando il periodo di esportazione nell'estensione."
+      },
+      {
+        "question": "DonkyCapital è sicuro?",
+        "answer": "Assolutamente sì: non richiede credenziali del broker e tutti i dati vengono elaborati sul server sicuro di DonkyCapital."
+      },
+      {
+        "question": "Posso esportare anche dividendi e commissioni?",
+        "answer": "Sì, l'estensione esporta tutte le transazioni visibili nello storico operazioni di Scalable Capital."
+      }
+    ],
+    "conclusionTitle": "Conclusione",
+    "conclusionText": "Seguendo questa guida puoi finalmente:",
+    "conclusionList": [
+      "Estrarre facilmente le transazioni da Scalable Capital, anche senza account PRIME+;",
+      "Importarle in DonkyCapital;",
+      "Avere una <strong>vista completa del portafoglio</strong>, con analisi avanzate di asset, bilanciamento, esposizione e performance;",
+      "Gestire tutto in un unico dashboard senza fogli Excel o strumenti complicati."
+    ],
+    "conclusionQuote": "DonkyCapital trasforma i tuoi dati in informazioni utili, aiutandoti a prendere decisioni di investimento più consapevoli e rapide.",
+    "extensionLink": "https://chromewebstore.google.com/detail/scalable-capital-transact/fllkfonkjkeiibonmifngekchncphhen",
+    "extensionLinkText": "Scalable Capital Transaction Exporter"
+  },
+  "broker": {
+    "sectionTitle": "Integrazione"
+  },
   "cookieConsent": {
     "title": "La tua privacy è importante",
     "description": "Utilizziamo i cookie per migliorare la tua esperienza di navigazione, mostrare contenuti personalizzati e analizzare il nostro traffico. Cliccando \"Accetta Tutti\", acconsenti all'uso dei cookie.",

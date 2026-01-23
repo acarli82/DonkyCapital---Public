@@ -1,10 +1,21 @@
+import Link from 'next/link'
 import type { Dictionary } from '@/lib/i18n/getDictionary'
+import type { Locale } from '@/lib/i18n/config'
+import { scalableCapitalSlugs } from '@/lib/pages/scalable-capital-slugs'
 
 interface FeaturesSectionProps {
   dict: Dictionary
+  lang?: Locale
 }
 
-export default function FeaturesSection({ dict }: FeaturesSectionProps) {
+export default function FeaturesSection({ dict, lang = 'en' }: FeaturesSectionProps) {
+  const brokerLinks: Record<string, string | null> = {
+    'Scalable': `/${lang}/${scalableCapitalSlugs[lang]}`,
+    'Moneyfarm': null,
+    'Degiro': null,
+    'Directa': null,
+  }
+
   const features = [
     {
       icon: (
@@ -79,14 +90,28 @@ export default function FeaturesSection({ dict }: FeaturesSectionProps) {
           {feature.brokers && (
             <div className="mt-3 pt-3 border-t border-white/10">
               <div className="flex flex-wrap gap-1.5">
-                {feature.brokers.map((broker) => (
-                  <span
-                    key={broker}
-                    className="px-2 py-0.5 text-xs font-medium rounded bg-primary/10 text-primary"
-                  >
-                    {broker}
-                  </span>
-                ))}
+                {feature.brokers.map((broker) => {
+                  const link = brokerLinks[broker]
+                  if (link) {
+                    return (
+                      <Link
+                        key={broker}
+                        href={link}
+                        className="px-2 py-0.5 text-xs font-medium rounded bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
+                      >
+                        {broker}
+                      </Link>
+                    )
+                  }
+                  return (
+                    <span
+                      key={broker}
+                      className="px-2 py-0.5 text-xs font-medium rounded bg-primary/10 text-primary"
+                    >
+                      {broker}
+                    </span>
+                  )
+                })}
               </div>
               <p className="text-white/50 text-xs italic mt-2">
                 {dict.landing.features.multiPortfolio.manyMore}
