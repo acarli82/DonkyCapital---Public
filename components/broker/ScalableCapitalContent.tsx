@@ -14,7 +14,17 @@ export default function ScalableCapitalContent({ dict }: ScalableCapitalContentP
       {/* Page Header */}
       <div className="mb-12">
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
-          {sc.pageTitle}
+          {sc.pageTitle.split('Scalable Capital').map((part: string, index: number, array: string[]) => (
+            <span key={index}>
+              {index > 0 && <span className="gradient-text">Scalable Capital</span>}
+              {part.split('DonkyCapital').map((subPart: string, subIndex: number, subArray: string[]) => (
+                <span key={subIndex}>
+                  {subIndex > 0 && <span className="gradient-text">DonkyCapital</span>}
+                  {subPart}
+                </span>
+              ))}
+            </span>
+          ))}
         </h1>
         <p
           className="text-lg text-white/80 leading-relaxed"
