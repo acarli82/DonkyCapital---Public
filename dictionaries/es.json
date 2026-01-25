@@ -1,160 +1,102 @@
 {
+  "about": {
+    "h1": "Control total de tu patrimonio, sin compromisos en seguridad.",
+    "pageTitle": "Acerca de Nosotros",
+    "section1Text": "Comenzamos con una pregunta real: ¿por qué tienes que elegir entre la inconveniencia de Excel o el riesgo de compartir tus credenciales de broker al analizar tus inversiones? Donky Capital es la respuesta. Creado por quienes invierten todos los días, para quienes buscan análisis avanzado sin sacrificar la privacidad.",
+    "section1Title": "Creado por inversores, para inversores.",
+    "section2Text": "A diferencia de los rastreadores tradicionales, nunca tendremos acceso a tus datos bancarios. Una simple exportación de tus brokers y Donky Capital transforma datos sin procesar en información estratégica en segundos. Simple, seguro, inviolable.",
+    "section2Title": "Tu seguridad no es una función, es nuestro fundamento.",
+    "section3Text": "Cada cartera tiene una historia diferente y tu panel debe reflejar tus objetivos. Con nuestro sistema modular, construye tu centro de comando mediante paneles completamente personalizables: tú defines los KPI que importan, monitoreas la asignación de activos y gestionas el reequilibrio según tus criterios.",
+    "section3Title": "Análisis adaptado a tu estrategia."
+  },
   "appName": "DonkyCapital",
-  "tagline": "Supervisa, Analiza, Optimiza Tus Inversiones",
+  "broker": {
+    "sectionTitle": "Integración"
+  },
   "common": {
-    "loading": "Cargando...",
     "cancel": "Cancelar",
+    "loading": "Cargando...",
     "save": "Guardar",
     "submit": "Enviar"
   },
-  "earlyAccess": {
-    "title": "Únete al Programa de Acceso Anticipado",
-    "intro": "Estamos seleccionando un número limitado de usuarios para nuestro Programa de Acceso Anticipado. Los usuarios invitados tendrán acceso gratuito a la plataforma para siempre, incluso después del lanzamiento oficial.",
-    "freeForever": "El acceso gratuito es personal y permanente para los miembros del Programa de Acceso Anticipado.",
-    "whyJoin": "¿Por Qué Unirse al Programa de Acceso Anticipado?",
-    "benefit1Title": "Acceso Anticipado a Funciones",
-    "benefit1Desc": "Sé de los primeros en probar las nuevas funcionalidades",
-    "benefit2Title": "Envía Comentarios al Equipo",
-    "benefit2Desc": "Tu opinión importa - ayúdanos a mejorar",
-    "benefit3Title": "Contribución Directa al Desarrollo",
-    "benefit3Desc": "Influye en el futuro de la plataforma",
-    "benefit4Title": "Acceso Gratuito de por Vida",
-    "benefit4Desc": "Mantén el acceso premium para siempre",
-    "formTitle": "Solicitar Acceso Anticipado",
-    "emailLabel": "Introduce tu dirección de email",
-    "notesLabel": "Notas adicionales (opcional)",
-    "notesPlaceholder": "Cuéntanos por qué te gustaría unirte al Programa de Acceso Anticipado...",
-    "submitButton": "Solicitar Acceso Anticipado",
-    "submitting": "Enviando...",
-    "successTitle": "¡Solicitud Enviada!",
-    "successMessage": "¡Gracias por tu interés en nuestro Programa de Acceso Anticipado. Te contactaremos pronto!",
-    "submitAnother": "Enviar Otra Solicitud",
-    "emailInvalid": "Por favor introduce una dirección de email válida",
-    "submitError": "No se pudo enviar tu solicitud. Por favor inténtalo de nuevo."
-  },
   "contact": {
-    "pageTitle": "Contáctanos",
-    "pageSubtitle": "¿Tienes alguna pregunta o necesitas ayuda? Estamos aquí para ti.",
-    "formTitle": "Envíanos un mensaje",
-    "floatingButton": "Soporte",
-    "nameLabel": "Tu Nombre",
-    "namePlaceholder": "Ingresa tu nombre completo",
+    "emailInvalid": "Por favor ingresa un correo electrónico válido",
     "emailLabel": "Dirección de Correo",
     "emailPlaceholder": "tu.correo@ejemplo.com",
-    "subjectLabel": "Asunto",
-    "subjectPlaceholder": "¿De qué se trata?",
+    "emailRequired": "El correo es obligatorio",
+    "floatingButton": "Soporte",
+    "formTitle": "Envíanos un mensaje",
     "messageLabel": "Mensaje",
     "messagePlaceholder": "Cuéntanos cómo podemos ayudarte...",
-    "submitButton": "Enviar Mensaje",
-    "submitting": "Enviando...",
-    "successTitle": "¡Mensaje Enviado!",
-    "successMessage": "Gracias por contactarnos. Te responderemos lo antes posible.",
-    "sendAnother": "Enviar Otro Mensaje",
-    "nameRequired": "El nombre es obligatorio",
-    "emailRequired": "El correo es obligatorio",
-    "emailInvalid": "Por favor ingresa un correo electrónico válido",
-    "subjectRequired": "El asunto es obligatorio",
     "messageRequired": "El mensaje es obligatorio",
-    "submitError": "Error al enviar el mensaje. Por favor intenta de nuevo."
+    "nameLabel": "Tu Nombre",
+    "namePlaceholder": "Ingresa tu nombre completo",
+    "nameRequired": "El nombre es obligatorio",
+    "pageSubtitle": "¿Tienes alguna pregunta o necesitas ayuda? Estamos aquí para ti.",
+    "pageTitle": "Contáctanos",
+    "sendAnother": "Enviar Otro Mensaje",
+    "subjectLabel": "Asunto",
+    "subjectPlaceholder": "¿De qué se trata?",
+    "subjectRequired": "El asunto es obligatorio",
+    "submitButton": "Enviar Mensaje",
+    "submitError": "Error al enviar el mensaje. Por favor intenta de nuevo.",
+    "submitting": "Enviando...",
+    "successMessage": "Gracias por contactarnos. Te responderemos lo antes posible.",
+    "successTitle": "¡Mensaje Enviado!"
+  },
+  "cookieConsent": {
+    "acceptAll": "Aceptar Todo",
+    "analytics": {
+      "description": "Estas cookies nos ayudan a entender cómo los visitantes interactúan con nuestro sitio recopilando información de forma anónima.",
+      "title": "Cookies Analíticas"
+    },
+    "customize": "Personalizar",
+    "description": "Utilizamos cookies para mejorar tu experiencia de navegación, mostrar contenido personalizado y analizar nuestro tráfico. Al hacer clic en \"Aceptar Todo\", consientes el uso de cookies.",
+    "marketing": {
+      "description": "Estas cookies se utilizan para rastrear visitantes en sitios web con el fin de mostrar anuncios relevantes.",
+      "title": "Cookies de Marketing"
+    },
+    "necessary": {
+      "description": "Estas cookies son esenciales para el correcto funcionamiento del sitio. No pueden ser desactivadas.",
+      "title": "Cookies Necesarias"
+    },
+    "privacyPolicy": "Política de Privacidad",
+    "rejectAll": "Rechazar Todo",
+    "savePreferences": "Guardar Preferencias",
+    "title": "Tu privacidad es importante"
+  },
+  "earlyAccess": {
+    "benefit1Desc": "Sé de los primeros en probar las nuevas funcionalidades",
+    "benefit1Title": "Acceso Anticipado a Funciones",
+    "benefit2Desc": "Tu opinión importa - ayúdanos a mejorar",
+    "benefit2Title": "Envía Comentarios al Equipo",
+    "benefit3Desc": "Influye en el futuro de la plataforma",
+    "benefit3Title": "Contribución Directa al Desarrollo",
+    "benefit4Desc": "Mantén el acceso premium para siempre",
+    "benefit4Title": "Acceso Gratuito de por Vida",
+    "emailInvalid": "Por favor introduce una dirección de email válida",
+    "emailLabel": "Introduce tu dirección de email",
+    "formTitle": "Solicitar Acceso Anticipado",
+    "freeForever": "El acceso gratuito es personal y permanente para los miembros del Programa de Acceso Anticipado.",
+    "intro": "Estamos seleccionando un número limitado de usuarios para nuestro Programa de Acceso Anticipado. Los usuarios invitados tendrán acceso gratuito a la plataforma para siempre, incluso después del lanzamiento oficial.",
+    "notesLabel": "Notas adicionales (opcional)",
+    "notesPlaceholder": "Cuéntanos por qué te gustaría unirte al Programa de Acceso Anticipado...",
+    "submitAnother": "Enviar Otra Solicitud",
+    "submitButton": "Solicitar Acceso Anticipado",
+    "submitError": "No se pudo enviar tu solicitud. Por favor inténtalo de nuevo.",
+    "submitting": "Enviando...",
+    "successMessage": "¡Gracias por tu interés en nuestro Programa de Acceso Anticipado. Te contactaremos pronto!",
+    "successTitle": "¡Solicitud Enviada!",
+    "title": "Únete al Programa de Acceso Anticipado",
+    "whyJoin": "¿Por Qué Unirse al Programa de Acceso Anticipado?"
   },
   "landing": {
-    "header": {
-      "features": "Características",
-      "pricing": "Precios",
-      "login": "Iniciar Sesión",
-      "startFree": "Comenzar Gratis"
-    },
-    "widgetsCarousel": {
-      "title": "Libertad de análisis: 48 formas diferentes de ver tus activos."
-    },
-    "hero": {
-      "badge": "Gestor de cartera personalizable",
-      "title": "El Portfolio Tracker que sustituye",
-      "titleSuffix": "tus hojas de Excel.",
-      "description": "Toma el control completo de tus inversiones con DonkyCapital, el tracker de cartera más flexible y potente del mercado. Monitorea acciones, ETFs, fondos, bonos y crypto en un solo tablero personalizable. Importa transacciones desde CSV, conecta cuentas de corredores y obtén análisis avanzados con gráficos interactivos, mapas de calor de rendimiento y P&L detallado. Gestión de cartera multi-activos profesional accesible para todos.",
-      "ctaButton": "Comenzar Gratis",
-      "gdprCompliant": "Cumple con RGPD",
-      "encryptedData": "Datos encriptados",
-      "multiLanguage": "Multiidioma",
-      "multiCurrency": "Multidivisa"
-    },
-    "features": {
-      "customizableDashboard": {
-        "title": "Tablero 100% Personalizable",
-        "description": "Arrastrar y soltar, guardar configuraciones, múltiples tableros: crea la vista perfecta para tu estrategia de inversión."
-      },
-      "advancedAnalytics": {
-        "title": "Análisis Avanzados",
-        "description": "Rendimiento multi-período, Pérdidas y Ganancias detallado, mapas de calor visuales para identificar rápidamente oportunidades y riesgos."
-      },
-      "multiPortfolio": {
-        "title": "Multi-Cartera",
-        "description": "Gestiona múltiples carteras, importa transacciones CSV y obtén cálculos en tiempo real.",
-        "manyMore": "+ muchos más en proceso de integración",
-        "securityNote": "Nunca pedimos acceso a tu corredor. Tus datos permanecen solo tuyos."
-      }
-    },
-    "seoHeadings": {
-      "h2Features": "Controla tu exposición, reequilibrio y rendimientos en vivo.",
-      "h3EtfTracker": "Un Tracker de ETF avanzado para analizar todas tus posiciones."
-    },
-    "useCases": {
-      "retailInvestor": {
-        "title": "Inversor Particular",
-        "quote": "Tengo ETFs en 3 corredores diferentes: finalmente los veo todos en un solo lugar."
-      },
-      "partTimeTrader": {
-        "title": "Trader a Tiempo Parcial",
-        "quote": "Sigo P&L para cada posición, sé exactamente cuánto gano."
-      },
-      "financialAdvisor": {
-        "title": "Asesor Financiero",
-        "quote": "Gestiono 20 clientes, cada tablero está personalizado para sus necesidades."
-      }
-    },
-    "pricing": {
-      "title": "Precios",
-      "earlyProgramActive": "Programa Early Access Activo",
-      "limitedAccess": "Acceso limitado:",
-      "earlyProgramDesc": "Estamos seleccionando los primeros 100 usuarios para el Programa Early Access. Obtén acceso gratuito a todas las funciones Premium durante la fase beta.",
-      "mostPopular": "Más Popular",
-      "perMonth": "/ mes",
-      "perEarlyAccess": "/ early access",
-      "requestEarlyAccess": "Solicitar Early Access",
-      "plans": {
-        "free": {
-          "name": "Gratis",
-          "features": {
-            "portfolios": "1 cartera",
-            "transactions": "100 transacciones",
-            "dashboards": "3 tableros",
-            "brokerImport": "Importación desde principales corredores",
-            "portfolioValue": "Valor de carteras",
-            "performanceAnalysis": "Análisis de rendimiento",
-            "allocationAnalysis": "Análisis de asignación y riesgos",
-            "profitLoss": "P&L"
-          }
-        },
-        "standard": {
-          "name": "Estándar",
-          "features": {
-            "portfolios": "5 carteras",
-            "transactions": "500 transacciones",
-            "dashboards": "5 tableros"
-          }
-        },
-        "premium": {
-          "name": "Premium",
-          "features": {
-            "portfolios": "10 carteras",
-            "transactions": "Transacciones ilimitadas",
-            "dashboards": "8 tableros"
-          }
-        }
-      }
+    "cta": {
+      "button": "Comenzar Gratis - Sin Tarjeta Requerida",
+      "subtitle": "Configuración en 2 minutos. Sin compromiso. Cancela cuando quieras.",
+      "title": "¿Listo para tomar el control de tus inversiones?"
     },
     "faq": {
-      "title": "Preguntas Frecuentes",
       "questions": [
         {
           "question": "¿Por qué es la mejor alternativa a Excel para mis inversiones?",
@@ -180,212 +122,127 @@
           "question": "¿Qué pasa con mis datos?",
           "answer": "Tus datos están alojados en Europa y encriptados. Priorizamos tu seguridad y nunca solicitamos tus claves de acceso al bróker."
         }
-      ]
+      ],
+      "title": "Preguntas Frecuentes"
     },
-    "cta": {
-      "title": "¿Listo para tomar el control de tus inversiones?",
-      "subtitle": "Configuración en 2 minutos. Sin compromiso. Cancela cuando quieras.",
-      "button": "Comenzar Gratis - Sin Tarjeta Requerida"
+    "features": {
+      "advancedAnalytics": {
+        "description": "Rendimiento multi-período, Pérdidas y Ganancias detallado, mapas de calor visuales para identificar rápidamente oportunidades y riesgos.",
+        "title": "Análisis Avanzados"
+      },
+      "customizableDashboard": {
+        "description": "Arrastrar y soltar, guardar configuraciones, múltiples tableros: crea la vista perfecta para tu estrategia de inversión.",
+        "title": "Tablero 100% Personalizable"
+      },
+      "multiPortfolio": {
+        "description": "Gestiona múltiples carteras, importa transacciones CSV y obtén cálculos en tiempo real.",
+        "manyMore": "+ muchos más en proceso de integración",
+        "securityNote": "Nunca pedimos acceso a tu corredor. Tus datos permanecen solo tuyos.",
+        "title": "Multi-Cartera"
+      }
     },
     "footer": {
-      "privacyPolicy": "Política de Privacidad",
-      "termsAndConditions": "Términos y Condiciones",
-      "secureConnection": "Conexión Segura",
-      "protectedData": "Datos Protegidos",
-      "copyright": "© {{year}} DonkyCapital. Todos los derechos reservados.",
       "aboutUs": "Quiénes Somos",
       "contact": "Contacto",
-      "siteMap": "Mapa del Sitio"
+      "copyright": "© {{year}} DonkyCapital. Todos los derechos reservados.",
+      "privacyPolicy": "Política de Privacidad",
+      "protectedData": "Datos Protegidos",
+      "secureConnection": "Conexión Segura",
+      "siteMap": "Mapa del Sitio",
+      "termsAndConditions": "Términos y Condiciones"
+    },
+    "header": {
+      "features": "Características",
+      "login": "Iniciar Sesión",
+      "pricing": "Precios",
+      "startFree": "Comenzar Gratis"
+    },
+    "hero": {
+      "badge": "Gestor de cartera personalizable",
+      "ctaButton": "Comenzar Gratis",
+      "description": "Toma el control completo de tus inversiones con DonkyCapital, el tracker de cartera más flexible y potente del mercado. Monitorea acciones, ETFs, fondos, bonos y crypto en un solo tablero personalizable. Importa transacciones desde CSV, conecta cuentas de corredores y obtén análisis avanzados con gráficos interactivos, mapas de calor de rendimiento y P&L detallado. Gestión de cartera multi-activos profesional accesible para todos.",
+      "encryptedData": "Datos encriptados",
+      "gdprCompliant": "Cumple con RGPD",
+      "multiCurrency": "Multidivisa",
+      "multiLanguage": "Multiidioma",
+      "title": "El Portfolio Tracker que sustituye",
+      "titleSuffix": "tus hojas de Excel."
+    },
+    "pricing": {
+      "earlyProgramActive": "Programa Early Access Activo",
+      "earlyProgramDesc": "Estamos seleccionando los primeros 100 usuarios para el Programa Early Access. Obtén acceso gratuito a todas las funciones Premium durante la fase beta.",
+      "limitedAccess": "Acceso limitado:",
+      "mostPopular": "Más Popular",
+      "perEarlyAccess": "/ early access",
+      "perMonth": "/ mes",
+      "plans": {
+        "free": {
+          "features": {
+            "allocationAnalysis": "Análisis de asignación y riesgos",
+            "brokerImport": "Importación desde principales corredores",
+            "dashboards": "3 tableros",
+            "performanceAnalysis": "Análisis de rendimiento",
+            "portfolioValue": "Valor de carteras",
+            "portfolios": "1 cartera",
+            "profitLoss": "P&L",
+            "transactions": "100 transacciones"
+          },
+          "name": "Gratis"
+        },
+        "premium": {
+          "features": {
+            "dashboards": "8 tableros",
+            "portfolios": "10 carteras",
+            "transactions": "Transacciones ilimitadas"
+          },
+          "name": "Premium"
+        },
+        "standard": {
+          "features": {
+            "dashboards": "5 tableros",
+            "portfolios": "5 carteras",
+            "transactions": "500 transacciones"
+          },
+          "name": "Estándar"
+        }
+      },
+      "requestEarlyAccess": "Solicitar Early Access",
+      "title": "Precios"
+    },
+    "seoHeadings": {
+      "h2Features": "Controla tu exposición, reequilibrio y rendimientos en vivo.",
+      "h3EtfTracker": "Un Tracker de ETF avanzado para analizar todas tus posiciones."
+    },
+    "useCases": {
+      "financialAdvisor": {
+        "quote": "Gestiono 20 clientes, cada tablero está personalizado para sus necesidades.",
+        "title": "Asesor Financiero"
+      },
+      "partTimeTrader": {
+        "quote": "Sigo P&L para cada posición, sé exactamente cuánto gano.",
+        "title": "Trader a Tiempo Parcial"
+      },
+      "retailInvestor": {
+        "quote": "Tengo ETFs en 3 corredores diferentes: finalmente los veo todos en un solo lugar.",
+        "title": "Inversor Particular"
+      }
+    },
+    "widgetsCarousel": {
+      "title": "Libertad de análisis: 48 formas diferentes de ver tus activos."
     }
   },
-  "about": {
-    "pageTitle": "Nuestra Historia",
-    "pageSubtitle": "Creado por inversores, para inversores.",
-    "h1": "Creado por inversores, para inversores.",
-    "h1Text": "Donky Capital nació para comparar y unificar la visión de carteras dispersas en diferentes brókeres, sin las limitaciones de las hojas de cálculo tradicionales.",
-    "h2Security": "Seguridad total sin compartir claves.",
-    "h2SecurityText": "Somos el seguimiento de cartera seguro. No necesitas darnos tus contraseñas de acceso al bróker; simplemente importa tus datos y empieza a analizar tu rentabilidad con total tranquilidad.",
-    "h3Dashboard": "Tu estrategia, tu panel de control.",
-    "h3DashboardText": "Creemos en la personalización. Configura tu dashboard para que se adapte a tu forma de invertir y no al revés."
-  },
-  "widgets": {
-    "names": {
-      "portfolio-trends": "Tendencias de Cartera",
-      "heatmap": "Mapa de Calor de Rendimiento",
-      "line-chart": "Gráfico de Rendimiento",
-      "stack-chart": "Composición Temporal",
-      "pie-chart": "Asignación",
-      "allocation-breakdown": "Desglose de Asignación",
-      "performance-table": "Tabla de Rendimiento",
-      "profit-loss": "Ganancia y Pérdida",
-      "transactions-list": "Transacciones Recientes",
-      "portfolio-table": "Tabla de Carteras",
-      "holdings-summary": "Posiciones Abiertas",
-      "performance-metrics": "Resumen de Cartera"
-    },
-    "descriptions": {
-      "portfolio-trends": "Evolución temporal del valor de la cartera con gráfico de áreas apiladas.",
-      "heatmap": "Mapa de calor que compara visualmente el rendimiento y el peso por categoría.",
-      "line-chart": "Tendencia de rendimiento temporal por cartera/tipo/clase/divisa/sector/país.",
-      "stack-chart": "Muestra la composición porcentual de la cartera a lo largo del tiempo.",
-      "pie-chart": "Gráfico circular que muestra la distribución porcentual de la cartera.",
-      "allocation-breakdown": "Tabla analítica que lista peso, valor y rendimiento para cada categoría.",
-      "performance-table": "Rendimiento en 6 horizontes temporales con iconos de tendencia (1D, 1S, 1M, 3M, 6M, 1A).",
-      "profit-loss": "Vista completa de las ganancias y pérdidas de la cartera.",
-      "transactions-list": "Lista de las últimas transacciones en orden cronológico.",
-      "portfolio-table": "Tabla completa que lista todas las carteras con sus valores clave.",
-      "holdings-summary": "Lista completa de las posiciones actualmente abiertas con precio medio y rendimiento.",
-      "performance-metrics": "Visión sintética de la cartera con cinco indicadores clave."
-    },
-    "badges": {
-      "trending": "Tendencia",
-      "visual": "Visual",
-      "versatile": "Versátil",
-      "stacked": "Apilado",
-      "analytical": "Analítico",
-      "multiPeriod": "Multi-período",
-      "complete": "Completo",
-      "history": "Historial",
-      "detailed": "Detallado",
-      "holdings": "Participaciones",
-      "essential": "Esencial"
-    },
-    "tags": {
-      "areaChart": "Gráfico de áreas",
-      "timeSeries": "Serie temporal",
-      "comparison": "Comparación",
-      "heatmap": "Mapa de calor",
-      "performanceColors": "Colores de rendimiento",
-      "bubbles": "Burbujas",
-      "lineChart": "Gráfico lineal",
-      "multiGrouping": "Multi-agrupación",
-      "historical": "Histórico",
-      "100stacked": "100% apilado",
-      "evolution": "Evolución",
-      "multiCategory": "Multi-categoría",
-      "pieChart": "Gráfico circular",
-      "percentages": "Porcentajes",
-      "detail": "Detalle",
-      "weightValue": "Peso + Valor",
-      "performance": "Rendimiento",
-      "tableView": "Vista de tabla",
-      "6periods": "6 períodos",
-      "trendIcons": "Iconos de tendencia",
-      "totalPL": "G&P total",
-      "flexibleFilters": "Filtros flexibles",
-      "chronologicalList": "Lista cronológica",
-      "period": "Período",
-      "multiPortfolio": "Multi-cartera",
-      "analysis": "Análisis",
-      "livePositions": "Posiciones en vivo",
-      "pmcValues": "Precio medio y valores",
-      "pl": "G&P",
-      "keyMetrics": "Métricas clave",
-      "aggregateValues": "Valores agregados"
-    }
-  },
-  "seo": {
-	  "home": {
-		"title": "DonkyCapital | El Mejor Portfolio Tracker",
-		"description": "Adiós Excel. Monitoriza acciones, ETFs y criptos en tiempo real con los paneles personalizables de DonkyCapital."
-	  },
-	  "about": {
-		"title": "Sobre Nosotros | La Misión de DonkyCapital",
-		"description": "Descubre DonkyCapital: el tracker moderno creado para una gestión de inversiones sencilla y personalizable."
-	  },
-	  "earlyAccess": {
-		"title": "Early Access: Funciones Premium Gratis de por vida | DonkyCapital",
-		"description": "Sé uno de los primeros 100 usuarios: acceso Premium gratis de por vida. Gestiona tus inversiones sin suscripciones recurrentes."
-	  },
-	  "privacyPolicy": {
-		"title": "Privacy Policy | Protección de Datos DonkyCapital",
-		"description": "Política de privacidad de DonkyCapital. Descubre cómo protegemos tus datos de acuerdo con el RGPD."
-	  },
-	  "termsAndConditions": {
-		"title": "Términos y Condiciones de Uso | DonkyCapital",
-		"description": "Lee los términos y condiciones de uso de DonkyCapital, la plataforma para el análisis de tu cartera de inversión."
-	  },
-	  "contact": {
-		"title": "Contáctanos | Soporte y Feedback | DonkyCapital",
-		"description": "¿Tienes preguntas? Contacta con el equipo de DonkyCapital. Estamos aquí para ayudarte a gestionar tu capital."
-	  },
-	  "scalableCapital": {
-		"title": "Cómo exportar transacciones de Scalable Capital e importarlas en DonkyCapital",
-		"description": "Descubre cómo exportar las transacciones de Scalable Capital incluso sin PRIME+ e importarlas en DonkyCapital para analizar activos, asignación, exposición y rendimiento."
-	  }
-	},
   "scalableCapital": {
-    "pageTitle": "Cómo exportar transacciones de Scalable Capital e importarlas en DonkyCapital",
-    "pageDescription": "Guía completa para exportar transacciones de Scalable Capital incluso sin cuenta PRIME+ e importarlas en DonkyCapital, con vista de activos, balanceo, exposición e histórico de rendimiento.",
-    "intro": "Si utilizas <strong>Scalable Capital</strong> para invertir en ETFs, acciones o fondos, probablemente te hayas preguntado cómo seguir todas tus operaciones de forma sencilla y rápida. En esta guía completa te explicaré <strong>cómo exportar tus transacciones de Scalable Capital utilizando la extensión de Chrome \"Scalable Capital Transaction Exporter\"</strong> y <strong>cómo importarlas en DonkyCapital</strong>, el gestor de cartera que te permite administrar todas tus inversiones en un único panel, sin usar complicadas hojas de Excel.",
-    "whyExportTitle": "Por qué exportar los datos de Scalable Capital",
-    "whyExportText1": "Scalable Capital es uno de los brókeres más utilizados en Europa, gracias a sus plataformas modernas e intuitivas. Sin embargo, muchas funciones de exportación están disponibles solo para clientes PRIME+.",
-    "whyExportText2": "Si no quieres pagar un plan adicional o simplemente quieres tener más control sobre tus datos, la extensión de Chrome <strong>Scalable Capital Transaction Exporter</strong> es la solución ideal.",
-    "whyExportList": [
-      "Descargar tus transacciones en <strong>CSV, Excel (XLSX)</strong> incluso sin una cuenta <strong>PRIME+</strong>;",
-      "Mantener todos los datos <strong>en tu dispositivo</strong>, sin enviarlos a servidores externos;",
-      "Usar los archivos exportados para análisis personales o importarlos en DonkyCapital;",
-      "Obtener informes detallados sin costes adicionales."
+    "conclusionList": [
+      "Extraer fácilmente las transacciones de Scalable Capital, incluso sin cuenta PRIME+;",
+      "Importarlas en DonkyCapital;",
+      "Tener una <strong>visión completa de la cartera</strong>, con análisis avanzado de activos, balanceo, exposición y rendimiento;",
+      "Gestionar todo en un único panel sin hojas de Excel o herramientas complicadas."
     ],
-    "whyExportQuote": "Esto significa que incluso quienes tienen una cuenta gratuita pueden finalmente obtener toda la información de sus transacciones y tener un control completo de su cartera.",
-    "whyDonkyTitle": "Por qué usar DonkyCapital en lugar del sitio de Scalable Capital",
-    "whyDonkyText1": "El sitio de Scalable Capital solo muestra el historial de operaciones y cierta información básica. No ofrece una <strong>visión completa de la cartera</strong> en términos de:",
-    "whyDonkyList": [
-      "Composición de <strong>activos</strong>;",
-      "<strong>Balanceo</strong> de la cartera;",
-      "<strong>Exposición</strong> sectorial o geográfica;",
-      "Rendimiento total a lo largo del tiempo."
-    ],
-    "whyDonkyText2": "Con DonkyCapital, en cambio, puedes tener <strong>un panel completo y personalizado</strong> para visualizar todo tu patrimonio de un vistazo, analizar la evolución de tus inversiones y tomar decisiones más informadas.",
-    "whyDonkyQuote": "En otras palabras, DonkyCapital te permite ver lo que Scalable Capital no te muestra: un control total de tu cartera.",
-    "step1Title": "Paso 1 — Instalar la extensión de Chrome",
-    "step1List": [
-      "Abre Google Chrome en tu ordenador.",
-      "Ve a la página oficial de la extensión: Scalable Capital Transaction Exporter en Chrome Web Store.",
-      "Haz clic en <strong>\"Añadir a Chrome\"</strong> y confirma la instalación.",
-      "Una vez instalada, verás el icono de la extensión cerca de la barra de direcciones."
-    ],
-    "step1Tip": "Consejo: mantén siempre actualizada la extensión para asegurar que funcione correctamente con las nuevas versiones de Scalable Capital.",
-    "step2Title": "Paso 2 — Exportar las transacciones",
-    "step2List": [
-      "Accede a tu cuenta de Scalable Capital.",
-      "Ve a la sección <strong>\"Transacciones\"</strong> o <strong>\"Historial de operaciones\"</strong>.",
-      "Selecciona el periodo de tiempo deseado (ej. últimos 12 meses).",
-      "Haz clic en el icono de descarga de la extensión de Chrome.",
-      "Elige el formato del archivo a exportar: CSV, Excel o JSON."
-    ],
-    "step2Text": "El archivo exportado contiene toda la información principal: fecha de la transacción, nombre del activo (ETF, acción o fondo), cantidad, precio y tipo de operación (compra, venta, dividendo).",
-    "step2Highlight": "Incluso sin una cuenta PRIME+, puedes obtener todas las transacciones e importarlas en DonkyCapital para una gestión completa de la cartera.",
-    "step3Title": "Paso 3 — Importar los datos en DonkyCapital",
-    "step3List": [
-      "Accede a DonkyCapital.com y abre tu cuenta.",
-      "Elige la cartera en la que quieres importar las transacciones y selecciona <strong>\"Importar Transacciones\"</strong>.",
-      "Sube el archivo CSV exportado de Scalable Capital.",
-      "Confirma y espera a que se procese el archivo."
-    ],
-    "step3Text": "En pocos segundos, todas tus transacciones serán visibles en el panel de DonkyCapital, con informes detallados sobre:",
-    "step3ReportList": [
-      "Composición de la cartera;",
-      "Balanceo entre activos;",
-      "Exposición sectorial y geográfica;",
-      "Rendimiento y ganancias/pérdidas;",
-      "Comparación entre varias carteras si gestionas más de una."
-    ],
-    "step3Highlight": "Este nivel de análisis <strong>no está disponible en el sitio de Scalable Capital</strong>, que se limita a las transacciones históricas.",
-    "privacyTitle": "Privacidad y seguridad de los datos",
-    "privacyList": [
-      "La extensión <strong>no envía datos a servidores externos</strong>: todo sucede en tu navegador.",
-      "DonkyCapital <strong>no requiere credenciales de acceso al bróker</strong> para importar archivos CSV/Excel.",
-      "Puedes guardar los archivos exportados en tu ordenador o en una nube personal sin riesgos."
-    ],
-    "tipsTitle": "Consejos prácticos para gestionar transacciones",
-    "tipsList": [
-      "Exporta los datos regularmente, por ejemplo cada mes, para que DonkyCapital esté siempre actualizado.",
-      "Mantén los archivos CSV/Excel en una carpeta dedicada en tu PC para tener siempre una copia de seguridad.",
-      "Revisa siempre los datos después de la importación para verificar que todas las transacciones sean correctas.",
-      "Aprovecha que incluso las cuentas gratuitas pueden obtener toda la información necesaria sin suscribirse a PRIME+."
-    ],
-    "faqTitle": "Preguntas frecuentes (FAQ)",
+    "conclusionQuote": "DonkyCapital transforma tus datos en información útil, ayudándote a tomar decisiones de inversión más conscientes y rápidas.",
+    "conclusionText": "Siguiendo esta guía finalmente puedes:",
+    "conclusionTitle": "Conclusión",
+    "extensionLink": "https://chromewebstore.google.com/detail/scalable-capital-transact/fllkfonkjkeiibonmifngekchncphhen",
+    "extensionLinkText": "Scalable Capital Transaction Exporter",
     "faq": [
       {
         "question": "¿Puedo usar este procedimiento con cuentas gratuitas de Scalable Capital?",
@@ -408,40 +265,183 @@
         "answer": "Sí, la extensión exporta todas las transacciones visibles en el historial de Scalable Capital."
       }
     ],
-    "conclusionTitle": "Conclusión",
-    "conclusionText": "Siguiendo esta guía finalmente puedes:",
-    "conclusionList": [
-      "Extraer fácilmente las transacciones de Scalable Capital, incluso sin cuenta PRIME+;",
-      "Importarlas en DonkyCapital;",
-      "Tener una <strong>visión completa de la cartera</strong>, con análisis avanzado de activos, balanceo, exposición y rendimiento;",
-      "Gestionar todo en un único panel sin hojas de Excel o herramientas complicadas."
+    "faqTitle": "Preguntas frecuentes (FAQ)",
+    "intro": "Si utilizas <strong>Scalable Capital</strong> para invertir en ETFs, acciones o fondos, probablemente te hayas preguntado cómo seguir todas tus operaciones de forma sencilla y rápida. En esta guía completa te explicaré <strong>cómo exportar tus transacciones de Scalable Capital utilizando la extensión de Chrome \"Scalable Capital Transaction Exporter\"</strong> y <strong>cómo importarlas en DonkyCapital</strong>, el gestor de cartera que te permite administrar todas tus inversiones en un único panel, sin usar complicadas hojas de Excel.",
+    "pageDescription": "Guía completa para exportar transacciones de Scalable Capital incluso sin cuenta PRIME+ e importarlas en DonkyCapital, con vista de activos, balanceo, exposición e histórico de rendimiento.",
+    "pageTitle": "Cómo exportar transacciones de Scalable Capital e importarlas en DonkyCapital",
+    "privacyList": [
+      "La extensión <strong>no envía datos a servidores externos</strong>: todo sucede en tu navegador.",
+      "DonkyCapital <strong>no requiere credenciales de acceso al bróker</strong> para importar archivos CSV/Excel.",
+      "Puedes guardar los archivos exportados en tu ordenador o en una nube personal sin riesgos."
     ],
-    "conclusionQuote": "DonkyCapital transforma tus datos en información útil, ayudándote a tomar decisiones de inversión más conscientes y rápidas.",
-    "extensionLink": "https://chromewebstore.google.com/detail/scalable-capital-transact/fllkfonkjkeiibonmifngekchncphhen",
-    "extensionLinkText": "Scalable Capital Transaction Exporter"
+    "privacyTitle": "Privacidad y seguridad de los datos",
+    "step1List": [
+      "Abre Google Chrome en tu ordenador.",
+      "Ve a la página oficial de la extensión: Scalable Capital Transaction Exporter en Chrome Web Store.",
+      "Haz clic en <strong>\"Añadir a Chrome\"</strong> y confirma la instalación.",
+      "Una vez instalada, verás el icono de la extensión cerca de la barra de direcciones."
+    ],
+    "step1Tip": "Consejo: mantén siempre actualizada la extensión para asegurar que funcione correctamente con las nuevas versiones de Scalable Capital.",
+    "step1Title": "Paso 1 — Instalar la extensión de Chrome",
+    "step2Highlight": "Incluso sin una cuenta PRIME+, puedes obtener todas las transacciones e importarlas en DonkyCapital para una gestión completa de la cartera.",
+    "step2List": [
+      "Accede a tu cuenta de Scalable Capital.",
+      "Ve a la sección <strong>\"Transacciones\"</strong> o <strong>\"Historial de operaciones\"</strong>.",
+      "Selecciona el periodo de tiempo deseado (ej. últimos 12 meses).",
+      "Haz clic en el icono de descarga de la extensión de Chrome.",
+      "Elige el formato del archivo a exportar: CSV, Excel o JSON."
+    ],
+    "step2Text": "El archivo exportado contiene toda la información principal: fecha de la transacción, nombre del activo (ETF, acción o fondo), cantidad, precio y tipo de operación (compra, venta, dividendo).",
+    "step2Title": "Paso 2 — Exportar las transacciones",
+    "step3Highlight": "Este nivel de análisis <strong>no está disponible en el sitio de Scalable Capital</strong>, que se limita a las transacciones históricas.",
+    "step3List": [
+      "Accede a DonkyCapital.com y abre tu cuenta.",
+      "Elige la cartera en la que quieres importar las transacciones y selecciona <strong>\"Importar Transacciones\"</strong>.",
+      "Sube el archivo CSV exportado de Scalable Capital.",
+      "Confirma y espera a que se procese el archivo."
+    ],
+    "step3ReportList": [
+      "Composición de la cartera;",
+      "Balanceo entre activos;",
+      "Exposición sectorial y geográfica;",
+      "Rendimiento y ganancias/pérdidas;",
+      "Comparación entre varias carteras si gestionas más de una."
+    ],
+    "step3Text": "En pocos segundos, todas tus transacciones serán visibles en el panel de DonkyCapital, con informes detallados sobre:",
+    "step3Title": "Paso 3 — Importar los datos en DonkyCapital",
+    "tipsList": [
+      "Exporta los datos regularmente, por ejemplo cada mes, para que DonkyCapital esté siempre actualizado.",
+      "Mantén los archivos CSV/Excel en una carpeta dedicada en tu PC para tener siempre una copia de seguridad.",
+      "Revisa siempre los datos después de la importación para verificar que todas las transacciones sean correctas.",
+      "Aprovecha que incluso las cuentas gratuitas pueden obtener toda la información necesaria sin suscribirse a PRIME+."
+    ],
+    "tipsTitle": "Consejos prácticos para gestionar transacciones",
+    "whyDonkyList": [
+      "Composición de <strong>activos</strong>;",
+      "<strong>Balanceo</strong> de la cartera;",
+      "<strong>Exposición</strong> sectorial o geográfica;",
+      "Rendimiento total a lo largo del tiempo."
+    ],
+    "whyDonkyQuote": "En otras palabras, DonkyCapital te permite ver lo que Scalable Capital no te muestra: un control total de tu cartera.",
+    "whyDonkyText1": "El sitio de Scalable Capital solo muestra el historial de operaciones y cierta información básica. No ofrece una <strong>visión completa de la cartera</strong> en términos de:",
+    "whyDonkyText2": "Con DonkyCapital, en cambio, puedes tener <strong>un panel completo y personalizado</strong> para visualizar todo tu patrimonio de un vistazo, analizar la evolución de tus inversiones y tomar decisiones más informadas.",
+    "whyDonkyTitle": "Por qué usar DonkyCapital en lugar del sitio de Scalable Capital",
+    "whyExportList": [
+      "Descargar tus transacciones en <strong>CSV, Excel (XLSX)</strong> incluso sin una cuenta <strong>PRIME+</strong>;",
+      "Mantener todos los datos <strong>en tu dispositivo</strong>, sin enviarlos a servidores externos;",
+      "Usar los archivos exportados para análisis personales o importarlos en DonkyCapital;",
+      "Obtener informes detallados sin costes adicionales."
+    ],
+    "whyExportQuote": "Esto significa que incluso quienes tienen una cuenta gratuita pueden finalmente obtener toda la información de sus transacciones y tener un control completo de su cartera.",
+    "whyExportText1": "Scalable Capital es uno de los brókeres más utilizados en Europa, gracias a sus plataformas modernas e intuitivas. Sin embargo, muchas funciones de exportación están disponibles solo para clientes PRIME+.",
+    "whyExportText2": "Si no quieres pagar un plan adicional o simplemente quieres tener más control sobre tus datos, la extensión de Chrome <strong>Scalable Capital Transaction Exporter</strong> es la solución ideal.",
+    "whyExportTitle": "Por qué exportar los datos de Scalable Capital"
   },
-  "broker": {
-    "sectionTitle": "Integración"
+  "seo": {
+    "about": {
+      "description": "Descubre DonkyCapital: el tracker moderno creado para una gestión de inversiones sencilla y personalizable.",
+      "title": "Sobre Nosotros | La Misión de DonkyCapital"
+    },
+    "contact": {
+      "description": "¿Tienes preguntas? Contacta con el equipo de DonkyCapital. Estamos aquí para ayudarte a gestionar tu capital.",
+      "title": "Contáctanos | Soporte y Feedback | DonkyCapital"
+    },
+    "earlyAccess": {
+      "description": "Sé uno de los primeros 100 usuarios: acceso Premium gratis de por vida. Gestiona tus inversiones sin suscripciones recurrentes.",
+      "title": "Early Access: Funciones Premium Gratis de por vida | DonkyCapital"
+    },
+    "home": {
+      "description": "Adiós Excel. Monitoriza acciones, ETFs y criptos en tiempo real con los paneles personalizables de DonkyCapital.",
+      "title": "DonkyCapital | El Mejor Portfolio Tracker"
+    },
+    "privacyPolicy": {
+      "description": "Política de privacidad de DonkyCapital. Descubre cómo protegemos tus datos de acuerdo con el RGPD.",
+      "title": "Privacy Policy | Protección de Datos DonkyCapital"
+    },
+    "scalableCapital": {
+      "description": "Descubre cómo exportar las transacciones de Scalable Capital incluso sin PRIME+ e importarlas en DonkyCapital para analizar activos, asignación, exposición y rendimiento.",
+      "title": "Cómo exportar transacciones de Scalable Capital e importarlas en DonkyCapital"
+    },
+    "termsAndConditions": {
+      "description": "Lee los términos y condiciones de uso de DonkyCapital, la plataforma para el análisis de tu cartera de inversión.",
+      "title": "Términos y Condiciones de Uso | DonkyCapital"
+    }
   },
-  "cookieConsent": {
-    "title": "Tu privacidad es importante",
-    "description": "Utilizamos cookies para mejorar tu experiencia de navegación, mostrar contenido personalizado y analizar nuestro tráfico. Al hacer clic en \"Aceptar Todo\", consientes el uso de cookies.",
-    "acceptAll": "Aceptar Todo",
-    "rejectAll": "Rechazar Todo",
-    "customize": "Personalizar",
-    "savePreferences": "Guardar Preferencias",
-    "necessary": {
-      "title": "Cookies Necesarias",
-      "description": "Estas cookies son esenciales para el correcto funcionamiento del sitio. No pueden ser desactivadas."
+  "tagline": "Supervisa, Analiza, Optimiza Tus Inversiones",
+  "widgets": {
+    "badges": {
+      "analytical": "Analítico",
+      "complete": "Completo",
+      "detailed": "Detallado",
+      "essential": "Esencial",
+      "history": "Historial",
+      "holdings": "Participaciones",
+      "multiPeriod": "Multi-período",
+      "stacked": "Apilado",
+      "trending": "Tendencia",
+      "versatile": "Versátil",
+      "visual": "Visual"
     },
-    "analytics": {
-      "title": "Cookies Analíticas",
-      "description": "Estas cookies nos ayudan a entender cómo los visitantes interactúan con nuestro sitio recopilando información de forma anónima."
+    "descriptions": {
+      "allocation-breakdown": "Tabla analítica que lista peso, valor y rendimiento para cada categoría.",
+      "heatmap": "Mapa de calor que compara visualmente el rendimiento y el peso por categoría.",
+      "holdings-summary": "Lista completa de las posiciones actualmente abiertas con precio medio y rendimiento.",
+      "line-chart": "Tendencia de rendimiento temporal por cartera/tipo/clase/divisa/sector/país.",
+      "performance-metrics": "Visión sintética de la cartera con cinco indicadores clave.",
+      "performance-table": "Rendimiento en 6 horizontes temporales con iconos de tendencia (1D, 1S, 1M, 3M, 6M, 1A).",
+      "pie-chart": "Gráfico circular que muestra la distribución porcentual de la cartera.",
+      "portfolio-table": "Tabla completa que lista todas las carteras con sus valores clave.",
+      "portfolio-trends": "Evolución temporal del valor de la cartera con gráfico de áreas apiladas.",
+      "profit-loss": "Vista completa de las ganancias y pérdidas de la cartera.",
+      "stack-chart": "Muestra la composición porcentual de la cartera a lo largo del tiempo.",
+      "transactions-list": "Lista de las últimas transacciones en orden cronológico."
     },
-    "marketing": {
-      "title": "Cookies de Marketing",
-      "description": "Estas cookies se utilizan para rastrear visitantes en sitios web con el fin de mostrar anuncios relevantes."
+    "names": {
+      "allocation-breakdown": "Desglose de Asignación",
+      "heatmap": "Mapa de Calor de Rendimiento",
+      "holdings-summary": "Posiciones Abiertas",
+      "line-chart": "Gráfico de Rendimiento",
+      "performance-metrics": "Resumen de Cartera",
+      "performance-table": "Tabla de Rendimiento",
+      "pie-chart": "Asignación",
+      "portfolio-table": "Tabla de Carteras",
+      "portfolio-trends": "Tendencias de Cartera",
+      "profit-loss": "Ganancia y Pérdida",
+      "stack-chart": "Composición Temporal",
+      "transactions-list": "Transacciones Recientes"
     },
-    "privacyPolicy": "Política de Privacidad"
+    "tags": {
+      "100stacked": "100% apilado",
+      "6periods": "6 períodos",
+      "aggregateValues": "Valores agregados",
+      "analysis": "Análisis",
+      "areaChart": "Gráfico de áreas",
+      "bubbles": "Burbujas",
+      "chronologicalList": "Lista cronológica",
+      "comparison": "Comparación",
+      "detail": "Detalle",
+      "evolution": "Evolución",
+      "flexibleFilters": "Filtros flexibles",
+      "heatmap": "Mapa de calor",
+      "historical": "Histórico",
+      "keyMetrics": "Métricas clave",
+      "lineChart": "Gráfico lineal",
+      "livePositions": "Posiciones en vivo",
+      "multiCategory": "Multi-categoría",
+      "multiGrouping": "Multi-agrupación",
+      "multiPortfolio": "Multi-cartera",
+      "percentages": "Porcentajes",
+      "performance": "Rendimiento",
+      "performanceColors": "Colores de rendimiento",
+      "period": "Período",
+      "pieChart": "Gráfico circular",
+      "pl": "G&P",
+      "pmcValues": "Precio medio y valores",
+      "tableView": "Vista de tabla",
+      "timeSeries": "Serie temporal",
+      "totalPL": "G&P total",
+      "trendIcons": "Iconos de tendencia",
+      "weightValue": "Peso + Valor"
+    }
   }
 }

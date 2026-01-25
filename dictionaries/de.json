@@ -1,160 +1,102 @@
 {
+  "about": {
+    "h1": "Vollständige Kontrolle über dein Vermögen, ohne Kompromisse bei der Sicherheit.",
+    "pageTitle": "Über Uns",
+    "section1Text": "Wir sind von einer echten Frage ausgegangen: Warum musst du dich beim Analysieren deiner Investitionen zwischen der Unbequemlichkeit von Excel oder dem Risiko, deine Broker-Zugangsdaten zu teilen, entscheiden? Donky Capital ist die Antwort. Entwickelt von Menschen, die täglich investieren, für diejenigen, die umfassende Analysen ohne Kompromisse bei der Privatsphäre suchen.",
+    "section1Title": "Von Investoren, für Investoren entwickelt.",
+    "section2Text": "Im Gegensatz zu traditionellen Trackern haben wir niemals Zugriff auf deine Bankdaten. Ein einfacher Export von deinen Brokern und Donky Capital verwandelt Rohdaten in Sekunden in strategische Erkenntnisse. Einfach, sicher, unzerbrechlich.",
+    "section2Title": "Deine Sicherheit ist keine Funktion, sie ist unser Fundament.",
+    "section3Text": "Jedes Portfolio hat eine andere Geschichte und dein Dashboard sollte deine Ziele widerspiegeln. Mit unserem modularen System baust du dein Kommandozentrum durch vollständig anpassbare Dashboards auf: du definierst die KPIs, die wichtig sind, überwachst die Vermögensallokation und verwaltest die Umschichtung nach deinen Kriterien.",
+    "section3Title": "Analyse auf deine Strategie zugeschnitten."
+  },
   "appName": "DonkyCapital",
-  "tagline": "Überwachen, Analysieren, Optimieren Sie Ihre Investitionen",
+  "broker": {
+    "sectionTitle": "Integration"
+  },
   "common": {
-    "loading": "Laden...",
     "cancel": "Abbrechen",
+    "loading": "Laden...",
     "save": "Speichern",
     "submit": "Absenden"
   },
-  "earlyAccess": {
-    "title": "Treten Sie dem Early Access Programm bei",
-    "intro": "Wir wählen eine begrenzte Anzahl von Benutzern für unser Early Access Programm aus. Eingeladene Benutzer erhalten dauerhaft kostenlosen Zugang zur Plattform, auch nach dem offiziellen Start.",
-    "freeForever": "Der kostenlose Zugang ist persönlich und dauerhaft für Mitglieder des Early Access Programms.",
-    "whyJoin": "Warum dem Early Access Programm beitreten?",
-    "benefit1Title": "Früher Zugang zu neuen Funktionen",
-    "benefit1Desc": "Testen Sie neue Funktionen in der Vorschau, bevor alle anderen sie sehen",
-    "benefit2Title": "Möglichkeit, Feedback an das Team zu senden",
-    "benefit2Desc": "Ihre Meinung zählt - helfen Sie uns, das Produkt zu verbessern",
-    "benefit3Title": "Direkter Beitrag zur Entwicklung",
-    "benefit3Desc": "Beeinflussen Sie die zukünftige Ausrichtung der Plattform",
-    "benefit4Title": "Kostenloser Zugang auf Lebenszeit",
-    "benefit4Desc": "Behalten Sie den Premium-Zugang für immer",
-    "formTitle": "Frühen Zugang anfordern",
-    "emailLabel": "Geben Sie Ihre E-Mail-Adresse ein",
-    "notesLabel": "Zusätzliche Anmerkungen (optional)",
-    "notesPlaceholder": "Erzählen Sie uns, warum Sie dem Early Access Programm beitreten möchten...",
-    "submitButton": "Frühen Zugang anfordern",
-    "submitting": "Wird gesendet...",
-    "successTitle": "Anfrage gesendet!",
-    "successMessage": "Vielen Dank für Ihr Interesse an unserem Early Access Programm. Wir werden uns in Kürze bei Ihnen melden!",
-    "submitAnother": "Eine weitere Anfrage senden",
-    "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
-    "submitError": "Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
-  },
   "contact": {
-    "pageTitle": "Kontaktieren Sie uns",
-    "pageSubtitle": "Haben Sie Fragen oder benötigen Sie Hilfe? Wir sind für Sie da.",
-    "formTitle": "Senden Sie uns eine Nachricht",
-    "floatingButton": "Support",
-    "nameLabel": "Ihr Name",
-    "namePlaceholder": "Geben Sie Ihren vollständigen Namen ein",
+    "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
     "emailLabel": "E-Mail-Adresse",
     "emailPlaceholder": "ihre.email@beispiel.de",
-    "subjectLabel": "Betreff",
-    "subjectPlaceholder": "Worum geht es?",
+    "emailRequired": "E-Mail ist erforderlich",
+    "floatingButton": "Support",
+    "formTitle": "Senden Sie uns eine Nachricht",
     "messageLabel": "Nachricht",
     "messagePlaceholder": "Sagen Sie uns, wie wir Ihnen helfen können...",
-    "submitButton": "Nachricht senden",
-    "submitting": "Wird gesendet...",
-    "successTitle": "Nachricht gesendet!",
-    "successMessage": "Vielen Dank für Ihre Kontaktaufnahme. Wir werden uns so schnell wie möglich bei Ihnen melden.",
-    "sendAnother": "Eine weitere Nachricht senden",
-    "nameRequired": "Name ist erforderlich",
-    "emailRequired": "E-Mail ist erforderlich",
-    "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
-    "subjectRequired": "Betreff ist erforderlich",
     "messageRequired": "Nachricht ist erforderlich",
-    "submitError": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+    "nameLabel": "Ihr Name",
+    "namePlaceholder": "Geben Sie Ihren vollständigen Namen ein",
+    "nameRequired": "Name ist erforderlich",
+    "pageSubtitle": "Haben Sie Fragen oder benötigen Sie Hilfe? Wir sind für Sie da.",
+    "pageTitle": "Kontaktieren Sie uns",
+    "sendAnother": "Eine weitere Nachricht senden",
+    "subjectLabel": "Betreff",
+    "subjectPlaceholder": "Worum geht es?",
+    "subjectRequired": "Betreff ist erforderlich",
+    "submitButton": "Nachricht senden",
+    "submitError": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
+    "submitting": "Wird gesendet...",
+    "successMessage": "Vielen Dank für Ihre Kontaktaufnahme. Wir werden uns so schnell wie möglich bei Ihnen melden.",
+    "successTitle": "Nachricht gesendet!"
+  },
+  "cookieConsent": {
+    "acceptAll": "Alle akzeptieren",
+    "analytics": {
+      "description": "Diese Cookies helfen uns zu verstehen, wie Besucher mit unserer Website interagieren, indem sie Informationen anonym sammeln.",
+      "title": "Analyse-Cookies"
+    },
+    "customize": "Anpassen",
+    "description": "Wir verwenden Cookies, um Ihre Browser-Erfahrung zu verbessern, personalisierte Inhalte anzuzeigen und unseren Datenverkehr zu analysieren. Durch Klicken auf \"Alle akzeptieren\" stimmen Sie der Verwendung von Cookies zu.",
+    "marketing": {
+      "description": "Diese Cookies werden verwendet, um Besucher über Websites hinweg zu verfolgen, um relevante Werbung anzuzeigen.",
+      "title": "Marketing-Cookies"
+    },
+    "necessary": {
+      "description": "Diese Cookies sind für das ordnungsgemäße Funktionieren der Website unerlässlich. Sie können nicht deaktiviert werden.",
+      "title": "Notwendige Cookies"
+    },
+    "privacyPolicy": "Datenschutzerklärung",
+    "rejectAll": "Alle ablehnen",
+    "savePreferences": "Einstellungen speichern",
+    "title": "Ihre Privatsphäre ist uns wichtig"
+  },
+  "earlyAccess": {
+    "benefit1Desc": "Testen Sie neue Funktionen in der Vorschau, bevor alle anderen sie sehen",
+    "benefit1Title": "Früher Zugang zu neuen Funktionen",
+    "benefit2Desc": "Ihre Meinung zählt - helfen Sie uns, das Produkt zu verbessern",
+    "benefit2Title": "Möglichkeit, Feedback an das Team zu senden",
+    "benefit3Desc": "Beeinflussen Sie die zukünftige Ausrichtung der Plattform",
+    "benefit3Title": "Direkter Beitrag zur Entwicklung",
+    "benefit4Desc": "Behalten Sie den Premium-Zugang für immer",
+    "benefit4Title": "Kostenloser Zugang auf Lebenszeit",
+    "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "emailLabel": "Geben Sie Ihre E-Mail-Adresse ein",
+    "formTitle": "Frühen Zugang anfordern",
+    "freeForever": "Der kostenlose Zugang ist persönlich und dauerhaft für Mitglieder des Early Access Programms.",
+    "intro": "Wir wählen eine begrenzte Anzahl von Benutzern für unser Early Access Programm aus. Eingeladene Benutzer erhalten dauerhaft kostenlosen Zugang zur Plattform, auch nach dem offiziellen Start.",
+    "notesLabel": "Zusätzliche Anmerkungen (optional)",
+    "notesPlaceholder": "Erzählen Sie uns, warum Sie dem Early Access Programm beitreten möchten...",
+    "submitAnother": "Eine weitere Anfrage senden",
+    "submitButton": "Frühen Zugang anfordern",
+    "submitError": "Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
+    "submitting": "Wird gesendet...",
+    "successMessage": "Vielen Dank für Ihr Interesse an unserem Early Access Programm. Wir werden uns in Kürze bei Ihnen melden!",
+    "successTitle": "Anfrage gesendet!",
+    "title": "Treten Sie dem Early Access Programm bei",
+    "whyJoin": "Warum dem Early Access Programm beitreten?"
   },
   "landing": {
-    "header": {
-      "features": "Features",
-      "pricing": "Preise",
-      "login": "Anmelden",
-      "startFree": "Kostenlos starten"
-    },
-    "widgetsCarousel": {
-      "title": "Analysefreiheit: 48 verschiedene Wege, Ihre Vermögenswerte zu betrachten."
-    },
-    "hero": {
-      "badge": "Anpassbarer Portfolio-Manager",
-      "title": "Der Depot-Tracker, der deine",
-      "titleSuffix": "Excel-Tabellen ersetzt.",
-      "description": "Übernehmen Sie die volle Kontrolle über Ihre Investitionen mit DonkyCapital, dem flexibelsten und leistungsstärksten Portfolio-Tracker auf dem Markt. Überwachen Sie Aktien, ETFs, Fonds, Anleihen und Krypto in einem einzigen anpassbaren Dashboard. Importieren Sie Transaktionen aus CSV, verbinden Sie Broker-Konten und erhalten Sie erweiterte Analysen mit interaktiven Diagrammen, Performance-Heatmaps und detaillierter P&L. Professionelles Multi-Asset-Portfolio-Management für jeden zugänglich.",
-      "ctaButton": "Kostenlos starten",
-      "gdprCompliant": "DSGVO-konform",
-      "encryptedData": "Verschlüsselte Daten",
-      "multiLanguage": "Mehrsprachig",
-      "multiCurrency": "Mehrere Währungen"
-    },
-    "features": {
-      "customizableDashboard": {
-        "title": "100% anpassbares Dashboard",
-        "description": "Drag & Drop, Konfigurationen speichern, mehrere Dashboards: Erstellen Sie die perfekte Ansicht für Ihre Anlagestrategie."
-      },
-      "advancedAnalytics": {
-        "title": "Erweiterte Analysen",
-        "description": "Multi-Perioden-Performance, detaillierte Gewinn- und Verlustrechnung, visuelle Heatmaps zur schnellen Identifizierung von Chancen und Risiken."
-      },
-      "multiPortfolio": {
-        "title": "Multi-Portfolio",
-        "description": "Verwalten Sie mehrere Portfolios, importieren Sie CSV-Transaktionen und erhalten Sie Echtzeit-Berechnungen.",
-        "manyMore": "+ viele weitere werden integriert",
-        "securityNote": "Wir fragen nie nach Zugang zu Ihrem Broker. Ihre Daten bleiben Ihre."
-      }
-    },
-    "seoHeadings": {
-      "h2Features": "Überwache Allokation, Rebalancing und Rendite in Echtzeit.",
-      "h3EtfTracker": "Professioneller ETF Sparplan Tracker für eine tiefe Depot-Analyse."
-    },
-    "useCases": {
-      "retailInvestor": {
-        "title": "Privatanleger",
-        "quote": "Ich habe ETFs bei 3 verschiedenen Brokern: Endlich sehe ich alle an einem Ort."
-      },
-      "partTimeTrader": {
-        "title": "Teilzeit-Trader",
-        "quote": "Ich verfolge P&L für jede Position, ich weiß genau, wie viel ich verdiene."
-      },
-      "financialAdvisor": {
-        "title": "Finanzberater",
-        "quote": "Ich betreue 20 Kunden, jedes Dashboard ist auf ihre Bedürfnisse zugeschnitten."
-      }
-    },
-    "pricing": {
-      "title": "Preise",
-      "earlyProgramActive": "Early Program aktiv",
-      "limitedAccess": "Begrenzter Zugang:",
-      "earlyProgramDesc": "Wir wählen die ersten 100 Benutzer für das Early Program aus. Erhalten Sie kostenlosen Zugang zu allen Premium-Funktionen während der Beta-Phase.",
-      "mostPopular": "Beliebteste",
-      "perMonth": "/ Monat",
-      "perEarlyAccess": "/ Early Access",
-      "requestEarlyAccess": "Early Access anfordern",
-      "plans": {
-        "free": {
-          "name": "Kostenlos",
-          "features": {
-            "portfolios": "1 Portfolio",
-            "transactions": "100 Transaktionen",
-            "dashboards": "3 Dashboards",
-            "brokerImport": "Import von Haupt-Brokern",
-            "portfolioValue": "Portfolio-Wert",
-            "performanceAnalysis": "Performance-Analyse",
-            "allocationAnalysis": "Allokations- und Risikoanalyse",
-            "profitLoss": "P&L"
-          }
-        },
-        "standard": {
-          "name": "Standard",
-          "features": {
-            "portfolios": "5 Portfolios",
-            "transactions": "500 Transaktionen",
-            "dashboards": "5 Dashboards"
-          }
-        },
-        "premium": {
-          "name": "Premium",
-          "features": {
-            "portfolios": "10 Portfolios",
-            "transactions": "Unbegrenzte Transaktionen",
-            "dashboards": "8 Dashboards"
-          }
-        }
-      }
+    "cta": {
+      "button": "Kostenlos starten - Keine Karte erforderlich",
+      "subtitle": "2-Minuten-Setup. Keine Verpflichtung. Jederzeit kündbar.",
+      "title": "Bereit, die Kontrolle über Ihre Investitionen zu übernehmen?"
     },
     "faq": {
-      "title": "Häufig gestellte Fragen",
       "questions": [
         {
           "question": "Warum ist Donky Capital die beste Excel-Alternative für Investments?",
@@ -184,213 +126,127 @@
           "question": "Was passiert mit meinen Daten?",
           "answer": "Ihre Daten werden sicher in Europa gespeichert und verschlüsselt. Wir speichern keine Broker-Passwörter und garantieren maximale Privatsphäre."
         }
-      ]
+      ],
+      "title": "Häufig gestellte Fragen"
     },
-    "cta": {
-      "title": "Bereit, die Kontrolle über Ihre Investitionen zu übernehmen?",
-      "subtitle": "2-Minuten-Setup. Keine Verpflichtung. Jederzeit kündbar.",
-      "button": "Kostenlos starten - Keine Karte erforderlich"
+    "features": {
+      "advancedAnalytics": {
+        "description": "Multi-Perioden-Performance, detaillierte Gewinn- und Verlustrechnung, visuelle Heatmaps zur schnellen Identifizierung von Chancen und Risiken.",
+        "title": "Erweiterte Analysen"
+      },
+      "customizableDashboard": {
+        "description": "Drag & Drop, Konfigurationen speichern, mehrere Dashboards: Erstellen Sie die perfekte Ansicht für Ihre Anlagestrategie.",
+        "title": "100% anpassbares Dashboard"
+      },
+      "multiPortfolio": {
+        "description": "Verwalten Sie mehrere Portfolios, importieren Sie CSV-Transaktionen und erhalten Sie Echtzeit-Berechnungen.",
+        "manyMore": "+ viele weitere werden integriert",
+        "securityNote": "Wir fragen nie nach Zugang zu Ihrem Broker. Ihre Daten bleiben Ihre.",
+        "title": "Multi-Portfolio"
+      }
     },
     "footer": {
-      "privacyPolicy": "Datenschutzerklärung",
-      "termsAndConditions": "Geschäftsbedingungen",
-      "secureConnection": "Sichere Verbindung",
-      "protectedData": "Geschützte Daten",
-      "copyright": "© {{year}} DonkyCapital. Alle Rechte vorbehalten.",
       "aboutUs": "Über Uns",
       "contact": "Kontakt",
-      "siteMap": "Seitenübersicht"
+      "copyright": "© {{year}} DonkyCapital. Alle Rechte vorbehalten.",
+      "privacyPolicy": "Datenschutzerklärung",
+      "protectedData": "Geschützte Daten",
+      "secureConnection": "Sichere Verbindung",
+      "siteMap": "Seitenübersicht",
+      "termsAndConditions": "Geschäftsbedingungen"
+    },
+    "header": {
+      "features": "Features",
+      "login": "Anmelden",
+      "pricing": "Preise",
+      "startFree": "Kostenlos starten"
+    },
+    "hero": {
+      "badge": "Anpassbarer Portfolio-Manager",
+      "ctaButton": "Kostenlos starten",
+      "description": "Übernehmen Sie die volle Kontrolle über Ihre Investitionen mit DonkyCapital, dem flexibelsten und leistungsstärksten Portfolio-Tracker auf dem Markt. Überwachen Sie Aktien, ETFs, Fonds, Anleihen und Krypto in einem einzigen anpassbaren Dashboard. Importieren Sie Transaktionen aus CSV, verbinden Sie Broker-Konten und erhalten Sie erweiterte Analysen mit interaktiven Diagrammen, Performance-Heatmaps und detaillierter P&L. Professionelles Multi-Asset-Portfolio-Management für jeden zugänglich.",
+      "encryptedData": "Verschlüsselte Daten",
+      "gdprCompliant": "DSGVO-konform",
+      "multiCurrency": "Mehrere Währungen",
+      "multiLanguage": "Mehrsprachig",
+      "title": "Der Depot-Tracker, der deine",
+      "titleSuffix": "Excel-Tabellen ersetzt."
+    },
+    "pricing": {
+      "earlyProgramActive": "Early Program aktiv",
+      "earlyProgramDesc": "Wir wählen die ersten 100 Benutzer für das Early Program aus. Erhalten Sie kostenlosen Zugang zu allen Premium-Funktionen während der Beta-Phase.",
+      "limitedAccess": "Begrenzter Zugang:",
+      "mostPopular": "Beliebteste",
+      "perEarlyAccess": "/ Early Access",
+      "perMonth": "/ Monat",
+      "plans": {
+        "free": {
+          "features": {
+            "allocationAnalysis": "Allokations- und Risikoanalyse",
+            "brokerImport": "Import von Haupt-Brokern",
+            "dashboards": "3 Dashboards",
+            "performanceAnalysis": "Performance-Analyse",
+            "portfolioValue": "Portfolio-Wert",
+            "portfolios": "1 Portfolio",
+            "profitLoss": "P&L",
+            "transactions": "100 Transaktionen"
+          },
+          "name": "Kostenlos"
+        },
+        "premium": {
+          "features": {
+            "dashboards": "8 Dashboards",
+            "portfolios": "10 Portfolios",
+            "transactions": "Unbegrenzte Transaktionen"
+          },
+          "name": "Premium"
+        },
+        "standard": {
+          "features": {
+            "dashboards": "5 Dashboards",
+            "portfolios": "5 Portfolios",
+            "transactions": "500 Transaktionen"
+          },
+          "name": "Standard"
+        }
+      },
+      "requestEarlyAccess": "Early Access anfordern",
+      "title": "Preise"
+    },
+    "seoHeadings": {
+      "h2Features": "Überwache Allokation, Rebalancing und Rendite in Echtzeit.",
+      "h3EtfTracker": "Professioneller ETF Sparplan Tracker für eine tiefe Depot-Analyse."
+    },
+    "useCases": {
+      "financialAdvisor": {
+        "quote": "Ich betreue 20 Kunden, jedes Dashboard ist auf ihre Bedürfnisse zugeschnitten.",
+        "title": "Finanzberater"
+      },
+      "partTimeTrader": {
+        "quote": "Ich verfolge P&L für jede Position, ich weiß genau, wie viel ich verdiene.",
+        "title": "Teilzeit-Trader"
+      },
+      "retailInvestor": {
+        "quote": "Ich habe ETFs bei 3 verschiedenen Brokern: Endlich sehe ich alle an einem Ort.",
+        "title": "Privatanleger"
+      }
+    },
+    "widgetsCarousel": {
+      "title": "Analysefreiheit: 48 verschiedene Wege, Ihre Vermögenswerte zu betrachten."
     }
   },
-  "about": {
-    "pageTitle": "Unsere Geschichte",
-    "pageSubtitle": "Von Investoren für Investoren entwickelt.",
-    "h1": "Von Investoren für Investoren entwickelt.",
-    "h1Text": "Donky Capital entstand aus der Notwendigkeit, Depots bei verschiedenen Brokern effizient zu vergleichen. Wir wollten eine Lösung, die mehr bietet als Excel, aber nicht unsere Privatsphäre opfert.",
-    "h2Security": "Maximale Sicherheit ohne Broker-Login.",
-    "h2SecurityText": "Im Gegensatz zu anderen Depot-Trackern verlangen wir keinen Zugriff auf Ihr Bankkonto. Sie exportieren Ihre Daten einfach selbst und laden sie bei uns hoch. Ihre Sicherheit steht an erster Stelle.",
-    "h3Dashboard": "Ihre Strategie, Ihr Dashboard.",
-    "h3DashboardText": "Jeder Investor ist anders. Deshalb bieten wir keine Standardansichten, sondern voll personalisierbare Dashboards für Ihr Monitoring und Rebalancing."
-  },
-  "widgets": {
-    "names": {
-      "portfolio-trends": "Portfolio-Trends",
-      "heatmap": "Performance-Heatmap",
-      "line-chart": "Performance-Diagramm",
-      "stack-chart": "Zeitliche Zusammensetzung",
-      "pie-chart": "Allokation",
-      "allocation-breakdown": "Allokationsaufschlüsselung",
-      "performance-table": "Performance-Tabelle",
-      "profit-loss": "Gewinn & Verlust",
-      "transactions-list": "Letzte Transaktionen",
-      "portfolio-table": "Portfolio-Tabelle",
-      "holdings-summary": "Offene Positionen",
-      "performance-metrics": "Portfolio-Zusammenfassung"
-    },
-    "descriptions": {
-      "portfolio-trends": "Zeitliche Entwicklung des Portfoliowerts mit gestapeltem Flächendiagramm.",
-      "heatmap": "Heatmap zum visuellen Vergleich von Performance und Gewichtung nach Kategorie.",
-      "line-chart": "Zeitlicher Performance-Trend nach Portfolio/Typ/Klasse/Währung/Sektor/Land.",
-      "stack-chart": "Zeigt die prozentuale Zusammensetzung des Portfolios im Zeitverlauf.",
-      "pie-chart": "Kreisdiagramm zur Darstellung der prozentualen Portfolio-Verteilung.",
-      "allocation-breakdown": "Analytische Tabelle mit Gewichtung, Wert und Performance für jede Kategorie.",
-      "performance-table": "Performance über 6 Zeithorizonte mit Trend-Symbolen (1T, 1W, 1M, 3M, 6M, 1J).",
-      "profit-loss": "Vollständige Ansicht der Portfolio-Gewinne und -Verluste.",
-      "transactions-list": "Liste der letzten Transaktionen in chronologischer Reihenfolge.",
-      "portfolio-table": "Vollständige Tabelle mit allen Portfolios und ihren Schlüsselwerten.",
-      "holdings-summary": "Vollständige Liste der aktuell offenen Positionen mit Durchschnittspreis und Performance.",
-      "performance-metrics": "Synthetische Übersicht des Portfolios mit fünf Schlüsselindikatoren."
-    },
-    "badges": {
-      "trending": "Trending",
-      "visual": "Visuell",
-      "versatile": "Vielseitig",
-      "stacked": "Gestapelt",
-      "analytical": "Analytisch",
-      "multiPeriod": "Multi-Periode",
-      "complete": "Vollständig",
-      "history": "Historie",
-      "detailed": "Detailliert",
-      "holdings": "Bestände",
-      "essential": "Wesentlich"
-    },
-    "tags": {
-      "areaChart": "Flächendiagramm",
-      "timeSeries": "Zeitreihe",
-      "comparison": "Vergleich",
-      "heatmap": "Heatmap",
-      "performanceColors": "Performance-Farben",
-      "bubbles": "Blasen",
-      "lineChart": "Liniendiagramm",
-      "multiGrouping": "Multi-Gruppierung",
-      "historical": "Historisch",
-      "100stacked": "100% gestapelt",
-      "evolution": "Entwicklung",
-      "multiCategory": "Multi-Kategorie",
-      "pieChart": "Kreisdiagramm",
-      "percentages": "Prozentsätze",
-      "detail": "Detail",
-      "weightValue": "Gewicht + Wert",
-      "performance": "Performance",
-      "tableView": "Tabellenansicht",
-      "6periods": "6 Perioden",
-      "trendIcons": "Trend-Symbole",
-      "totalPL": "Gesamt-G&V",
-      "flexibleFilters": "Flexible Filter",
-      "chronologicalList": "Chronologische Liste",
-      "period": "Periode",
-      "multiPortfolio": "Multi-Portfolio",
-      "analysis": "Analyse",
-      "livePositions": "Live-Positionen",
-      "pmcValues": "Durchschnittspreis und Werte",
-      "pl": "G&V",
-      "keyMetrics": "Schlüsselmetriken",
-      "aggregateValues": "Aggregierte Werte"
-    }
-  },
-  "seo": {
-	  "home": {
-		"title": "DonkyCapital | Bester Portfolio Tracker",
-		"description": "Schluss mit Excel. Verfolgen Sie Aktien, ETFs und Kryptos in Echtzeit mit den anpassbaren Dashboards von DonkyCapital."
-	  },
-	  "about": {
-		"title": "Über Uns | Die DonkyCapital Mission",
-		"description": "Entdecken Sie DonkyCapital: Der moderne Tracker für eine einfache und anpassbare Investmentverwaltung."
-	  },
-	  "earlyAccess": {
-		"title": "Early Access: Premium-Funktionen lebenslang gratis | DonkyCapital",
-		"description": "Gehören Sie zu den ersten 100 Nutzern: lebenslanger Gratis-Premium-Zugang. Verwalten Sie Investments ohne Abo-Gebühren."
-	  },
-	  "privacyPolicy": {
-		"title": "Datenschutzerklärung | DonkyCapital Datenschutz",
-		"description": "Datenschutzerklärung von DonkyCapital. Erfahren Sie, wie wir Ihre Daten gemäß DSGVO schützen."
-	  },
-	  "termsAndConditions": {
-		"title": "Nutzungsbedingungen | DonkyCapital",
-		"description": "Lesen Sie die Nutzungsbedingungen von DonkyCapital, der Plattform für Ihre Investment-Portfolio-Analyse."
-	  },
-	  "contact": {
-		"title": "Kontakt | Support und Feedback | DonkyCapital",
-		"description": "Haben Sie Fragen? Kontaktieren Sie das DonkyCapital-Team. Wir helfen Ihnen gerne bei der Verwaltung Ihres Kapitals."
-	  },
-	  "scalableCapital": {
-		"title": "Scalable Capital Transaktionen exportieren und in DonkyCapital importieren",
-		"description": "Erfahre, wie du Scalable Capital Transaktionen auch ohne PRIME+ exportierst und in DonkyCapital importierst, um Assets, Allokation, Exposure und Performance zu analysieren."
-	  }
-	}
-	,
   "scalableCapital": {
-    "pageTitle": "Scalable Capital Transaktionen exportieren und in DonkyCapital importieren",
-    "pageDescription": "Vollständige Anleitung zum Exportieren von Transaktionen aus Scalable Capital auch ohne PRIME+ Account und zum Importieren in DonkyCapital, mit Ansicht von Assets, Rebalancing, Exposure und Performance.",
-    "intro": "Wenn Sie <strong>Scalable Capital</strong> verwenden, um in ETFs, Aktien oder Fonds zu investieren, haben Sie sich wahrscheinlich gefragt, wie Sie alle Ihre Operationen einfach und schnell verfolgen können. In dieser Anleitung erkläre ich Ihnen, <strong>wie Sie Ihre Transaktionen mit der Chrome-Erweiterung \"Scalable Capital Transaction Exporter\" exportieren</strong> und <strong>wie Sie diese in DonkyCapital importieren</strong>, dem Portfolio Tracker, mit dem Sie alle Ihre Investitionen in einem einzigen Dashboard verwalten können, ohne komplizierte Excel-Tabellen.",
-    "whyExportTitle": "Warum Daten von Scalable Capital exportieren",
-    "whyExportText1": "Scalable Capital ist dank seiner modernen und intuitiven Plattformen einer der meistgenutzten Broker in Europa. Viele Exportfunktionen für Transaktionen sind jedoch nur für PRIME+ Kunden verfügbar.",
-    "whyExportText2": "Wenn Sie kein zusätzliches Abo bezahlen möchten oder einfach mehr Kontrolle über Ihre Daten haben wollen, ist die Chrome-Erweiterung <strong>Scalable Capital Transaction Exporter</strong> die ideale Lösung.",
-    "whyExportList": [
-      "Laden Sie Ihre Transaktionen als <strong>CSV, Excel (XLSX)</strong> herunter, auch ohne <strong>PRIME+</strong> Account;",
-      "Behalten Sie alle Daten <strong>auf Ihrem Gerät</strong>, ohne sie an externe Server zu senden;",
-      "Verwenden Sie die exportierten Dateien für persönliche Analysen oder importieren Sie diese in DonkyCapital;",
-      "Erhalten Sie detaillierte Berichte ohne zusätzliche Kosten."
+    "conclusionList": [
+      "Einfach Transaktionen aus Scalable Capital extrahieren, auch ohne PRIME+ Account;",
+      "Diese in DonkyCapital importieren;",
+      "Eine <strong>vollständige Portfolio-Ansicht</strong> erhalten, mit fortgeschrittenen Analysen zu Assets, Rebalancing, Exposure und Performance;",
+      "Alles in einem einzigen Dashboard verwalten, ohne Excel-Tabellen oder komplizierte Tools."
     ],
-    "whyExportQuote": "Das bedeutet, dass auch Nutzer mit einem kostenlosen Account endlich alle Informationen zu ihren Transaktionen erhalten und die vollständige Kontrolle über ihr Portfolio haben können.",
-    "whyDonkyTitle": "Warum DonkyCapital anstelle der Scalable Capital Website nutzen",
-    "whyDonkyText1": "Die Website von Scalable Capital zeigt nur die Transaktionshistorie und einige Basisinformationen. Sie bietet keine <strong>vollständige Portfolio-Ansicht</strong> in Bezug auf:",
-    "whyDonkyList": [
-      "<strong>Asset</strong>-Zusammensetzung;",
-      "Portfolio-<strong>Rebalancing</strong>;",
-      "Sektorale oder geografische <strong>Exposure</strong>;",
-      "Gesamtperformance im Zeitverlauf."
-    ],
-    "whyDonkyText2": "Mit DonkyCapital erhalten Sie hingegen ein <strong>vollständiges und personalisiertes Dashboard</strong>, in dem Sie Ihr gesamtes Vermögen auf einen Blick sehen, die Entwicklung Ihrer Investitionen analysieren und fundiertere Entscheidungen treffen können.",
-    "whyDonkyQuote": "Mit anderen Worten: DonkyCapital zeigt Ihnen das, was Scalable Capital verschweigt – eine echte Gesamtkontrolle Ihres Portfolios.",
-    "step1Title": "Schritt 1 — Chrome-Erweiterung installieren",
-    "step1List": [
-      "Öffnen Sie Google Chrome auf Ihrem Computer.",
-      "Gehen Sie zur offiziellen Seite der Erweiterung: Scalable Capital Transaction Exporter im Chrome Web Store.",
-      "Klicken Sie auf <strong>\"Hinzufügen\"</strong> und bestätigen Sie die Installation.",
-      "Nach der Installation sehen Sie das Icon der Erweiterung neben der Adressleiste."
-    ],
-    "step1Tip": "Tipp: Halten Sie die Erweiterung immer auf dem neuesten Stand, um sicherzustellen, dass sie mit neuen Versionen von Scalable Capital korrekt funktioniert.",
-    "step2Title": "Schritt 2 — Transaktionen exportieren",
-    "step2List": [
-      "Loggen Sie sich in Ihren Scalable Capital Account ein.",
-      "Gehen Sie zum Bereich <strong>\"Transaktionen\"</strong> oder <strong>\"Aktivitäten\"</strong>.",
-      "Wählen Sie den gewünschten Zeitraum aus (z. B. die letzten 12 Monate).",
-      "Klicken Sie auf das Download-Icon der Chrome-Erweiterung.",
-      "Wählen Sie das Dateiformat für den Export: CSV, Excel oder JSON."
-    ],
-    "step2Text": "Die exportierte Datei enthält alle wichtigen Informationen: Transaktionsdatum, Name des Assets (ETF, Aktie oder Fonds), Menge, Preis und Art der Operation (Kauf, Verkauf, Dividende).",
-    "step2Highlight": "Auch ohne PRIME+ Account können Sie alle Transaktionen erhalten und in DonkyCapital importieren, um ein vollständiges Portfoliomanagement zu erhalten.",
-    "step3Title": "Schritt 3 — Daten in DonkyCapital importieren",
-    "step3List": [
-      "Besuchen Sie DonkyCapital.com und loggen Sie sich ein.",
-      "Wählen Sie das Portfolio aus, in das Sie die Transaktionen importieren möchten, und wählen Sie <strong>\"Transaktionen importieren\"</strong>.",
-      "Laden Sie die von Scalable Capital exportierte CSV-Datei hoch.",
-      "Bestätigen Sie und warten Sie auf die Verarbeitung der Datei."
-    ],
-    "step3Text": "In wenigen Sekunden sind alle Ihre Transaktionen im DonkyCapital Dashboard sichtbar, mit detaillierten Berichten zu:",
-    "step3ReportList": [
-      "Portfolio-Zusammensetzung;",
-      "Rebalancing der Assets;",
-      "Sektoraler und geografischer Exposure;",
-      "Performance und Gewinn/Verlust;",
-      "Vergleich zwischen mehreren Portfolios, falls Sie mehrere verwalten."
-    ],
-    "step3Highlight": "Diese Analysetiefe <strong>ist auf der Website von Scalable Capital nicht verfügbar</strong>, da diese sich auf die Transaktionshistorie beschränkt.",
-    "privacyTitle": "Datenschutz und Datensicherheit",
-    "privacyList": [
-      "Die Erweiterung <strong>sendet keine Daten an externe Server</strong>: Alles geschieht in Ihrem Browser.",
-      "DonkyCapital <strong>benötigt keine Login-Daten Ihres Brokers</strong>, um CSV/Excel-Dateien zu importieren.",
-      "Sie können die exportierten Dateien sicher auf Ihrem Computer oder in einer persönlichen Cloud speichern."
-    ],
-    "tipsTitle": "Praktische Tipps zur Verwaltung von Transaktionen",
-    "tipsList": [
-      "Exportieren Sie die Daten regelmäßig, z. B. jeden Monat, damit DonkyCapital immer aktuell bleibt.",
-      "Bewahren Sie die CSV/Excel-Dateien in einem speziellen Ordner auf Ihrem PC als Backup auf.",
-      "Prüfen Sie die Daten nach dem Import immer kurz nach, um sicherzustellen, dass alle Transaktionen korrekt sind.",
-      "Nutzen Sie die Tatsache, dass auch kostenlose Accounts alle notwendigen Informationen erhalten können, ohne ein PRIME+ Abo abzuschließen."
-    ],
-    "faqTitle": "Häufig gestellte Fragen (FAQ)",
+    "conclusionQuote": "DonkyCapital verwandelt Ihre Daten in nützliche Informationen und hilft Ihnen, bewusstere und schnellere Investmententscheidungen zu treffen.",
+    "conclusionText": "Wenn Sie dieser Anleitung folgen, können Sie endlich:",
+    "conclusionTitle": "Fazit",
+    "extensionLink": "https://chromewebstore.google.com/detail/scalable-capital-transact/fllkfonkjkeiibonmifngekchncphhen",
+    "extensionLinkText": "Scalable Capital Transaction Exporter",
     "faq": [
       {
         "question": "Kann ich dieses Verfahren mit kostenlosen Scalable Capital Accounts nutzen?",
@@ -413,40 +269,183 @@
         "answer": "Ja, die Erweiterung exportiert alle Transaktionen, die in der Historie von Scalable Capital sichtbar sind."
       }
     ],
-    "conclusionTitle": "Fazit",
-    "conclusionText": "Wenn Sie dieser Anleitung folgen, können Sie endlich:",
-    "conclusionList": [
-      "Einfach Transaktionen aus Scalable Capital extrahieren, auch ohne PRIME+ Account;",
-      "Diese in DonkyCapital importieren;",
-      "Eine <strong>vollständige Portfolio-Ansicht</strong> erhalten, mit fortgeschrittenen Analysen zu Assets, Rebalancing, Exposure und Performance;",
-      "Alles in einem einzigen Dashboard verwalten, ohne Excel-Tabellen oder komplizierte Tools."
+    "faqTitle": "Häufig gestellte Fragen (FAQ)",
+    "intro": "Wenn Sie <strong>Scalable Capital</strong> verwenden, um in ETFs, Aktien oder Fonds zu investieren, haben Sie sich wahrscheinlich gefragt, wie Sie alle Ihre Operationen einfach und schnell verfolgen können. In dieser Anleitung erkläre ich Ihnen, <strong>wie Sie Ihre Transaktionen mit der Chrome-Erweiterung \"Scalable Capital Transaction Exporter\" exportieren</strong> und <strong>wie Sie diese in DonkyCapital importieren</strong>, dem Portfolio Tracker, mit dem Sie alle Ihre Investitionen in einem einzigen Dashboard verwalten können, ohne komplizierte Excel-Tabellen.",
+    "pageDescription": "Vollständige Anleitung zum Exportieren von Transaktionen aus Scalable Capital auch ohne PRIME+ Account und zum Importieren in DonkyCapital, mit Ansicht von Assets, Rebalancing, Exposure und Performance.",
+    "pageTitle": "Scalable Capital Transaktionen exportieren und in DonkyCapital importieren",
+    "privacyList": [
+      "Die Erweiterung <strong>sendet keine Daten an externe Server</strong>: Alles geschieht in Ihrem Browser.",
+      "DonkyCapital <strong>benötigt keine Login-Daten Ihres Brokers</strong>, um CSV/Excel-Dateien zu importieren.",
+      "Sie können die exportierten Dateien sicher auf Ihrem Computer oder in einer persönlichen Cloud speichern."
     ],
-    "conclusionQuote": "DonkyCapital verwandelt Ihre Daten in nützliche Informationen und hilft Ihnen, bewusstere und schnellere Investmententscheidungen zu treffen.",
-    "extensionLink": "https://chromewebstore.google.com/detail/scalable-capital-transact/fllkfonkjkeiibonmifngekchncphhen",
-    "extensionLinkText": "Scalable Capital Transaction Exporter"
+    "privacyTitle": "Datenschutz und Datensicherheit",
+    "step1List": [
+      "Öffnen Sie Google Chrome auf Ihrem Computer.",
+      "Gehen Sie zur offiziellen Seite der Erweiterung: Scalable Capital Transaction Exporter im Chrome Web Store.",
+      "Klicken Sie auf <strong>\"Hinzufügen\"</strong> und bestätigen Sie die Installation.",
+      "Nach der Installation sehen Sie das Icon der Erweiterung neben der Adressleiste."
+    ],
+    "step1Tip": "Tipp: Halten Sie die Erweiterung immer auf dem neuesten Stand, um sicherzustellen, dass sie mit neuen Versionen von Scalable Capital korrekt funktioniert.",
+    "step1Title": "Schritt 1 — Chrome-Erweiterung installieren",
+    "step2Highlight": "Auch ohne PRIME+ Account können Sie alle Transaktionen erhalten und in DonkyCapital importieren, um ein vollständiges Portfoliomanagement zu erhalten.",
+    "step2List": [
+      "Loggen Sie sich in Ihren Scalable Capital Account ein.",
+      "Gehen Sie zum Bereich <strong>\"Transaktionen\"</strong> oder <strong>\"Aktivitäten\"</strong>.",
+      "Wählen Sie den gewünschten Zeitraum aus (z. B. die letzten 12 Monate).",
+      "Klicken Sie auf das Download-Icon der Chrome-Erweiterung.",
+      "Wählen Sie das Dateiformat für den Export: CSV, Excel oder JSON."
+    ],
+    "step2Text": "Die exportierte Datei enthält alle wichtigen Informationen: Transaktionsdatum, Name des Assets (ETF, Aktie oder Fonds), Menge, Preis und Art der Operation (Kauf, Verkauf, Dividende).",
+    "step2Title": "Schritt 2 — Transaktionen exportieren",
+    "step3Highlight": "Diese Analysetiefe <strong>ist auf der Website von Scalable Capital nicht verfügbar</strong>, da diese sich auf die Transaktionshistorie beschränkt.",
+    "step3List": [
+      "Besuchen Sie DonkyCapital.com und loggen Sie sich ein.",
+      "Wählen Sie das Portfolio aus, in das Sie die Transaktionen importieren möchten, und wählen Sie <strong>\"Transaktionen importieren\"</strong>.",
+      "Laden Sie die von Scalable Capital exportierte CSV-Datei hoch.",
+      "Bestätigen Sie und warten Sie auf die Verarbeitung der Datei."
+    ],
+    "step3ReportList": [
+      "Portfolio-Zusammensetzung;",
+      "Rebalancing der Assets;",
+      "Sektoraler und geografischer Exposure;",
+      "Performance und Gewinn/Verlust;",
+      "Vergleich zwischen mehreren Portfolios, falls Sie mehrere verwalten."
+    ],
+    "step3Text": "In wenigen Sekunden sind alle Ihre Transaktionen im DonkyCapital Dashboard sichtbar, mit detaillierten Berichten zu:",
+    "step3Title": "Schritt 3 — Daten in DonkyCapital importieren",
+    "tipsList": [
+      "Exportieren Sie die Daten regelmäßig, z. B. jeden Monat, damit DonkyCapital immer aktuell bleibt.",
+      "Bewahren Sie die CSV/Excel-Dateien in einem speziellen Ordner auf Ihrem PC als Backup auf.",
+      "Prüfen Sie die Daten nach dem Import immer kurz nach, um sicherzustellen, dass alle Transaktionen korrekt sind.",
+      "Nutzen Sie die Tatsache, dass auch kostenlose Accounts alle notwendigen Informationen erhalten können, ohne ein PRIME+ Abo abzuschließen."
+    ],
+    "tipsTitle": "Praktische Tipps zur Verwaltung von Transaktionen",
+    "whyDonkyList": [
+      "<strong>Asset</strong>-Zusammensetzung;",
+      "Portfolio-<strong>Rebalancing</strong>;",
+      "Sektorale oder geografische <strong>Exposure</strong>;",
+      "Gesamtperformance im Zeitverlauf."
+    ],
+    "whyDonkyQuote": "Mit anderen Worten: DonkyCapital zeigt Ihnen das, was Scalable Capital verschweigt – eine echte Gesamtkontrolle Ihres Portfolios.",
+    "whyDonkyText1": "Die Website von Scalable Capital zeigt nur die Transaktionshistorie und einige Basisinformationen. Sie bietet keine <strong>vollständige Portfolio-Ansicht</strong> in Bezug auf:",
+    "whyDonkyText2": "Mit DonkyCapital erhalten Sie hingegen ein <strong>vollständiges und personalisiertes Dashboard</strong>, in dem Sie Ihr gesamtes Vermögen auf einen Blick sehen, die Entwicklung Ihrer Investitionen analysieren und fundiertere Entscheidungen treffen können.",
+    "whyDonkyTitle": "Warum DonkyCapital anstelle der Scalable Capital Website nutzen",
+    "whyExportList": [
+      "Laden Sie Ihre Transaktionen als <strong>CSV, Excel (XLSX)</strong> herunter, auch ohne <strong>PRIME+</strong> Account;",
+      "Behalten Sie alle Daten <strong>auf Ihrem Gerät</strong>, ohne sie an externe Server zu senden;",
+      "Verwenden Sie die exportierten Dateien für persönliche Analysen oder importieren Sie diese in DonkyCapital;",
+      "Erhalten Sie detaillierte Berichte ohne zusätzliche Kosten."
+    ],
+    "whyExportQuote": "Das bedeutet, dass auch Nutzer mit einem kostenlosen Account endlich alle Informationen zu ihren Transaktionen erhalten und die vollständige Kontrolle über ihr Portfolio haben können.",
+    "whyExportText1": "Scalable Capital ist dank seiner modernen und intuitiven Plattformen einer der meistgenutzten Broker in Europa. Viele Exportfunktionen für Transaktionen sind jedoch nur für PRIME+ Kunden verfügbar.",
+    "whyExportText2": "Wenn Sie kein zusätzliches Abo bezahlen möchten oder einfach mehr Kontrolle über Ihre Daten haben wollen, ist die Chrome-Erweiterung <strong>Scalable Capital Transaction Exporter</strong> die ideale Lösung.",
+    "whyExportTitle": "Warum Daten von Scalable Capital exportieren"
   },
-  "broker": {
-    "sectionTitle": "Integration"
+  "seo": {
+    "about": {
+      "description": "Entdecken Sie DonkyCapital: Der moderne Tracker für eine einfache und anpassbare Investmentverwaltung.",
+      "title": "Über Uns | Die DonkyCapital Mission"
+    },
+    "contact": {
+      "description": "Haben Sie Fragen? Kontaktieren Sie das DonkyCapital-Team. Wir helfen Ihnen gerne bei der Verwaltung Ihres Kapitals.",
+      "title": "Kontakt | Support und Feedback | DonkyCapital"
+    },
+    "earlyAccess": {
+      "description": "Gehören Sie zu den ersten 100 Nutzern: lebenslanger Gratis-Premium-Zugang. Verwalten Sie Investments ohne Abo-Gebühren.",
+      "title": "Early Access: Premium-Funktionen lebenslang gratis | DonkyCapital"
+    },
+    "home": {
+      "description": "Schluss mit Excel. Verfolgen Sie Aktien, ETFs und Kryptos in Echtzeit mit den anpassbaren Dashboards von DonkyCapital.",
+      "title": "DonkyCapital | Bester Portfolio Tracker"
+    },
+    "privacyPolicy": {
+      "description": "Datenschutzerklärung von DonkyCapital. Erfahren Sie, wie wir Ihre Daten gemäß DSGVO schützen.",
+      "title": "Datenschutzerklärung | DonkyCapital Datenschutz"
+    },
+    "scalableCapital": {
+      "description": "Erfahre, wie du Scalable Capital Transaktionen auch ohne PRIME+ exportierst und in DonkyCapital importierst, um Assets, Allokation, Exposure und Performance zu analysieren.",
+      "title": "Scalable Capital Transaktionen exportieren und in DonkyCapital importieren"
+    },
+    "termsAndConditions": {
+      "description": "Lesen Sie die Nutzungsbedingungen von DonkyCapital, der Plattform für Ihre Investment-Portfolio-Analyse.",
+      "title": "Nutzungsbedingungen | DonkyCapital"
+    }
   },
-  "cookieConsent": {
-    "title": "Ihre Privatsphäre ist uns wichtig",
-    "description": "Wir verwenden Cookies, um Ihre Browser-Erfahrung zu verbessern, personalisierte Inhalte anzuzeigen und unseren Datenverkehr zu analysieren. Durch Klicken auf \"Alle akzeptieren\" stimmen Sie der Verwendung von Cookies zu.",
-    "acceptAll": "Alle akzeptieren",
-    "rejectAll": "Alle ablehnen",
-    "customize": "Anpassen",
-    "savePreferences": "Einstellungen speichern",
-    "necessary": {
-      "title": "Notwendige Cookies",
-      "description": "Diese Cookies sind für das ordnungsgemäße Funktionieren der Website unerlässlich. Sie können nicht deaktiviert werden."
+  "tagline": "Überwachen, Analysieren, Optimieren Sie Ihre Investitionen",
+  "widgets": {
+    "badges": {
+      "analytical": "Analytisch",
+      "complete": "Vollständig",
+      "detailed": "Detailliert",
+      "essential": "Wesentlich",
+      "history": "Historie",
+      "holdings": "Bestände",
+      "multiPeriod": "Multi-Periode",
+      "stacked": "Gestapelt",
+      "trending": "Trending",
+      "versatile": "Vielseitig",
+      "visual": "Visuell"
     },
-    "analytics": {
-      "title": "Analyse-Cookies",
-      "description": "Diese Cookies helfen uns zu verstehen, wie Besucher mit unserer Website interagieren, indem sie Informationen anonym sammeln."
+    "descriptions": {
+      "allocation-breakdown": "Analytische Tabelle mit Gewichtung, Wert und Performance für jede Kategorie.",
+      "heatmap": "Heatmap zum visuellen Vergleich von Performance und Gewichtung nach Kategorie.",
+      "holdings-summary": "Vollständige Liste der aktuell offenen Positionen mit Durchschnittspreis und Performance.",
+      "line-chart": "Zeitlicher Performance-Trend nach Portfolio/Typ/Klasse/Währung/Sektor/Land.",
+      "performance-metrics": "Synthetische Übersicht des Portfolios mit fünf Schlüsselindikatoren.",
+      "performance-table": "Performance über 6 Zeithorizonte mit Trend-Symbolen (1T, 1W, 1M, 3M, 6M, 1J).",
+      "pie-chart": "Kreisdiagramm zur Darstellung der prozentualen Portfolio-Verteilung.",
+      "portfolio-table": "Vollständige Tabelle mit allen Portfolios und ihren Schlüsselwerten.",
+      "portfolio-trends": "Zeitliche Entwicklung des Portfoliowerts mit gestapeltem Flächendiagramm.",
+      "profit-loss": "Vollständige Ansicht der Portfolio-Gewinne und -Verluste.",
+      "stack-chart": "Zeigt die prozentuale Zusammensetzung des Portfolios im Zeitverlauf.",
+      "transactions-list": "Liste der letzten Transaktionen in chronologischer Reihenfolge."
     },
-    "marketing": {
-      "title": "Marketing-Cookies",
-      "description": "Diese Cookies werden verwendet, um Besucher über Websites hinweg zu verfolgen, um relevante Werbung anzuzeigen."
+    "names": {
+      "allocation-breakdown": "Allokationsaufschlüsselung",
+      "heatmap": "Performance-Heatmap",
+      "holdings-summary": "Offene Positionen",
+      "line-chart": "Performance-Diagramm",
+      "performance-metrics": "Portfolio-Zusammenfassung",
+      "performance-table": "Performance-Tabelle",
+      "pie-chart": "Allokation",
+      "portfolio-table": "Portfolio-Tabelle",
+      "portfolio-trends": "Portfolio-Trends",
+      "profit-loss": "Gewinn & Verlust",
+      "stack-chart": "Zeitliche Zusammensetzung",
+      "transactions-list": "Letzte Transaktionen"
     },
-    "privacyPolicy": "Datenschutzerklärung"
+    "tags": {
+      "100stacked": "100% gestapelt",
+      "6periods": "6 Perioden",
+      "aggregateValues": "Aggregierte Werte",
+      "analysis": "Analyse",
+      "areaChart": "Flächendiagramm",
+      "bubbles": "Blasen",
+      "chronologicalList": "Chronologische Liste",
+      "comparison": "Vergleich",
+      "detail": "Detail",
+      "evolution": "Entwicklung",
+      "flexibleFilters": "Flexible Filter",
+      "heatmap": "Heatmap",
+      "historical": "Historisch",
+      "keyMetrics": "Schlüsselmetriken",
+      "lineChart": "Liniendiagramm",
+      "livePositions": "Live-Positionen",
+      "multiCategory": "Multi-Kategorie",
+      "multiGrouping": "Multi-Gruppierung",
+      "multiPortfolio": "Multi-Portfolio",
+      "percentages": "Prozentsätze",
+      "performance": "Performance",
+      "performanceColors": "Performance-Farben",
+      "period": "Periode",
+      "pieChart": "Kreisdiagramm",
+      "pl": "G&V",
+      "pmcValues": "Durchschnittspreis und Werte",
+      "tableView": "Tabellenansicht",
+      "timeSeries": "Zeitreihe",
+      "totalPL": "Gesamt-G&V",
+      "trendIcons": "Trend-Symbole",
+      "weightValue": "Gewicht + Wert"
+    }
   }
 }

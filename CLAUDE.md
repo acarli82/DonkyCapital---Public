@@ -110,3 +110,28 @@ Alternativa Excel investimenti	Investment Excel alternative	Excel Alternative In
 #"La miglior dashboard per il tuo portafoglio Scalable Capital" (IT)
 #Importare file CSV Degiro
 #Scalable Capital Tracker, possibilità di esportare da Scalable i propri dati senza pagare prime+
+
+
+
+✅ LANGUAGE Claude Code Instructions: I18n & Token Optimization
+
+CRITICAL: labels.master.json is a large file. NEVER use cat, read_file, or open the entire file. You must act as a "surgical editor" to minimize token consumption and costs.
+
+1. Searching for Labels
+Before modifying, locate the key using grep to keep the context clean.
+    Command: !grep -i "your_key" labels.master.json
+    Check Structure: !grep -C 3 "your_key" labels.master.json (to see surrounding lines without loading the file).
+2. Modifying Labels
+Do not attempt to rewrite the JSON manually. Use the provided automation script which handles the edit and the synchronization in one step.
+    Protocol: Use update_label.py. This script updates the Master JSON and automatically triggers the distribution to all language files.
+    Command: !python update_label.py "path.to.key.language" "New Value
+    Example: !python update_label.py "assetClasses.stocks.en" "Equity"
+3. Adding New Keys
+Se devi inserire termini standard (pulsanti, etichette anagrafiche, messaggi di errore generici), non creare una nuova chiave. Valuta se ne esiste già una o usa un segnaposto come common.KEY_NAME.
+When adding brand new translation keys:
+    Use grep to find the appropriate parent object.
+    Use update_label.py for each language required
+    If adding many keys, write a temporary "throwaway" Python script to batch update the JSON, then run sync_from_master.py.
+4. Context Management
+    Post-Update: After completing a set of label changes, remind the user to run /compact or /clear to remove the accumulated string data from the message history.
+    Strict Silence: Do not output the content of the language files (it.json, en.json, etc.) unless explicitly asked. Trust the sync_from_master.py output.

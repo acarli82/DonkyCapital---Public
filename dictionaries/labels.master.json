@@ -1,0 +1,2385 @@
+{
+  "about": {
+    "h1": {
+      "it": "Il controllo totale del tuo patrimonio, senza compromessi sulla sicurezza.",
+      "en": "Full control of your wealth, without compromising on security.",
+      "fr": "Le contrôle total de votre patrimoine, sans compromis sur la sécurité.",
+      "de": "Vollständige Kontrolle über dein Vermögen, ohne Kompromisse bei der Sicherheit.",
+      "es": "Control total de tu patrimonio, sin compromisos en seguridad."
+    },
+    "pageTitle": {
+      "it": "Chi Siamo",
+      "en": "About Us",
+      "fr": "À Propos",
+      "de": "Über Uns",
+      "es": "Acerca de Nosotros"
+    },
+    "section1Text": {
+      "it": "Siamo partiti da una domanda reale: perché per analizzare i propri investimenti bisogna scegliere tra la scomodità di Excel o il rischio di condividere le password dei propri conti? Donky Capital è la risposta. Creato da chi investe ogni giorno, per chi cerca analisi avanzate senza rinunciare alla privacy.",
+      "en": "We started with a real question: why do you have to choose between the inconvenience of Excel or the risk of sharing your broker credentials when analyzing your investments? Donky Capital is the answer. Built by people who invest every day, for those seeking advanced analysis without sacrificing privacy.",
+      "fr": "Nous avons commencé avec une vraie question: pourquoi deviez-vous choisir entre l'inconvénient d'Excel et le risque de partager vos identifiants de courtier lors de l'analyse de vos investissements? Donky Capital est la réponse. Créé par ceux qui investissent chaque jour, pour ceux qui recherchent une analyse avancée sans sacrifier la confidentialité.",
+      "de": "Wir sind von einer echten Frage ausgegangen: Warum musst du dich beim Analysieren deiner Investitionen zwischen der Unbequemlichkeit von Excel oder dem Risiko, deine Broker-Zugangsdaten zu teilen, entscheiden? Donky Capital ist die Antwort. Entwickelt von Menschen, die täglich investieren, für diejenigen, die umfassende Analysen ohne Kompromisse bei der Privatsphäre suchen.",
+      "es": "Comenzamos con una pregunta real: ¿por qué tienes que elegir entre la inconveniencia de Excel o el riesgo de compartir tus credenciales de broker al analizar tus inversiones? Donky Capital es la respuesta. Creado por quienes invierten todos los días, para quienes buscan análisis avanzado sin sacrificar la privacidad."
+    },
+    "section1Title": {
+      "it": "Creato da investitori, per investitori.",
+      "en": "Built by investors, for investors.",
+      "fr": "Créé par des investisseurs, pour des investisseurs.",
+      "de": "Von Investoren, für Investoren entwickelt.",
+      "es": "Creado por inversores, para inversores."
+    },
+    "section2Text": {
+      "it": "A differenza dei tracker tradizionali, noi non avremo mai accesso ai tuoi dati bancari. Un semplice export dai tuoi broker e Donky Capital trasforma i dati grezzi in insight strategici in pochi secondi. Semplice, sicuro, inviolabile.",
+      "en": "Unlike traditional trackers, we will never have access to your banking data. A simple export from your brokers and Donky Capital transforms raw data into strategic insights in seconds. Simple, secure, unbreakable.",
+      "fr": "Contrairement aux trackers traditionnels, nous n'aurons jamais accès à vos données bancaires. Un simple export de vos courtiers et Donky Capital transforme les données brutes en informations stratégiques en quelques secondes. Simple, sécurisé, inviolable.",
+      "de": "Im Gegensatz zu traditionellen Trackern haben wir niemals Zugriff auf deine Bankdaten. Ein einfacher Export von deinen Brokern und Donky Capital verwandelt Rohdaten in Sekunden in strategische Erkenntnisse. Einfach, sicher, unzerbrechlich.",
+      "es": "A diferencia de los rastreadores tradicionales, nunca tendremos acceso a tus datos bancarios. Una simple exportación de tus brokers y Donky Capital transforma datos sin procesar en información estratégica en segundos. Simple, seguro, inviolable."
+    },
+    "section2Title": {
+      "it": "La tua sicurezza non è una funzione, è il nostro fondamento.",
+      "en": "Your security isn't a feature, it's our foundation.",
+      "fr": "Votre sécurité n'est pas une fonction, c'est notre fondement.",
+      "de": "Deine Sicherheit ist keine Funktion, sie ist unser Fundament.",
+      "es": "Tu seguridad no es una función, es nuestro fundamento."
+    },
+    "section3Text": {
+      "it": "Ogni portafoglio ha una storia diversa e la tua dashboard deve riflettere i tuoi obiettivi. Con il nostro sistema modulare, costruisci il tuo centro di comando tramite dashboard completamente configurabili: sei tu a definire i KPI che contano, a monitorare l'asset allocation e a gestire il ribilanciamento secondo i tuoi criteri.",
+      "en": "Every portfolio has a different story and your dashboard should reflect your goals. With our modular system, build your command center through fully customizable dashboards: you define the KPIs that matter, monitor asset allocation, and manage rebalancing according to your criteria.",
+      "fr": "Chaque portefeuille a une histoire différente et votre tableau de bord doit refléter vos objectifs. Avec notre système modulaire, construisez votre centre de commande via des tableaux de bord entièrement personnalisables: vous définissez les KPI qui comptent, surveillez l'allocation d'actifs et gérez le rééquilibrage selon vos critères.",
+      "de": "Jedes Portfolio hat eine andere Geschichte und dein Dashboard sollte deine Ziele widerspiegeln. Mit unserem modularen System baust du dein Kommandozentrum durch vollständig anpassbare Dashboards auf: du definierst die KPIs, die wichtig sind, überwachst die Vermögensallokation und verwaltest die Umschichtung nach deinen Kriterien.",
+      "es": "Cada cartera tiene una historia diferente y tu panel debe reflejar tus objetivos. Con nuestro sistema modular, construye tu centro de comando mediante paneles completamente personalizables: tú defines los KPI que importan, monitoreas la asignación de activos y gestionas el reequilibrio según tus criterios."
+    },
+    "section3Title": {
+      "it": "Analisi su misura per la tua strategia.",
+      "en": "Analysis tailored to your strategy.",
+      "fr": "Analyse adaptée à votre stratégie.",
+      "de": "Analyse auf deine Strategie zugeschnitten.",
+      "es": "Análisis adaptado a tu estrategia."
+    }
+  },
+  "appName": {
+    "it": "DonkyCapital",
+    "en": "DonkyCapital",
+    "fr": "DonkyCapital",
+    "de": "DonkyCapital",
+    "es": "DonkyCapital"
+  },
+  "broker": {
+    "sectionTitle": {
+      "it": "Integrazione",
+      "en": "Integration",
+      "fr": "Intégration",
+      "de": "Integration",
+      "es": "Integración"
+    }
+  },
+  "common": {
+    "cancel": {
+      "it": "Annulla",
+      "en": "Cancel",
+      "fr": "Annuler",
+      "de": "Abbrechen",
+      "es": "Cancelar"
+    },
+    "loading": {
+      "it": "Caricamento...",
+      "en": "Loading...",
+      "fr": "Chargement...",
+      "de": "Laden...",
+      "es": "Cargando..."
+    },
+    "save": {
+      "it": "Salva",
+      "en": "Save",
+      "fr": "Enregistrer",
+      "de": "Speichern",
+      "es": "Guardar"
+    },
+    "submit": {
+      "it": "Invia",
+      "en": "Submit",
+      "fr": "Soumettre",
+      "de": "Absenden",
+      "es": "Enviar"
+    }
+  },
+  "contact": {
+    "emailInvalid": {
+      "it": "Inserisci un indirizzo email valido",
+      "en": "Please enter a valid email address",
+      "fr": "Veuillez entrer une adresse email valide",
+      "de": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "es": "Por favor ingresa un correo electrónico válido"
+    },
+    "emailLabel": {
+      "it": "Indirizzo Email",
+      "en": "Email Address",
+      "fr": "Adresse Email",
+      "de": "E-Mail-Adresse",
+      "es": "Dirección de Correo"
+    },
+    "emailPlaceholder": {
+      "it": "tua.email@esempio.com",
+      "en": "your.email@example.com",
+      "fr": "votre.email@exemple.fr",
+      "de": "ihre.email@beispiel.de",
+      "es": "tu.correo@ejemplo.com"
+    },
+    "emailRequired": {
+      "it": "L'email è obbligatoria",
+      "en": "Email is required",
+      "fr": "L'email est requis",
+      "de": "E-Mail ist erforderlich",
+      "es": "El correo es obligatorio"
+    },
+    "floatingButton": {
+      "it": "Supporto",
+      "en": "Support",
+      "fr": "Support",
+      "de": "Support",
+      "es": "Soporte"
+    },
+    "formTitle": {
+      "it": "Inviaci un messaggio",
+      "en": "Send us a message",
+      "fr": "Envoyez-nous un message",
+      "de": "Senden Sie uns eine Nachricht",
+      "es": "Envíanos un mensaje"
+    },
+    "messageLabel": {
+      "it": "Messaggio",
+      "en": "Message",
+      "fr": "Message",
+      "de": "Nachricht",
+      "es": "Mensaje"
+    },
+    "messagePlaceholder": {
+      "it": "Dicci come possiamo aiutarti...",
+      "en": "Tell us how we can help you...",
+      "fr": "Dites-nous comment nous pouvons vous aider...",
+      "de": "Sagen Sie uns, wie wir Ihnen helfen können...",
+      "es": "Cuéntanos cómo podemos ayudarte..."
+    },
+    "messageRequired": {
+      "it": "Il messaggio è obbligatorio",
+      "en": "Message is required",
+      "fr": "Le message est requis",
+      "de": "Nachricht ist erforderlich",
+      "es": "El mensaje es obligatorio"
+    },
+    "nameLabel": {
+      "it": "Nome",
+      "en": "Your Name",
+      "fr": "Votre Nom",
+      "de": "Ihr Name",
+      "es": "Tu Nombre"
+    },
+    "namePlaceholder": {
+      "it": "Inserisci il tuo nome completo",
+      "en": "Enter your full name",
+      "fr": "Entrez votre nom complet",
+      "de": "Geben Sie Ihren vollständigen Namen ein",
+      "es": "Ingresa tu nombre completo"
+    },
+    "nameRequired": {
+      "it": "Il nome è obbligatorio",
+      "en": "Name is required",
+      "fr": "Le nom est requis",
+      "de": "Name ist erforderlich",
+      "es": "El nombre es obligatorio"
+    },
+    "pageSubtitle": {
+      "it": "Hai domande o bisogno di aiuto? Siamo qui per te.",
+      "en": "Have a question or need help? We're here for you.",
+      "fr": "Vous avez une question ou besoin d'aide? Nous sommes là pour vous.",
+      "de": "Haben Sie Fragen oder benötigen Sie Hilfe? Wir sind für Sie da.",
+      "es": "¿Tienes alguna pregunta o necesitas ayuda? Estamos aquí para ti."
+    },
+    "pageTitle": {
+      "it": "Contattaci",
+      "en": "Contact Us",
+      "fr": "Nous contacter",
+      "de": "Kontaktieren Sie uns",
+      "es": "Contáctanos"
+    },
+    "sendAnother": {
+      "it": "Invia un Altro Messaggio",
+      "en": "Send Another Message",
+      "fr": "Envoyer un Autre Message",
+      "de": "Eine weitere Nachricht senden",
+      "es": "Enviar Otro Mensaje"
+    },
+    "subjectLabel": {
+      "it": "Oggetto",
+      "en": "Subject",
+      "fr": "Sujet",
+      "de": "Betreff",
+      "es": "Asunto"
+    },
+    "subjectPlaceholder": {
+      "it": "Di cosa si tratta?",
+      "en": "What is this about?",
+      "fr": "De quoi s'agit-il?",
+      "de": "Worum geht es?",
+      "es": "¿De qué se trata?"
+    },
+    "subjectRequired": {
+      "it": "L'oggetto è obbligatorio",
+      "en": "Subject is required",
+      "fr": "Le sujet est requis",
+      "de": "Betreff ist erforderlich",
+      "es": "El asunto es obligatorio"
+    },
+    "submitButton": {
+      "it": "Invia Messaggio",
+      "en": "Send Message",
+      "fr": "Envoyer le Message",
+      "de": "Nachricht senden",
+      "es": "Enviar Mensaje"
+    },
+    "submitError": {
+      "it": "Invio fallito. Riprova.",
+      "en": "Failed to send your message. Please try again.",
+      "fr": "Échec de l'envoi du message. Veuillez réessayer.",
+      "de": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
+      "es": "Error al enviar el mensaje. Por favor intenta de nuevo."
+    },
+    "submitting": {
+      "it": "Invio in corso...",
+      "en": "Sending...",
+      "fr": "Envoi en cours...",
+      "de": "Wird gesendet...",
+      "es": "Enviando..."
+    },
+    "successMessage": {
+      "it": "Grazie per averci contattato. Ti risponderemo il prima possibile.",
+      "en": "Thank you for contacting us. We will get back to you as soon as possible.",
+      "fr": "Merci de nous avoir contactés. Nous vous répondrons dès que possible.",
+      "de": "Vielen Dank für Ihre Kontaktaufnahme. Wir werden uns so schnell wie möglich bei Ihnen melden.",
+      "es": "Gracias por contactarnos. Te responderemos lo antes posible."
+    },
+    "successTitle": {
+      "it": "Messaggio Inviato!",
+      "en": "Message Sent!",
+      "fr": "Message Envoyé!",
+      "de": "Nachricht gesendet!",
+      "es": "¡Mensaje Enviado!"
+    }
+  },
+  "cookieConsent": {
+    "acceptAll": {
+      "it": "Accetta Tutti",
+      "en": "Accept All",
+      "fr": "Tout accepter",
+      "de": "Alle akzeptieren",
+      "es": "Aceptar Todo"
+    },
+    "analytics": {
+      "description": {
+        "it": "Questi cookie ci aiutano a capire come i visitatori interagiscono con il nostro sito raccogliendo informazioni in forma anonima.",
+        "en": "These cookies help us understand how visitors interact with our website by collecting and reporting information anonymously.",
+        "fr": "Ces cookies nous aident à comprendre comment les visiteurs interagissent avec notre site en collectant des informations de manière anonyme.",
+        "de": "Diese Cookies helfen uns zu verstehen, wie Besucher mit unserer Website interagieren, indem sie Informationen anonym sammeln.",
+        "es": "Estas cookies nos ayudan a entender cómo los visitantes interactúan con nuestro sitio recopilando información de forma anónima."
+      },
+      "title": {
+        "it": "Cookie Analitici",
+        "en": "Analytics Cookies",
+        "fr": "Cookies analytiques",
+        "de": "Analyse-Cookies",
+        "es": "Cookies Analíticas"
+      }
+    },
+    "customize": {
+      "it": "Personalizza",
+      "en": "Customize",
+      "fr": "Personnaliser",
+      "de": "Anpassen",
+      "es": "Personalizar"
+    },
+    "description": {
+      "it": "Utilizziamo i cookie per migliorare la tua esperienza di navigazione, mostrare contenuti personalizzati e analizzare il nostro traffico. Cliccando \"Accetta Tutti\", acconsenti all'uso dei cookie.",
+      "en": "We use cookies to enhance your browsing experience, serve personalized content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies.",
+      "fr": "Nous utilisons des cookies pour améliorer votre expérience de navigation, afficher du contenu personnalisé et analyser notre trafic. En cliquant sur \"Tout accepter\", vous consentez à l'utilisation des cookies.",
+      "de": "Wir verwenden Cookies, um Ihre Browser-Erfahrung zu verbessern, personalisierte Inhalte anzuzeigen und unseren Datenverkehr zu analysieren. Durch Klicken auf \"Alle akzeptieren\" stimmen Sie der Verwendung von Cookies zu.",
+      "es": "Utilizamos cookies para mejorar tu experiencia de navegación, mostrar contenido personalizado y analizar nuestro tráfico. Al hacer clic en \"Aceptar Todo\", consientes el uso de cookies."
+    },
+    "marketing": {
+      "description": {
+        "it": "Questi cookie vengono utilizzati per tracciare i visitatori sui siti web al fine di mostrare annunci pubblicitari pertinenti.",
+        "en": "These cookies are used to track visitors across websites to display relevant advertisements.",
+        "fr": "Ces cookies sont utilisés pour suivre les visiteurs sur les sites web afin d'afficher des publicités pertinentes.",
+        "de": "Diese Cookies werden verwendet, um Besucher über Websites hinweg zu verfolgen, um relevante Werbung anzuzeigen.",
+        "es": "Estas cookies se utilizan para rastrear visitantes en sitios web con el fin de mostrar anuncios relevantes."
+      },
+      "title": {
+        "it": "Cookie di Marketing",
+        "en": "Marketing Cookies",
+        "fr": "Cookies marketing",
+        "de": "Marketing-Cookies",
+        "es": "Cookies de Marketing"
+      }
+    },
+    "necessary": {
+      "description": {
+        "it": "Questi cookie sono essenziali per il corretto funzionamento del sito. Non possono essere disabilitati.",
+        "en": "These cookies are essential for the website to function properly. They cannot be disabled.",
+        "fr": "Ces cookies sont essentiels au bon fonctionnement du site. Ils ne peuvent pas être désactivés.",
+        "de": "Diese Cookies sind für das ordnungsgemäße Funktionieren der Website unerlässlich. Sie können nicht deaktiviert werden.",
+        "es": "Estas cookies son esenciales para el correcto funcionamiento del sitio. No pueden ser desactivadas."
+      },
+      "title": {
+        "it": "Cookie Necessari",
+        "en": "Necessary Cookies",
+        "fr": "Cookies nécessaires",
+        "de": "Notwendige Cookies",
+        "es": "Cookies Necesarias"
+      }
+    },
+    "privacyPolicy": {
+      "it": "Privacy Policy",
+      "en": "Privacy Policy",
+      "fr": "Politique de confidentialité",
+      "de": "Datenschutzerklärung",
+      "es": "Política de Privacidad"
+    },
+    "rejectAll": {
+      "it": "Rifiuta Tutti",
+      "en": "Reject All",
+      "fr": "Tout refuser",
+      "de": "Alle ablehnen",
+      "es": "Rechazar Todo"
+    },
+    "savePreferences": {
+      "it": "Salva Preferenze",
+      "en": "Save Preferences",
+      "fr": "Enregistrer les préférences",
+      "de": "Einstellungen speichern",
+      "es": "Guardar Preferencias"
+    },
+    "title": {
+      "it": "La tua privacy è importante",
+      "en": "We value your privacy",
+      "fr": "Votre vie privée compte",
+      "de": "Ihre Privatsphäre ist uns wichtig",
+      "es": "Tu privacidad es importante"
+    }
+  },
+  "earlyAccess": {
+    "benefit1Desc": {
+      "it": "Prova in anteprima le nuove funzionalità prima di tutti",
+      "en": "Be among the first to try new functionalities",
+      "fr": "Soyez parmi les premiers à essayer les nouvelles fonctionnalités",
+      "de": "Testen Sie neue Funktionen in der Vorschau, bevor alle anderen sie sehen",
+      "es": "Sé de los primeros en probar las nuevas funcionalidades"
+    },
+    "benefit1Title": {
+      "it": "Accesso Anticipato alle Funzionalità",
+      "en": "Early Access to Features",
+      "fr": "Accès Anticipé aux Fonctionnalités",
+      "de": "Früher Zugang zu neuen Funktionen",
+      "es": "Acceso Anticipado a Funciones"
+    },
+    "benefit2Desc": {
+      "it": "La tua opinione conta - aiutaci a migliorare il prodotto",
+      "en": "Your opinion matters - help us improve",
+      "fr": "Votre avis compte - aidez-nous à améliorer",
+      "de": "Ihre Meinung zählt - helfen Sie uns, das Produkt zu verbessern",
+      "es": "Tu opinión importa - ayúdanos a mejorar"
+    },
+    "benefit2Title": {
+      "it": "Possibilità di Inviare Feedback al Team",
+      "en": "Send Feedback to the Team",
+      "fr": "Envoyer des Retours à l'Équipe",
+      "de": "Möglichkeit, Feedback an das Team zu senden",
+      "es": "Envía Comentarios al Equipo"
+    },
+    "benefit3Desc": {
+      "it": "Influenza la direzione futura della piattaforma",
+      "en": "Influence the future of the platform",
+      "fr": "Influencez l'avenir de la plateforme",
+      "de": "Beeinflussen Sie die zukünftige Ausrichtung der Plattform",
+      "es": "Influye en el futuro de la plataforma"
+    },
+    "benefit3Title": {
+      "it": "Contributo Diretto allo Sviluppo",
+      "en": "Direct Contribution to Development",
+      "fr": "Contribution Directe au Développement",
+      "de": "Direkter Beitrag zur Entwicklung",
+      "es": "Contribución Directa al Desarrollo"
+    },
+    "benefit4Desc": {
+      "it": "Mantieni l'accesso premium per sempre",
+      "en": "Keep premium access forever",
+      "fr": "Conservez l'accès premium pour toujours",
+      "de": "Behalten Sie den Premium-Zugang für immer",
+      "es": "Mantén el acceso premium para siempre"
+    },
+    "benefit4Title": {
+      "it": "Accesso Gratuito a Vita",
+      "en": "Lifetime Free Access",
+      "fr": "Accès Gratuit à Vie",
+      "de": "Kostenloser Zugang auf Lebenszeit",
+      "es": "Acceso Gratuito de por Vida"
+    },
+    "emailInvalid": {
+      "it": "Inserisci un indirizzo email valido",
+      "en": "Please enter a valid email address",
+      "fr": "Veuillez saisir une adresse email valide",
+      "de": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "es": "Por favor introduce una dirección de email válida"
+    },
+    "emailLabel": {
+      "it": "Inserisci il tuo indirizzo email",
+      "en": "Enter your email address",
+      "fr": "Entrez votre adresse email",
+      "de": "Geben Sie Ihre E-Mail-Adresse ein",
+      "es": "Introduce tu dirección de email"
+    },
+    "formTitle": {
+      "it": "Richiedi l'Accesso Anticipato",
+      "en": "Request Early Access",
+      "fr": "Demander l'Accès Anticipé",
+      "de": "Frühen Zugang anfordern",
+      "es": "Solicitar Acceso Anticipado"
+    },
+    "freeForever": {
+      "it": "L'accesso gratuito è personale e permanente per i membri del Programma Early Access.",
+      "en": "Free access is personal and permanent for Early Access Program members.",
+      "fr": "L'accès gratuit est personnel et permanent pour les membres du Programme d'Accès Anticipé.",
+      "de": "Der kostenlose Zugang ist persönlich und dauerhaft für Mitglieder des Early Access Programms.",
+      "es": "El acceso gratuito es personal y permanente para los miembros del Programa de Acceso Anticipado."
+    },
+    "intro": {
+      "it": "Stiamo selezionando un numero limitato di utenti per il nostro Programma Early Access. Gli utenti invitati avranno accesso gratuito alla piattaforma per sempre, anche dopo il lancio ufficiale.",
+      "en": "We are selecting a limited number of users for our Early Access Program. Invited users will have free access to the platform forever, even after the official launch.",
+      "fr": "Nous sélectionnons un nombre limité d'utilisateurs pour notre Programme d'Accès Anticipé. Les utilisateurs invités auront un accès gratuit à la plateforme pour toujours, même après le lancement officiel.",
+      "de": "Wir wählen eine begrenzte Anzahl von Benutzern für unser Early Access Programm aus. Eingeladene Benutzer erhalten dauerhaft kostenlosen Zugang zur Plattform, auch nach dem offiziellen Start.",
+      "es": "Estamos seleccionando un número limitado de usuarios para nuestro Programa de Acceso Anticipado. Los usuarios invitados tendrán acceso gratuito a la plataforma para siempre, incluso después del lanzamiento oficial."
+    },
+    "notesLabel": {
+      "it": "Note aggiuntive (opzionale)",
+      "en": "Additional notes (optional)",
+      "fr": "Notes supplémentaires (optionnel)",
+      "de": "Zusätzliche Anmerkungen (optional)",
+      "es": "Notas adicionales (opcional)"
+    },
+    "notesPlaceholder": {
+      "it": "Raccontaci perché vorresti partecipare al Programma Early Access...",
+      "en": "Tell us why you would like to join the Early Access Program...",
+      "fr": "Dites-nous pourquoi vous aimeriez rejoindre le Programme d'Accès Anticipé...",
+      "de": "Erzählen Sie uns, warum Sie dem Early Access Programm beitreten möchten...",
+      "es": "Cuéntanos por qué te gustaría unirte al Programa de Acceso Anticipado..."
+    },
+    "submitAnother": {
+      "it": "Invia un'altra Richiesta",
+      "en": "Submit Another Request",
+      "fr": "Soumettre une Autre Demande",
+      "de": "Eine weitere Anfrage senden",
+      "es": "Enviar Otra Solicitud"
+    },
+    "submitButton": {
+      "it": "Richiedi l'Accesso Anticipato",
+      "en": "Request Early Access",
+      "fr": "Demander l'Accès Anticipé",
+      "de": "Frühen Zugang anfordern",
+      "es": "Solicitar Acceso Anticipado"
+    },
+    "submitError": {
+      "it": "Impossibile inviare la richiesta. Riprova.",
+      "en": "Failed to submit your request. Please try again.",
+      "fr": "Échec de l'envoi de votre demande. Veuillez réessayer.",
+      "de": "Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
+      "es": "No se pudo enviar tu solicitud. Por favor inténtalo de nuevo."
+    },
+    "submitting": {
+      "it": "Invio in corso...",
+      "en": "Submitting...",
+      "fr": "Envoi en cours...",
+      "de": "Wird gesendet...",
+      "es": "Enviando..."
+    },
+    "successMessage": {
+      "it": "Grazie per il tuo interesse nel nostro Programma Early Access. Ti contatteremo presto!",
+      "en": "Thank you for your interest in our Early Access Program. We will contact you soon!",
+      "fr": "Merci pour votre intérêt dans notre Programme d'Accès Anticipé. Nous vous contacterons bientôt !",
+      "de": "Vielen Dank für Ihr Interesse an unserem Early Access Programm. Wir werden uns in Kürze bei Ihnen melden!",
+      "es": "¡Gracias por tu interés en nuestro Programa de Acceso Anticipado. Te contactaremos pronto!"
+    },
+    "successTitle": {
+      "it": "Richiesta Inviata!",
+      "en": "Request Submitted!",
+      "fr": "Demande Envoyée !",
+      "de": "Anfrage gesendet!",
+      "es": "¡Solicitud Enviada!"
+    },
+    "title": {
+      "it": "Partecipa al Programma Early Access",
+      "en": "Join the Early Access Program",
+      "fr": "Rejoignez le Programme d'Accès Anticipé",
+      "de": "Treten Sie dem Early Access Programm bei",
+      "es": "Únete al Programa de Acceso Anticipado"
+    },
+    "whyJoin": {
+      "it": "Perché Partecipare al Programma Early Access?",
+      "en": "Why Join the Early Access Program?",
+      "fr": "Pourquoi Rejoindre le Programme d'Accès Anticipé ?",
+      "de": "Warum dem Early Access Programm beitreten?",
+      "es": "¿Por Qué Unirse al Programa de Acceso Anticipado?"
+    }
+  },
+  "landing": {
+    "cta": {
+      "button": {
+        "it": "Inizia Gratis - Nessuna Carta Richiesta",
+        "en": "Get Started Free - No Card Required",
+        "fr": "Commencer Gratuitement - Aucune Carte Requise",
+        "de": "Kostenlos starten - Keine Karte erforderlich",
+        "es": "Comenzar Gratis - Sin Tarjeta Requerida"
+      },
+      "subtitle": {
+        "it": "Setup in 2 minuti. Nessun vincolo. Cancella quando vuoi.",
+        "en": "2-minute setup. No commitment. Cancel anytime.",
+        "fr": "Configuration en 2 minutes. Aucun engagement. Annulez quand vous voulez.",
+        "de": "2-Minuten-Setup. Keine Verpflichtung. Jederzeit kündbar.",
+        "es": "Configuración en 2 minutos. Sin compromiso. Cancela cuando quieras."
+      },
+      "title": {
+        "it": "Pronto a prendere il controllo dei tuoi investimenti?",
+        "en": "Ready to take control of your investments?",
+        "fr": "Prêt à prendre le contrôle de vos investissements ?",
+        "de": "Bereit, die Kontrolle über Ihre Investitionen zu übernehmen?",
+        "es": "¿Listo para tomar el control de tus inversiones?"
+      }
+    },
+    "faq": {
+      "questions": {
+        "it": [
+          {
+            "question": "Perché Donky Capital è la migliore alternativa a Excel per gli investimenti?",
+            "answer": "È un Portfolio Tracker automatico che elimina l'inserimento manuale, aggiorna i prezzi di ETF/Azioni in tempo reale e calcola l'esposizione senza formule complesse."
+          },
+          {
+            "question": "Devo condividere le password del mio broker?",
+            "answer": "Assolutamente no. Donky Capital garantisce la massima privacy: importi i dati tramite file CSV/PDF senza mai inserire le tue credenziali bancarie."
+          },
+          {
+            "question": "Posso esportare i dati da Scalable Capital senza il piano Prime+?",
+            "answer": "Sì! Grazie alla nostra estensione Chrome gratuita, puoi scaricare il CSV delle transazioni anche con il piano Free, risparmiando il costo dell'abbonamento Prime+."
+          },
+          {
+            "question": "Qual è la differenza tra Donky Capital e Getquin?",
+            "answer": "Donky Capital offre una personalizzazione totale delle dashboard e non richiede mai l'accesso diretto ai tuoi conti, mettendo la tua privacy al primo posto."
+          },
+          {
+            "question": "Posso usare Donky Capital come tracker per Directa?",
+            "answer": "Sì, siamo il miglior Directa Tracker per trasformare i dati tecnici di Directa in grafici moderni, analizzando performance e bilanciamento in un clic."
+          },
+          {
+            "question": "Quali attività posso importare?",
+            "answer": "Puoi monitorare ETF, azioni, obbligazioni, crypto e fondi non quotati. È il portfolio tracker completo per ogni asset class."
+          },
+          {
+            "question": "Posso usarlo su mobile?",
+            "answer": "Sì, Donky Capital è una PWA (Progressive Web App). Puoi installarla sul tuo smartphone per monitorare il portafoglio ovunque, senza passare dall'App Store."
+          },
+          {
+            "question": "Cosa succede ai miei dati?",
+            "answer": "La tua privacy è sacra. I dati sono archiviati in Europa e criptati secondo i più alti standard di sicurezza. Nessun dato di accesso al broker viene mai richiesto."
+          }
+        ],
+        "en": [
+          {
+            "question": "Why is Donky Capital the best investment Excel alternative?",
+            "answer": "It is a smart Portfolio Tracker that eliminates manual data entry, providing real-time ETF/Stock prices and automatic exposure analysis."
+          },
+          {
+            "question": "Do I need to share my broker credentials?",
+            "answer": "Never. We prioritize privacy: you simply import your data via CSV/PDF files without ever sharing your broker login details."
+          },
+          {
+            "question": "Can I export Scalable Capital data without Prime+?",
+            "answer": "Yes! With our free Chrome Extension, you can download your transaction CSV even on the Free plan, saving the Prime+ subscription cost."
+          },
+          {
+            "question": "Donky Capital vs Getquin: what are the differences?",
+            "answer": "Donky Capital offers deeper dashboard customization and superior privacy by avoiding direct broker account linking."
+          },
+          {
+            "question": "What assets can I import?",
+            "answer": "You can track ETFs, stocks, bonds, crypto, and non-listed funds. It is a comprehensive multi-asset portfolio tracker."
+          },
+          {
+            "question": "Can I use it on mobile?",
+            "answer": "Yes, Donky Capital is a PWA (Progressive Web App). Install it on your mobile device for seamless tracking without needing an App Store download."
+          },
+          {
+            "question": "What happens to my data?",
+            "answer": "Your data is stored securely in Europe and encrypted. We prioritize your privacy and never ask for your broker credentials."
+          }
+        ],
+        "fr": [
+          {
+            "question": "Pourquoi Donky Capital est l'alternative à Excel pour la bourse ?",
+            "answer": "C'est un Suivi de portefeuille intelligent qui automatise vos analyses et met à jour les prix des ETF en temps réel sans erreurs de formule."
+          },
+          {
+            "question": "Dois-je partager mes identifiants de courtier ?",
+            "answer": "Jamais. Nous ne stockons aucun mot de passe. Importez vos fichiers en toute confidentialité pour une sécurité totale de vos données."
+          },
+          {
+            "question": "Puis-je exporter les données Scalable Capital sans Prime+ ?",
+            "answer": "Oui ! Notre extension Chrome gratuite vous permet de télécharger vos transactions en CSV même avec le forfait gratuit."
+          },
+          {
+            "question": "Quels actifs puis-je importer ?",
+            "answer": "Suivez vos ETF, actions, obligations, cryptos et fonds non cotés. Un suivi de portefeuille complet pour tous vos investissements."
+          },
+          {
+            "question": "Puis-je l'utiliser sur mobile ?",
+            "answer": "Oui, Donky Capital est une PWA. Installez-la sur votre mobile pour consulter vos performances partout, sans passer par l'App Store."
+          },
+          {
+            "question": "Qu'advient-il de mes données ?",
+            "answer": "Vos données sont stockées en Europe et cryptées. Nous respectons votre vie privée : aucun identifiant de courtier n'est jamais stocké."
+          }
+        ],
+        "de": [
+          {
+            "question": "Warum ist Donky Capital die beste Excel-Alternative für Investments?",
+            "answer": "Ein automatischer Depot-Tracker, der manuelle Tabellen ersetzt, Echtzeit-Kurse liefert und die Asset Allocation ohne Formeln berechnet."
+          },
+          {
+            "question": "Muss ich meine Broker-Zugangsdaten teilen?",
+            "answer": "Nein. Ihre Sicherheit ist uns wichtig: Importieren Sie Ihre CSV-Dateien sicher, ohne jemals Ihr Passwort einzugeben."
+          },
+          {
+            "question": "Kann ich Scalable Capital Daten ohne Prime+ exportieren?",
+            "answer": "Ja! Mit unserer Chrome-Extension können Sie Transaktionen kostenlos als CSV exportieren, auch wenn Sie keinen Prime+-Account haben."
+          },
+          {
+            "question": "Wie nutze ich Donky Capital als Scalable Capital Tracker?",
+            "answer": "Einfach Daten exportieren und hochladen. Erhalten Sie eine professionelle Depot-Analyse Ihrer ETFs und Aktien in Sekunden."
+          },
+          {
+            "question": "Welche Assets kann ich importieren?",
+            "answer": "Überwachen Sie ETFs, Aktien, Anleihen, Kryptowährungen und nicht börsennotierte Fonds in einem einzigen Depot-Tracker."
+          },
+          {
+            "question": "Kann ich es mobil nutzen?",
+            "answer": "Ja, Donky Capital ist eine PWA (Progressive Web App). Sie können sie direkt auf Ihrem Smartphone installieren und Ihr Depot jederzeit checken."
+          },
+          {
+            "question": "Was passiert mit meinen Daten?",
+            "answer": "Ihre Daten werden sicher in Europa gespeichert und verschlüsselt. Wir speichern keine Broker-Passwörter und garantieren maximale Privatsphäre."
+          }
+        ],
+        "es": [
+          {
+            "question": "¿Por qué es la mejor alternativa a Excel para mis inversiones?",
+            "answer": "Es un Seguimiento de cartera automático que te ahorra tiempo, actualiza precios de ETF en vivo y analiza tu riesgo sin usar Excel."
+          },
+          {
+            "question": "¿Tengo que compartir mis claves del bróker?",
+            "answer": "No. La privacidad es clave: importa tus movimientos mediante archivos CSV sin necesidad de dar acceso directo a tus cuentas bancarias."
+          },
+          {
+            "question": "¿Puedo exportar datos de Scalable Capital sin Prime+?",
+            "answer": "¡Sí! Nuestra extensión de Chrome te permite descargar el CSV de tus transacciones gratis, ahorrándote el coste mensual del plan Prime+."
+          },
+          {
+            "question": "¿Qué activos puedo importar?",
+            "answer": "Monitoriza ETF, acciones, bonos, cripto y fondos no cotizados. Es el seguimiento de cartera ideal para todos tus activos."
+          },
+          {
+            "question": "¿Puedo usarlo en el móvil?",
+            "answer": "Sí, Donky Capital es una PWA. Instálala en tu dispositivo móvil para controlar tus inversiones fácilmente desde cualquier lugar."
+          },
+          {
+            "question": "¿Qué pasa con mis datos?",
+            "answer": "Tus datos están alojados en Europa y encriptados. Priorizamos tu seguridad y nunca solicitamos tus claves de acceso al bróker."
+          }
+        ]
+      },
+      "title": {
+        "it": "Domande Frequenti",
+        "en": "Frequently Asked Questions",
+        "fr": "Questions Fréquemment Posées",
+        "de": "Häufig gestellte Fragen",
+        "es": "Preguntas Frecuentes"
+      }
+    },
+    "features": {
+      "advancedAnalytics": {
+        "description": {
+          "it": "Performance multi-periodo, Profit & Loss dettagliato, heatmap visive per identificare opportunità e rischi rapidamente.",
+          "en": "Multi-period performance, detailed Profit & Loss, visual heatmaps to quickly identify opportunities and risks.",
+          "fr": "Performance multi-périodes, Profit & Loss détaillé, heatmaps visuelles pour identifier rapidement les opportunités et les risques.",
+          "de": "Multi-Perioden-Performance, detaillierte Gewinn- und Verlustrechnung, visuelle Heatmaps zur schnellen Identifizierung von Chancen und Risiken.",
+          "es": "Rendimiento multi-período, Pérdidas y Ganancias detallado, mapas de calor visuales para identificar rápidamente oportunidades y riesgos."
+        },
+        "title": {
+          "it": "Analytics Avanzati",
+          "en": "Advanced Analytics",
+          "fr": "Analyses Avancées",
+          "de": "Erweiterte Analysen",
+          "es": "Análisis Avanzados"
+        }
+      },
+      "customizableDashboard": {
+        "description": {
+          "it": "Drag & drop, salvataggio configurazioni, dashboard multiple: crea la vista perfetta per la tua strategia di investimento.",
+          "en": "Drag & drop, save configurations, multiple dashboards: create the perfect view for your investment strategy.",
+          "fr": "Glisser-déposer, sauvegarder les configurations, tableaux de bord multiples : créez la vue parfaite pour votre stratégie d'investissement.",
+          "de": "Drag & Drop, Konfigurationen speichern, mehrere Dashboards: Erstellen Sie die perfekte Ansicht für Ihre Anlagestrategie.",
+          "es": "Arrastrar y soltar, guardar configuraciones, múltiples tableros: crea la vista perfecta para tu estrategia de inversión."
+        },
+        "title": {
+          "it": "Dashboard 100% Personalizzabile",
+          "en": "100% Customizable Dashboard",
+          "fr": "Tableau de bord 100% personnalisable",
+          "de": "100% anpassbares Dashboard",
+          "es": "Tablero 100% Personalizable"
+        }
+      },
+      "multiPortfolio": {
+        "description": {
+          "it": "Gestisci più portafogli, importa transazioni CSV e ottieni calcoli in real-time.",
+          "en": "Manage multiple portfolios, import CSV transactions, and get real-time calculations.",
+          "fr": "Gérez plusieurs portefeuilles, importez des transactions CSV et obtenez des calculs en temps réel.",
+          "de": "Verwalten Sie mehrere Portfolios, importieren Sie CSV-Transaktionen und erhalten Sie Echtzeit-Berechnungen.",
+          "es": "Gestiona múltiples carteras, importa transacciones CSV y obtén cálculos en tiempo real."
+        },
+        "manyMore": {
+          "it": "+ molti altri in fase di integrazione",
+          "en": "+ many more being integrated",
+          "fr": "+ beaucoup d'autres en cours d'intégration",
+          "de": "+ viele weitere werden integriert",
+          "es": "+ muchos más en proceso de integración"
+        },
+        "securityNote": {
+          "it": "Non chiediamo mai accesso al tuo broker. I tuoi dati restano solo tuoi.",
+          "en": "We never ask for access to your broker. Your data stays yours alone.",
+          "fr": "Nous ne demandons jamais l'accès à votre courtier. Vos données restent les vôtres.",
+          "de": "Wir fragen nie nach Zugang zu Ihrem Broker. Ihre Daten bleiben Ihre.",
+          "es": "Nunca pedimos acceso a tu corredor. Tus datos permanecen solo tuyos."
+        },
+        "title": {
+          "it": "Multi-Portfolio",
+          "en": "Multi-Portfolio",
+          "fr": "Multi-Portfolio",
+          "de": "Multi-Portfolio",
+          "es": "Multi-Cartera"
+        }
+      }
+    },
+    "footer": {
+      "aboutUs": {
+        "it": "Chi Siamo",
+        "en": "About Us",
+        "fr": "Qui Sommes-Nous",
+        "de": "Über Uns",
+        "es": "Quiénes Somos"
+      },
+      "contact": {
+        "it": "Contatti",
+        "en": "Contact",
+        "fr": "Contact",
+        "de": "Kontakt",
+        "es": "Contacto"
+      },
+      "copyright": {
+        "it": "© {{year}} DonkyCapital. Tutti i diritti riservati.",
+        "en": "© {{year}} DonkyCapital. All rights reserved.",
+        "fr": "© {{year}} DonkyCapital. Tous droits réservés.",
+        "de": "© {{year}} DonkyCapital. Alle Rechte vorbehalten.",
+        "es": "© {{year}} DonkyCapital. Todos los derechos reservados."
+      },
+      "privacyPolicy": {
+        "it": "Privacy Policy",
+        "en": "Privacy Policy",
+        "fr": "Politique de Confidentialité",
+        "de": "Datenschutzerklärung",
+        "es": "Política de Privacidad"
+      },
+      "protectedData": {
+        "it": "Dati Protetti",
+        "en": "Protected Data",
+        "fr": "Données Protégées",
+        "de": "Geschützte Daten",
+        "es": "Datos Protegidos"
+      },
+      "secureConnection": {
+        "it": "Connessione Sicura",
+        "en": "Secure Connection",
+        "fr": "Connexion Sécurisée",
+        "de": "Sichere Verbindung",
+        "es": "Conexión Segura"
+      },
+      "siteMap": {
+        "it": "Mappa del Sito",
+        "en": "Site Map",
+        "fr": "Plan du Site",
+        "de": "Seitenübersicht",
+        "es": "Mapa del Sitio"
+      },
+      "termsAndConditions": {
+        "it": "Terms & Conditions",
+        "en": "Terms & Conditions",
+        "fr": "Conditions Générales",
+        "de": "Geschäftsbedingungen",
+        "es": "Términos y Condiciones"
+      }
+    },
+    "header": {
+      "features": {
+        "it": "Features",
+        "en": "Features",
+        "fr": "Fonctionnalités",
+        "de": "Features",
+        "es": "Características"
+      },
+      "login": {
+        "it": "Login",
+        "en": "Login",
+        "fr": "Connexion",
+        "de": "Anmelden",
+        "es": "Iniciar Sesión"
+      },
+      "pricing": {
+        "it": "Plan",
+        "en": "Pricing",
+        "fr": "Tarifs",
+        "de": "Preise",
+        "es": "Precios"
+      },
+      "startFree": {
+        "it": "Inizia Gratis",
+        "en": "Get Started Free",
+        "fr": "Commencer Gratuitement",
+        "de": "Kostenlos starten",
+        "es": "Comenzar Gratis"
+      }
+    },
+    "hero": {
+      "badge": {
+        "it": "Portfolio manager personalizzabile",
+        "en": "Customizable portfolio manager",
+        "fr": "Gestionnaire de portefeuille personnalisable",
+        "de": "Anpassbarer Portfolio-Manager",
+        "es": "Gestor de cartera personalizable"
+      },
+      "ctaButton": {
+        "it": "Inizia Gratis",
+        "en": "Get Started Free",
+        "fr": "Commencer Gratuitement",
+        "de": "Kostenlos starten",
+        "es": "Comenzar Gratis"
+      },
+      "description": {
+        "it": "Prendi il controllo completo dei tuoi investimenti con DonkyCapital, il tracker portafoglio più flessibile e potente sul mercato. Monitora azioni, ETF, fondi, obbligazioni e crypto in un'unica dashboard personalizzabile. Importa transazioni da CSV, collega conti broker, e ottieni analisi avanzate con grafici interattivi, heatmap performance e P&L dettagliato. Gestione portafoglio multi-asset professionale accessibile a tutti.",
+        "en": "Take complete control of your investments with DonkyCapital, the most flexible and powerful portfolio tracker on the market. Monitor stocks, ETFs, funds, bonds, and crypto in a single customizable dashboard. Import transactions from CSV, connect broker accounts, and get advanced analytics with interactive charts, performance heatmaps, and detailed P&L. Professional multi-asset portfolio management accessible to everyone.",
+        "fr": "Prenez le contrôle complet de vos investissements avec DonkyCapital, le tracker de portefeuille le plus flexible et puissant du marché. Surveillez actions, ETF, fonds, obligations et crypto dans un seul tableau de bord personnalisable. Importez des transactions depuis CSV, connectez des comptes courtiers et obtenez des analyses avancées avec des graphiques interactifs, des heatmaps de performance et un P&L détaillé. Gestion de portefeuille multi-actifs professionnelle accessible à tous.",
+        "de": "Übernehmen Sie die volle Kontrolle über Ihre Investitionen mit DonkyCapital, dem flexibelsten und leistungsstärksten Portfolio-Tracker auf dem Markt. Überwachen Sie Aktien, ETFs, Fonds, Anleihen und Krypto in einem einzigen anpassbaren Dashboard. Importieren Sie Transaktionen aus CSV, verbinden Sie Broker-Konten und erhalten Sie erweiterte Analysen mit interaktiven Diagrammen, Performance-Heatmaps und detaillierter P&L. Professionelles Multi-Asset-Portfolio-Management für jeden zugänglich.",
+        "es": "Toma el control completo de tus inversiones con DonkyCapital, el tracker de cartera más flexible y potente del mercado. Monitorea acciones, ETFs, fondos, bonos y crypto en un solo tablero personalizable. Importa transacciones desde CSV, conecta cuentas de corredores y obtén análisis avanzados con gráficos interactivos, mapas de calor de rendimiento y P&L detallado. Gestión de cartera multi-activos profesional accesible para todos."
+      },
+      "encryptedData": {
+        "it": "Dati criptati",
+        "en": "Encrypted data",
+        "fr": "Données cryptées",
+        "de": "Verschlüsselte Daten",
+        "es": "Datos encriptados"
+      },
+      "gdprCompliant": {
+        "it": "GDPR compliant",
+        "en": "GDPR compliant",
+        "fr": "Conforme RGPD",
+        "de": "DSGVO-konform",
+        "es": "Cumple con RGPD"
+      },
+      "multiCurrency": {
+        "it": "Multi-valuta",
+        "en": "Multi-currency",
+        "fr": "Multi-devises",
+        "de": "Mehrere Währungen",
+        "es": "Multidivisa"
+      },
+      "multiLanguage": {
+        "it": "Multi-lingua",
+        "en": "Multi-language",
+        "fr": "Multilingue",
+        "de": "Mehrsprachig",
+        "es": "Multiidioma"
+      },
+      "title": {
+        "it": "Il Portfolio Tracker che sostituisce",
+        "en": "The Portfolio Tracker that replaces",
+        "fr": "Le Portfolio Tracker qui remplace",
+        "de": "Der Depot-Tracker, der deine",
+        "es": "El Portfolio Tracker que sustituye"
+      },
+      "titleSuffix": {
+        "it": "i tuoi fogli Excel.",
+        "en": "your spreadsheets.",
+        "fr": "vos feuilles Excel.",
+        "de": "Excel-Tabellen ersetzt.",
+        "es": "tus hojas de Excel."
+      }
+    },
+    "pricing": {
+      "earlyProgramActive": {
+        "it": "Early Program Attivo",
+        "en": "Early Program Active",
+        "fr": "Programme Early Access Actif",
+        "de": "Early Program aktiv",
+        "es": "Programa Early Access Activo"
+      },
+      "earlyProgramDesc": {
+        "it": "Stiamo selezionando i primi 100 utenti per l'Early Program. Accedi gratis a tutte le funzionalità Premium durante la fase beta.",
+        "en": "We are selecting the first 100 users for the Early Program. Get free access to all Premium features during the beta phase.",
+        "fr": "Nous sélectionnons les 100 premiers utilisateurs pour le Programme Early Access. Obtenez un accès gratuit à toutes les fonctionnalités Premium pendant la phase bêta.",
+        "de": "Wir wählen die ersten 100 Benutzer für das Early Program aus. Erhalten Sie kostenlosen Zugang zu allen Premium-Funktionen während der Beta-Phase.",
+        "es": "Estamos seleccionando los primeros 100 usuarios para el Programa Early Access. Obtén acceso gratuito a todas las funciones Premium durante la fase beta."
+      },
+      "limitedAccess": {
+        "it": "Accesso limitato:",
+        "en": "Limited access:",
+        "fr": "Accès limité :",
+        "de": "Begrenzter Zugang:",
+        "es": "Acceso limitado:"
+      },
+      "mostPopular": {
+        "it": "Più popolare",
+        "en": "Most Popular",
+        "fr": "Le Plus Populaire",
+        "de": "Beliebteste",
+        "es": "Más Popular"
+      },
+      "perEarlyAccess": {
+        "it": "/ early access",
+        "en": "/ early access",
+        "fr": "/ early access",
+        "de": "/ Early Access",
+        "es": "/ early access"
+      },
+      "perMonth": {
+        "it": "/ mese",
+        "en": "/ month",
+        "fr": "/ mois",
+        "de": "/ Monat",
+        "es": "/ mes"
+      },
+      "plans": {
+        "free": {
+          "features": {
+            "allocationAnalysis": {
+              "it": "Analisi allocazione e rischi",
+              "en": "Allocation and risk analysis",
+              "fr": "Analyse d'allocation et de risques",
+              "de": "Allokations- und Risikoanalyse",
+              "es": "Análisis de asignación y riesgos"
+            },
+            "brokerImport": {
+              "it": "Importazione dai principali broker",
+              "en": "Import from main brokers",
+              "fr": "Import depuis les principaux courtiers",
+              "de": "Import von Haupt-Brokern",
+              "es": "Importación desde principales corredores"
+            },
+            "dashboards": {
+              "it": "3 dashboard",
+              "en": "3 dashboards",
+              "fr": "3 tableaux de bord",
+              "de": "3 Dashboards",
+              "es": "3 tableros"
+            },
+            "performanceAnalysis": {
+              "it": "Analisi performance",
+              "en": "Performance analysis",
+              "fr": "Analyse de performance",
+              "de": "Performance-Analyse",
+              "es": "Análisis de rendimiento"
+            },
+            "portfolioValue": {
+              "it": "Valore portafogli",
+              "en": "Portfolio value",
+              "fr": "Valeur des portefeuilles",
+              "de": "Portfolio-Wert",
+              "es": "Valor de carteras"
+            },
+            "portfolios": {
+              "it": "1 portafoglio",
+              "en": "1 portfolio",
+              "fr": "1 portefeuille",
+              "de": "1 Portfolio",
+              "es": "1 cartera"
+            },
+            "profitLoss": {
+              "it": "P&L",
+              "en": "P&L",
+              "fr": "P&L",
+              "de": "P&L",
+              "es": "P&L"
+            },
+            "transactions": {
+              "it": "100 transazioni",
+              "en": "100 transactions",
+              "fr": "100 transactions",
+              "de": "100 Transaktionen",
+              "es": "100 transacciones"
+            }
+          },
+          "name": {
+            "it": "Free",
+            "en": "Free",
+            "fr": "Gratuit",
+            "de": "Kostenlos",
+            "es": "Gratis"
+          }
+        },
+        "premium": {
+          "features": {
+            "dashboards": {
+              "it": "8 dashboard",
+              "en": "8 dashboards",
+              "fr": "8 tableaux de bord",
+              "de": "8 Dashboards",
+              "es": "8 tableros"
+            },
+            "portfolios": {
+              "it": "10 portafogli",
+              "en": "10 portfolios",
+              "fr": "10 portefeuilles",
+              "de": "10 Portfolios",
+              "es": "10 carteras"
+            },
+            "transactions": {
+              "it": "Transazioni illimitate",
+              "en": "Unlimited transactions",
+              "fr": "Transactions illimitées",
+              "de": "Unbegrenzte Transaktionen",
+              "es": "Transacciones ilimitadas"
+            }
+          },
+          "name": {
+            "it": "Premium",
+            "en": "Premium",
+            "fr": "Premium",
+            "de": "Premium",
+            "es": "Premium"
+          }
+        },
+        "standard": {
+          "features": {
+            "dashboards": {
+              "it": "5 dashboard",
+              "en": "5 dashboards",
+              "fr": "5 tableaux de bord",
+              "de": "5 Dashboards",
+              "es": "5 tableros"
+            },
+            "portfolios": {
+              "it": "5 portafogli",
+              "en": "5 portfolios",
+              "fr": "5 portefeuilles",
+              "de": "5 Portfolios",
+              "es": "5 carteras"
+            },
+            "transactions": {
+              "it": "500 transazioni",
+              "en": "500 transactions",
+              "fr": "500 transactions",
+              "de": "500 Transaktionen",
+              "es": "500 transacciones"
+            }
+          },
+          "name": {
+            "it": "Standard",
+            "en": "Standard",
+            "fr": "Standard",
+            "de": "Standard",
+            "es": "Estándar"
+          }
+        }
+      },
+      "requestEarlyAccess": {
+        "it": "Richiedi Early Access",
+        "en": "Request Early Access",
+        "fr": "Demander l'Early Access",
+        "de": "Early Access anfordern",
+        "es": "Solicitar Early Access"
+      },
+      "title": {
+        "it": "Piani",
+        "en": "Pricing",
+        "fr": "Tarifs",
+        "de": "Preise",
+        "es": "Precios"
+      }
+    },
+    "seoHeadings": {
+      "h2Features": {
+        "it": "Monitora esposizione, bilanciamento e rendimenti in tempo reale.",
+        "en": "Monitor exposure, rebalancing, and performance in real-time.",
+        "fr": "Analysez votre exposition, rééquilibrage et performance en direct.",
+        "de": "Überwache Allokation, Rebalancing und Rendite in Echtzeit.",
+        "es": "Controla tu exposición, reequilibrio y rendimientos en vivo."
+      },
+      "h3EtfTracker": {
+        "it": "Un ETF Tracker avanzato per analizzare ogni tua posizione.",
+        "en": "Advanced ETF Tracker to analyze all your holdings.",
+        "fr": "Un Tracker ETF avancé pour maîtriser vos investissements.",
+        "de": "Professioneller ETF Sparplan Tracker für eine tiefe Depot-Analyse.",
+        "es": "Un Tracker de ETF avanzado para analizar todas tus posiciones."
+      }
+    },
+    "useCases": {
+      "financialAdvisor": {
+        "quote": {
+          "it": "Gestisco 20 clienti, ogni dashboard è personalizzata per le loro esigenze.",
+          "en": "I manage 20 clients, each dashboard is customized for their needs.",
+          "fr": "Je gère 20 clients, chaque tableau de bord est personnalisé pour leurs besoins.",
+          "de": "Ich betreue 20 Kunden, jedes Dashboard ist auf ihre Bedürfnisse zugeschnitten.",
+          "es": "Gestiono 20 clientes, cada tablero está personalizado para sus necesidades."
+        },
+        "title": {
+          "it": "Financial Advisor",
+          "en": "Financial Advisor",
+          "fr": "Conseiller Financier",
+          "de": "Finanzberater",
+          "es": "Asesor Financiero"
+        }
+      },
+      "partTimeTrader": {
+        "quote": {
+          "it": "Traccio P&L per ogni posizione, so esattamente quanto guadagno.",
+          "en": "I track P&L for every position, I know exactly how much I'm earning.",
+          "fr": "Je suis le P&L pour chaque position, je sais exactement combien je gagne.",
+          "de": "Ich verfolge P&L für jede Position, ich weiß genau, wie viel ich verdiene.",
+          "es": "Sigo P&L para cada posición, sé exactamente cuánto gano."
+        },
+        "title": {
+          "it": "Trader Part-Time",
+          "en": "Part-Time Trader",
+          "fr": "Trader à Temps Partiel",
+          "de": "Teilzeit-Trader",
+          "es": "Trader a Tiempo Parcial"
+        }
+      },
+      "retailInvestor": {
+        "quote": {
+          "it": "Ho ETF su 3 broker diversi: finalmente li vedo tutti in un posto.",
+          "en": "I have ETFs across 3 different brokers: finally I see them all in one place.",
+          "fr": "J'ai des ETF chez 3 courtiers différents : enfin je les vois tous au même endroit.",
+          "de": "Ich habe ETFs bei 3 verschiedenen Brokern: Endlich sehe ich alle an einem Ort.",
+          "es": "Tengo ETFs en 3 corredores diferentes: finalmente los veo todos en un solo lugar."
+        },
+        "title": {
+          "it": "Investitore Retail",
+          "en": "Retail Investor",
+          "fr": "Investisseur Particulier",
+          "de": "Privatanleger",
+          "es": "Inversor Particular"
+        }
+      }
+    },
+    "widgetsCarousel": {
+      "title": {
+        "it": "Libertà di analisi: 48 modi diversi di guardare ai tuoi asset.",
+        "en": "Freedom of analysis: 48 different ways to look at your assets.",
+        "fr": "Liberté d'analyse : 48 façons différentes de voir vos actifs.",
+        "de": "Analysefreiheit: 48 verschiedene Wege, Ihre Vermögenswerte zu betrachten.",
+        "es": "Libertad de análisis: 48 formas diferentes de ver tus activos."
+      }
+    }
+  },
+  "scalableCapital": {
+    "conclusionList": {
+      "it": [
+        "Estrarre facilmente le transazioni da Scalable Capital, anche senza account PRIME+;",
+        "Importarle in DonkyCapital;",
+        "Avere una <strong>vista completa del portafoglio</strong>, con analisi avanzate di asset, bilanciamento, esposizione e performance;",
+        "Gestire tutto in un unico dashboard senza fogli Excel o strumenti complicati."
+      ],
+      "en": [
+        "Easily extract transactions from Scalable Capital, even without a PRIME+ account;",
+        "Import them into DonkyCapital;",
+        "Have a <strong>complete portfolio view</strong>, with advanced analysis of assets, balancing, exposure, and performance;",
+        "Manage everything in a single dashboard without Excel sheets or complicated tools."
+      ],
+      "fr": [
+        "Extraire facilement les transactions de Scalable Capital, même sans compte PRIME+ ;",
+        "Les importer dans DonkyCapital ;",
+        "Avoir une <strong>vue complète du portefeuille</strong>, avec des analyses avancées d'actifs, d'équilibrage, d'exposition et de performance ;",
+        "Tout gérer dans un tableau de bord unique sans feuilles Excel ou outils compliqués."
+      ],
+      "de": [
+        "Einfach Transaktionen aus Scalable Capital extrahieren, auch ohne PRIME+ Account;",
+        "Diese in DonkyCapital importieren;",
+        "Eine <strong>vollständige Portfolio-Ansicht</strong> erhalten, mit fortgeschrittenen Analysen zu Assets, Rebalancing, Exposure und Performance;",
+        "Alles in einem einzigen Dashboard verwalten, ohne Excel-Tabellen oder komplizierte Tools."
+      ],
+      "es": [
+        "Extraer fácilmente las transacciones de Scalable Capital, incluso sin cuenta PRIME+;",
+        "Importarlas en DonkyCapital;",
+        "Tener una <strong>visión completa de la cartera</strong>, con análisis avanzado de activos, balanceo, exposición y rendimiento;",
+        "Gestionar todo en un único panel sin hojas de Excel o herramientas complicadas."
+      ]
+    },
+    "conclusionQuote": {
+      "it": "DonkyCapital trasforma i tuoi dati in informazioni utili, aiutandoti a prendere decisioni di investimento più consapevoli e rapide.",
+      "en": "DonkyCapital transforms your data into useful information, helping you make more conscious and faster investment decisions.",
+      "fr": "DonkyCapital transforme vos données en informations utiles, vous aidant à prendre des décisions d'investissement plus conscientes et plus rapides.",
+      "de": "DonkyCapital verwandelt Ihre Daten in nützliche Informationen und hilft Ihnen, bewusstere und schnellere Investmententscheidungen zu treffen.",
+      "es": "DonkyCapital transforma tus datos en información útil, ayudándote a tomar decisiones de inversión más conscientes y rápidas."
+    },
+    "conclusionText": {
+      "it": "Seguendo questa guida puoi finalmente:",
+      "en": "By following this guide, you can finally:",
+      "fr": "En suivant ce guide, vous pouvez enfin :",
+      "de": "Wenn Sie dieser Anleitung folgen, können Sie endlich:",
+      "es": "Siguiendo esta guía finalmente puedes:"
+    },
+    "conclusionTitle": {
+      "it": "Conclusione",
+      "en": "Conclusion",
+      "fr": "Conclusion",
+      "de": "Fazit",
+      "es": "Conclusión"
+    },
+    "extensionLink": {
+      "it": "https://chromewebstore.google.com/detail/scalable-capital-transact/fllkfonkjkeiibonmifngekchncphhen",
+      "en": "https://chromewebstore.google.com/detail/scalable-capital-transact/fllkfonkjkeiibonmifngekchncphhen",
+      "fr": "https://chromewebstore.google.com/detail/scalable-capital-transact/fllkfonkjkeiibonmifngekchncphhen",
+      "de": "https://chromewebstore.google.com/detail/scalable-capital-transact/fllkfonkjkeiibonmifngekchncphhen",
+      "es": "https://chromewebstore.google.com/detail/scalable-capital-transact/fllkfonkjkeiibonmifngekchncphhen"
+    },
+    "extensionLinkText": {
+      "it": "Scalable Capital Transaction Exporter",
+      "en": "Scalable Capital Transaction Exporter",
+      "fr": "Scalable Capital Transaction Exporter",
+      "de": "Scalable Capital Transaction Exporter",
+      "es": "Scalable Capital Transaction Exporter"
+    },
+    "faq": {
+      "it": [
+        {
+          "question": "Posso usare questa procedura con account gratuiti di Scalable Capital?",
+          "answer": "Sì, anche senza PRIME+ puoi esportare tutte le transazioni e importarle in DonkyCapital."
+        },
+        {
+          "question": "L'estensione funziona su Mac e Windows?",
+          "answer": "Sì, basta usare Google Chrome o un browser basato su Chromium."
+        },
+        {
+          "question": "Posso importare transazioni di più anni?",
+          "answer": "Sì, selezionando il periodo di esportazione nell'estensione."
+        },
+        {
+          "question": "DonkyCapital è sicuro?",
+          "answer": "Assolutamente sì: non richiede credenziali del broker e tutti i dati vengono elaborati sul server sicuro di DonkyCapital."
+        },
+        {
+          "question": "Posso esportare anche dividendi e commissioni?",
+          "answer": "Sì, l'estensione esporta tutte le transazioni visibili nello storico operazioni di Scalable Capital."
+        }
+      ],
+      "en": [
+        {
+          "question": "Can I use this procedure with free Scalable Capital accounts?",
+          "answer": "Yes, even without PRIME+, you can export all transactions and import them into DonkyCapital."
+        },
+        {
+          "question": "Does the extension work on Mac and Windows?",
+          "answer": "Yes, just use Google Chrome or a Chromium-based browser."
+        },
+        {
+          "question": "Can I import transactions from multiple years?",
+          "answer": "Yes, by selecting the export period in the extension."
+        },
+        {
+          "question": "Is DonkyCapital safe?",
+          "answer": "Absolutely: it doesn't require broker credentials and all data is processed on DonkyCapital's secure server."
+        },
+        {
+          "question": "Can I also export dividends and fees?",
+          "answer": "Yes, the extension exports all transactions visible in Scalable Capital's order history."
+        }
+      ],
+      "fr": [
+        {
+          "question": "Puis-je utiliser cette procédure avec des comptes gratuits de Scalable Capital ?",
+          "answer": "Oui, même sans PRIME+, vous pouvez exporter toutes les transactions et les importer dans DonkyCapital."
+        },
+        {
+          "question": "L'extension fonctionne-t-elle sur Mac et Windows ?",
+          "answer": "Oui, il suffit d'utiliser Google Chrome ou un navigateur basé sur Chromium."
+        },
+        {
+          "question": "Puis-je importer des transactions de plusieurs années ?",
+          "answer": "Oui, en sélectionnant la période d'exportation dans l'extension."
+        },
+        {
+          "question": "DonkyCapital est-il sûr ?",
+          "answer": "Absolument : il ne demande pas les identifiants du courtier et toutes les données sont traitées sur le serveur sécurisé de DonkyCapital."
+        },
+        {
+          "question": "Puis-je également exporter les dividendes et les commissions ?",
+          "answer": "Oui, l'extension exporte toutes les transactions visibles dans l'historique des ordres de Scalable Capital."
+        }
+      ],
+      "de": [
+        {
+          "question": "Kann ich dieses Verfahren mit kostenlosen Scalable Capital Accounts nutzen?",
+          "answer": "Ja, auch ohne PRIME+ können Sie alle Transaktionen exportieren und in DonkyCapital importieren."
+        },
+        {
+          "question": "Funktioniert die Erweiterung auf Mac und Windows?",
+          "answer": "Ja, Sie müssen lediglich Google Chrome oder einen Chromium-basierten Browser verwenden."
+        },
+        {
+          "question": "Kann ich Transaktionen aus mehreren Jahren importieren?",
+          "answer": "Ja, indem Sie den Exportzeitraum in der Erweiterung anpassen."
+        },
+        {
+          "question": "Ist DonkyCapital sicher?",
+          "answer": "Absolut: Es werden keine Broker-Zugangsdaten benötigt und alle Daten werden auf den sicheren Servern von DonkyCapital verarbeitet."
+        },
+        {
+          "question": "Kann ich auch Dividenden und Gebühren exportieren?",
+          "answer": "Ja, die Erweiterung exportiert alle Transaktionen, die in der Historie von Scalable Capital sichtbar sind."
+        }
+      ],
+      "es": [
+        {
+          "question": "¿Puedo usar este procedimiento con cuentas gratuitas de Scalable Capital?",
+          "answer": "Sí, incluso sin PRIME+ puedes exportar todas las transacciones e importarlas en DonkyCapital."
+        },
+        {
+          "question": "¿La extensión funciona en Mac y Windows?",
+          "answer": "Sí, solo necesitas usar Google Chrome o un navegador basado en Chromium."
+        },
+        {
+          "question": "¿Puedo importar transacciones de varios años?",
+          "answer": "Sí, seleccionando el periodo de exportación en la extensión."
+        },
+        {
+          "question": "¿Es seguro DonkyCapital?",
+          "answer": "Totalmente: no requiere credenciales del bróker y todos los datos se procesan en el servidor seguro de DonkyCapital."
+        },
+        {
+          "question": "¿Puedo exportar también dividendos y comisiones?",
+          "answer": "Sí, la extensión exporta todas las transacciones visibles en el historial de Scalable Capital."
+        }
+      ]
+    },
+    "faqTitle": {
+      "it": "Domande frequenti (FAQ)",
+      "en": "Frequently Asked Questions (FAQ)",
+      "fr": "Questions fréquemment posées (FAQ)",
+      "de": "Häufig gestellte Fragen (FAQ)",
+      "es": "Preguntas frecuentes (FAQ)"
+    },
+    "intro": {
+      "it": "Se utilizzi <strong>Scalable Capital</strong> per investire in ETF, azioni o fondi comuni, probabilmente ti sei chiesto come tenere traccia di tutte le tue operazioni in modo semplice e veloce. In questa guida completa ti spiegherò <strong>come esportare le tue transazioni da Scalable Capital utilizzando l'estensione Chrome \"Scalable Capital Transaction Exporter\"</strong> e <strong>come importarle in DonkyCapital</strong>, il portfolio tracker che ti permette di gestire tutti i tuoi investimenti in un'unica dashboard, senza usare fogli Excel complicati.",
+      "en": "If you use <strong>Scalable Capital</strong> to invest in ETFs, stocks, or mutual funds, you've probably wondered how to track all your operations easily and quickly. In this complete guide, I will explain <strong>how to export your transactions from Scalable Capital using the Chrome extension \"Scalable Capital Transaction Exporter\"</strong> and <strong>how to import them into DonkyCapital</strong>, the portfolio tracker that allows you to manage all your investments in a single dashboard, without using complicated Excel sheets.",
+      "fr": "Si vous utilisez <strong>Scalable Capital</strong> pour investir dans des ETF, des actions ou des fonds, vous vous êtes probablement demandé comment suivre toutes vos opérations simplement et rapidement. Dans ce guide complet, je vais vous expliquer <strong>comment exporter vos transactions de Scalable Capital à l'aide de l'extension Chrome \"Scalable Capital Transaction Exporter\"</strong> et <strong>comment les importer dans DonkyCapital</strong>, le tracker de portefeuille qui vous permet de gérer tous vos investissements dans un tableau de bord unique, sans utiliser de feuilles Excel compliquées.",
+      "de": "Wenn Sie <strong>Scalable Capital</strong> verwenden, um in ETFs, Aktien oder Fonds zu investieren, haben Sie sich wahrscheinlich gefragt, wie Sie alle Ihre Operationen einfach und schnell verfolgen können. In dieser Anleitung erkläre ich Ihnen, <strong>wie Sie Ihre Transaktionen mit der Chrome-Erweiterung \"Scalable Capital Transaction Exporter\" exportieren</strong> und <strong>wie Sie diese in DonkyCapital importieren</strong>, dem Portfolio Tracker, mit dem Sie alle Ihre Investitionen in einem einzigen Dashboard verwalten können, ohne komplizierte Excel-Tabellen.",
+      "es": "Si utilizas <strong>Scalable Capital</strong> para invertir en ETFs, acciones o fondos, probablemente te hayas preguntado cómo seguir todas tus operaciones de forma sencilla y rápida. En esta guía completa te explicaré <strong>cómo exportar tus transacciones de Scalable Capital utilizando la extensión de Chrome \"Scalable Capital Transaction Exporter\"</strong> y <strong>cómo importarlas en DonkyCapital</strong>, el gestor de cartera que te permite administrar todas tus inversiones en un único panel, sin usar complicadas hojas de Excel."
+    },
+    "pageDescription": {
+      "it": "Guida completa per esportare le transazioni da Scalable Capital anche senza account PRIME+ e importarle in DonkyCapital, con vista su asset, bilanciamento, esposizione e performance.",
+      "en": "Complete guide to exporting transactions from Scalable Capital even without a PRIME+ account and importing them into DonkyCapital, with views on assets, balancing, exposure, and performance.",
+      "fr": "Guide complet pour exporter les transactions de Scalable Capital même sans compte PRIME+ et les importer dans DonkyCapital, avec vue sur les actifs, l'équilibrage, l'exposition et la performance.",
+      "de": "Vollständige Anleitung zum Exportieren von Transaktionen aus Scalable Capital auch ohne PRIME+ Account und zum Importieren in DonkyCapital, mit Ansicht von Assets, Rebalancing, Exposure und Performance.",
+      "es": "Guía completa para exportar transacciones de Scalable Capital incluso sin cuenta PRIME+ e importarlas en DonkyCapital, con vista de activos, balanceo, exposición e histórico de rendimiento."
+    },
+    "pageTitle": {
+      "it": "Come esportare le transazioni da Scalable Capital e importarle in DonkyCapital",
+      "en": "How to export Scalable Capital transactions and import them into DonkyCapital",
+      "fr": "Exporter les transactions Scalable Capital et les importer dans DonkyCapital",
+      "de": "Scalable Capital Transaktionen exportieren und in DonkyCapital importieren",
+      "es": "Cómo exportar transacciones de Scalable Capital e importarlas en DonkyCapital"
+    },
+    "privacyList": {
+      "it": [
+        "L'estensione <strong>non invia dati a server esterni</strong>: tutto avviene sul tuo browser.",
+        "DonkyCapital <strong>non richiede credenziali di accesso al broker</strong> per importare i file CSV/Excel.",
+        "Puoi salvare i file esportati sul tuo computer o su un cloud personale, senza rischi."
+      ],
+      "en": [
+        "The extension <strong>does not send data to external servers</strong>: everything happens in your browser.",
+        "DonkyCapital <strong>does not require broker login credentials</strong> to import CSV/Excel files.",
+        "You can save exported files on your computer or a personal cloud without risks."
+      ],
+      "fr": [
+        "L'extension <strong>n'envoie pas de données à des serveurs externes</strong> : tout se passe sur votre navigateur.",
+        "DonkyCapital <strong>ne nécessite pas d'identifiants de connexion au courtier</strong> pour importer les fichiers CSV/Excel.",
+        "Vous pouvez enregistrer les fichiers exportés sur votre ordinateur ou sur un cloud personnel, sans risque."
+      ],
+      "de": [
+        "Die Erweiterung <strong>sendet keine Daten an externe Server</strong>: Alles geschieht in Ihrem Browser.",
+        "DonkyCapital <strong>benötigt keine Login-Daten Ihres Brokers</strong>, um CSV/Excel-Dateien zu importieren.",
+        "Sie können die exportierten Dateien sicher auf Ihrem Computer oder in einer persönlichen Cloud speichern."
+      ],
+      "es": [
+        "La extensión <strong>no envía datos a servidores externos</strong>: todo sucede en tu navegador.",
+        "DonkyCapital <strong>no requiere credenciales de acceso al bróker</strong> para importar archivos CSV/Excel.",
+        "Puedes guardar los archivos exportados en tu ordenador o en una nube personal sin riesgos."
+      ]
+    },
+    "privacyTitle": {
+      "it": "Privacy e sicurezza dei dati",
+      "en": "Privacy and data security",
+      "fr": "Confidentialité et sécurité des données",
+      "de": "Datenschutz und Datensicherheit",
+      "es": "Privacidad y seguridad de los datos"
+    },
+    "step1List": {
+      "it": [
+        "Apri Google Chrome sul tuo computer.",
+        "Vai alla pagina ufficiale dell'estensione: Scalable Capital Transaction Exporter su Chrome Web Store.",
+        "Clicca su <strong>\"Aggiungi a Chrome\"</strong> e conferma l'installazione.",
+        "Una volta installata, vedrai l'icona dell'estensione vicino alla barra degli indirizzi."
+      ],
+      "en": [
+        "Open Google Chrome on your computer.",
+        "Go to the official extension page: Scalable Capital Transaction Exporter on Chrome Web Store.",
+        "Click on <strong>\"Add to Chrome\"</strong> and confirm the installation.",
+        "Once installed, you will see the extension icon near the address bar."
+      ],
+      "fr": [
+        "Ouvrez Google Chrome sur votre ordinateur.",
+        "Allez sur la page officielle de l'extension : Scalable Capital Transaction Exporter sur Chrome Web Store.",
+        "Cliquez sur <strong>\"Ajouter à Chrome\"</strong> et confirmez l'installation.",
+        "Une fois installée, vous verrez l'icône de l'extension près de la barre d'adresse."
+      ],
+      "de": [
+        "Öffnen Sie Google Chrome auf Ihrem Computer.",
+        "Gehen Sie zur offiziellen Seite der Erweiterung: Scalable Capital Transaction Exporter im Chrome Web Store.",
+        "Klicken Sie auf <strong>\"Hinzufügen\"</strong> und bestätigen Sie die Installation.",
+        "Nach der Installation sehen Sie das Icon der Erweiterung neben der Adressleiste."
+      ],
+      "es": [
+        "Abre Google Chrome en tu ordenador.",
+        "Ve a la página oficial de la extensión: Scalable Capital Transaction Exporter en Chrome Web Store.",
+        "Haz clic en <strong>\"Añadir a Chrome\"</strong> y confirma la instalación.",
+        "Una vez instalada, verás el icono de la extensión cerca de la barra de direcciones."
+      ]
+    },
+    "step1Tip": {
+      "it": "Consiglio: tieni sempre aggiornata l'estensione per assicurarti che funzioni correttamente con le nuove versioni di Scalable Capital.",
+      "en": "Tip: Always keep the extension updated to ensure it works correctly with new versions of Scalable Capital.",
+      "fr": "Conseil : gardez toujours l'extension à jour pour vous assurer qu'elle fonctionne correctement avec les nouvelles versions de Scalable Capital.",
+      "de": "Tipp: Halten Sie die Erweiterung immer auf dem neuesten Stand, um sicherzustellen, dass sie mit neuen Versionen von Scalable Capital korrekt funktioniert.",
+      "es": "Consejo: mantén siempre actualizada la extensión para asegurar que funcione correctamente con las nuevas versiones de Scalable Capital."
+    },
+    "step1Title": {
+      "it": "Passo 1 — Installare l'estensione Chrome",
+      "en": "Step 1 — Install the Chrome Extension",
+      "fr": "Étape 1 — Installer l'extension Chrome",
+      "de": "Schritt 1 — Chrome-Erweiterung installieren",
+      "es": "Paso 1 — Instalar la extensión de Chrome"
+    },
+    "step2Highlight": {
+      "it": "Anche senza un account PRIME+, puoi ottenere tutte le transazioni e importarle su DonkyCapital per una gestione completa del portafoglio.",
+      "en": "Even without a PRIME+ account, you can get all transactions and import them into DonkyCapital for complete portfolio management.",
+      "fr": "Même sans compte PRIME+, vous pouvez obtenir toutes les transactions et les importer sur DonkyCapital pour une gestion complète du portefeuille.",
+      "de": "Auch ohne PRIME+ Account können Sie alle Transaktionen erhalten und in DonkyCapital importieren, um ein vollständiges Portfoliomanagement zu erhalten.",
+      "es": "Incluso sin una cuenta PRIME+, puedes obtener todas las transacciones e importarlas en DonkyCapital para una gestión completa de la cartera."
+    },
+    "step2List": {
+      "it": [
+        "Accedi al tuo account Scalable Capital.",
+        "Vai alla sezione <strong>\"Transazioni\"</strong> o <strong>\"Storico operazioni\"</strong>.",
+        "Seleziona il periodo di tempo desiderato (es. ultimi 12 mesi).",
+        "Clicca sull'icona Download dell'estensione Chrome.",
+        "Scegli il formato del file da esportare: CSV, Excel o JSON."
+      ],
+      "en": [
+        "Log in to your Scalable Capital account.",
+        "Go to the <strong>\"Transactions\"</strong> or <strong>\"Order History\"</strong> section.",
+        "Select the desired time period (e.g., last 12 months).",
+        "Click on the Download icon of the Chrome extension.",
+        "Choose the file format to export: CSV, Excel, or JSON."
+      ],
+      "fr": [
+        "Connectez-vous à votre compte Scalable Capital.",
+        "Allez dans la section <strong>\"Transactions\"</strong> ou <strong>\"Historique des ordres\"</strong>.",
+        "Sélectionnez la période souhaitée (ex. les 12 derniers mois).",
+        "Cliquez sur l'icône de téléchargement de l'extension Chrome.",
+        "Choisissez le format de fichier à exporter : CSV, Excel ou JSON."
+      ],
+      "de": [
+        "Loggen Sie sich in Ihren Scalable Capital Account ein.",
+        "Gehen Sie zum Bereich <strong>\"Transaktionen\"</strong> oder <strong>\"Aktivitäten\"</strong>.",
+        "Wählen Sie den gewünschten Zeitraum aus (z. B. die letzten 12 Monate).",
+        "Klicken Sie auf das Download-Icon der Chrome-Erweiterung.",
+        "Wählen Sie das Dateiformat für den Export: CSV, Excel oder JSON."
+      ],
+      "es": [
+        "Accede a tu cuenta de Scalable Capital.",
+        "Ve a la sección <strong>\"Transacciones\"</strong> o <strong>\"Historial de operaciones\"</strong>.",
+        "Selecciona el periodo de tiempo deseado (ej. últimos 12 meses).",
+        "Haz clic en el icono de descarga de la extensión de Chrome.",
+        "Elige el formato del archivo a exportar: CSV, Excel o JSON."
+      ]
+    },
+    "step2Text": {
+      "it": "Il file esportato contiene tutte le informazioni principali: data della transazione, titolo dell'asset (ETF, azione o fondo), quantità, prezzo e tipo di operazione (acquisto, vendita, dividendo).",
+      "en": "The exported file contains all the main information: transaction date, asset title (ETF, stock, or fund), quantity, price, and type of operation (buy, sell, dividend).",
+      "fr": "Le fichier exporté contient toutes les informations principales : date de la transaction, titre de l'actif (ETF, action ou fonds), quantité, prix et type d'opération (achat, vente, dividende).",
+      "de": "Die exportierte Datei enthält alle wichtigen Informationen: Transaktionsdatum, Name des Assets (ETF, Aktie oder Fonds), Menge, Preis und Art der Operation (Kauf, Verkauf, Dividende).",
+      "es": "El archivo exportado contiene toda la información principal: fecha de la transacción, nombre del activo (ETF, acción o fondo), cantidad, precio y tipo de operación (compra, venta, dividendo)."
+    },
+    "step2Title": {
+      "it": "Passo 2 — Esportare le transazioni",
+      "en": "Step 2 — Export transactions",
+      "fr": "Étape 2 — Exporter les transactions",
+      "de": "Schritt 2 — Transaktionen exportieren",
+      "es": "Paso 2 — Exportar las transacciones"
+    },
+    "step3Highlight": {
+      "it": "Questo livello di analisi <strong>non è disponibile sul sito di Scalable Capital</strong>, che si limita alle transazioni storiche.",
+      "en": "This level of analysis <strong>is not available on the Scalable Capital website</strong>, which is limited to historical transactions.",
+      "fr": "Ce niveau d'analyse <strong>n'est pas disponible sur le site de Scalable Capital</strong>, qui se limite aux transactions historiques.",
+      "de": "Diese Analysetiefe <strong>ist auf der Website von Scalable Capital nicht verfügbar</strong>, da diese sich auf die Transaktionshistorie beschränkt.",
+      "es": "Este nivel de análisis <strong>no está disponible en el sitio de Scalable Capital</strong>, que se limita a las transacciones históricas."
+    },
+    "step3List": {
+      "it": [
+        "Accedi a DonkyCapital.com e apri il tuo account.",
+        "Scegli il portafoglio nel quale importare le transazioni e seleziona <strong>\"Importa Transazioni\"</strong>.",
+        "Carica il file CSV esportato da Scalable Capital.",
+        "Conferma e attendi l'elaborazione del file."
+      ],
+      "en": [
+        "Log in to DonkyCapital.com and open your account.",
+        "Choose the portfolio to import transactions into and select <strong>\"Import Transactions\"</strong>.",
+        "Upload the CSV file exported from Scalable Capital.",
+        "Confirm and wait for the file to be processed."
+      ],
+      "fr": [
+        "Accédez à DonkyCapital.com et ouvrez votre compte.",
+        "Choisissez le portefeuille dans lequel importer les transactions et sélectionnez <strong>\"Importer des Transactions\"</strong>.",
+        "Téléchargez le fichier CSV exporté de Scalable Capital.",
+        "Confirmez et attendez le traitement du fichier."
+      ],
+      "de": [
+        "Besuchen Sie DonkyCapital.com und loggen Sie sich ein.",
+        "Wählen Sie das Portfolio aus, in das Sie die Transaktionen importieren möchten, und wählen Sie <strong>\"Transaktionen importieren\"</strong>.",
+        "Laden Sie die von Scalable Capital exportierte CSV-Datei hoch.",
+        "Bestätigen Sie und warten Sie auf die Verarbeitung der Datei."
+      ],
+      "es": [
+        "Accede a DonkyCapital.com y abre tu cuenta.",
+        "Elige la cartera en la que quieres importar las transacciones y selecciona <strong>\"Importar Transacciones\"</strong>.",
+        "Sube el archivo CSV exportado de Scalable Capital.",
+        "Confirma y espera a que se procese el archivo."
+      ]
+    },
+    "step3ReportList": {
+      "it": [
+        "Composizione del portafoglio;",
+        "Bilanciamento tra asset;",
+        "Esposizione settoriale e geografica;",
+        "Performance e profitti/perdite;",
+        "Confronto tra più portafogli se ne gestisci diversi."
+      ],
+      "en": [
+        "Portfolio composition;",
+        "Asset balancing;",
+        "Sector and geographic exposure;",
+        "Performance and profits/losses;",
+        "Comparison between multiple portfolios if you manage several."
+      ],
+      "fr": [
+        "Composition du portefeuille ;",
+        "Équilibrage entre actifs ;",
+        "Exposition sectorielle et géographique ;",
+        "Performance et profits/pertes ;",
+        "Comparaison entre plusieurs portefeuilles si vous en gérez plusieurs."
+      ],
+      "de": [
+        "Portfolio-Zusammensetzung;",
+        "Rebalancing der Assets;",
+        "Sektoraler und geografischer Exposure;",
+        "Performance und Gewinn/Verlust;",
+        "Vergleich zwischen mehreren Portfolios, falls Sie mehrere verwalten."
+      ],
+      "es": [
+        "Composición de la cartera;",
+        "Balanceo entre activos;",
+        "Exposición sectorial y geográfica;",
+        "Rendimiento y ganancias/pérdidas;",
+        "Comparación entre varias carteras si gestionas más de una."
+      ]
+    },
+    "step3Text": {
+      "it": "In pochi secondi, tutte le tue transazioni saranno visibili nella dashboard DonkyCapital, con report dettagliati su:",
+      "en": "In a few seconds, all your transactions will be visible in the DonkyCapital dashboard, with detailed reports on:",
+      "fr": "En quelques secondes, toutes vos transactions seront visibles dans le tableau de bord DonkyCapital, avec des rapports détaillés sur :",
+      "de": "In wenigen Sekunden sind alle Ihre Transaktionen im DonkyCapital Dashboard sichtbar, mit detaillierten Berichten zu:",
+      "es": "En pocos segundos, todas tus transacciones serán visibles en el panel de DonkyCapital, con informes detallados sobre:"
+    },
+    "step3Title": {
+      "it": "Passo 3 — Importare i dati in DonkyCapital",
+      "en": "Step 3 — Import data into DonkyCapital",
+      "fr": "Étape 3 — Importer les données dans DonkyCapital",
+      "de": "Schritt 3 — Daten in DonkyCapital importieren",
+      "es": "Paso 3 — Importar los datos en DonkyCapital"
+    },
+    "tipsList": {
+      "it": [
+        "Esporta regolarmente i dati, ad esempio ogni mese, così DonkyCapital sarà sempre aggiornato.",
+        "Mantieni i file CSV/Excel in una cartella dedicata sul tuo PC per avere sempre una copia di backup.",
+        "Controlla sempre i dati dopo l'importazione per verificare che tutte le transazioni siano corrette.",
+        "Approfitta del fatto che anche gli account gratuiti possono ottenere tutte le informazioni necessarie, senza dover sottoscrivere un piano PRIME+."
+      ],
+      "en": [
+        "Export data regularly, for example every month, so DonkyCapital is always up to date.",
+        "Keep CSV/Excel files in a dedicated folder on your PC to always have a backup copy.",
+        "Always check the data after importing to verify that all transactions are correct.",
+        "Take advantage of the fact that even free accounts can get all the necessary information without having to subscribe to a PRIME+ plan."
+      ],
+      "fr": [
+        "Exportez régulièrement les données, par exemple chaque mois, afin que DonkyCapital soit toujours à jour.",
+        "Conservez les fichiers CSV/Excel dans un dossier dédié sur votre PC pour avoir toujours une copie de sauvegarde.",
+        "Vérifiez toujours les données après l'importation pour vous assurer que toutes les transactions sont correctes.",
+        "Profitez du fait que même les comptes gratuits peuvent obtenir toutes les informations nécessaires sans avoir à souscrire à un plan PRIME+."
+      ],
+      "de": [
+        "Exportieren Sie die Daten regelmäßig, z. B. jeden Monat, damit DonkyCapital immer aktuell bleibt.",
+        "Bewahren Sie die CSV/Excel-Dateien in einem speziellen Ordner auf Ihrem PC als Backup auf.",
+        "Prüfen Sie die Daten nach dem Import immer kurz nach, um sicherzustellen, dass alle Transaktionen korrekt sind.",
+        "Nutzen Sie die Tatsache, dass auch kostenlose Accounts alle notwendigen Informationen erhalten können, ohne ein PRIME+ Abo abzuschließen."
+      ],
+      "es": [
+        "Exporta los datos regularmente, por ejemplo cada mes, para que DonkyCapital esté siempre actualizado.",
+        "Mantén los archivos CSV/Excel en una carpeta dedicada en tu PC para tener siempre una copia de seguridad.",
+        "Revisa siempre los datos después de la importación para verificar que todas las transacciones sean correctas.",
+        "Aprovecha que incluso las cuentas gratuitas pueden obtener toda la información necesaria sin suscribirse a PRIME+."
+      ]
+    },
+    "tipsTitle": {
+      "it": "Consigli pratici per gestire le transazioni",
+      "en": "Practical tips for managing transactions",
+      "fr": "Conseils pratiques pour gérer les transactions",
+      "de": "Praktische Tipps zur Verwaltung von Transaktionen",
+      "es": "Consejos prácticos para gestionar transacciones"
+    },
+    "whyDonkyList": {
+      "it": [
+        "Composizione degli <strong>asset</strong>;",
+        "<strong>Bilanciamento</strong> del portafoglio;",
+        "<strong>Esposizione</strong> settoriale o geografica;",
+        "Performance complessiva nel tempo."
+      ],
+      "en": [
+        "<strong>Asset</strong> composition;",
+        "Portfolio <strong>rebalancing</strong>;",
+        "Sector or geographic <strong>exposure</strong>;",
+        "Overall performance over time."
+      ],
+      "fr": [
+        "Composition des <strong>actifs</strong> ;",
+        "<strong>Rééquilibrage</strong> du portefeuille ;",
+        "<strong>Exposition</strong> sectorielle ou géographique ;",
+        "Performance globale au fil du temps."
+      ],
+      "de": [
+        "<strong>Asset</strong>-Zusammensetzung;",
+        "Portfolio-<strong>Rebalancing</strong>;",
+        "Sektorale oder geografische <strong>Exposure</strong>;",
+        "Gesamtperformance im Zeitverlauf."
+      ],
+      "es": [
+        "Composición de <strong>activos</strong>;",
+        "<strong>Balanceo</strong> de la cartera;",
+        "<strong>Exposición</strong> sectorial o geográfica;",
+        "Rendimiento total a lo largo del tiempo."
+      ]
+    },
+    "whyDonkyQuote": {
+      "it": "In altre parole, DonkyCapital ti permette di vedere ciò che Scalable Capital non ti mostra: un vero controllo totale del tuo portafoglio.",
+      "en": "In other words, DonkyCapital allows you to see what Scalable Capital doesn't show you: total control of your portfolio.",
+      "fr": "En d'autres termes, DonkyCapital vous permet de voir ce que Scalable Capital ne vous montre pas : un véritable contrôle total de votre portefeuille.",
+      "de": "Mit anderen Worten: DonkyCapital zeigt Ihnen das, was Scalable Capital verschweigt – eine echte Gesamtkontrolle Ihres Portfolios.",
+      "es": "En otras palabras, DonkyCapital te permite ver lo que Scalable Capital no te muestra: un control total de tu cartera."
+    },
+    "whyDonkyText1": {
+      "it": "Il sito di Scalable Capital mostra solo lo storico operazioni e alcune informazioni di base sugli investimenti. Non offre una <strong>visione completa del portafoglio</strong> in termini di:",
+      "en": "The Scalable Capital website only shows transaction history and some basic investment information. It doesn't offer a <strong>complete portfolio view</strong> in terms of:",
+      "fr": "Le site de Scalable Capital ne montre que l'historique des opérations et quelques informations de base. Il n'offre pas une <strong>vision complète du portefeuille</strong> en termes de :",
+      "de": "Die Website von Scalable Capital zeigt nur die Transaktionshistorie und einige Basisinformationen. Sie bietet keine <strong>vollständige Portfolio-Ansicht</strong> in Bezug auf:",
+      "es": "El sitio de Scalable Capital solo muestra el historial de operaciones y cierta información básica. No ofrece una <strong>visión completa de la cartera</strong> en términos de:"
+    },
+    "whyDonkyText2": {
+      "it": "Con DonkyCapital, invece, puoi avere <strong>una dashboard completa e personalizzata</strong>, dove visualizzare tutto il tuo patrimonio in un colpo d'occhio, analizzare l'andamento dei tuoi investimenti e prendere decisioni più informate.",
+      "en": "With DonkyCapital, however, you can have <strong>a complete and personalized dashboard</strong>, where you can view your entire wealth at a glance, analyze the progress of your investments, and make more informed decisions.",
+      "fr": "Avec DonkyCapital, vous pouvez disposer d'un <strong>tableau de bord complet et personnalisé</strong>, où visualiser tout votre patrimoine d'un coup d'œil, analyser l'évolution de vos investissements et prendre des décisions plus éclairées.",
+      "de": "Mit DonkyCapital erhalten Sie hingegen ein <strong>vollständiges und personalisiertes Dashboard</strong>, in dem Sie Ihr gesamtes Vermögen auf einen Blick sehen, die Entwicklung Ihrer Investitionen analysieren und fundiertere Entscheidungen treffen können.",
+      "es": "Con DonkyCapital, en cambio, puedes tener <strong>un panel completo y personalizado</strong> para visualizar todo tu patrimonio de un vistazo, analizar la evolución de tus inversiones y tomar decisiones más informadas."
+    },
+    "whyDonkyTitle": {
+      "it": "Perché usare DonkyCapital invece del sito Scalable Capital",
+      "en": "Why use DonkyCapital instead of the Scalable Capital website",
+      "fr": "Pourquoi utiliser DonkyCapital au lieu du site Scalable Capital",
+      "de": "Warum DonkyCapital anstelle der Scalable Capital Website nutzen",
+      "es": "Por qué usar DonkyCapital en lugar del sitio de Scalable Capital"
+    },
+    "whyExportList": {
+      "it": [
+        "Scaricare le tue transazioni in <strong>CSV, Excel (XLSX)</strong> anche senza un account <strong>PRIME+</strong>;",
+        "Mantenere tutti i dati <strong>sul tuo dispositivo</strong>, senza inviarli a server esterni;",
+        "Usare i file esportati per analisi personali o importarli in DonkyCapital;",
+        "Ottenere report dettagliati senza costi aggiuntivi."
+      ],
+      "en": [
+        "Download your transactions in <strong>CSV, Excel (XLSX)</strong> even without a <strong>PRIME+</strong> account;",
+        "Keep all data <strong>on your device</strong>, without sending it to external servers;",
+        "Use exported files for personal analysis or import them into DonkyCapital;",
+        "Get detailed reports without additional costs."
+      ],
+      "fr": [
+        "Télécharger vos transactions en <strong>CSV, Excel (XLSX)</strong> même sans compte <strong>PRIME+</strong> ;",
+        "Garder toutes les données <strong>sur votre appareil</strong>, sans les envoyer à des serveurs externes ;",
+        "Utiliser les fichiers exportés pour des analyses personnelles ou les importer dans DonkyCapital ;",
+        "Obtenir des rapports détaillés sans frais supplémentaires."
+      ],
+      "de": [
+        "Laden Sie Ihre Transaktionen als <strong>CSV, Excel (XLSX)</strong> herunter, auch ohne <strong>PRIME+</strong> Account;",
+        "Behalten Sie alle Daten <strong>auf Ihrem Gerät</strong>, ohne sie an externe Server zu senden;",
+        "Verwenden Sie die exportierten Dateien für persönliche Analysen oder importieren Sie diese in DonkyCapital;",
+        "Erhalten Sie detaillierte Berichte ohne zusätzliche Kosten."
+      ],
+      "es": [
+        "Descargar tus transacciones en <strong>CSV, Excel (XLSX)</strong> incluso sin una cuenta <strong>PRIME+</strong>;",
+        "Mantener todos los datos <strong>en tu dispositivo</strong>, sin enviarlos a servidores externos;",
+        "Usar los archivos exportados para análisis personales o importarlos en DonkyCapital;",
+        "Obtener informes detallados sin costes adicionales."
+      ]
+    },
+    "whyExportQuote": {
+      "it": "Questo significa che anche chi ha un account gratuito può finalmente ottenere tutte le informazioni sulle proprie transazioni e avere un controllo completo del proprio portafoglio.",
+      "en": "This means that even those with a free account can finally get all the information on their transactions and have complete control over their portfolio.",
+      "fr": "Cela signifie que même ceux qui ont un compte gratuit peuvent enfin obtenir toutes les informations sur leurs transactions et avoir un contrôle complet de leur portefeuille.",
+      "de": "Das bedeutet, dass auch Nutzer mit einem kostenlosen Account endlich alle Informationen zu ihren Transaktionen erhalten und die vollständige Kontrolle über ihr Portfolio haben können.",
+      "es": "Esto significa que incluso quienes tienen una cuenta gratuita pueden finalmente obtener toda la información de sus transacciones y tener un control completo de su cartera."
+    },
+    "whyExportText1": {
+      "it": "Scalable Capital è uno dei broker più utilizzati in Europa, grazie a piattaforme moderne e intuitive. Tuttavia, molte funzioni di esportazione delle transazioni sono disponibili solo per i clienti PRIME+.",
+      "en": "Scalable Capital is one of the most used brokers in Europe, thanks to its modern and intuitive platforms. However, many transaction export functions are only available to PRIME+ customers.",
+      "fr": "Scalable Capital est l'un des courtiers les plus utilisés en Europe, grâce à ses plateformes modernes et intuitives. Cependant, de nombreuses fonctions d'exportation de transactions ne sont disponibles que pour les clients PRIME+.",
+      "de": "Scalable Capital ist dank seiner modernen und intuitiven Plattformen einer der meistgenutzten Broker in Europa. Viele Exportfunktionen für Transaktionen sind jedoch nur für PRIME+ Kunden verfügbar.",
+      "es": "Scalable Capital es uno de los brókeres más utilizados en Europa, gracias a sus plataformas modernas e intuitivas. Sin embargo, muchas funciones de exportación están disponibles solo para clientes PRIME+."
+    },
+    "whyExportText2": {
+      "it": "Se non vuoi pagare un piano aggiuntivo o semplicemente vuoi avere maggiore controllo sui tuoi dati, l'estensione Chrome <strong>Scalable Capital Transaction Exporter</strong> è la soluzione ideale.",
+      "en": "If you don't want to pay for an additional plan or simply want more control over your data, the Chrome extension <strong>Scalable Capital Transaction Exporter</strong> is the ideal solution.",
+      "fr": "Si vous ne souhaitez pas payer pour un plan supplémentaire ou si vous voulez simplement avoir plus de contrôle sur vos données, l'extension Chrome <strong>Scalable Capital Transaction Exporter</strong> est la solution idéale.",
+      "de": "Wenn Sie kein zusätzliches Abo bezahlen möchten oder einfach mehr Kontrolle über Ihre Daten haben wollen, ist die Chrome-Erweiterung <strong>Scalable Capital Transaction Exporter</strong> die ideale Lösung.",
+      "es": "Si no quieres pagar un plan adicional o simplemente quieres tener más control sobre tus datos, la extensión de Chrome <strong>Scalable Capital Transaction Exporter</strong> es la solución ideal."
+    },
+    "whyExportTitle": {
+      "it": "Perché esportare i dati da Scalable Capital",
+      "en": "Why export data from Scalable Capital",
+      "fr": "Pourquoi exporter les données de Scalable Capital",
+      "de": "Warum Daten von Scalable Capital exportieren",
+      "es": "Por qué exportar los datos de Scalable Capital"
+    }
+  },
+  "seo": {
+    "about": {
+      "description": {
+        "it": "Scopri DonkyCapital: il tracker moderno nato per la gestione degli investimenti semplice e personalizzabile.",
+        "en": "Discover DonkyCapital: the modern tracker created for simple and customizable investment management.",
+        "fr": "Découvrez DonkyCapital : le tracker moderne conçu pour une gestion des investissements simple et personnalisable.",
+        "de": "Entdecken Sie DonkyCapital: Der moderne Tracker für eine einfache und anpassbare Investmentverwaltung.",
+        "es": "Descubre DonkyCapital: el tracker moderno creado para una gestión de inversiones sencilla y personalizable."
+      },
+      "title": {
+        "it": "Chi Siamo | La Missione di DonkyCapital",
+        "en": "About Us | The DonkyCapital Mission",
+        "fr": "À Propos | La Mission de DonkyCapital",
+        "de": "Über Uns | Die DonkyCapital Mission",
+        "es": "Sobre Nosotros | La Misión de DonkyCapital"
+      }
+    },
+    "contact": {
+      "description": {
+        "it": "Hai domande o bisogno di supporto? Contatta il team di DonkyCapital. Siamo qui per aiutarti a gestire il tuo capitale.",
+        "en": "Have questions or need support? Contact the DonkyCapital team. We are here to help you manage your capital.",
+        "fr": "Des questions ? Contactez l'équipe DonkyCapital. Nous sommes là pour vous aider à gérer votre capital.",
+        "de": "Haben Sie Fragen? Kontaktieren Sie das DonkyCapital-Team. Wir helfen Ihnen gerne bei der Verwaltung Ihres Kapitals.",
+        "es": "¿Tienes preguntas? Contacta con el equipo de DonkyCapital. Estamos aquí para ayudarte a gestionar tu capital."
+      },
+      "title": {
+        "it": "Contattaci | Supporto e Feedback | DonkyCapital",
+        "en": "Contact Us | Support and Feedback | DonkyCapital",
+        "fr": "Contactez-nous | Support et Feedback | DonkyCapital",
+        "de": "Kontakt | Support und Feedback | DonkyCapital",
+        "es": "Contáctanos | Soporte y Feedback | DonkyCapital"
+      }
+    },
+    "earlyAccess": {
+      "description": {
+        "it": "Diventa uno dei primi 100 utenti: ottieni l'accesso Premium gratuito a vita. Gestisci i tuoi investimenti senza abbonamenti ricorrenti",
+        "en": "Become one of the first 100 users: get free Premium access for life. Manage your investments without recurring subscriptions.<",
+        "fr": "Rejoignez les 100 premiers utilisateurs : accès Premium gratuit à vie. Gérez vos investissements sans abonnement récurrent.",
+        "de": "Gehören Sie zu den ersten 100 Nutzern: lebenslanger Gratis-Premium-Zugang. Verwalten Sie Investments ohne Abo-Gebühren.",
+        "es": "Sé uno de los primeros 100 usuarios: acceso Premium gratis de por vida. Gestiona tus inversiones sin suscripciones recurrentes."
+      },
+      "title": {
+        "it": "Early Access: Funzioni Premium Gratis per sempre | DonkyCapital",
+        "en": "Early Access: Premium Features Free for life | DonkyCapital",
+        "fr": "Early Access : Fonctions Premium Gratuites à vie | DonkyCapital",
+        "de": "Early Access: Premium-Funktionen lebenslang gratis | DonkyCapital",
+        "es": "Early Access: Funciones Premium Gratis de por vida | DonkyCapital"
+      }
+    },
+    "home": {
+      "description": {
+        "it": "Addio Excel. Monitora azioni, ETF e crypto in tempo reale con le dashboard personalizzabili di DonkyCapital.",
+        "en": "Goodbye Excel. Track stocks, ETFs and crypto in real time with DonkyCapital's customizable dashboards.",
+        "fr": "Adieu Excel. Suivez vos actions, ETF et cryptos en temps réel avec les tableaux de bord personnalisables de DonkyCapital.",
+        "de": "Schluss mit Excel. Verfolgen Sie Aktien, ETFs und Kryptos in Echtzeit mit den anpassbaren Dashboards von DonkyCapital.",
+        "es": "Adiós Excel. Monitoriza acciones, ETFs y criptos en tiempo real con los paneles personalizables de DonkyCapital."
+      },
+      "title": {
+        "it": "DonkyCapital | Miglior Portfolio Tracker in Italiano",
+        "en": "DonkyCapital | Best Portfolio Tracker",
+        "fr": "DonkyCapital | Meilleur Portfolio Tracker",
+        "de": "DonkyCapital | Bester Portfolio Tracker",
+        "es": "DonkyCapital | El Mejor Portfolio Tracker"
+      }
+    },
+    "privacyPolicy": {
+      "description": {
+        "it": "Informativa sulla privacy di DonkyCapital. Scopri come proteggiamo i tuoi dati in conformità con il RGPD.",
+        "en": "DonkyCapital Privacy Policy. Find out how we protect your data in compliance with GDPR.",
+        "fr": "Politique de confidentialité de DonkyCapital. Découvrez comment nous protégeons vos données conformément au GDPR.",
+        "de": "Datenschutzerklärung von DonkyCapital. Erfahren Sie, wie wir Ihre Daten gemäß DSGVO schützen.",
+        "es": "Política de privacidad de DonkyCapital. Descubre cómo protegemos tus datos de acuerdo con el RGPD."
+      },
+      "title": {
+        "it": "Privacy Policy | Protezione Dati DonkyCapital",
+        "en": "Privacy Policy | DonkyCapital Data Protection",
+        "fr": "Privacy Policy | Protection des Données DonkyCapital",
+        "de": "Datenschutzerklärung | DonkyCapital Datenschutz",
+        "es": "Privacy Policy | Protección de Datos DonkyCapital"
+      }
+    },
+    "scalableCapital": {
+      "description": {
+        "it": "Scopri come esportare le transazioni da Scalable Capital anche senza PRIME+ e importarle in DonkyCapital per analizzare asset, bilanciamento, esposizione e performance.",
+        "en": "Learn how to export Scalable Capital transactions even without PRIME+ and import them into DonkyCapital to analyze assets, allocation, exposure and performance.",
+        "fr": "Découvrez comment exporter les transactions Scalable Capital même sans PRIME+ et les importer dans DonkyCapital pour analyser les actifs, l'allocation, l'exposition et la performance.",
+        "de": "Erfahre, wie du Scalable Capital Transaktionen auch ohne PRIME+ exportierst und in DonkyCapital importierst, um Assets, Allokation, Exposure und Performance zu analysieren.",
+        "es": "Descubre cómo exportar las transacciones de Scalable Capital incluso sin PRIME+ e importarlas en DonkyCapital para analizar activos, asignación, exposición y rendimiento."
+      },
+      "title": {
+        "it": "Come esportare le transazioni da Scalable Capital e importarle in DonkyCapital",
+        "en": "How to export Scalable Capital transactions and import them into DonkyCapital",
+        "fr": "Exporter les transactions Scalable Capital et les importer dans DonkyCapital",
+        "de": "Scalable Capital Transaktionen exportieren und in DonkyCapital importieren",
+        "es": "Cómo exportar transacciones de Scalable Capital e importarlas en DonkyCapital"
+      }
+    },
+    "termsAndConditions": {
+      "description": {
+        "it": "Leggi i termini e le condizioni d'uso di DonkyCapital, la piattaforma  per l'analisi del tuo portafoglio investimenti.",
+        "en": "Read the terms and conditions of use for DonkyCapital, the platform for your investment portfolio analysis.",
+        "fr": "Lisez les conditions d'utilisation de DonkyCapital, la plateforme pour l'analyse de votre portefeuille d'investissement.",
+        "de": "Lesen Sie die Nutzungsbedingungen von DonkyCapital, der Plattform für Ihre Investment-Portfolio-Analyse.",
+        "es": "Lee los términos y condiciones de uso de DonkyCapital, la plataforma para el análisis de tu cartera de inversión."
+      },
+      "title": {
+        "it": "Termini e Condizioni d'Uso | DonkyCapital",
+        "en": "Terms and Conditions of Use | DonkyCapital",
+        "fr": "Conditions Générales d'Utilisation | DonkyCapital",
+        "de": "Nutzungsbedingungen | DonkyCapital",
+        "es": "Términos y Condiciones de Uso | DonkyCapital"
+      }
+    }
+  },
+  "tagline": {
+    "it": "Monitora, Analizza, Ottimizza i Tuoi Investimenti",
+    "en": "Monitor, Analyze, Optimize Your Investments",
+    "fr": "Surveillez, Analysez, Optimisez Vos Investissements",
+    "de": "Überwachen, Analysieren, Optimieren Sie Ihre Investitionen",
+    "es": "Supervisa, Analiza, Optimiza Tus Inversiones"
+  },
+  "widgets": {
+    "badges": {
+      "analytical": {
+        "it": "Analitico",
+        "en": "Analytical",
+        "fr": "Analytique",
+        "de": "Analytisch",
+        "es": "Analítico"
+      },
+      "complete": {
+        "it": "Completo",
+        "en": "Complete",
+        "fr": "Complet",
+        "de": "Vollständig",
+        "es": "Completo"
+      },
+      "detailed": {
+        "it": "Dettagliato",
+        "en": "Detailed",
+        "fr": "Détaillé",
+        "de": "Detailliert",
+        "es": "Detallado"
+      },
+      "essential": {
+        "it": "Essenziale",
+        "en": "Essential",
+        "fr": "Essentiel",
+        "de": "Wesentlich",
+        "es": "Esencial"
+      },
+      "history": {
+        "it": "Cronologia",
+        "en": "History",
+        "fr": "Historique",
+        "de": "Historie",
+        "es": "Historial"
+      },
+      "holdings": {
+        "it": "Holdings",
+        "en": "Holdings",
+        "fr": "Participations",
+        "de": "Bestände",
+        "es": "Participaciones"
+      },
+      "multiPeriod": {
+        "it": "Multi-periodo",
+        "en": "Multi-period",
+        "fr": "Multi-période",
+        "de": "Multi-Periode",
+        "es": "Multi-período"
+      },
+      "stacked": {
+        "it": "Stacked",
+        "en": "Stacked",
+        "fr": "Empilé",
+        "de": "Gestapelt",
+        "es": "Apilado"
+      },
+      "trending": {
+        "it": "Trending",
+        "en": "Trending",
+        "fr": "Tendance",
+        "de": "Trending",
+        "es": "Tendencia"
+      },
+      "versatile": {
+        "it": "Versatile",
+        "en": "Versatile",
+        "fr": "Polyvalent",
+        "de": "Vielseitig",
+        "es": "Versátil"
+      },
+      "visual": {
+        "it": "Visuale",
+        "en": "Visual",
+        "fr": "Visuel",
+        "de": "Visuell",
+        "es": "Visual"
+      }
+    },
+    "descriptions": {
+      "allocation-breakdown": {
+        "it": "Tabella analitica che elenca peso, valore e performance per ogni categoria.",
+        "en": "Analytical table listing weight, value, and performance for each category.",
+        "fr": "Tableau analytique listant le poids, la valeur et la performance pour chaque catégorie.",
+        "de": "Analytische Tabelle mit Gewichtung, Wert und Performance für jede Kategorie.",
+        "es": "Tabla analítica que lista peso, valor y rendimiento para cada categoría."
+      },
+      "heatmap": {
+        "it": "Mappa di calore che confronta visivamente performance e peso per categoria.",
+        "en": "Heat map visually comparing performance and weight by category.",
+        "fr": "Carte de chaleur comparant visuellement la performance et le poids par catégorie.",
+        "de": "Heatmap zum visuellen Vergleich von Performance und Gewichtung nach Kategorie.",
+        "es": "Mapa de calor que compara visualmente el rendimiento y el peso por categoría."
+      },
+      "holdings-summary": {
+        "it": "Elenco completo delle posizioni attualmente aperte con PMC e performance.",
+        "en": "Complete list of currently open positions with ALP and performance.",
+        "fr": "Liste complète des positions actuellement ouvertes avec prix moyen et performance.",
+        "de": "Vollständige Liste der aktuell offenen Positionen mit Durchschnittspreis und Performance.",
+        "es": "Lista completa de las posiciones actualmente abiertas con precio medio y rendimiento."
+      },
+      "line-chart": {
+        "it": "Andamento temporale del valore per portfolio/tipo/classe/valuta/settore/paese.",
+        "en": "Temporal performance trend by portfolio/type/class/currency/sector/country.",
+        "fr": "Tendance de performance temporelle par portefeuille/type/classe/devise/secteur/pays.",
+        "de": "Zeitlicher Performance-Trend nach Portfolio/Typ/Klasse/Währung/Sektor/Land.",
+        "es": "Tendencia de rendimiento temporal por cartera/tipo/clase/divisa/sector/país."
+      },
+      "performance-metrics": {
+        "it": "Panoramica sintetica del portafoglio con cinque indicatori chiave.",
+        "en": "Synthetic overview of the portfolio with five key indicators.",
+        "fr": "Aperçu synthétique du portefeuille avec cinq indicateurs clés.",
+        "de": "Synthetische Übersicht des Portfolios mit fünf Schlüsselindikatoren.",
+        "es": "Visión sintética de la cartera con cinco indicadores clave."
+      },
+      "performance-table": {
+        "it": "Performance su 6 orizzonti temporali con icone trend (1G, 1S, 1M, 3M, 6M, 1A).",
+        "en": "Performance over 6 time horizons with trend icons (1D, 1W, 1M, 3M, 6M, 1Y).",
+        "fr": "Performance sur 6 horizons temporels avec icônes de tendance (1J, 1S, 1M, 3M, 6M, 1A).",
+        "de": "Performance über 6 Zeithorizonte mit Trend-Symbolen (1T, 1W, 1M, 3M, 6M, 1J).",
+        "es": "Rendimiento en 6 horizontes temporales con iconos de tendencia (1D, 1S, 1M, 3M, 6M, 1A)."
+      },
+      "pie-chart": {
+        "it": "Grafico a torta che visualizza la distribuzione percentuale del portafoglio.",
+        "en": "Pie chart displaying portfolio percentage distribution.",
+        "fr": "Diagramme circulaire affichant la répartition en pourcentage du portefeuille.",
+        "de": "Kreisdiagramm zur Darstellung der prozentualen Portfolio-Verteilung.",
+        "es": "Gráfico circular que muestra la distribución porcentual de la cartera."
+      },
+      "portfolio-table": {
+        "it": "Tabella completa che elenca tutti i portafogli con i relativi valori chiave.",
+        "en": "Complete table listing all portfolios with their key values.",
+        "fr": "Tableau complet listant tous les portefeuilles avec leurs valeurs clés.",
+        "de": "Vollständige Tabelle mit allen Portfolios und ihren Schlüsselwerten.",
+        "es": "Tabla completa que lista todas las carteras con sus valores clave."
+      },
+      "portfolio-trends": {
+        "it": "Evoluzione temporale del valore dei portafogli con grafico ad aree impilate.",
+        "en": "Temporal evolution of portfolio value with stacked area chart.",
+        "fr": "Évolution temporelle de la valeur du portefeuille avec graphique en aires empilées.",
+        "de": "Zeitliche Entwicklung des Portfoliowerts mit gestapeltem Flächendiagramm.",
+        "es": "Evolución temporal del valor de la cartera con gráfico de áreas apiladas."
+      },
+      "profit-loss": {
+        "it": "Vista completa dei profitti e delle perdite del portafoglio.",
+        "en": "Complete view of portfolio profits and losses.",
+        "fr": "Vue complète des profits et pertes du portefeuille.",
+        "de": "Vollständige Ansicht der Portfolio-Gewinne und -Verluste.",
+        "es": "Vista completa de las ganancias y pérdidas de la cartera."
+      },
+      "stack-chart": {
+        "it": "Visualizza la composizione percentuale del portafoglio nel tempo.",
+        "en": "Displays the percentage composition of the portfolio over time.",
+        "fr": "Affiche la composition en pourcentage du portefeuille au fil du temps.",
+        "de": "Zeigt die prozentuale Zusammensetzung des Portfolios im Zeitverlauf.",
+        "es": "Muestra la composición porcentual de la cartera a lo largo del tiempo."
+      },
+      "transactions-list": {
+        "it": "Lista delle ultime transazioni effettuate in ordine cronologico.",
+        "en": "List of the latest transactions in chronological order.",
+        "fr": "Liste des dernières transactions par ordre chronologique.",
+        "de": "Liste der letzten Transaktionen in chronologischer Reihenfolge.",
+        "es": "Lista de las últimas transacciones en orden cronológico."
+      }
+    },
+    "names": {
+      "allocation-breakdown": {
+        "it": "Breakdown Allocazione",
+        "en": "Allocation Breakdown",
+        "fr": "Ventilation de l'Allocation",
+        "de": "Allokationsaufschlüsselung",
+        "es": "Desglose de Asignación"
+      },
+      "heatmap": {
+        "it": "Heatmap Performance",
+        "en": "Performance Heatmap",
+        "fr": "Carte de Chaleur Performance",
+        "de": "Performance-Heatmap",
+        "es": "Mapa de Calor de Rendimiento"
+      },
+      "holdings-summary": {
+        "it": "Posizioni Aperte",
+        "en": "Open Positions",
+        "fr": "Positions Ouvertes",
+        "de": "Offene Positionen",
+        "es": "Posiciones Abiertas"
+      },
+      "line-chart": {
+        "it": "Grafico Performance",
+        "en": "Performance Chart",
+        "fr": "Graphique de Performance",
+        "de": "Performance-Diagramm",
+        "es": "Gráfico de Rendimiento"
+      },
+      "performance-metrics": {
+        "it": "Sintesi Portafogli",
+        "en": "Portfolio Summary",
+        "fr": "Résumé du Portefeuille",
+        "de": "Portfolio-Zusammenfassung",
+        "es": "Resumen de Cartera"
+      },
+      "performance-table": {
+        "it": "Tabella Rendimenti",
+        "en": "Performance Table",
+        "fr": "Tableau de Performance",
+        "de": "Performance-Tabelle",
+        "es": "Tabla de Rendimiento"
+      },
+      "pie-chart": {
+        "it": "Allocazione",
+        "en": "Allocation",
+        "fr": "Allocation",
+        "de": "Allokation",
+        "es": "Asignación"
+      },
+      "portfolio-table": {
+        "it": "Tabella Portafogli",
+        "en": "Portfolio Table",
+        "fr": "Tableau des Portefeuilles",
+        "de": "Portfolio-Tabelle",
+        "es": "Tabla de Carteras"
+      },
+      "portfolio-trends": {
+        "it": "Andamento Portafogli",
+        "en": "Portfolio Trends",
+        "fr": "Tendances du Portefeuille",
+        "de": "Portfolio-Trends",
+        "es": "Tendencias de Cartera"
+      },
+      "profit-loss": {
+        "it": "Profit & Loss",
+        "en": "Profit & Loss",
+        "fr": "Profit & Perte",
+        "de": "Gewinn & Verlust",
+        "es": "Ganancia y Pérdida"
+      },
+      "stack-chart": {
+        "it": "Composizione Temporale",
+        "en": "Temporal Composition",
+        "fr": "Composition Temporelle",
+        "de": "Zeitliche Zusammensetzung",
+        "es": "Composición Temporal"
+      },
+      "transactions-list": {
+        "it": "Transazioni Recenti",
+        "en": "Recent Transactions",
+        "fr": "Transactions Récentes",
+        "de": "Letzte Transaktionen",
+        "es": "Transacciones Recientes"
+      }
+    },
+    "tags": {
+      "100stacked": {
+        "it": "100% stacked",
+        "en": "100% stacked",
+        "fr": "100% empilé",
+        "de": "100% gestapelt",
+        "es": "100% apilado"
+      },
+      "6periods": {
+        "it": "6 periodi",
+        "en": "6 periods",
+        "fr": "6 périodes",
+        "de": "6 Perioden",
+        "es": "6 períodos"
+      },
+      "aggregateValues": {
+        "it": "Valori aggregati",
+        "en": "Aggregate values",
+        "fr": "Valeurs agrégées",
+        "de": "Aggregierte Werte",
+        "es": "Valores agregados"
+      },
+      "analysis": {
+        "it": "Analisi",
+        "en": "Analysis",
+        "fr": "Analyse",
+        "de": "Analyse",
+        "es": "Análisis"
+      },
+      "areaChart": {
+        "it": "Area chart",
+        "en": "Area chart",
+        "fr": "Graphique en aires",
+        "de": "Flächendiagramm",
+        "es": "Gráfico de áreas"
+      },
+      "bubbles": {
+        "it": "Bolle",
+        "en": "Bubbles",
+        "fr": "Bulles",
+        "de": "Blasen",
+        "es": "Burbujas"
+      },
+      "chronologicalList": {
+        "it": "Lista cronologica",
+        "en": "Chronological list",
+        "fr": "Liste chronologique",
+        "de": "Chronologische Liste",
+        "es": "Lista cronológica"
+      },
+      "comparison": {
+        "it": "Comparazione",
+        "en": "Comparison",
+        "fr": "Comparaison",
+        "de": "Vergleich",
+        "es": "Comparación"
+      },
+      "detail": {
+        "it": "Dettaglio",
+        "en": "Detail",
+        "fr": "Détail",
+        "de": "Detail",
+        "es": "Detalle"
+      },
+      "evolution": {
+        "it": "Evoluzione",
+        "en": "Evolution",
+        "fr": "Évolution",
+        "de": "Entwicklung",
+        "es": "Evolución"
+      },
+      "flexibleFilters": {
+        "it": "Filtri flessibili",
+        "en": "Flexible filters",
+        "fr": "Filtres flexibles",
+        "de": "Flexible Filter",
+        "es": "Filtros flexibles"
+      },
+      "heatmap": {
+        "it": "Heatmap",
+        "en": "Heatmap",
+        "fr": "Carte de chaleur",
+        "de": "Heatmap",
+        "es": "Mapa de calor"
+      },
+      "historical": {
+        "it": "Storico",
+        "en": "Historical",
+        "fr": "Historique",
+        "de": "Historisch",
+        "es": "Histórico"
+      },
+      "keyMetrics": {
+        "it": "Metriche chiave",
+        "en": "Key metrics",
+        "fr": "Métriques clés",
+        "de": "Schlüsselmetriken",
+        "es": "Métricas clave"
+      },
+      "lineChart": {
+        "it": "Line chart",
+        "en": "Line chart",
+        "fr": "Graphique linéaire",
+        "de": "Liniendiagramm",
+        "es": "Gráfico lineal"
+      },
+      "livePositions": {
+        "it": "Posizioni live",
+        "en": "Live positions",
+        "fr": "Positions en direct",
+        "de": "Live-Positionen",
+        "es": "Posiciones en vivo"
+      },
+      "multiCategory": {
+        "it": "Multi-categoria",
+        "en": "Multi-category",
+        "fr": "Multi-catégorie",
+        "de": "Multi-Kategorie",
+        "es": "Multi-categoría"
+      },
+      "multiGrouping": {
+        "it": "Multi-raggruppamento",
+        "en": "Multi-grouping",
+        "fr": "Multi-groupement",
+        "de": "Multi-Gruppierung",
+        "es": "Multi-agrupación"
+      },
+      "multiPortfolio": {
+        "it": "Multi-portafoglio",
+        "en": "Multi-portfolio",
+        "fr": "Multi-portefeuille",
+        "de": "Multi-Portfolio",
+        "es": "Multi-cartera"
+      },
+      "percentages": {
+        "it": "Percentuali",
+        "en": "Percentages",
+        "fr": "Pourcentages",
+        "de": "Prozentsätze",
+        "es": "Porcentajes"
+      },
+      "performance": {
+        "it": "Performance",
+        "en": "Performance",
+        "fr": "Performance",
+        "de": "Performance",
+        "es": "Rendimiento"
+      },
+      "performanceColors": {
+        "it": "Colori performance",
+        "en": "Performance colors",
+        "fr": "Couleurs de performance",
+        "de": "Performance-Farben",
+        "es": "Colores de rendimiento"
+      },
+      "period": {
+        "it": "Periodo",
+        "en": "Period",
+        "fr": "Période",
+        "de": "Periode",
+        "es": "Período"
+      },
+      "pieChart": {
+        "it": "Pie chart",
+        "en": "Pie chart",
+        "fr": "Diagramme circulaire",
+        "de": "Kreisdiagramm",
+        "es": "Gráfico circular"
+      },
+      "pl": {
+        "it": "P&L",
+        "en": "P&L",
+        "fr": "P&P",
+        "de": "G&V",
+        "es": "G&P"
+      },
+      "pmcValues": {
+        "it": "PMC e valori",
+        "en": "ALP and values",
+        "fr": "Prix moyen et valeurs",
+        "de": "Durchschnittspreis und Werte",
+        "es": "Precio medio y valores"
+      },
+      "tableView": {
+        "it": "Vista tabellare",
+        "en": "Table view",
+        "fr": "Vue tableau",
+        "de": "Tabellenansicht",
+        "es": "Vista de tabla"
+      },
+      "timeSeries": {
+        "it": "Serie temporale",
+        "en": "Time series",
+        "fr": "Séries temporelles",
+        "de": "Zeitreihe",
+        "es": "Serie temporal"
+      },
+      "totalPL": {
+        "it": "P&L totale",
+        "en": "Total P&L",
+        "fr": "P&P total",
+        "de": "Gesamt-G&V",
+        "es": "G&P total"
+      },
+      "trendIcons": {
+        "it": "Icone trend",
+        "en": "Trend icons",
+        "fr": "Icônes de tendance",
+        "de": "Trend-Symbole",
+        "es": "Iconos de tendencia"
+      },
+      "weightValue": {
+        "it": "Peso + Valore",
+        "en": "Weight + Value",
+        "fr": "Poids + Valeur",
+        "de": "Gewicht + Wert",
+        "es": "Peso + Valor"
+      }
+    }
+  }
+}
