@@ -2,9 +2,9 @@
   "about": {
     "h1": "Vollständige Kontrolle über dein Vermögen, ohne Kompromisse bei der Sicherheit.",
     "pageTitle": "Über Uns",
-    "section1Text": "Wir sind von einer echten Frage ausgegangen: Warum musst du dich beim Analysieren deiner Investitionen zwischen der Unbequemlichkeit von Excel oder dem Risiko, deine Broker-Zugangsdaten zu teilen, entscheiden? Donky Capital ist die Antwort. Entwickelt von Menschen, die täglich investieren, für diejenigen, die umfassende Analysen ohne Kompromisse bei der Privatsphäre suchen.",
+    "section1Text": "Wir sind von einer echten Frage ausgegangen: Warum musst du dich beim Analysieren deiner Investitionen zwischen der Unbequemlichkeit von Excel oder dem Risiko, deine Broker-Zugangsdaten zu teilen, entscheiden? DonkyCapital ist die Antwort. Entwickelt von Menschen, die täglich investieren, für diejenigen, die umfassende Analysen ohne Kompromisse bei der Privatsphäre suchen.",
     "section1Title": "Von Investoren, für Investoren entwickelt.",
-    "section2Text": "Im Gegensatz zu traditionellen Trackern haben wir niemals Zugriff auf deine Bankdaten. Ein einfacher Export von deinen Brokern und Donky Capital verwandelt Rohdaten in Sekunden in strategische Erkenntnisse. Einfach, sicher, unzerbrechlich.",
+    "section2Text": "Im Gegensatz zu traditionellen Trackern haben wir niemals Zugriff auf deine Bankdaten. Ein einfacher Export von deinen Brokern und DonkyCapital verwandelt Rohdaten in Sekunden in strategische Erkenntnisse. Einfach, sicher, unzerbrechlich.",
     "section2Title": "Deine Sicherheit ist keine Funktion, sie ist unser Fundament.",
     "section3Text": "Jedes Portfolio hat eine andere Geschichte und dein Dashboard sollte deine Ziele widerspiegeln. Mit unserem modularen System baust du dein Kommandozentrum durch vollständig anpassbare Dashboards auf: du definierst die KPIs, die wichtig sind, überwachst die Vermögensallokation und verwaltest die Umschichtung nach deinen Kriterien.",
     "section3Title": "Analyse auf deine Strategie zugeschnitten."
@@ -99,7 +99,7 @@
     "faq": {
       "questions": [
         {
-          "question": "Warum ist Donky Capital die beste Excel-Alternative für Investments?",
+          "question": "Warum ist DonkyCapital die beste Excel-Alternative für Investments?",
           "answer": "Ein automatischer Depot-Tracker, der manuelle Tabellen ersetzt, Echtzeit-Kurse liefert und die Asset Allocation ohne Formeln berechnet."
         },
         {
@@ -111,7 +111,7 @@
           "answer": "Ja! Mit unserer Chrome-Extension können Sie Transaktionen kostenlos als CSV exportieren, auch wenn Sie keinen Prime+-Account haben."
         },
         {
-          "question": "Wie nutze ich Donky Capital als Scalable Capital Tracker?",
+          "question": "Wie nutze ich DonkyCapital als Scalable Capital Tracker?",
           "answer": "Einfach Daten exportieren und hochladen. Erhalten Sie eine professionelle Depot-Analyse Ihrer ETFs und Aktien in Sekunden."
         },
         {
@@ -120,7 +120,7 @@
         },
         {
           "question": "Kann ich es mobil nutzen?",
-          "answer": "Ja, Donky Capital ist eine PWA (Progressive Web App). Sie können sie direkt auf Ihrem Smartphone installieren und Ihr Depot jederzeit checken."
+          "answer": "Ja, DonkyCapital ist eine PWA (Progressive Web App). Sie können sie direkt auf Ihrem Smartphone installieren und Ihr Depot jederzeit checken."
         },
         {
           "question": "Was passiert mit meinen Daten?",

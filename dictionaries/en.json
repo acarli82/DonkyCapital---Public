@@ -2,9 +2,9 @@
   "about": {
     "h1": "Full control of your wealth, without compromising on security.",
     "pageTitle": "About Us",
-    "section1Text": "We started with a real question: why do you have to choose between the inconvenience of Excel or the risk of sharing your broker credentials when analyzing your investments? Donky Capital is the answer. Built by people who invest every day, for those seeking advanced analysis without sacrificing privacy.",
+    "section1Text": "We started with a real question: why do you have to choose between the inconvenience of Excel or the risk of sharing your broker credentials when analyzing your investments? DonkyCapital is the answer. Built by people who invest every day, for those seeking advanced analysis without sacrificing privacy.",
     "section1Title": "Built by investors, for investors.",
-    "section2Text": "Unlike traditional trackers, we will never have access to your banking data. A simple export from your brokers and Donky Capital transforms raw data into strategic insights in seconds. Simple, secure, unbreakable.",
+    "section2Text": "Unlike traditional trackers, we will never have access to your banking data. A simple export from your brokers and DonkyCapital transforms raw data into strategic insights in seconds. Simple, secure, unbreakable.",
     "section2Title": "Your security isn't a feature, it's our foundation.",
     "section3Text": "Every portfolio has a different story and your dashboard should reflect your goals. With our modular system, build your command center through fully customizable dashboards: you define the KPIs that matter, monitor asset allocation, and manage rebalancing according to your criteria.",
     "section3Title": "Analysis tailored to your strategy."
@@ -99,7 +99,7 @@
     "faq": {
       "questions": [
         {
-          "question": "Why is Donky Capital the best investment Excel alternative?",
+          "question": "Why is DonkyCapital the best investment Excel alternative?",
           "answer": "It is a smart Portfolio Tracker that eliminates manual data entry, providing real-time ETF/Stock prices and automatic exposure analysis."
         },
         {
@@ -111,8 +111,8 @@
           "answer": "Yes! With our free Chrome Extension, you can download your transaction CSV even on the Free plan, saving the Prime+ subscription cost."
         },
         {
-          "question": "Donky Capital vs Getquin: what are the differences?",
-          "answer": "Donky Capital offers deeper dashboard customization and superior privacy by avoiding direct broker account linking."
+          "question": "DonkyCapital vs Getquin: what are the differences?",
+          "answer": "DonkyCapital offers deeper dashboard customization and superior privacy by avoiding direct broker account linking."
         },
         {
           "question": "What assets can I import?",
@@ -120,7 +120,7 @@
         },
         {
           "question": "Can I use it on mobile?",
-          "answer": "Yes, Donky Capital is a PWA (Progressive Web App). Install it on your mobile device for seamless tracking without needing an App Store download."
+          "answer": "Yes, DonkyCapital is a PWA (Progressive Web App). Install it on your mobile device for seamless tracking without needing an App Store download."
         },
         {
           "question": "What happens to my data?",

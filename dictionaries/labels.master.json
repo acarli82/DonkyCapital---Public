@@ -15,11 +15,11 @@
       "es": "Acerca de Nosotros"
     },
     "section1Text": {
-      "it": "Siamo partiti da una domanda reale: perché per analizzare i propri investimenti bisogna scegliere tra la scomodità di Excel o il rischio di condividere le password dei propri conti? Donky Capital è la risposta. Creato da chi investe ogni giorno, per chi cerca analisi avanzate senza rinunciare alla privacy.",
-      "en": "We started with a real question: why do you have to choose between the inconvenience of Excel or the risk of sharing your broker credentials when analyzing your investments? Donky Capital is the answer. Built by people who invest every day, for those seeking advanced analysis without sacrificing privacy.",
-      "fr": "Nous avons commencé avec une vraie question: pourquoi deviez-vous choisir entre l'inconvénient d'Excel et le risque de partager vos identifiants de courtier lors de l'analyse de vos investissements? Donky Capital est la réponse. Créé par ceux qui investissent chaque jour, pour ceux qui recherchent une analyse avancée sans sacrifier la confidentialité.",
-      "de": "Wir sind von einer echten Frage ausgegangen: Warum musst du dich beim Analysieren deiner Investitionen zwischen der Unbequemlichkeit von Excel oder dem Risiko, deine Broker-Zugangsdaten zu teilen, entscheiden? Donky Capital ist die Antwort. Entwickelt von Menschen, die täglich investieren, für diejenigen, die umfassende Analysen ohne Kompromisse bei der Privatsphäre suchen.",
-      "es": "Comenzamos con una pregunta real: ¿por qué tienes que elegir entre la inconveniencia de Excel o el riesgo de compartir tus credenciales de broker al analizar tus inversiones? Donky Capital es la respuesta. Creado por quienes invierten todos los días, para quienes buscan análisis avanzado sin sacrificar la privacidad."
+      "it": "Siamo partiti da una domanda reale: perché per analizzare i propri investimenti bisogna scegliere tra la scomodità di Excel o il rischio di condividere le password dei propri conti? DonkyCapital è la risposta. Creato da chi investe ogni giorno, per chi cerca analisi avanzate senza rinunciare alla privacy.",
+      "en": "We started with a real question: why do you have to choose between the inconvenience of Excel or the risk of sharing your broker credentials when analyzing your investments? DonkyCapital is the answer. Built by people who invest every day, for those seeking advanced analysis without sacrificing privacy.",
+      "fr": "Nous avons commencé avec une vraie question: pourquoi deviez-vous choisir entre l'inconvénient d'Excel et le risque de partager vos identifiants de courtier lors de l'analyse de vos investissements? DonkyCapital est la réponse. Créé par ceux qui investissent chaque jour, pour ceux qui recherchent une analyse avancée sans sacrifier la confidentialité.",
+      "de": "Wir sind von einer echten Frage ausgegangen: Warum musst du dich beim Analysieren deiner Investitionen zwischen der Unbequemlichkeit von Excel oder dem Risiko, deine Broker-Zugangsdaten zu teilen, entscheiden? DonkyCapital ist die Antwort. Entwickelt von Menschen, die täglich investieren, für diejenigen, die umfassende Analysen ohne Kompromisse bei der Privatsphäre suchen.",
+      "es": "Comenzamos con una pregunta real: ¿por qué tienes que elegir entre la inconveniencia de Excel o el riesgo de compartir tus credenciales de broker al analizar tus inversiones? DonkyCapital es la respuesta. Creado por quienes invierten todos los días, para quienes buscan análisis avanzado sin sacrificar la privacidad."
     },
     "section1Title": {
       "it": "Creato da investitori, per investitori.",
@@ -29,11 +29,11 @@
       "es": "Creado por inversores, para inversores."
     },
     "section2Text": {
-      "it": "A differenza dei tracker tradizionali, noi non avremo mai accesso ai tuoi dati bancari. Un semplice export dai tuoi broker e Donky Capital trasforma i dati grezzi in insight strategici in pochi secondi. Semplice, sicuro, inviolabile.",
-      "en": "Unlike traditional trackers, we will never have access to your banking data. A simple export from your brokers and Donky Capital transforms raw data into strategic insights in seconds. Simple, secure, unbreakable.",
-      "fr": "Contrairement aux trackers traditionnels, nous n'aurons jamais accès à vos données bancaires. Un simple export de vos courtiers et Donky Capital transforme les données brutes en informations stratégiques en quelques secondes. Simple, sécurisé, inviolable.",
-      "de": "Im Gegensatz zu traditionellen Trackern haben wir niemals Zugriff auf deine Bankdaten. Ein einfacher Export von deinen Brokern und Donky Capital verwandelt Rohdaten in Sekunden in strategische Erkenntnisse. Einfach, sicher, unzerbrechlich.",
-      "es": "A diferencia de los rastreadores tradicionales, nunca tendremos acceso a tus datos bancarios. Una simple exportación de tus brokers y Donky Capital transforma datos sin procesar en información estratégica en segundos. Simple, seguro, inviolable."
+      "it": "A differenza dei tracker tradizionali, noi non avremo mai accesso ai tuoi dati bancari. Un semplice export dai tuoi broker e DonkyCapital trasforma i dati grezzi in insight strategici in pochi secondi. Semplice, sicuro, inviolabile.",
+      "en": "Unlike traditional trackers, we will never have access to your banking data. A simple export from your brokers and DonkyCapital transforms raw data into strategic insights in seconds. Simple, secure, unbreakable.",
+      "fr": "Contrairement aux trackers traditionnels, nous n'aurons jamais accès à vos données bancaires. Un simple export de vos courtiers et DonkyCapital transforme les données brutes en informations stratégiques en quelques secondes. Simple, sécurisé, inviolable.",
+      "de": "Im Gegensatz zu traditionellen Trackern haben wir niemals Zugriff auf deine Bankdaten. Ein einfacher Export von deinen Brokern und DonkyCapital verwandelt Rohdaten in Sekunden in strategische Erkenntnisse. Einfach, sicher, unzerbrechlich.",
+      "es": "A diferencia de los rastreadores tradicionales, nunca tendremos acceso a tus datos bancarios. Una simple exportación de tus brokers y DonkyCapital transforma datos sin procesar en información estratégica en segundos. Simple, seguro, inviolable."
     },
     "section2Title": {
       "it": "La tua sicurezza non è una funzione, è il nostro fondamento.",
@@ -556,23 +556,23 @@
       "questions": {
         "it": [
           {
-            "question": "Perché Donky Capital è la migliore alternativa a Excel per gli investimenti?",
+            "question": "Perché DonkyCapital è la migliore alternativa a Excel per gli investimenti?",
             "answer": "È un Portfolio Tracker automatico che elimina l'inserimento manuale, aggiorna i prezzi di ETF/Azioni in tempo reale e calcola l'esposizione senza formule complesse."
           },
           {
             "question": "Devo condividere le password del mio broker?",
-            "answer": "Assolutamente no. Donky Capital garantisce la massima privacy: importi i dati tramite file CSV/PDF senza mai inserire le tue credenziali bancarie."
+            "answer": "Assolutamente no. DonkyCapital garantisce la massima privacy: importi i dati tramite file CSV/PDF senza mai inserire le tue credenziali bancarie."
           },
           {
             "question": "Posso esportare i dati da Scalable Capital senza il piano Prime+?",
             "answer": "Sì! Grazie alla nostra estensione Chrome gratuita, puoi scaricare il CSV delle transazioni anche con il piano Free, risparmiando il costo dell'abbonamento Prime+."
           },
           {
-            "question": "Qual è la differenza tra Donky Capital e Getquin?",
-            "answer": "Donky Capital offre una personalizzazione totale delle dashboard e non richiede mai l'accesso diretto ai tuoi conti, mettendo la tua privacy al primo posto."
+            "question": "Qual è la differenza tra DonkyCapital e Getquin?",
+            "answer": "DonkyCapital offre una personalizzazione totale delle dashboard e non richiede mai l'accesso diretto ai tuoi conti, mettendo la tua privacy al primo posto."
           },
           {
-            "question": "Posso usare Donky Capital come tracker per Directa?",
+            "question": "Posso usare DonkyCapital come tracker per Directa?",
             "answer": "Sì, siamo il miglior Directa Tracker per trasformare i dati tecnici di Directa in grafici moderni, analizzando performance e bilanciamento in un clic."
           },
           {
@@ -581,7 +581,7 @@
           },
           {
             "question": "Posso usarlo su mobile?",
-            "answer": "Sì, Donky Capital è una PWA (Progressive Web App). Puoi installarla sul tuo smartphone per monitorare il portafoglio ovunque, senza passare dall'App Store."
+            "answer": "Sì, DonkyCapital è una PWA (Progressive Web App). Puoi installarla sul tuo smartphone per monitorare il portafoglio ovunque, senza passare dall'App Store."
           },
           {
             "question": "Cosa succede ai miei dati?",
@@ -590,7 +590,7 @@
         ],
         "en": [
           {
-            "question": "Why is Donky Capital the best investment Excel alternative?",
+            "question": "Why is DonkyCapital the best investment Excel alternative?",
             "answer": "It is a smart Portfolio Tracker that eliminates manual data entry, providing real-time ETF/Stock prices and automatic exposure analysis."
           },
           {
@@ -602,8 +602,8 @@
             "answer": "Yes! With our free Chrome Extension, you can download your transaction CSV even on the Free plan, saving the Prime+ subscription cost."
           },
           {
-            "question": "Donky Capital vs Getquin: what are the differences?",
-            "answer": "Donky Capital offers deeper dashboard customization and superior privacy by avoiding direct broker account linking."
+            "question": "DonkyCapital vs Getquin: what are the differences?",
+            "answer": "DonkyCapital offers deeper dashboard customization and superior privacy by avoiding direct broker account linking."
           },
           {
             "question": "What assets can I import?",
@@ -611,7 +611,7 @@
           },
           {
             "question": "Can I use it on mobile?",
-            "answer": "Yes, Donky Capital is a PWA (Progressive Web App). Install it on your mobile device for seamless tracking without needing an App Store download."
+            "answer": "Yes, DonkyCapital is a PWA (Progressive Web App). Install it on your mobile device for seamless tracking without needing an App Store download."
           },
           {
             "question": "What happens to my data?",
@@ -620,7 +620,7 @@
         ],
         "fr": [
           {
-            "question": "Pourquoi Donky Capital est l'alternative à Excel pour la bourse ?",
+            "question": "Pourquoi DonkyCapital est l'alternative à Excel pour la bourse ?",
             "answer": "C'est un Suivi de portefeuille intelligent qui automatise vos analyses et met à jour les prix des ETF en temps réel sans erreurs de formule."
           },
           {
@@ -637,7 +637,7 @@
           },
           {
             "question": "Puis-je l'utiliser sur mobile ?",
-            "answer": "Oui, Donky Capital est une PWA. Installez-la sur votre mobile pour consulter vos performances partout, sans passer par l'App Store."
+            "answer": "Oui, DonkyCapital est une PWA. Installez-la sur votre mobile pour consulter vos performances partout, sans passer par l'App Store."
           },
           {
             "question": "Qu'advient-il de mes données ?",
@@ -646,7 +646,7 @@
         ],
         "de": [
           {
-            "question": "Warum ist Donky Capital die beste Excel-Alternative für Investments?",
+            "question": "Warum ist DonkyCapital die beste Excel-Alternative für Investments?",
             "answer": "Ein automatischer Depot-Tracker, der manuelle Tabellen ersetzt, Echtzeit-Kurse liefert und die Asset Allocation ohne Formeln berechnet."
           },
           {
@@ -658,7 +658,7 @@
             "answer": "Ja! Mit unserer Chrome-Extension können Sie Transaktionen kostenlos als CSV exportieren, auch wenn Sie keinen Prime+-Account haben."
           },
           {
-            "question": "Wie nutze ich Donky Capital als Scalable Capital Tracker?",
+            "question": "Wie nutze ich DonkyCapital als Scalable Capital Tracker?",
             "answer": "Einfach Daten exportieren und hochladen. Erhalten Sie eine professionelle Depot-Analyse Ihrer ETFs und Aktien in Sekunden."
           },
           {
@@ -667,7 +667,7 @@
           },
           {
             "question": "Kann ich es mobil nutzen?",
-            "answer": "Ja, Donky Capital ist eine PWA (Progressive Web App). Sie können sie direkt auf Ihrem Smartphone installieren und Ihr Depot jederzeit checken."
+            "answer": "Ja, DonkyCapital ist eine PWA (Progressive Web App). Sie können sie direkt auf Ihrem Smartphone installieren und Ihr Depot jederzeit checken."
           },
           {
             "question": "Was passiert mit meinen Daten?",
@@ -693,7 +693,7 @@
           },
           {
             "question": "¿Puedo usarlo en el móvil?",
-            "answer": "Sí, Donky Capital es una PWA. Instálala en tu dispositivo móvil para controlar tus inversiones fácilmente desde cualquier lugar."
+            "answer": "Sí, DonkyCapital es una PWA. Instálala en tu dispositivo móvil para controlar tus inversiones fácilmente desde cualquier lugar."
           },
           {
             "question": "¿Qué pasa con mis datos?",

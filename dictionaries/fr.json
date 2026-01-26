@@ -2,9 +2,9 @@
   "about": {
     "h1": "Le contrôle total de votre patrimoine, sans compromis sur la sécurité.",
     "pageTitle": "À Propos",
-    "section1Text": "Nous avons commencé avec une vraie question: pourquoi deviez-vous choisir entre l'inconvénient d'Excel et le risque de partager vos identifiants de courtier lors de l'analyse de vos investissements? Donky Capital est la réponse. Créé par ceux qui investissent chaque jour, pour ceux qui recherchent une analyse avancée sans sacrifier la confidentialité.",
+    "section1Text": "Nous avons commencé avec une vraie question: pourquoi deviez-vous choisir entre l'inconvénient d'Excel et le risque de partager vos identifiants de courtier lors de l'analyse de vos investissements? DonkyCapital est la réponse. Créé par ceux qui investissent chaque jour, pour ceux qui recherchent une analyse avancée sans sacrifier la confidentialité.",
     "section1Title": "Créé par des investisseurs, pour des investisseurs.",
-    "section2Text": "Contrairement aux trackers traditionnels, nous n'aurons jamais accès à vos données bancaires. Un simple export de vos courtiers et Donky Capital transforme les données brutes en informations stratégiques en quelques secondes. Simple, sécurisé, inviolable.",
+    "section2Text": "Contrairement aux trackers traditionnels, nous n'aurons jamais accès à vos données bancaires. Un simple export de vos courtiers et DonkyCapital transforme les données brutes en informations stratégiques en quelques secondes. Simple, sécurisé, inviolable.",
     "section2Title": "Votre sécurité n'est pas une fonction, c'est notre fondement.",
     "section3Text": "Chaque portefeuille a une histoire différente et votre tableau de bord doit refléter vos objectifs. Avec notre système modulaire, construisez votre centre de commande via des tableaux de bord entièrement personnalisables: vous définissez les KPI qui comptent, surveillez l'allocation d'actifs et gérez le rééquilibrage selon vos critères.",
     "section3Title": "Analyse adaptée à votre stratégie."
@@ -99,7 +99,7 @@
     "faq": {
       "questions": [
         {
-          "question": "Pourquoi Donky Capital est l'alternative à Excel pour la bourse ?",
+          "question": "Pourquoi DonkyCapital est l'alternative à Excel pour la bourse ?",
           "answer": "C'est un Suivi de portefeuille intelligent qui automatise vos analyses et met à jour les prix des ETF en temps réel sans erreurs de formule."
         },
         {
@@ -116,7 +116,7 @@
         },
         {
           "question": "Puis-je l'utiliser sur mobile ?",
-          "answer": "Oui, Donky Capital est une PWA. Installez-la sur votre mobile pour consulter vos performances partout, sans passer par l'App Store."
+          "answer": "Oui, DonkyCapital est une PWA. Installez-la sur votre mobile pour consulter vos performances partout, sans passer par l'App Store."
         },
         {
           "question": "Qu'advient-il de mes données ?",

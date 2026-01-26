@@ -2,9 +2,9 @@
   "about": {
     "h1": "Control total de tu patrimonio, sin compromisos en seguridad.",
     "pageTitle": "Acerca de Nosotros",
-    "section1Text": "Comenzamos con una pregunta real: ¿por qué tienes que elegir entre la inconveniencia de Excel o el riesgo de compartir tus credenciales de broker al analizar tus inversiones? Donky Capital es la respuesta. Creado por quienes invierten todos los días, para quienes buscan análisis avanzado sin sacrificar la privacidad.",
+    "section1Text": "Comenzamos con una pregunta real: ¿por qué tienes que elegir entre la inconveniencia de Excel o el riesgo de compartir tus credenciales de broker al analizar tus inversiones? DonkyCapital es la respuesta. Creado por quienes invierten todos los días, para quienes buscan análisis avanzado sin sacrificar la privacidad.",
     "section1Title": "Creado por inversores, para inversores.",
-    "section2Text": "A diferencia de los rastreadores tradicionales, nunca tendremos acceso a tus datos bancarios. Una simple exportación de tus brokers y Donky Capital transforma datos sin procesar en información estratégica en segundos. Simple, seguro, inviolable.",
+    "section2Text": "A diferencia de los rastreadores tradicionales, nunca tendremos acceso a tus datos bancarios. Una simple exportación de tus brokers y DonkyCapital transforma datos sin procesar en información estratégica en segundos. Simple, seguro, inviolable.",
     "section2Title": "Tu seguridad no es una función, es nuestro fundamento.",
     "section3Text": "Cada cartera tiene una historia diferente y tu panel debe reflejar tus objetivos. Con nuestro sistema modular, construye tu centro de comando mediante paneles completamente personalizables: tú defines los KPI que importan, monitoreas la asignación de activos y gestionas el reequilibrio según tus criterios.",
     "section3Title": "Análisis adaptado a tu estrategia."
@@ -116,7 +116,7 @@
         },
         {
           "question": "¿Puedo usarlo en el móvil?",
-          "answer": "Sí, Donky Capital es una PWA. Instálala en tu dispositivo móvil para controlar tus inversiones fácilmente desde cualquier lugar."
+          "answer": "Sí, DonkyCapital es una PWA. Instálala en tu dispositivo móvil para controlar tus inversiones fácilmente desde cualquier lugar."
         },
         {
           "question": "¿Qué pasa con mis datos?",
