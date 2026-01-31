@@ -2,6 +2,7 @@ import Link from 'next/link'
 import type { Dictionary } from '@/lib/i18n/getDictionary'
 import type { Locale } from '@/lib/i18n/config'
 import { scalableCapitalSlugs } from '@/lib/pages/scalable-capital-slugs'
+import { degiroSlugs } from '@/lib/pages/degiro-slugs'
 
 interface FooterProps {
   dict: Dictionary
@@ -105,6 +106,11 @@ export default function Footer({ dict, lang }: FooterProps) {
             <li>
               <Link href={`/${lang}/${scalableCapitalSlugs[lang]}`} className="hover:text-white transition-colors">
                 Scalable Capital
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/${degiroSlugs[lang]}`} className="hover:text-white transition-colors">
+                Degiro
               </Link>
             </li>
           </ul>

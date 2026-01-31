@@ -341,6 +341,101 @@
     "whyExportText2": "If you don't want to pay for an additional plan or simply want more control over your data, the Chrome extension <strong>Scalable Capital Transaction Exporter</strong> is the ideal solution.",
     "whyExportTitle": "Why export data from Scalable Capital"
   },
+  "degiro": {
+    "conclusionList": [
+      "Easily export your activity history from DEGIRO as a CSV file;",
+      "Import the data into DonkyCapital;",
+      "Have a <strong>complete portfolio view</strong>, with advanced analysis of assets, balance, exposure and performance;",
+      "Manage everything in a single dashboard without Excel sheets or complicated tools."
+    ],
+    "conclusionQuote": "DonkyCapital transforms your financial data into strategic insights, helping you make more informed and faster investment decisions.",
+    "conclusionText": "By following this guide you can finally:",
+    "conclusionTitle": "Conclusion",
+    "faq": [
+      {
+        "question": "Why Account Statement instead of Transactions?",
+        "answer": "Account Statement includes dividends, taxes, and fees, ensuring precise and complete wealth analysis."
+      },
+      {
+        "question": "Do I need to edit the CSV file before importing?",
+        "answer": "No. Upload the original file exactly as exported from DEGIRO to avoid formatting errors and ensure correct data processing."
+      },
+      {
+        "question": "How does DonkyCapital handle multiple currencies?",
+        "answer": "DonkyCapital automatically handles multi-currency and exchange rates, ensuring accurate analysis regardless of transaction currency."
+      }
+    ],
+    "faqTitle": "Frequently Asked Questions (FAQ)",
+    "intro": "If you use <strong>DEGIRO</strong> to invest in ETFs, stocks or mutual funds, you've probably looked for a simple and fast way to analyze all your transactions. In this complete guide I'll explain <strong>how to export your activity history from DEGIRO</strong> and <strong>how to import it into DonkyCapital</strong>, the portfolio tracker that lets you manage all your investments in a single dashboard, without using complicated Excel sheets.",
+    "pageDescription": "Complete guide to export data from DEGIRO and import it into DonkyCapital to analyze assets, balance, exposure and performance of your portfolio.",
+    "pageTitle": "How to export data from DEGIRO and import it into DonkyCapital",
+    "privacyList": [
+      "The export <strong>happens directly from the DEGIRO website</strong> on your device.",
+      "DonkyCapital <strong>does not require DEGIRO access credentials</strong> to import CSV files.",
+      "You can save exported files on your computer or personal cloud, maintaining full control."
+    ],
+    "privacyTitle": "Data privacy and security",
+    "step1List": [
+      "Log in to <strong>DEGIRO</strong> with your credentials.",
+      "Navigate to the <strong>\"Portfolio\"</strong> section in the main menu.",
+      "Select <strong>\"Account Statement\"</strong>.",
+      "Choose your desired period (from inception to date or a specific interval)."
+    ],
+    "step1Tip": "Tip: export your entire activity history to get a complete and accurate analysis over time.",
+    "step1Title": "Step 1 — Access DEGIRO and extract data",
+    "step2Highlight": "DEGIRO's Account Statement includes all essential information: purchases, sales, dividends, taxes and fees, ensuring complete wealth analysis.",
+    "step2List": [
+      "From the Account Statement page, select the <strong>\"CSV\"</strong> export format.",
+      "Click the <strong>\"Download\"</strong> or <strong>\"Export\"</strong> button.",
+      "The <code>Account.csv</code> file will be saved to your computer.",
+      "Keep the file in an easily accessible folder."
+    ],
+    "step2Text": "The CSV file contains all necessary information: operation date, asset description, quantity, price, type of operation (buy, sell, dividend) and total amount.",
+    "step2Title": "Step 2 — Export Account Statement as CSV",
+    "step3Highlight": "This level of analysis <strong>is not available on the DEGIRO website</strong>, which only provides transaction history without advanced analytical dashboards.",
+    "step3List": [
+      "Log in to <strong>DonkyCapital.com</strong> and open your account.",
+      "Choose the portfolio where you want to import the data and select <strong>\"Import Transactions\"</strong>.",
+      "Upload the CSV file exported from DEGIRO.",
+      "Confirm the import and wait for the file to be processed (a few seconds)."
+    ],
+    "step3ReportList": [
+      "Portfolio composition;",
+      "Asset balance;",
+      "Sector and geographic exposure;",
+      "Performance and profits/losses;",
+      "Comparison between multiple portfolios if you manage several."
+    ],
+    "step3Text": "In a few seconds, all your transactions will be visible in your DonkyCapital dashboard, with detailed reports on:",
+    "step3Title": "Step 3 — Import data into DonkyCapital",
+    "tipsList": [
+      "Export data from DEGIRO every month to keep DonkyCapital always up to date.",
+      "Keep CSV files in a dedicated folder on your PC for always having a backup copy.",
+      "Always check data after import to verify that all transactions have been loaded correctly.",
+      "Take advantage of DonkyCapital to get analysis that DEGIRO doesn't offer, such as geographic and sector exposure."
+    ],
+    "tipsTitle": "Practical tips for managing transactions",
+    "whyDonkyList": [
+      "<strong>Asset</strong> composition;",
+      "Portfolio <strong>balance</strong>;",
+      "<strong>Sector and geographic exposure</strong>;",
+      "Overall performance over time."
+    ],
+    "whyDonkyQuote": "In other words, DonkyCapital lets you see what DEGIRO doesn't show you: true control and deep understanding of your portfolio.",
+    "whyDonkyText1": "The DEGIRO website provides transaction history and basic investment information. However, it does not offer a <strong>complete portfolio view</strong> in terms of:",
+    "whyDonkyText2": "With DonkyCapital, on the other hand, you can have <strong>a complete and customizable dashboard</strong>, where you can see all your assets at a glance, analyze the performance of your investments and make more informed decisions based on concrete data.",
+    "whyDonkyTitle": "Why use DonkyCapital instead of the DEGIRO website",
+    "whyExportList": [
+      "Download your complete Account Statement history in <strong>CSV</strong> format;",
+      "Keep all data <strong>on your device</strong>, without sending it to external servers;",
+      "Use exported files for personal analysis or import them into DonkyCapital;",
+      "Get detailed analytical reports without additional costs."
+    ],
+    "whyExportQuote": "This means you can get all the information you need on your DEGIRO portfolio and import it into DonkyCapital for complete and professional analysis.",
+    "whyExportText1": "DEGIRO is one of Europe's most reliable and affordable brokers, with an intuitive platform and competitive fees. However, it does not provide advanced analytical dashboards to monitor your portfolio in detail.",
+    "whyExportText2": "If you want to deeply understand your portfolio's allocation, risk exposure and performance over time, exporting your Account Statement from DEGIRO and importing it into DonkyCapital is the ideal solution.",
+    "whyExportTitle": "Why export data from DEGIRO"
+  },
   "seo": {
     "about": {
       "description": "Discover DonkyCapital: the modern tracker created for simple and customizable investment management.",
@@ -349,6 +444,10 @@
     "contact": {
       "description": "Have questions or need support? Contact the DonkyCapital team. We are here to help you manage your capital.",
       "title": "Contact Us | Support and Feedback | DonkyCapital"
+    },
+    "degiro": {
+      "description": "Learn how to export data from DEGIRO and import it into DonkyCapital to analyze assets, balance, exposure and performance of your portfolio.",
+      "title": "How to export data from DEGIRO and import it into DonkyCapital"
     },
     "earlyAccess": {
       "description": "Become one of the first 100 users: get free Premium access for life. Manage your investments without recurring subscriptions.<",

@@ -337,6 +337,93 @@
     "whyExportText2": "Si no quieres pagar un plan adicional o simplemente quieres tener más control sobre tus datos, la extensión de Chrome <strong>Scalable Capital Transaction Exporter</strong> es la solución ideal.",
     "whyExportTitle": "Por qué exportar los datos de Scalable Capital"
   },
+  "degiro": {
+    "conclusionList": [
+      "Exporte fácilmente su historial de actividades de DEGIRO en formato CSV;",
+      "Importe los datos en DonkyCapital;",
+      "Tenga una <strong>vista completa de su cartera</strong> con análisis avanzado de activos, equilibrio, exposición y rendimiento;",
+      "Gestione todo en un solo panel sin hojas de Excel o herramientas complicadas."
+    ],
+    "conclusionQuote": "DonkyCapital transforma sus datos financieros en información estratégica, ayudándole a tomar decisiones de inversión más informadas y rápidas.",
+    "conclusionText": "Siguiendo esta guía puede finalmente:",
+    "conclusionTitle": "Conclusión",
+    "faq": [
+      {
+        "question": "¿Por qué estado de cuenta en lugar de transacciones?",
+        "answer": "El estado de cuenta incluye dividendos, impuestos y comisiones para un análisis patrimonial preciso y completo."
+      }
+    ],
+    "faqTitle": "Preguntas Frecuentes (FAQ)",
+    "intro": "Si utiliza <strong>DEGIRO</strong> para invertir en ETF, acciones o fondos, probablemente ha buscado una forma simple y rápida de analizar todas sus operaciones. Esta guía completa le explica <strong>cómo exportar su historial de actividades de DEGIRO</strong> e <strong>importarlos en DonkyCapital</strong>, el rastreador de cartera que le permite gestionar todas sus inversiones en un único panel de control, sin hojas de cálculo complicadas.",
+    "pageDescription": "Guía completa para exportar datos de DEGIRO e importarlos en DonkyCapital para analizar activos, equilibrio, exposición y rendimiento de su cartera.",
+    "pageTitle": "Cómo exportar datos de DEGIRO e importarlos en DonkyCapital",
+    "privacyList": [
+      "La exportación <strong>ocurre directamente desde el sitio de DEGIRO</strong> en su dispositivo.",
+      "DonkyCapital <strong>no requiere credenciales de DEGIRO</strong> para importar archivos CSV.",
+      "Puede guardar archivos exportados en su computadora o nube personal."
+    ],
+    "privacyTitle": "Privacidad y seguridad de datos",
+    "step1List": [
+      "Inicie sesión en <strong>DEGIRO</strong> con sus credenciales.",
+      "Navegue a la sección <strong>\"Cartera\"</strong> en el menú principal.",
+      "Seleccione <strong>\"Estado de cuenta\"</strong>.",
+      "Elija el período deseado (del inicio a hoy)."
+    ],
+    "step1Tip": "Consejo: exporte todo su historial de actividades para un análisis completo y preciso.",
+    "step1Title": "Paso 1 — Acceso a DEGIRO y extracción de datos",
+    "step2Highlight": "El estado de cuenta de DEGIRO incluye toda la información esencial: compras, ventas, dividendos e impuestos para un análisis patrimonial completo.",
+    "step2List": [
+      "En la página de estado de cuenta, seleccione el formato de exportación <strong>\"CSV\"</strong>.",
+      "Haga clic en el botón <strong>\"Descargar\"</strong> o <strong>\"Exportar\"</strong>.",
+      "El archivo <code>Account.csv</code> se guardará en su computadora.",
+      "Mantenga el archivo en una carpeta fácilmente accesible."
+    ],
+    "step2Text": "El archivo CSV contiene toda la información necesaria: fecha, descripción del activo, cantidad, precio, tipo de operación e importe total.",
+    "step2Title": "Paso 2 — Exportar estado de cuenta como CSV",
+    "step3Highlight": "Este nivel de análisis <strong>no está disponible en el sitio de DEGIRO</strong>, que solo proporciona historial de transacciones sin análisis avanzados.",
+    "step3List": [
+      "Inicie sesión en <strong>DonkyCapital.com</strong> y abra su cuenta.",
+      "Elija la cartera donde desea importar los datos y seleccione <strong>\"Importar transacciones\"</strong>.",
+      "Cargue el archivo CSV exportado de DEGIRO.",
+      "Confirme la importación y espere a que se procese el archivo."
+    ],
+    "step3ReportList": [
+      "Composición de la cartera;",
+      "Equilibrio de activos;",
+      "Exposición sectorial y geográfica;",
+      "Rendimiento y ganancias/pérdidas;",
+      "Comparación entre múltiples carteras si gestiona varias."
+    ],
+    "step3Text": "En pocos segundos, todas sus transacciones serán visibles en el panel de DonkyCapital con informes detallados sobre:",
+    "step3Title": "Paso 3 — Importar datos en DonkyCapital",
+    "tipsList": [
+      "Exporte datos de DEGIRO cada mes para mantener DonkyCapital actualizado.",
+      "Mantenga archivos CSV en una carpeta dedicada para copia de seguridad.",
+      "Siempre verifique los datos después de importar.",
+      "Aproveche DonkyCapital para obtener análisis que DEGIRO no ofrece."
+    ],
+    "tipsTitle": "Consejos prácticos para gestionar transacciones",
+    "whyDonkyList": [
+      "Composición de <strong>activos</strong>;",
+      "<strong>Equilibrio</strong> de cartera;",
+      "<strong>Exposición</strong> sectorial y geográfica;",
+      "Rendimiento general en el tiempo."
+    ],
+    "whyDonkyQuote": "En otras palabras, DonkyCapital le permite ver lo que DEGIRO no le muestra: verdadero control y comprensión profunda de su cartera.",
+    "whyDonkyText1": "El sitio de DEGIRO solo ofrece historial de transacciones e información básica. No proporciona una <strong>vista completa de la cartera</strong> en términos de:",
+    "whyDonkyText2": "Con DonkyCapital, puede tener un <strong>panel completo y personalizado</strong> donde ver todo su patrimonio de un vistazo y tomar decisiones más informadas.",
+    "whyDonkyTitle": "Por qué usar DonkyCapital en lugar del sitio de DEGIRO",
+    "whyExportList": [
+      "Descargue su historial completo de estado de cuenta en formato <strong>CSV</strong>;",
+      "Mantenga todos los datos <strong>en su dispositivo</strong> sin enviarlos a servidores externos;",
+      "Utilice archivos exportados para análisis personales o impórtelos en DonkyCapital;",
+      "Obtenga informes analíticos detallados sin costos adicionales."
+    ],
+    "whyExportQuote": "Esto significa que puede obtener toda la información necesaria sobre su cartera de DEGIRO e importarla en DonkyCapital para un análisis completo y profesional.",
+    "whyExportText1": "DEGIRO es uno de los corredores más confiables y económicos de Europa con una plataforma intuitiva y comisiones competitivas. Sin embargo, no proporciona paneles analíticos avanzados.",
+    "whyExportText2": "Si desea comprender profundamente la asignación de su cartera, la exposición al riesgo y el rendimiento en el tiempo, exportar su estado de cuenta de DEGIRO e importarlo en DonkyCapital es la solución ideal.",
+    "whyExportTitle": "Por qué exportar datos de DEGIRO"
+  },
   "seo": {
     "about": {
       "description": "Descubre DonkyCapital: el tracker moderno creado para una gestión de inversiones sencilla y personalizable.",
@@ -345,6 +432,10 @@
     "contact": {
       "description": "¿Tienes preguntas? Contacta con el equipo de DonkyCapital. Estamos aquí para ayudarte a gestionar tu capital.",
       "title": "Contáctanos | Soporte y Feedback | DonkyCapital"
+    },
+    "degiro": {
+      "description": "Descubre cómo exportar datos de DEGIRO e importarlos en DonkyCapital para analizar activos, equilibrio, exposición y rendimiento de tu cartera.",
+      "title": "Cómo exportar datos de DEGIRO e importarlos en DonkyCapital"
     },
     "earlyAccess": {
       "description": "Sé uno de los primeros 100 usuarios: acceso Premium gratis de por vida. Gestiona tus inversiones sin suscripciones recurrentes.",

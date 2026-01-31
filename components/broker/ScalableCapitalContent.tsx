@@ -1,6 +1,8 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import type { Dictionary } from '@/lib/i18n/getDictionary'
 import ScalableCapitalFAQ from './ScalableCapitalFAQ'
+import ZoomableImage from '@/components/common/ZoomableImage'
 
 interface ScalableCapitalContentProps {
   dict: Dictionary
@@ -32,11 +34,26 @@ export default function ScalableCapitalContent({ dict }: ScalableCapitalContentP
         />
       </div>
 
+      {/* Image Section */}
+      <section className="mb-12 grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <p className="text-white/80 leading-relaxed text-lg">{sc.whyExportText1}</p>
+        </div>
+        <div className="flex items-center justify-center">
+          <Image
+            src="/assets/import-providers/scalable-to-donkycapital.webp"
+            alt="Export Scalable Capital to DonkyCapital"
+            width={400}
+            height={400}
+            className="rounded-lg object-cover"
+          />
+        </div>
+      </section>
+
       {/* Why Export Section */}
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">{sc.whyExportTitle}</h2>
         <div className="card p-6 space-y-4">
-          <p className="text-white/80">{sc.whyExportText1}</p>
           <p
             className="text-white/80"
             dangerouslySetInnerHTML={{ __html: sc.whyExportText2 }}
@@ -109,15 +126,27 @@ export default function ScalableCapitalContent({ dict }: ScalableCapitalContentP
       {/* Step 2 */}
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">{sc.step2Title}</h2>
-        <div className="card p-6 space-y-4">
-          <ol className="list-decimal list-inside space-y-2 text-white/80">
-            {sc.step2List.map((item: string, index: number) => (
-              <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
-            ))}
-          </ol>
-          <p className="text-white/80">{sc.step2Text}</p>
-          <div className="bg-primary/10 border border-primary/20 rounded-lg p-4">
-            <p className="text-primary text-sm">{sc.step2Highlight}</p>
+        <div className="card p-6">
+          <div className="grid md:grid-cols-2 gap-8 items-start">
+            <div className="space-y-4">
+              <ol className="list-decimal list-inside space-y-2 text-white/80">
+                {sc.step2List.map((item: string, index: number) => (
+                  <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
+                ))}
+              </ol>
+              <p className="text-white/80">{sc.step2Text}</p>
+              <div className="bg-primary/10 border border-primary/20 rounded-lg p-4">
+                <p className="text-primary text-sm">{sc.step2Highlight}</p>
+              </div>
+            </div>
+            <div className="flex items-center justify-center">
+              <ZoomableImage
+                src="/assets/import-providers/scalable-extension.webp"
+                alt={sc.step2Title}
+                width={400}
+                height={400}
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -125,23 +154,35 @@ export default function ScalableCapitalContent({ dict }: ScalableCapitalContentP
       {/* Step 3 */}
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">{sc.step3Title}</h2>
-        <div className="card p-6 space-y-4">
-          <ol className="list-decimal list-inside space-y-2 text-white/80">
-            {sc.step3List.map((item: string, index: number) => (
-              <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
-            ))}
-          </ol>
-          <p className="text-white/80">{sc.step3Text}</p>
-          <ul className="list-disc list-inside space-y-2 text-white/80">
-            {sc.step3ReportList.map((item: string, index: number) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-          <div className="bg-primary/10 border border-primary/20 rounded-lg p-4">
-            <p
-              className="text-primary text-sm"
-              dangerouslySetInnerHTML={{ __html: sc.step3Highlight }}
-            />
+        <div className="card p-6">
+          <div className="grid md:grid-cols-2 gap-8 items-start">
+            <div className="space-y-4">
+              <ol className="list-decimal list-inside space-y-2 text-white/80">
+                {sc.step3List.map((item: string, index: number) => (
+                  <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
+                ))}
+              </ol>
+              <p className="text-white/80">{sc.step3Text}</p>
+              <ul className="list-disc list-inside space-y-2 text-white/80">
+                {sc.step3ReportList.map((item: string, index: number) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+              <div className="bg-primary/10 border border-primary/20 rounded-lg p-4">
+                <p
+                  className="text-primary text-sm"
+                  dangerouslySetInnerHTML={{ __html: sc.step3Highlight }}
+                />
+              </div>
+            </div>
+            <div className="flex items-center justify-center">
+              <ZoomableImage
+                src="/assets/import-providers/Import-donkycapital.webp"
+                alt={sc.step3Title}
+                width={400}
+                height={400}
+              />
+            </div>
           </div>
         </div>
       </section>
