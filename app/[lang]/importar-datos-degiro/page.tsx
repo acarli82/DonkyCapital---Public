@@ -1,8 +1,11 @@
 import type { Metadata } from 'next'
 import { getDictionary } from '@/lib/i18n/getDictionary'
 import { i18n, type Locale } from '@/lib/i18n/config'
+import { generatePageMetadata } from '@/lib/seo/metadata-helper'
 import { degiroSlugs } from '@/lib/pages/degiro-slugs'
 import DegiroContent from '@/components/broker/DegiroContent'
+
+const THIS_SLUG = 'importar-datos-degiro'
 
 export async function generateStaticParams() {
   return i18n.locales.map((lang) => ({ lang }))
@@ -21,17 +24,13 @@ export async function generateMetadata({
     alternateLanguages[locale] = `https://www.donkycapital.com/${locale}/${degiroSlugs[locale]}`
   })
 
-  return {
+  return generatePageMetadata({
+    lang,
+    path: `/${THIS_SLUG}`,
     title: dict.seo.degiro?.title || 'Importar datos de Degiro | DonkyCapital',
     description: dict.seo.degiro?.description || 'Importa tu cartera de Degiro a DonkyCapital',
-    alternates: {
-      canonical: `https://www.donkycapital.com/${lang}/${degiroSlugs[lang]}`,
-      languages: {
-        ...alternateLanguages,
-        'x-default': `https://www.donkycapital.com/en/${degiroSlugs.en}`,
-      },
-    },
-  }
+    alternateLanguages,
+  })
 }
 
 export default async function DegiroPage({

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { getDictionary } from '@/lib/i18n/getDictionary'
 import { i18n, type Locale } from '@/lib/i18n/config'
 import JsonLd from '@/components/seo/JsonLd'
+import { generatePageMetadata } from '@/lib/seo/metadata-helper'
 
 export async function generateStaticParams() {
   return i18n.locales.map((lang) => ({ lang }))
@@ -21,17 +22,13 @@ export async function generateMetadata({
     alternateLanguages[locale] = `https://www.donkycapital.com/${locale}/about`
   })
 
-  return {
+  return generatePageMetadata({
+    lang,
+    path: '/about',
     title: dict.seo.about.title,
     description: dict.seo.about.description,
-    alternates: {
-      canonical: `https://www.donkycapital.com/${lang}/about`,
-      languages: {
-        ...alternateLanguages,
-        'x-default': 'https://www.donkycapital.com/en/about',
-      },
-    },
-  }
+    alternateLanguages,
+  })
 }
 
 export default async function AboutPage({

@@ -3,6 +3,7 @@ import { getDictionary } from '@/lib/i18n/getDictionary'
 import { i18n, type Locale } from '@/lib/i18n/config'
 import ContactForm from '@/components/forms/ContactForm'
 import JsonLd from '@/components/seo/JsonLd'
+import { generatePageMetadata } from '@/lib/seo/metadata-helper'
 
 export async function generateStaticParams() {
   return i18n.locales.map((lang) => ({ lang }))
@@ -21,17 +22,13 @@ export async function generateMetadata({
     alternateLanguages[locale] = `https://www.donkycapital.com/${locale}/contact`
   })
 
-  return {
+  return generatePageMetadata({
+    lang,
+    path: '/contact',
     title: dict.seo.contact.title,
     description: dict.seo.contact.description,
-    alternates: {
-      canonical: `https://www.donkycapital.com/${lang}/contact`,
-      languages: {
-        ...alternateLanguages,
-        'x-default': 'https://www.donkycapital.com/en/contact',
-      },
-    },
-  }
+    alternateLanguages,
+  })
 }
 
 export default async function ContactPage({

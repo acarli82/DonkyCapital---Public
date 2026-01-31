@@ -76,11 +76,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Loc
     },
     openGraph: {
       type: 'website',
-      locale: ogLocaleMap[lang],
-      url: `https://www.donkycapital.com/${lang}`,
       siteName: 'DonkyCapital',
-      title: dict.seo.home.title,
-      description: dict.seo.home.description,
       images: [
         {
           url: '/assets/og-image.png',

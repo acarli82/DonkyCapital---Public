@@ -2,32 +2,44 @@ import Link from 'next/link'
 import Image from 'next/image'
 import type { Metadata } from 'next'
 import { getDictionary } from '@/lib/i18n/getDictionary'
-import type { Locale } from '@/lib/i18n/config'
+import { i18n, type Locale } from '@/lib/i18n/config'
+import { generatePageMetadata } from '@/lib/seo/metadata-helper'
 import EarlyAccessForm from '@/components/forms/EarlyAccessForm'
 import JsonLd from '@/components/seo/JsonLd'
+
+export async function generateStaticParams() {
+  return i18n.locales.map((lang) => ({ lang }))
+}
 
 export async function generateMetadata({
   params,
 }: {
-  params: { lang: Locale }
+  params: Promise<{ lang: Locale }>
 }): Promise<Metadata> {
-  const dict = await getDictionary(params.lang)
+  const { lang } = await params
+  const dict = await getDictionary(lang)
 
-  return {
+  const alternateLanguages: Record<string, string> = {}
+  i18n.locales.forEach((locale) => {
+    alternateLanguages[locale] = `https://www.donkycapital.com/${locale}/early-access`
+  })
+
+  return generatePageMetadata({
+    lang,
+    path: '/early-access',
     title: dict.seo.earlyAccess.title,
     description: dict.seo.earlyAccess.description,
-    alternates: {
-      canonical: `https://www.donkycapital.com/${params.lang}/early-access`,
-    },
-  }
+    alternateLanguages,
+  })
 }
 
 export default async function EarlyAccessPage({
   params,
 }: {
-  params: { lang: Locale }
+  params: Promise<{ lang: Locale }>
 }) {
-  const dict = await getDictionary(params.lang)
+  const { lang } = await params
+  const dict = await getDictionary(lang)
 
   return (
     <>

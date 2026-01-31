@@ -1,31 +1,43 @@
 import type { Metadata } from 'next'
 import { getDictionary } from '@/lib/i18n/getDictionary'
-import type { Locale } from '@/lib/i18n/config'
+import { i18n, type Locale } from '@/lib/i18n/config'
+import { generatePageMetadata } from '@/lib/seo/metadata-helper'
 import TermsContent from '@/components/legal/TermsContent'
 import JsonLd from '@/components/seo/JsonLd'
+
+export async function generateStaticParams() {
+  return i18n.locales.map((lang) => ({ lang }))
+}
 
 export async function generateMetadata({
   params,
 }: {
-  params: { lang: Locale }
+  params: Promise<{ lang: Locale }>
 }): Promise<Metadata> {
-  const dict = await getDictionary(params.lang)
+  const { lang } = await params
+  const dict = await getDictionary(lang)
 
-  return {
+  const alternateLanguages: Record<string, string> = {}
+  i18n.locales.forEach((locale) => {
+    alternateLanguages[locale] = `https://www.donkycapital.com/${locale}/terms-and-conditions`
+  })
+
+  return generatePageMetadata({
+    lang,
+    path: '/terms-and-conditions',
     title: dict.seo.termsAndConditions.title,
     description: dict.seo.termsAndConditions.description,
-    alternates: {
-      canonical: `https://www.donkycapital.com/${params.lang}/terms-and-conditions`,
-    },
-  }
+    alternateLanguages,
+  })
 }
 
 export default async function TermsAndConditionsPage({
   params,
 }: {
-  params: { lang: Locale }
+  params: Promise<{ lang: Locale }>
 }) {
-  const dict = await getDictionary(params.lang)
+  const { lang } = await params
+  const dict = await getDictionary(lang)
 
   return (
     <>
@@ -33,7 +45,7 @@ export default async function TermsAndConditionsPage({
 
       <div className="py-8 max-w-4xl mx-auto">
         <div className="card p-6 md:p-8">
-          <TermsContent lang={params.lang} />
+          <TermsContent lang={lang} />
         </div>
       </div>
     </>

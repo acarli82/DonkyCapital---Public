@@ -2,9 +2,11 @@ import type { Metadata } from 'next'
 import { redirect } from 'next/navigation'
 import { getDictionary } from '@/lib/i18n/getDictionary'
 import { i18n, type Locale } from '@/lib/i18n/config'
+import { generatePageMetadata } from '@/lib/seo/metadata-helper'
 import { scalableCapitalSlugs } from '@/lib/pages/scalable-capital-slugs'
 import ScalableCapitalContent from '@/components/broker/ScalableCapitalContent'
 
+const THIS_SLUG = 'scalable-capital-transaktionen-exportieren'
 const CORRECT_LOCALE: Locale = 'de'
 
 export async function generateStaticParams() {
@@ -24,17 +26,13 @@ export async function generateMetadata({
     alternateLanguages[locale] = `https://www.donkycapital.com/${locale}/${scalableCapitalSlugs[locale]}`
   })
 
-  return {
+  return generatePageMetadata({
+    lang,
+    path: `/${THIS_SLUG}`,
     title: dict.seo.scalableCapital.title,
     description: dict.seo.scalableCapital.description,
-    alternates: {
-      canonical: `https://www.donkycapital.com/${lang}/${scalableCapitalSlugs[lang]}`,
-      languages: {
-        ...alternateLanguages,
-        'x-default': `https://www.donkycapital.com/en/${scalableCapitalSlugs.en}`,
-      },
-    },
-  }
+    alternateLanguages,
+  })
 }
 
 export default async function ScalableCapitalPage({
