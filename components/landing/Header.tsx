@@ -13,7 +13,7 @@ interface HeaderProps {
 export default function Header({ dict, lang }: HeaderProps) {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#0f151d]/95 backdrop-blur-sm border-b border-white/5">
-      <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4 py-6">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4 py-0.5">
       {/* Logo */}
       <Link
         href={`/${lang}`}
@@ -23,9 +23,9 @@ export default function Header({ dict, lang }: HeaderProps) {
         <Image
           src="/assets/logos/Logo_dark.svg"
           alt="DonkyCapital"
-          width={176}
-          height={44}
-          className="h-11 w-auto object-contain"
+          width={160}
+          height={40}
+          className="h-10 w-auto object-contain"
           priority
         />
       </Link>

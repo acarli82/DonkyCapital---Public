@@ -57,7 +57,7 @@ export default async function AboutPage({
         </div>
 
         {/* Section 1: Text Left, Image Right */}
-        <section className="mb-16 grid md:grid-cols-2 gap-8 items-center">
+        <section className="mb-16 grid md:grid-cols-2 gap-8 items-start">
           <div>
             <h2 className="text-3xl font-bold mb-4">
               {dict.about.section1Title}
@@ -66,25 +66,23 @@ export default async function AboutPage({
               {dict.about.section1Text}
             </p>
           </div>
-          <div className="flex items-center justify-center">
+          <div className="relative w-full aspect-square">
             <Image
               src="/assets/aboutus/weare.webp"
               alt={dict.about.section1Title}
-              width={400}
-              height={400}
+              fill
               className="rounded-lg object-cover"
             />
           </div>
         </section>
 
         {/* Section 2: Image Left, Text Right */}
-        <section className="mb-16 grid md:grid-cols-2 gap-8 items-center">
-          <div className="flex items-center justify-center order-2 md:order-1">
+        <section className="mb-16 grid md:grid-cols-2 gap-8 items-start">
+          <div className="relative w-full aspect-square order-2 md:order-1">
             <Image
               src="/assets/aboutus/security.webp"
               alt={dict.about.section2Title}
-              width={400}
-              height={400}
+              fill
               className="rounded-lg object-cover"
             />
           </div>
@@ -99,7 +97,7 @@ export default async function AboutPage({
         </section>
 
         {/* Section 3: Text Left, Image Right */}
-        <section className="mb-16 grid md:grid-cols-2 gap-8 items-center">
+        <section className="mb-16 grid md:grid-cols-2 gap-8 items-start">
           <div>
             <h2 className="text-3xl font-bold mb-4">
               {dict.about.section3Title}
@@ -108,12 +106,11 @@ export default async function AboutPage({
               {dict.about.section3Text}
             </p>
           </div>
-          <div className="flex items-center justify-center">
+          <div className="relative w-full aspect-square">
             <Image
               src="/assets/aboutus/strategy.webp"
               alt={dict.about.section3Title}
-              width={400}
-              height={400}
+              fill
               className="rounded-lg object-cover"
             />
           </div>

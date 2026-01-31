@@ -55,7 +55,7 @@ export default function Footer({ dict, lang }: FooterProps) {
 
   return (
     <footer className="mt-24 pt-16 border-t border-white/10">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
         {/* Brand Section */}
         <div>
           <h3 className="text-lg font-bold mb-2">{dict.appName}</h3>
@@ -77,9 +77,9 @@ export default function Footer({ dict, lang }: FooterProps) {
           </div>
         </div>
 
-        {/* Site Map */}
+        {/* Company Section */}
         <div>
-          <h4 className="font-semibold mb-4">{dict.landing.footer.siteMap}</h4>
+          <h4 className="font-semibold mb-4">{dict.landing.footer.company}</h4>
           <ul className="space-y-2 text-sm text-white/80">
             <li>
               <Link href={`/${lang}/about`} className="hover:text-white transition-colors">
@@ -99,9 +99,9 @@ export default function Footer({ dict, lang }: FooterProps) {
           </ul>
         </div>
 
-        {/* Integration Section */}
+        {/* Platforms Section */}
         <div>
-          <h4 className="font-semibold mb-4">{dict.broker.sectionTitle}</h4>
+          <h4 className="font-semibold mb-4">{dict.landing.footer.platforms}</h4>
           <ul className="space-y-2 text-sm text-white/80">
             <li>
               <Link href={`/${lang}/${scalableCapitalSlugs[lang]}`} className="hover:text-white transition-colors">
@@ -115,16 +115,23 @@ export default function Footer({ dict, lang }: FooterProps) {
             </li>
           </ul>
         </div>
-      </div>
 
-      {/* Legal Links */}
-      <div className="flex flex-wrap justify-center gap-6 mb-8 text-sm text-white/80">
-        <Link href={`/${lang}/privacy-policy`} className="hover:text-white transition-colors">
-          {dict.landing.footer.privacyPolicy}
-        </Link>
-        <Link href={`/${lang}/terms-and-conditions`} className="hover:text-white transition-colors">
-          {dict.landing.footer.termsAndConditions}
-        </Link>
+        {/* Legal Section */}
+        <div>
+          <h4 className="font-semibold mb-4">{dict.landing.footer.legal}</h4>
+          <ul className="space-y-2 text-sm text-white/80">
+            <li>
+              <Link href={`/${lang}/privacy-policy`} className="hover:text-white transition-colors">
+                {dict.landing.footer.privacyPolicy}
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/terms-and-conditions`} className="hover:text-white transition-colors">
+                {dict.landing.footer.termsAndConditions}
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
 
       {/* Security Badges */}

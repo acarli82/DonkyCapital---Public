@@ -149,10 +149,12 @@
       "aboutUs": "About Us",
       "contact": "Contact",
       "copyright": "© {{year}} DonkyCapital. All rights reserved.",
+      "company": "Company",
+      "platforms": "Platforms",
+      "legal": "Legal",
       "privacyPolicy": "Privacy Policy",
       "protectedData": "Protected Data",
       "secureConnection": "Secure Connection",
-      "siteMap": "Site Map",
       "termsAndConditions": "Terms & Conditions"
     },
     "header": {

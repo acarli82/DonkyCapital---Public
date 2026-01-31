@@ -145,10 +145,12 @@
       "aboutUs": "Qui Sommes-Nous",
       "contact": "Contact",
       "copyright": "© {{year}} DonkyCapital. Tous droits réservés.",
+      "company": "Entreprise",
+      "platforms": "Plateformes",
+      "legal": "Légal",
       "privacyPolicy": "Politique de Confidentialité",
       "protectedData": "Données Protégées",
       "secureConnection": "Connexion Sécurisée",
-      "siteMap": "Plan du Site",
       "termsAndConditions": "Conditions Générales"
     },
     "header": {
