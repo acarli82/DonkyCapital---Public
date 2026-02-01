@@ -107,12 +107,6 @@ export default async function LangLayout({
 
   return (
     <>
-      {/* Set lang attribute on html tag dynamically */}
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `document.documentElement.lang="${lang}";`,
-        }}
-      />
       <GoogleAnalytics />
       <div className="min-h-screen bg-background">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
