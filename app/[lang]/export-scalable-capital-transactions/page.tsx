@@ -10,7 +10,8 @@ const THIS_SLUG = 'export-scalable-capital-transactions'
 const CORRECT_LOCALE: Locale = 'en'
 
 export async function generateStaticParams() {
-  return i18n.locales.map((lang) => ({ lang }))
+  // Only generate for the correct locale to avoid duplicate pages
+  return [{ lang: CORRECT_LOCALE }]
 }
 
 export async function generateMetadata({

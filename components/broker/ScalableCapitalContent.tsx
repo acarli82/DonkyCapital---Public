@@ -11,6 +11,15 @@ interface ScalableCapitalContentProps {
 export default function ScalableCapitalContent({ dict }: ScalableCapitalContentProps) {
   const sc = dict.scalableCapital
 
+  // Helper function to linkify all "Scalable Capital" occurrences
+  // Excludes "Scalable Capital Transaction Exporter" from linkification
+  const linkifyScalable = (text: string): string => {
+    return text.replace(
+      /Scalable Capital(?! Transaction Exporter)/gi,
+      '<a href="https://scalable.capital/" target="_blank" rel="noopener noreferrer nofollow" class="text-primary hover:underline">Scalable Capital</a>'
+    )
+  }
+
   return (
     <div className="py-8">
       {/* Page Header */}
@@ -18,7 +27,16 @@ export default function ScalableCapitalContent({ dict }: ScalableCapitalContentP
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           {sc.pageTitle.split('Scalable Capital').map((part: string, index: number, array: string[]) => (
             <span key={index}>
-              {index > 0 && <span className="gradient-text">Scalable Capital</span>}
+              {index > 0 && (
+                <Link
+                  href="https://scalable.capital/"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  className="gradient-text hover:opacity-80 transition-opacity"
+                >
+                  Scalable Capital
+                </Link>
+              )}
               {part.split('DonkyCapital').map((subPart: string, subIndex: number, subArray: string[]) => (
                 <span key={subIndex}>
                   {subIndex > 0 && <span className="gradient-text">DonkyCapital</span>}
@@ -30,7 +48,7 @@ export default function ScalableCapitalContent({ dict }: ScalableCapitalContentP
         </h1>
         <p
           className="text-lg text-white/80 leading-relaxed"
-          dangerouslySetInnerHTML={{ __html: sc.intro }}
+          dangerouslySetInnerHTML={{ __html: linkifyScalable(sc.intro) }}
         />
       </div>
 
@@ -40,13 +58,20 @@ export default function ScalableCapitalContent({ dict }: ScalableCapitalContentP
           <p className="text-white/80 leading-relaxed text-lg">{sc.whyExportText1}</p>
         </div>
         <div className="flex items-center justify-center">
-          <Image
-            src="/assets/import-providers/scalable-to-donkycapital.webp"
-            alt="Export Scalable Capital to DonkyCapital"
-            width={400}
-            height={400}
-            className="rounded-lg object-cover"
-          />
+          <Link
+            href="https://scalable.capital/"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            className="hover:shadow-lg hover:shadow-primary/20 transition-shadow rounded-lg"
+          >
+            <Image
+              src="/assets/import-providers/scalable-to-donkycapital.webp"
+              alt="Export Scalable Capital to DonkyCapital"
+              width={400}
+              height={400}
+              className="rounded-lg object-cover"
+            />
+          </Link>
         </div>
       </section>
 
@@ -56,16 +81,28 @@ export default function ScalableCapitalContent({ dict }: ScalableCapitalContentP
         <div className="card p-6 space-y-4">
           <p
             className="text-white/80"
-            dangerouslySetInnerHTML={{ __html: sc.whyExportText2 }}
+            dangerouslySetInnerHTML={{ __html: linkifyScalable(sc.whyExportText2) }}
           />
           <ul className="list-disc list-inside space-y-2 text-white/80">
             {sc.whyExportList.map((item: string, index: number) => (
-              <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
+              <li key={index} dangerouslySetInnerHTML={{ __html: linkifyScalable(item) }} />
             ))}
           </ul>
           <blockquote className="border-l-4 border-primary pl-4 py-2 text-white/90 italic bg-primary/5 rounded-r">
             {sc.whyExportQuote}
           </blockquote>
+          <p className="text-white/60 text-sm mt-4">
+            Learn more about{' '}
+            <Link
+              href="https://scalable.capital/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-primary hover:underline"
+            >
+              Scalable Capital features
+            </Link>
+            .
+          </p>
         </div>
       </section>
 
@@ -75,16 +112,16 @@ export default function ScalableCapitalContent({ dict }: ScalableCapitalContentP
         <div className="card p-6 space-y-4">
           <p
             className="text-white/80"
-            dangerouslySetInnerHTML={{ __html: sc.whyDonkyText1 }}
+            dangerouslySetInnerHTML={{ __html: linkifyScalable(sc.whyDonkyText1) }}
           />
           <ul className="list-disc list-inside space-y-2 text-white/80">
             {sc.whyDonkyList.map((item: string, index: number) => (
-              <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
+              <li key={index} dangerouslySetInnerHTML={{ __html: linkifyScalable(item) }} />
             ))}
           </ul>
           <p
             className="text-white/80"
-            dangerouslySetInnerHTML={{ __html: sc.whyDonkyText2 }}
+            dangerouslySetInnerHTML={{ __html: linkifyScalable(sc.whyDonkyText2) }}
           />
           <blockquote className="border-l-4 border-primary pl-4 py-2 text-white/90 italic bg-primary/5 rounded-r">
             {sc.whyDonkyQuote}
@@ -112,7 +149,7 @@ export default function ScalableCapitalContent({ dict }: ScalableCapitalContentP
                     </Link>
                   </>
                 ) : (
-                  <span dangerouslySetInnerHTML={{ __html: item }} />
+                  <span dangerouslySetInnerHTML={{ __html: linkifyScalable(item) }} />
                 )}
               </li>
             ))}
@@ -131,10 +168,10 @@ export default function ScalableCapitalContent({ dict }: ScalableCapitalContentP
             <div className="space-y-4">
               <ol className="list-decimal list-inside space-y-2 text-white/80">
                 {sc.step2List.map((item: string, index: number) => (
-                  <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
+                  <li key={index} dangerouslySetInnerHTML={{ __html: linkifyScalable(item) }} />
                 ))}
               </ol>
-              <p className="text-white/80">{sc.step2Text}</p>
+              <p className="text-white/80">{linkifyScalable(sc.step2Text)}</p>
               <div className="bg-primary/10 border border-primary/20 rounded-lg p-4">
                 <p className="text-primary text-sm">{sc.step2Highlight}</p>
               </div>
@@ -159,10 +196,10 @@ export default function ScalableCapitalContent({ dict }: ScalableCapitalContentP
             <div className="space-y-4">
               <ol className="list-decimal list-inside space-y-2 text-white/80">
                 {sc.step3List.map((item: string, index: number) => (
-                  <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
+                  <li key={index} dangerouslySetInnerHTML={{ __html: linkifyScalable(item) }} />
                 ))}
               </ol>
-              <p className="text-white/80">{sc.step3Text}</p>
+              <p className="text-white/80">{linkifyScalable(sc.step3Text)}</p>
               <ul className="list-disc list-inside space-y-2 text-white/80">
                 {sc.step3ReportList.map((item: string, index: number) => (
                   <li key={index}>{item}</li>
@@ -193,7 +230,7 @@ export default function ScalableCapitalContent({ dict }: ScalableCapitalContentP
         <div className="card p-6">
           <ul className="list-disc list-inside space-y-2 text-white/80">
             {sc.privacyList.map((item: string, index: number) => (
-              <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
+              <li key={index} dangerouslySetInnerHTML={{ __html: linkifyScalable(item) }} />
             ))}
           </ul>
         </div>
@@ -221,15 +258,27 @@ export default function ScalableCapitalContent({ dict }: ScalableCapitalContentP
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">{sc.conclusionTitle}</h2>
         <div className="card p-6 space-y-4">
-          <p className="text-white/80">{sc.conclusionText}</p>
+          <p className="text-white/80">{linkifyScalable(sc.conclusionText)}</p>
           <ul className="list-disc list-inside space-y-2 text-white/80">
             {sc.conclusionList.map((item: string, index: number) => (
-              <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
+              <li key={index} dangerouslySetInnerHTML={{ __html: linkifyScalable(item) }} />
             ))}
           </ul>
           <blockquote className="border-l-4 border-primary pl-4 py-2 text-white/90 italic bg-primary/5 rounded-r">
             {sc.conclusionQuote}
           </blockquote>
+          <p className="text-white/60 text-sm mt-4">
+            Visit{' '}
+            <Link
+              href="https://scalable.capital/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-primary hover:underline"
+            >
+              Scalable Capital official website
+            </Link>{' '}
+            for more information about their platform.
+          </p>
         </div>
       </section>
 

@@ -6,9 +6,11 @@ import { degiroSlugs } from '@/lib/pages/degiro-slugs'
 import DegiroContent from '@/components/broker/DegiroContent'
 
 const THIS_SLUG = 'importer-les-donnees-degiro'
+const CORRECT_LOCALE: Locale = 'fr'
 
 export async function generateStaticParams() {
-  return i18n.locales.map((lang) => ({ lang }))
+  // Only generate for the correct locale to avoid duplicate pages
+  return [{ lang: CORRECT_LOCALE }]
 }
 
 export async function generateMetadata({
