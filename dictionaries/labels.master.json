@@ -829,6 +829,27 @@
         "fr": "Conditions Générales",
         "de": "Geschäftsbedingungen",
         "es": "Términos y Condiciones"
+      },
+      "company": {
+        "it": "Azienda",
+        "en": "Company",
+        "de": "Unternehmen",
+        "fr": "Entreprise",
+        "es": "Empresa"
+      },
+      "platforms": {
+        "it": "Piattaforme",
+        "en": "Platforms",
+        "de": "Plattformen",
+        "fr": "Plateformes",
+        "es": "Plataformas"
+      },
+      "legal": {
+        "it": "Legale",
+        "en": "Legal",
+        "de": "Rechtliches",
+        "fr": "Légal",
+        "es": "Legal"
       }
     },
     "header": {
@@ -2844,6 +2865,440 @@
         {
           "question": "¿Cómo maneja DonkyCapital las comisiones de Fineco?",
           "answer": "DonkyCapital importa automáticamente las comisiones del archivo Excel de Fineco y las incluye en el cálculo del rendimiento real de tu cartera."
+        }
+      ]
+    }
+  },
+  "degiro": {
+    "pageTitle": {
+      "it": "DEGIRO Portfolio Tracker: come importare il portafoglio DEGIRO in DonkyCapital",
+      "en": "DEGIRO Portfolio Tracker: How to Import Your DEGIRO Portfolio to DonkyCapital",
+      "de": "DEGIRO Portfolio Tracker: DEGIRO Portfolio in DonkyCapital importieren",
+      "fr": "DEGIRO Tracker Portefeuille: Importer votre portefeuille DEGIRO vers DonkyCapital",
+      "es": "DEGIRO Rastreador Cartera: Cómo importar tu cartera DEGIRO a DonkyCapital"
+    },
+    "intro": {
+      "it": "Se utilizzi <strong>DEGIRO</strong> per investire in ETF, azioni o fondi comuni, ora puoi monitorare facilmente tutte le tue operazioni con <strong>DonkyCapital</strong>. In questa guida completa ti spiegherò <strong>come esportare il tuo portafoglio DEGIRO</strong> direttamente dalla piattaforma (senza bisogno di estensioni) e <strong>come importarlo in DonkyCapital</strong>, il portfolio tracker che ti permette di gestire tutti i tuoi investimenti in un'unica dashboard avanzata.",
+      "en": "If you use <strong>DEGIRO</strong> to invest in ETFs, stocks, or mutual funds, you can now easily track all your operations with <strong>DonkyCapital</strong>. In this complete guide, I'll explain <strong>how to export your DEGIRO portfolio</strong> directly from the platform (no extensions needed) and <strong>how to import it into DonkyCapital</strong>, the portfolio tracker that lets you manage all your investments in a single advanced dashboard.",
+      "de": "Wenn Sie <strong>DEGIRO</strong> für Investitionen in ETFs, Aktien oder Investmentfonds nutzen, können Sie jetzt alle Ihre Operationen einfach mit <strong>DonkyCapital</strong> verfolgen. In diesem umfassenden Leitfaden erkläre ich, <strong>wie Sie Ihr DEGIRO-Attività</strong> direkt von der Plattform exportieren (keine Erweiterungen erforderlich) und <strong>wie Sie es in DonkyCapital importieren</strong>, den Attività-Tracker, mit dem Sie alle Ihre Investitionen in einem einzigen erweiterten Dashboard verwalten können.",
+      "fr": "Si vous utilisez <strong>DEGIRO</strong> pour investir dans des ETF, des actions ou des fonds communs, vous pouvez désormais facilement suivre toutes vos opérations avec <strong>DonkyCapital</strong>. Dans ce guide complet, j'expliquerai <strong>comment exporter votre portefeuille DEGIRO</strong> directement depuis la plateforme (sans extensions) et <strong>comment l'importer dans DonkyCapital</strong>, le tracker de portefeuille qui vous permet de gérer tous vos investissements dans un tableau de bord avancé unique.",
+      "es": "Si usas <strong>DEGIRO</strong> para invertir en ETF, acciones o fondos mutuos, ahora puedes rastrear fácilmente todas tus operaciones con <strong>DonkyCapital</strong>. En esta guía completa, explicaré <strong>cómo exportar tu cartera DEGIRO</strong> directamente desde la plataforma (sin necesidad de extensiones) y <strong>cómo importarla a DonkyCapital</strong>, el rastreador de cartera que te permite gestionar todas tus inversiones en un único panel avanzado."
+    },
+    "whyExportTitle": {
+      "it": "Perché esportare il portafoglio da DEGIRO",
+      "en": "Why Export Your Attività from DEGIRO",
+      "de": "Warum Ihr Attività von DEGIRO exportieren",
+      "fr": "Pourquoi exporter votre portefeuille depuis DEGIRO",
+      "es": "Por qué exportar tu cartera desde DEGIRO"
+    },
+    "whyExportText1": {
+      "it": "DEGIRO è una delle banche più innovative d'Italia, con una piattaforma trading completa e commissioni competitive.",
+      "en": "DEGIRO is one of Italy's most innovative banks, with a complete trading platform and competitive commissions.",
+      "de": "DEGIRO ist eine der innovativsten Banken Italiens mit einer vollständigen Handelsplattform und wettbewerbsfähigen Provisionen.",
+      "fr": "DEGIRO est l'une des banques les plus innovantes d'Italie, avec une plateforme de trading complète et des commissions compétitives.",
+      "es": "DEGIRO es uno de los bancos más innovadores de Italia, con una plataforma de trading completa y comisiones competitivas."
+    },
+    "whyExportText2": {
+      "it": "L'esportazione dei dati da DEGIRO è <strong>semplice e diretta</strong>: non servono estensioni o strumenti di terze parti. Basta accedere alla sezione Attività e scaricare il file CSV con tutte le tue operazioni.",
+      "en": "Exporting data from DEGIRO is <strong>simple and straightforward</strong>: no extensions or third-party tools needed. Just access the Attività section and download the CSV file with all your transactions.",
+      "de": "Der Export von Daten aus DEGIRO ist <strong>einfach und unkompliziert</strong>: Es sind keine Erweiterungen oder Tools von Drittanbietern erforderlich. Greifen Sie einfach auf den Bereich Aktivität zu und laden Sie die CSV-Datei mit allen Ihren Transaktionen herunter.",
+      "fr": "L'exportation de données depuis DEGIRO est <strong>simple et directe</strong>: aucune extension ou outil tiers nécessaire. Accédez simplement à la section Activité et téléchargez le fichier CSV avec toutes vos transactions.",
+      "es": "Exportar datos desde DEGIRO es <strong>simple y directo</strong>: no se necesitan extensiones o herramientas de terceros. Solo accede a la sección de Actividad y descarga el archivo CSV con todas tus transacciones."
+    },
+    "whyExportList": {
+      "it": [
+        "Esportare facilmente tutte le operazioni in formato <strong>CSV</strong> direttamente da DEGIRO;",
+        "Mantenere tutti i dati <strong>sul tuo dispositivo</strong>, senza condividere credenziali di accesso;",
+        "Importare i file in DonkyCapital per analisi avanzate;",
+        "Ottenere report dettagliati su asset allocation, performance e rischio."
+      ],
+      "en": [
+        "Easily export all operations in <strong>CSV</strong> format directly from DEGIRO;",
+        "Keep all data <strong>on your device</strong>, without sharing login credentials;",
+        "Import files into DonkyCapital for advanced analysis;",
+        "Get detailed reports on asset allocation, performance, and risk."
+      ],
+      "de": [
+        "Exportieren Sie alle Operationen einfach im <strong>CSV</strong>-Format direkt aus DEGIRO;",
+        "Bewahren Sie alle Daten <strong>auf Ihrem Gerät</strong> auf, ohne Anmeldedaten zu teilen;",
+        "Importieren Sie Dateien in DonkyCapital für erweiterte Analysen;",
+        "Erhalten Sie detaillierte Aktivität über Vermögensallokation, Performance und Risiko."
+      ],
+      "fr": [
+        "Exportez facilement toutes les opérations au format <strong>CSV</strong> directement depuis DEGIRO;",
+        "Conservez toutes les données <strong>sur votre appareil</strong>, sans partager d'identifiants de connexion;",
+        "Importez les fichiers dans DonkyCapital pour une analyse avancée;",
+        "Obtenez des rapports détaillés sur l'allocation d'actifs, les performances et le risque."
+      ],
+      "es": [
+        "Exporta fácilmente todas las operaciones en formato <strong>CSV</strong> directamente desde DEGIRO;",
+        "Mantén todos los datos <strong>en tu dispositivo</strong>, sin compartir credenciales de inicio de sesión;",
+        "Importa archivos a DonkyCapital para análisis avanzado;",
+        "Obtén informes detallados sobre asignación de activos, rendimiento y riesgo."
+      ]
+    },
+    "whyExportQuote": {
+      "it": "Con DonkyCapital trasformi i dati grezzi di DEGIRO in insight strategici per ottimizzare il tuo portafoglio.",
+      "en": "With DonkyCapital, you transform DEGIRO's raw data into strategic insights to optimize your portfolio.",
+      "de": "Mit DonkyCapital verwandeln Sie die Rohdaten von DEGIRO in strategische Erkenntnisse zur Optimierung Ihres Attivitàs.",
+      "fr": "Avec DonkyCapital, vous transformez les données brutes de DEGIRO en informations stratégiques pour optimiser votre portefeuille.",
+      "es": "Con DonkyCapital, transformas los datos sin procesar de DEGIRO en información estratégica para optimizar tu cartera."
+    },
+    "whyDonkyTitle": {
+      "it": "Perché usare DonkyCapital invece della piattaforma DEGIRO",
+      "en": "Why Use DonkyCapital Instead of DEGIRO's Platform",
+      "de": "Warum DonkyCapital anstelle der DEGIRO-Plattform verwenden",
+      "fr": "Pourquoi utiliser DonkyCapital au lieu de la plateforme DEGIRO",
+      "es": "Por qué usar DonkyCapital en lugar de la plataforma DEGIRO"
+    },
+    "whyDonkyText1": {
+      "it": "La piattaforma DEGIRO fornisce uno storico operazioni e reportistica di base. Tuttavia, non offre analisi avanzate come:",
+      "en": "DEGIRO's platform provides transaction history and basic reporting. However, it doesn't offer advanced analysis such as:",
+      "de": "Die DEGIRO-Plattform bietet Transaktionshistorie und grundlegende Aktivitätrstattung. Sie bietet jedoch keine erweiterten Analysen wie:",
+      "fr": "La plateforme DEGIRO fournit un historique des transactions et des rapports de base. Cependant, elle n'offre pas d'analyse avancée telle que:",
+      "es": "La plataforma DEGIRO proporciona historial de transacciones e informes básicos. Sin embargo, no ofrece análisis avanzado como:"
+    },
+    "whyDonkyList": {
+      "it": [
+        "<strong>Dashboard personalizzabili</strong> con i tuoi KPI preferiti;",
+        "Analisi dettagliata dell'<strong>esposizione settoriale e geografica</strong>;",
+        "<strong>Comparazione multi-portafoglio</strong> se hai investimenti su più piattaforme;",
+        "<strong>Calcolo automatico delle performance</strong> time-weighted e money-weighted;",
+        "Alert e notifiche su <strong>ribilanciamento</strong> e asset allocation."
+      ],
+      "en": [
+        "<strong>Customizable dashboards</strong> with your preferred KPIs;",
+        "Detailed analysis of <strong>sector and geographic exposure</strong>;",
+        "<strong>Multi-portfolio comparison</strong> if you have investments across multiple platforms;",
+        "Automatic calculation of <strong>time-weighted and money-weighted performance</strong>;",
+        "Alerts and notifications on <strong>rebalancing</strong> and asset allocation."
+      ],
+      "de": [
+        "<strong>Anpassbare Dashboards</strong> mit Ihren bevorzugten KPIs;",
+        "Detaillierte Analyse der <strong>Sektor- und geografischen Exposition</strong>;",
+        "<strong>Multi-Attività-Vergleich</strong>, wenn Sie Investitionen über mehrere Plattformen haben;",
+        "Automatische Berechnung der <strong>zeitgewichteten und kapitalgewichteten Performance</strong>;",
+        "Warnungen und Benachrichtigungen zu <strong>Umschichtung</strong> und Vermögensallokation."
+      ],
+      "fr": [
+        "<strong>Tableaux de bord personnalisables</strong> avec vos KPI préférés;",
+        "Analyse détaillée de l'<strong>exposition sectorielle et géographique</strong>;",
+        "<strong>Comparaison multi-portefeuilles</strong> si vous avez des investissements sur plusieurs plateformes;",
+        "Calcul automatique des <strong>performances pondérées dans le temps et en capital</strong>;",
+        "Alertes et notifications sur le <strong>rééquilibrage</strong> et l'allocation d'actifs."
+      ],
+      "es": [
+        "<strong>Paneles personalizables</strong> con tus KPI preferidos;",
+        "Análisis detallado de la <strong>exposición sectorial y geográfica</strong>;",
+        "<strong>Comparación multi-cartera</strong> si tienes inversiones en múltiples plataformas;",
+        "Cálculo automático del <strong>rendimiento ponderado por tiempo y capital</strong>;",
+        "Alertas y notificaciones sobre <strong>reequilibrio</strong> y asignación de activos."
+      ]
+    },
+    "whyDonkyText2": {
+      "it": "Con DonkyCapital centralizzi tutti i tuoi investimenti (DEGIRO, Degiro, Scalable Capital, Moneyfarm, ecc.) in un'unica dashboard professionale.",
+      "en": "With DonkyCapital, you centralize all your investments (DEGIRO, Degiro, Scalable Capital, Moneyfarm, etc.) in a single professional dashboard.",
+      "de": "Mit DonkyCapital zentralisieren Sie alle Ihre Investitionen (DEGIRO, Degiro, Scalable Capital, Moneyfarm usw.) in einem einzigen professionellen Dashboard.",
+      "fr": "Avec DonkyCapital, vous centralisez tous vos investissements (DEGIRO, Degiro, Scalable Capital, Moneyfarm, etc.) dans un seul tableau de bord professionnel.",
+      "es": "Con DonkyCapital, centralizas todas tus inversiones (DEGIRO, Degiro, Scalable Capital, Moneyfarm, etc.) en un único panel profesional."
+    },
+    "whyDonkyQuote": {
+      "it": "DonkyCapital ti offre il controllo totale del tuo patrimonio, con analisi che DEGIRO non fornisce nativamente.",
+      "en": "DonkyCapital gives you total control of your wealth, with analysis that DEGIRO doesn't provide natively.",
+      "de": "DonkyCapital gibt Ihnen die vollständige Kontrolle über Ihr Vermögen mit Analysen, die DEGIRO nativ nicht bietet.",
+      "fr": "DonkyCapital vous donne un contrôle total sur votre patrimoine, avec des analyses que DEGIRO ne fournit pas nativement.",
+      "es": "DonkyCapital te da control total de tu patrimonio, con análisis que DEGIRO no proporciona de forma nativa."
+    },
+    "step1Title": {
+      "it": "Passo 1 — Accedi a DEGIRO e vai alla sezione Attività",
+      "en": "Step 1 — Access DEGIRO and Go to the Attività Section",
+      "de": "Schritt 1 — Greifen Sie auf DEGIRO zu und gehen Sie zum Bereich Aktivität",
+      "fr": "Étape 1 — Accédez à DEGIRO et allez dans la section Activité",
+      "es": "Paso 1 — Accede a DEGIRO y ve a la sección de Actividad"
+    },
+    "step1List": {
+      "it": [
+        "Accedi alla piattaforma <strong>DEGIRO</strong> con le tue credenziali;",
+        "Dalla home, vai alla sezione <strong>\"Conto\"</strong>;",
+        "Clicca su <strong>\"Attività\"</strong>;",
+        "Seleziona <strong>\"Conto\"</strong>."
+      ],
+      "en": [
+        "Log in to the <strong>DEGIRO</strong> platform with your credentials;",
+        "From the home page, go to the <strong>\"Attività\"</strong> section;",
+        "Click on <strong>\"Attività\"</strong>;",
+        "Select <strong>\"Account\"</strong>."
+      ],
+      "de": [
+        "Melden Sie sich bei der <strong>DEGIRO</strong>-Plattform mit Ihren Zugangsdaten an;",
+        "Gehen Sie von der Startseite zum Bereich <strong>\"Attività\"</strong>;",
+        "Klicken Sie auf <strong>\"Aktivität\"</strong>;",
+        "Wählen Sie <strong>\"Kontoübersicht\"</strong>."
+      ],
+      "fr": [
+        "Connectez-vous à la plateforme <strong>DEGIRO</strong> avec vos identifiants;",
+        "Depuis la page d'accueil, allez dans la section <strong>\"Compte\"</strong>;",
+        "Cliquez sur <strong>\"Activité\"</strong>;",
+        "Sélectionnez <strong>\"Compte\"</strong>."
+      ],
+      "es": [
+        "Inicia sesión en la plataforma <strong>DEGIRO</strong> con tus credenciales;",
+        "Desde la página de inicio, ve a la sección <strong>\"Cuenta\"</strong>;",
+        "Haz clic en <strong>\"Actividad\"</strong>;",
+        "Selecciona <strong>\"Cuenta\"</strong>."
+      ]
+    },
+    "step1Tip": {
+      "it": "Consiglio: esporta l'intero storico delle operazioni per avere un'analisi completa in DonkyCapital.",
+      "en": "Tip: Export your entire transaction history for complete analysis in DonkyCapital.",
+      "de": "Tipp: Exportieren Sie Ihre gesamte Transaktionshistorie für eine vollständige Analyse in DonkyCapital.",
+      "fr": "Conseil: Exportez tout votre historique de transactions pour une analyse complète dans DonkyCapital.",
+      "es": "Consejo: Exporta todo tu historial de transacciones para un análisis completo en DonkyCapital."
+    },
+    "step2Title": {
+      "it": "Passo 2 — Esporta il file CSV (CSV)",
+      "en": "Step 2 — Export the CSV File (CSV)",
+      "de": "Schritt 2 — Exportieren Sie die CSV-Datei (CSV)",
+      "fr": "Étape 2 — Exportez le fichier CSV (CSV)",
+      "es": "Paso 2 — Exporta el archivo CSV (CSV)"
+    },
+    "step2List": {
+      "it": [
+        "Nella pagina \"Conto\", seleziona il <strong>periodo di riferimento</strong> (consigliato: dall'inizio ad oggi);",
+        "Clicca sul pulsante <strong>\"Esporta in CSV\"</strong> o <strong>\"Download\"</strong>;",
+        "Il file <code>.csv</code> verrà scaricato sul tuo computer;",
+        "Salva il file in una cartella facilmente accessibile."
+      ],
+      "en": [
+        "On the \"Account\" page, select the <strong>reference period</strong> (recommended: from inception to date);",
+        "Click the <strong>\"Export to CSV\"</strong> or <strong>\"Download\"</strong> button;",
+        "The <code>.csv</code> file will be downloaded to your computer;",
+        "Save the file in an easily accessible folder."
+      ],
+      "de": [
+        "Wählen Sie auf der Seite \"Kontoübersicht\" den <strong>Referenzzeitraum</strong> aus (empfohlen: von Beginn bis heute);",
+        "Klicken Sie auf die Schaltfläche <strong>\"Nach CSV exportieren\"</strong> oder <strong>\"Herunterladen\"</strong>;",
+        "Die <code>.csv</code>-Datei wird auf Ihren Computer heruntergeladen;",
+        "Speichern Sie die Datei in einem leicht zugänglichen Ordner."
+      ],
+      "fr": [
+        "Sur la page \"Compte\", sélectionnez la <strong>période de référence</strong> (recommandé: depuis le début jusqu'à aujourd'hui);",
+        "Cliquez sur le bouton <strong>\"Exporter vers CSV\"</strong> ou <strong>\"Télécharger\"</strong>;",
+        "Le fichier <code>.csv</code> sera téléchargé sur votre ordinateur;",
+        "Enregistrez le fichier dans un dossier facilement accessible."
+      ],
+      "es": [
+        "En la página \"Cuenta\", selecciona el <strong>período de referencia</strong> (recomendado: desde el inicio hasta la fecha);",
+        "Haz clic en el botón <strong>\"Exportar a CSV\"</strong> o <strong>\"Descargar\"</strong>;",
+        "El archivo <code>.csv</code> se descargará en tu computadora;",
+        "Guarda el archivo en una carpeta de fácil acceso."
+      ]
+    },
+    "step2Text": {
+      "it": "Il file CSV contiene tutte le informazioni sulle tue operazioni: data, strumento, quantità, prezzo, commissioni e importo totale.",
+      "en": "The CSV file contains all information about your operations: date, instrument, quantity, price, fees, and total amount.",
+      "de": "Die CSV-Datei enthält alle Informationen zu Ihren Operationen: Datum, Instrument, Menge, Preis, Gebühren und Gesamtbetrag.",
+      "fr": "Le fichier CSV contient toutes les informations sur vos opérations: date, instrument, quantité, prix, frais et montant total.",
+      "es": "El archivo CSV contiene toda la información sobre tus operaciones: fecha, instrumento, cantidad, precio, comisiones e importe total."
+    },
+    "step2Highlight": {
+      "it": "DEGIRO permette l'esportazione diretta senza bisogno di estensioni browser o strumenti di terze parti.",
+      "en": "DEGIRO allows direct export without the need for browser extensions or third-party tools.",
+      "de": "DEGIRO ermöglicht den direkten Export ohne Browser-Erweiterungen oder Tools von Drittanbietern.",
+      "fr": "DEGIRO permet l'exportation directe sans avoir besoin d'extensions de navigateur ou d'outils tiers.",
+      "es": "DEGIRO permite la exportación directa sin necesidad de extensiones de navegador o herramientas de terceros."
+    },
+    "step3Title": {
+      "it": "Passo 3 — Importa il file in DonkyCapital",
+      "en": "Step 3 — Import the File into DonkyCapital",
+      "de": "Schritt 3 — Importieren Sie die Datei in DonkyCapital",
+      "fr": "Étape 3 — Importez le fichier dans DonkyCapital",
+      "es": "Paso 3 — Importa el archivo a DonkyCapital"
+    },
+    "step3List": {
+      "it": [
+        "Accedi a <strong>DonkyCapital.com</strong> e apri il tuo account;",
+        "Seleziona il portafoglio in cui importare i dati;",
+        "Clicca su <strong>\"Importa Transazioni\"</strong>;",
+        "Carica il file <code>.csv</code> esportato da DEGIRO;",
+        "Conferma l'importazione e attendi l'elaborazione (pochi secondi)."
+      ],
+      "en": [
+        "Log in to <strong>DonkyCapital.com</strong> and open your account;",
+        "Select the portfolio to import data into;",
+        "Click <strong>\"Import Transactions\"</strong>;",
+        "Upload the <code>.csv</code> file exported from DEGIRO;",
+        "Confirm the import and wait for processing (a few seconds)."
+      ],
+      "de": [
+        "Melden Sie sich bei <strong>DonkyCapital.com</strong> an und öffnen Sie Ihr Konto;",
+        "Wählen Sie das Attività aus, in das Sie Daten importieren möchten;",
+        "Klicken Sie auf <strong>\"Transaktionen importieren\"</strong>;",
+        "Laden Sie die aus DEGIRO exportierte <code>.csv</code>-Datei hoch;",
+        "Bestätigen Sie den Import und warten Sie auf die Verarbeitung (einige Sekunden)."
+      ],
+      "fr": [
+        "Connectez-vous à <strong>DonkyCapital.com</strong> et ouvrez votre compte;",
+        "Sélectionnez le portefeuille dans lequel importer les données;",
+        "Cliquez sur <strong>\"Importer les transactions\"</strong>;",
+        "Téléchargez le fichier <code>.csv</code> exporté depuis DEGIRO;",
+        "Confirmez l'importation et attendez le traitement (quelques secondes)."
+      ],
+      "es": [
+        "Inicia sesión en <strong>DonkyCapital.com</strong> y abre tu cuenta;",
+        "Selecciona la cartera en la que importar los datos;",
+        "Haz clic en <strong>\"Importar transacciones\"</strong>;",
+        "Carga el archivo <code>.csv</code> exportado desde DEGIRO;",
+        "Confirma la importación y espera el procesamiento (unos segundos)."
+      ]
+    },
+    "step3Text": {
+      "it": "In pochi secondi, tutte le tue transazioni DEGIRO saranno visibili nella dashboard DonkyCapital, con report dettagliati su:",
+      "en": "In a few seconds, all your DEGIRO transactions will be visible in the DonkyCapital dashboard, with detailed reports on:",
+      "de": "In wenigen Sekunden werden alle Ihre DEGIRO-Transaktionen im DonkyCapital-Dashboard sichtbar sein, mit detaillierten Aktivitätn über:",
+      "fr": "En quelques secondes, toutes vos transactions DEGIRO seront visibles dans le tableau de bord DonkyCapital, avec des rapports détaillés sur:",
+      "es": "En unos segundos, todas tus transacciones de DEGIRO serán visibles en el panel de DonkyCapital, con informes detallados sobre:"
+    },
+    "step3ReportList": {
+      "it": [
+        "Composizione del portafoglio per asset class;",
+        "Performance time-weighted e money-weighted;",
+        "Esposizione settoriale e geografica;",
+        "Analisi di bilanciamento e ribilanciamento;",
+        "Confronto con benchmark e altri portafogli."
+      ],
+      "en": [
+        "Attività composition by asset class;",
+        "Time-weighted and money-weighted performance;",
+        "Sector and geographic exposure;",
+        "Balance and rebalancing analysis;",
+        "Comparison with benchmarks and other portfolios."
+      ],
+      "de": [
+        "Attività-Zusammensetzung nach Anlageklasse;",
+        "Zeitgewichtete und kapitalgewichtete Performance;",
+        "Sektor- und geografische Exposition;",
+        "Balance- und Umschichtungsanalyse;",
+        "Vergleich mit Benchmarks und anderen Attivitàs."
+      ],
+      "fr": [
+        "Composition du portefeuille par classe d'actifs;",
+        "Performance pondérée dans le temps et en capital;",
+        "Exposition sectorielle et géographique;",
+        "Analyse d'équilibre et de rééquilibrage;",
+        "Comparaison avec des benchmarks et d'autres portefeuilles."
+      ],
+      "es": [
+        "Composición de cartera por clase de activo;",
+        "Rendimiento ponderado por tiempo y capital;",
+        "Exposición sectorial y geográfica;",
+        "Análisis de balance y reequilibrio;",
+        "Comparación con benchmarks y otras carteras."
+      ]
+    },
+    "step3Highlight": {
+      "it": "Questo livello di analisi <strong>non è disponibile nativamente su DEGIRO</strong>, che si concentra principalmente sul trading e non sull'asset allocation strategica.",
+      "en": "This level of analysis <strong>is not natively available on DEGIRO</strong>, which focuses primarily on trading rather than strategic asset allocation.",
+      "de": "Dieses Analyseniveau <strong>ist auf DEGIRO nativ nicht verfügbar</strong>, da es sich hauptsächlich auf den Handel und nicht auf strategische Vermögensallokation konzentriert.",
+      "fr": "Ce niveau d'analyse <strong>n'est pas disponible nativement sur DEGIRO</strong>, qui se concentre principalement sur le trading plutôt que sur l'allocation d'actifs stratégique.",
+      "es": "Este nivel de análisis <strong>no está disponible de forma nativa en DEGIRO</strong>, que se centra principalmente en el trading en lugar de la asignación estratégica de activos."
+    },
+    "faqTitle": {
+      "it": "Domande frequenti (FAQ)",
+      "en": "Frequently Asked Questions (FAQ)",
+      "de": "Häufig gestellte Fragen (FAQ)",
+      "fr": "Questions fréquemment posées (FAQ)",
+      "es": "Preguntas frecuentes (FAQ)"
+    },
+    "faq": {
+      "it": [
+        {
+          "question": "Devo modificare il file CSV prima di importarlo?",
+          "answer": "No. Carica il file così come lo esporti da DEGIRO. DonkyCapital riconosce automaticamente il formato e importa tutte le transazioni."
+        },
+        {
+          "question": "DonkyCapital richiede le credenziali di accesso a DEGIRO?",
+          "answer": "Assolutamente no. DonkyCapital non ha mai accesso alle tue credenziali bancarie. L'import avviene tramite file CSV che tu esporti e carichi manualmente."
+        },
+        {
+          "question": "Posso importare più portafogli DEGIRO?",
+          "answer": "Sì, puoi creare portafogli separati in DonkyCapital e importare i dati di ciascun conto DEGIRO separatamente, oppure unirli in un unico portafoglio consolidato."
+        },
+        {
+          "question": "Come gestisce DonkyCapital le commissioni di DEGIRO?",
+          "answer": "DonkyCapital importa automaticamente le commissioni presenti nel file CSV di DEGIRO e le include nel calcolo delle performance reali del portafoglio."
+        }
+      ],
+      "en": [
+        {
+          "question": "Do I need to modify the CSV file before importing?",
+          "answer": "No. Upload the file exactly as you export it from DEGIRO. DonkyCapital automatically recognizes the format and imports all transactions."
+        },
+        {
+          "question": "Does DonkyCapital require DEGIRO login credentials?",
+          "answer": "Absolutely not. DonkyCapital never has access to your banking credentials. Import happens via CSV files that you export and upload manually."
+        },
+        {
+          "question": "Can I import multiple DEGIRO portfolios?",
+          "answer": "Yes, you can create separate portfolios in DonkyCapital and import data from each DEGIRO account separately, or merge them into a single consolidated portfolio."
+        },
+        {
+          "question": "How does DonkyCapital handle DEGIRO fees?",
+          "answer": "DonkyCapital automatically imports fees from the DEGIRO CSV file and includes them in the calculation of your portfolio's actual performance."
+        }
+      ],
+      "de": [
+        {
+          "question": "Muss ich die CSV-Datei vor dem Import ändern?",
+          "answer": "Nein. Laden Sie die Datei genau so hoch, wie Sie sie von DEGIRO exportieren. DonkyCapital erkennt das Format automatisch und importiert alle Transaktionen."
+        },
+        {
+          "question": "Benötigt DonkyCapital DEGIRO-Anmeldedaten?",
+          "answer": "Absolut nicht. DonkyCapital hat niemals Zugriff auf Ihre Bankdaten. Der Import erfolgt über CSV-Dateien, die Sie manuell exportieren und hochladen."
+        },
+        {
+          "question": "Kann ich mehrere DEGIRO-Attivitàs importieren?",
+          "answer": "Ja, Sie können separate Attivitàs in DonkyCapital erstellen und Daten von jedem DEGIRO-Konto separat importieren oder sie in einem konsolidierten Attività zusammenführen."
+        },
+        {
+          "question": "Wie behandelt DonkyCapital DEGIRO-Gebühren?",
+          "answer": "DonkyCapital importiert Gebühren automatisch aus der DEGIRO-CSV-Datei und berücksichtigt sie bei der Berechnung der tatsächlichen Performance Ihres Attivitàs."
+        }
+      ],
+      "fr": [
+        {
+          "question": "Dois-je modifier le fichier CSV avant de l'importer?",
+          "answer": "Non. Téléchargez le fichier exactement comme vous l'exportez depuis DEGIRO. DonkyCapital reconnaît automatiquement le format et importe toutes les transactions."
+        },
+        {
+          "question": "DonkyCapital nécessite-t-il des identifiants de connexion DEGIRO?",
+          "answer": "Absolument pas. DonkyCapital n'a jamais accès à vos identifiants bancaires. L'importation se fait via des fichiers CSV que vous exportez et téléchargez manuellement."
+        },
+        {
+          "question": "Puis-je importer plusieurs portefeuilles DEGIRO?",
+          "answer": "Oui, vous pouvez créer des portefeuilles séparés dans DonkyCapital et importer les données de chaque compte DEGIRO séparément, ou les fusionner dans un portefeuille consolidé unique."
+        },
+        {
+          "question": "Comment DonkyCapital gère-t-il les frais DEGIRO?",
+          "answer": "DonkyCapital importe automatiquement les frais du fichier CSV DEGIRO et les inclut dans le calcul de la performance réelle de votre portefeuille."
+        }
+      ],
+      "es": [
+        {
+          "question": "¿Necesito modificar el archivo CSV antes de importarlo?",
+          "answer": "No. Carga el archivo exactamente como lo exportas desde DEGIRO. DonkyCapital reconoce automáticamente el formato e importa todas las transacciones."
+        },
+        {
+          "question": "¿DonkyCapital requiere credenciales de inicio de sesión de DEGIRO?",
+          "answer": "Absolutamente no. DonkyCapital nunca tiene acceso a tus credenciales bancarias. La importación se realiza mediante archivos CSV que tú exportas y cargas manualmente."
+        },
+        {
+          "question": "¿Puedo importar varias carteras de DEGIRO?",
+          "answer": "Sí, puedes crear carteras separadas en DonkyCapital e importar datos de cada cuenta DEGIRO por separado, o fusionarlas en una única cartera consolidada."
+        },
+        {
+          "question": "¿Cómo maneja DonkyCapital las comisiones de DEGIRO?",
+          "answer": "DonkyCapital importa automáticamente las comisiones del archivo CSV de DEGIRO y las incluye en el cálculo del rendimiento real de tu cartera."
         }
       ]
     }

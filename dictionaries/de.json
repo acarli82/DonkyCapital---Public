@@ -153,7 +153,10 @@
       "protectedData": "Geschützte Daten",
       "secureConnection": "Sichere Verbindung",
       "siteMap": "Seitenübersicht",
-      "termsAndConditions": "Geschäftsbedingungen"
+      "termsAndConditions": "Geschäftsbedingungen",
+      "company": "Unternehmen",
+      "platforms": "Plattformen",
+      "legal": "Rechtliches"
     },
     "header": {
       "features": "Features",
@@ -531,6 +534,84 @@
       {
         "question": "Wie behandelt DonkyCapital Fineco-Gebühren?",
         "answer": "DonkyCapital importiert Gebühren automatisch aus der Fineco-Excel-Datei und berücksichtigt sie bei der Berechnung der tatsächlichen Performance Ihres Portfolios."
+      }
+    ]
+  },
+  "degiro": {
+    "pageTitle": "DEGIRO Portfolio Tracker: DEGIRO Portfolio in DonkyCapital importieren",
+    "intro": "Wenn Sie <strong>DEGIRO</strong> für Investitionen in ETFs, Aktien oder Investmentfonds nutzen, können Sie jetzt alle Ihre Operationen einfach mit <strong>DonkyCapital</strong> verfolgen. In diesem umfassenden Leitfaden erkläre ich, <strong>wie Sie Ihr DEGIRO-Attività</strong> direkt von der Plattform exportieren (keine Erweiterungen erforderlich) und <strong>wie Sie es in DonkyCapital importieren</strong>, den Attività-Tracker, mit dem Sie alle Ihre Investitionen in einem einzigen erweiterten Dashboard verwalten können.",
+    "whyExportTitle": "Warum Ihr Attività von DEGIRO exportieren",
+    "whyExportText1": "DEGIRO ist eine der innovativsten Banken Italiens mit einer vollständigen Handelsplattform und wettbewerbsfähigen Provisionen.",
+    "whyExportText2": "Der Export von Daten aus DEGIRO ist <strong>einfach und unkompliziert</strong>: Es sind keine Erweiterungen oder Tools von Drittanbietern erforderlich. Greifen Sie einfach auf den Bereich Aktivität zu und laden Sie die CSV-Datei mit allen Ihren Transaktionen herunter.",
+    "whyExportList": [
+      "Exportieren Sie alle Operationen einfach im <strong>CSV</strong>-Format direkt aus DEGIRO;",
+      "Bewahren Sie alle Daten <strong>auf Ihrem Gerät</strong> auf, ohne Anmeldedaten zu teilen;",
+      "Importieren Sie Dateien in DonkyCapital für erweiterte Analysen;",
+      "Erhalten Sie detaillierte Aktivität über Vermögensallokation, Performance und Risiko."
+    ],
+    "whyExportQuote": "Mit DonkyCapital verwandeln Sie die Rohdaten von DEGIRO in strategische Erkenntnisse zur Optimierung Ihres Attivitàs.",
+    "whyDonkyTitle": "Warum DonkyCapital anstelle der DEGIRO-Plattform verwenden",
+    "whyDonkyText1": "Die DEGIRO-Plattform bietet Transaktionshistorie und grundlegende Aktivitätrstattung. Sie bietet jedoch keine erweiterten Analysen wie:",
+    "whyDonkyList": [
+      "<strong>Anpassbare Dashboards</strong> mit Ihren bevorzugten KPIs;",
+      "Detaillierte Analyse der <strong>Sektor- und geografischen Exposition</strong>;",
+      "<strong>Multi-Attività-Vergleich</strong>, wenn Sie Investitionen über mehrere Plattformen haben;",
+      "Automatische Berechnung der <strong>zeitgewichteten und kapitalgewichteten Performance</strong>;",
+      "Warnungen und Benachrichtigungen zu <strong>Umschichtung</strong> und Vermögensallokation."
+    ],
+    "whyDonkyText2": "Mit DonkyCapital zentralisieren Sie alle Ihre Investitionen (DEGIRO, Degiro, Scalable Capital, Moneyfarm usw.) in einem einzigen professionellen Dashboard.",
+    "whyDonkyQuote": "DonkyCapital gibt Ihnen die vollständige Kontrolle über Ihr Vermögen mit Analysen, die DEGIRO nativ nicht bietet.",
+    "step1Title": "Schritt 1 — Greifen Sie auf DEGIRO zu und gehen Sie zum Bereich Aktivität",
+    "step1List": [
+      "Melden Sie sich bei der <strong>DEGIRO</strong>-Plattform mit Ihren Zugangsdaten an;",
+      "Gehen Sie von der Startseite zum Bereich <strong>\"Attività\"</strong>;",
+      "Klicken Sie auf <strong>\"Aktivität\"</strong>;",
+      "Wählen Sie <strong>\"Kontoübersicht\"</strong>."
+    ],
+    "step1Tip": "Tipp: Exportieren Sie Ihre gesamte Transaktionshistorie für eine vollständige Analyse in DonkyCapital.",
+    "step2Title": "Schritt 2 — Exportieren Sie die CSV-Datei (CSV)",
+    "step2List": [
+      "Wählen Sie auf der Seite \"Kontoübersicht\" den <strong>Referenzzeitraum</strong> aus (empfohlen: von Beginn bis heute);",
+      "Klicken Sie auf die Schaltfläche <strong>\"Nach CSV exportieren\"</strong> oder <strong>\"Herunterladen\"</strong>;",
+      "Die <code>.csv</code>-Datei wird auf Ihren Computer heruntergeladen;",
+      "Speichern Sie die Datei in einem leicht zugänglichen Ordner."
+    ],
+    "step2Text": "Die CSV-Datei enthält alle Informationen zu Ihren Operationen: Datum, Instrument, Menge, Preis, Gebühren und Gesamtbetrag.",
+    "step2Highlight": "DEGIRO ermöglicht den direkten Export ohne Browser-Erweiterungen oder Tools von Drittanbietern.",
+    "step3Title": "Schritt 3 — Importieren Sie die Datei in DonkyCapital",
+    "step3List": [
+      "Melden Sie sich bei <strong>DonkyCapital.com</strong> an und öffnen Sie Ihr Konto;",
+      "Wählen Sie das Attività aus, in das Sie Daten importieren möchten;",
+      "Klicken Sie auf <strong>\"Transaktionen importieren\"</strong>;",
+      "Laden Sie die aus DEGIRO exportierte <code>.csv</code>-Datei hoch;",
+      "Bestätigen Sie den Import und warten Sie auf die Verarbeitung (einige Sekunden)."
+    ],
+    "step3Text": "In wenigen Sekunden werden alle Ihre DEGIRO-Transaktionen im DonkyCapital-Dashboard sichtbar sein, mit detaillierten Aktivitätn über:",
+    "step3ReportList": [
+      "Attività-Zusammensetzung nach Anlageklasse;",
+      "Zeitgewichtete und kapitalgewichtete Performance;",
+      "Sektor- und geografische Exposition;",
+      "Balance- und Umschichtungsanalyse;",
+      "Vergleich mit Benchmarks und anderen Attivitàs."
+    ],
+    "step3Highlight": "Dieses Analyseniveau <strong>ist auf DEGIRO nativ nicht verfügbar</strong>, da es sich hauptsächlich auf den Handel und nicht auf strategische Vermögensallokation konzentriert.",
+    "faqTitle": "Häufig gestellte Fragen (FAQ)",
+    "faq": [
+      {
+        "question": "Muss ich die CSV-Datei vor dem Import ändern?",
+        "answer": "Nein. Laden Sie die Datei genau so hoch, wie Sie sie von DEGIRO exportieren. DonkyCapital erkennt das Format automatisch und importiert alle Transaktionen."
+      },
+      {
+        "question": "Benötigt DonkyCapital DEGIRO-Anmeldedaten?",
+        "answer": "Absolut nicht. DonkyCapital hat niemals Zugriff auf Ihre Bankdaten. Der Import erfolgt über CSV-Dateien, die Sie manuell exportieren und hochladen."
+      },
+      {
+        "question": "Kann ich mehrere DEGIRO-Attivitàs importieren?",
+        "answer": "Ja, Sie können separate Attivitàs in DonkyCapital erstellen und Daten von jedem DEGIRO-Konto separat importieren oder sie in einem konsolidierten Attività zusammenführen."
+      },
+      {
+        "question": "Wie behandelt DonkyCapital DEGIRO-Gebühren?",
+        "answer": "DonkyCapital importiert Gebühren automatisch aus der DEGIRO-CSV-Datei und berücksichtigt sie bei der Berechnung der tatsächlichen Performance Ihres Attivitàs."
       }
     ]
   }

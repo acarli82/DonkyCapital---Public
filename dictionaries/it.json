@@ -157,7 +157,10 @@
       "protectedData": "Dati Protetti",
       "secureConnection": "Connessione Sicura",
       "siteMap": "Mappa del Sito",
-      "termsAndConditions": "Terms & Conditions"
+      "termsAndConditions": "Terms & Conditions",
+      "company": "Azienda",
+      "platforms": "Piattaforme",
+      "legal": "Legale"
     },
     "header": {
       "features": "Features",
@@ -535,6 +538,84 @@
       {
         "question": "Come gestisce DonkyCapital le commissioni di Fineco?",
         "answer": "DonkyCapital importa automaticamente le commissioni presenti nel file Excel di Fineco e le include nel calcolo delle performance reali del portafoglio."
+      }
+    ]
+  },
+  "degiro": {
+    "pageTitle": "DEGIRO Portfolio Tracker: come importare il portafoglio DEGIRO in DonkyCapital",
+    "intro": "Se utilizzi <strong>DEGIRO</strong> per investire in ETF, azioni o fondi comuni, ora puoi monitorare facilmente tutte le tue operazioni con <strong>DonkyCapital</strong>. In questa guida completa ti spiegherò <strong>come esportare il tuo portafoglio DEGIRO</strong> direttamente dalla piattaforma (senza bisogno di estensioni) e <strong>come importarlo in DonkyCapital</strong>, il portfolio tracker che ti permette di gestire tutti i tuoi investimenti in un'unica dashboard avanzata.",
+    "whyExportTitle": "Perché esportare il portafoglio da DEGIRO",
+    "whyExportText1": "DEGIRO è una delle banche più innovative d'Italia, con una piattaforma trading completa e commissioni competitive.",
+    "whyExportText2": "L'esportazione dei dati da DEGIRO è <strong>semplice e diretta</strong>: non servono estensioni o strumenti di terze parti. Basta accedere alla sezione Attività e scaricare il file CSV con tutte le tue operazioni.",
+    "whyExportList": [
+      "Esportare facilmente tutte le operazioni in formato <strong>CSV</strong> direttamente da DEGIRO;",
+      "Mantenere tutti i dati <strong>sul tuo dispositivo</strong>, senza condividere credenziali di accesso;",
+      "Importare i file in DonkyCapital per analisi avanzate;",
+      "Ottenere report dettagliati su asset allocation, performance e rischio."
+    ],
+    "whyExportQuote": "Con DonkyCapital trasformi i dati grezzi di DEGIRO in insight strategici per ottimizzare il tuo portafoglio.",
+    "whyDonkyTitle": "Perché usare DonkyCapital invece della piattaforma DEGIRO",
+    "whyDonkyText1": "La piattaforma DEGIRO fornisce uno storico operazioni e reportistica di base. Tuttavia, non offre analisi avanzate come:",
+    "whyDonkyList": [
+      "<strong>Dashboard personalizzabili</strong> con i tuoi KPI preferiti;",
+      "Analisi dettagliata dell'<strong>esposizione settoriale e geografica</strong>;",
+      "<strong>Comparazione multi-portafoglio</strong> se hai investimenti su più piattaforme;",
+      "<strong>Calcolo automatico delle performance</strong> time-weighted e money-weighted;",
+      "Alert e notifiche su <strong>ribilanciamento</strong> e asset allocation."
+    ],
+    "whyDonkyText2": "Con DonkyCapital centralizzi tutti i tuoi investimenti (DEGIRO, Degiro, Scalable Capital, Moneyfarm, ecc.) in un'unica dashboard professionale.",
+    "whyDonkyQuote": "DonkyCapital ti offre il controllo totale del tuo patrimonio, con analisi che DEGIRO non fornisce nativamente.",
+    "step1Title": "Passo 1 — Accedi a DEGIRO e vai alla sezione Attività",
+    "step1List": [
+      "Accedi alla piattaforma <strong>DEGIRO</strong> con le tue credenziali;",
+      "Dalla home, vai alla sezione <strong>\"Conto\"</strong>;",
+      "Clicca su <strong>\"Attività\"</strong>;",
+      "Seleziona <strong>\"Conto\"</strong>."
+    ],
+    "step1Tip": "Consiglio: esporta l'intero storico delle operazioni per avere un'analisi completa in DonkyCapital.",
+    "step2Title": "Passo 2 — Esporta il file CSV (CSV)",
+    "step2List": [
+      "Nella pagina \"Conto\", seleziona il <strong>periodo di riferimento</strong> (consigliato: dall'inizio ad oggi);",
+      "Clicca sul pulsante <strong>\"Esporta in CSV\"</strong> o <strong>\"Download\"</strong>;",
+      "Il file <code>.csv</code> verrà scaricato sul tuo computer;",
+      "Salva il file in una cartella facilmente accessibile."
+    ],
+    "step2Text": "Il file CSV contiene tutte le informazioni sulle tue operazioni: data, strumento, quantità, prezzo, commissioni e importo totale.",
+    "step2Highlight": "DEGIRO permette l'esportazione diretta senza bisogno di estensioni browser o strumenti di terze parti.",
+    "step3Title": "Passo 3 — Importa il file in DonkyCapital",
+    "step3List": [
+      "Accedi a <strong>DonkyCapital.com</strong> e apri il tuo account;",
+      "Seleziona il portafoglio in cui importare i dati;",
+      "Clicca su <strong>\"Importa Transazioni\"</strong>;",
+      "Carica il file <code>.csv</code> esportato da DEGIRO;",
+      "Conferma l'importazione e attendi l'elaborazione (pochi secondi)."
+    ],
+    "step3Text": "In pochi secondi, tutte le tue transazioni DEGIRO saranno visibili nella dashboard DonkyCapital, con report dettagliati su:",
+    "step3ReportList": [
+      "Composizione del portafoglio per asset class;",
+      "Performance time-weighted e money-weighted;",
+      "Esposizione settoriale e geografica;",
+      "Analisi di bilanciamento e ribilanciamento;",
+      "Confronto con benchmark e altri portafogli."
+    ],
+    "step3Highlight": "Questo livello di analisi <strong>non è disponibile nativamente su DEGIRO</strong>, che si concentra principalmente sul trading e non sull'asset allocation strategica.",
+    "faqTitle": "Domande frequenti (FAQ)",
+    "faq": [
+      {
+        "question": "Devo modificare il file CSV prima di importarlo?",
+        "answer": "No. Carica il file così come lo esporti da DEGIRO. DonkyCapital riconosce automaticamente il formato e importa tutte le transazioni."
+      },
+      {
+        "question": "DonkyCapital richiede le credenziali di accesso a DEGIRO?",
+        "answer": "Assolutamente no. DonkyCapital non ha mai accesso alle tue credenziali bancarie. L'import avviene tramite file CSV che tu esporti e carichi manualmente."
+      },
+      {
+        "question": "Posso importare più portafogli DEGIRO?",
+        "answer": "Sì, puoi creare portafogli separati in DonkyCapital e importare i dati di ciascun conto DEGIRO separatamente, oppure unirli in un unico portafoglio consolidato."
+      },
+      {
+        "question": "Come gestisce DonkyCapital le commissioni di DEGIRO?",
+        "answer": "DonkyCapital importa automaticamente le commissioni presenti nel file CSV di DEGIRO e le include nel calcolo delle performance reali del portafoglio."
       }
     ]
   }
