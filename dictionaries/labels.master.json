@@ -1901,6 +1901,38 @@
         "de": "Nutzungsbedingungen | DonkyCapital",
         "es": "Términos y Condiciones de Uso | DonkyCapital"
       }
+    },
+    "fineco": {
+      "title": {
+        "it": "Fineco Portfolio Tracker: Importa e Analizza il Tuo Portafoglio | DonkyCapital",
+        "en": "Fineco Portfolio Tracker: Import and Analyze Your Portfolio | DonkyCapital",
+        "de": "Fineco Portfolio Tracker: Importieren und Analysieren Sie Ihr Portfolio | DonkyCapital",
+        "fr": "Fineco Tracker Portefeuille: Importez et Analysez Votre Portefeuille | DonkyCapital",
+        "es": "Fineco Rastreador Cartera: Importa y Analiza Tu Cartera | DonkyCapital"
+      },
+      "description": {
+        "it": "Esporta facilmente il tuo portafoglio Fineco e importalo in DonkyCapital. Analisi avanzate, dashboard personalizzabili e monitoraggio completo senza condividere le tue credenziali.",
+        "en": "Easily export your Fineco portfolio and import it into DonkyCapital. Advanced analysis, customizable dashboards, and complete tracking without sharing your credentials.",
+        "de": "Exportieren Sie Ihr Fineco-Portfolio einfach und importieren Sie es in DonkyCapital. Erweiterte Analysen, anpassbare Dashboards und vollständiges Tracking ohne Weitergabe Ihrer Anmeldedaten.",
+        "fr": "Exportez facilement votre portefeuille Fineco et importez-le dans DonkyCapital. Analyses avancées, tableaux de bord personnalisables et suivi complet sans partager vos identifiants.",
+        "es": "Exporta fácilmente tu cartera Fineco e impórtala a DonkyCapital. Análisis avanzado, paneles personalizables y seguimiento completo sin compartir tus credenciales."
+      }
+    },
+    "degiro": {
+      "title": {
+        "it": "Come esportare i dati da DEGIRO e importarli in DonkyCapital",
+        "en": "How to export data from DEGIRO and import it into DonkyCapital",
+        "de": "DEGIRO Daten exportieren und in DonkyCapital importieren",
+        "fr": "Comment exporter les données de DEGIRO et les importer dans DonkyCapital",
+        "es": "Cómo exportar datos de DEGIRO e importarlos a DonkyCapital"
+      },
+      "description": {
+        "it": "Guida completa per esportare i dati da DEGIRO e importarli in DonkyCapital per analizzare asset, bilanciamento, esposizione e performance del tuo portafoglio.",
+        "en": "Complete guide to export data from DEGIRO and import it into DonkyCapital to analyze assets, balance, exposure and performance of your portfolio.",
+        "de": "Vollständiger Leitfaden zum Exportieren von Daten aus DEGIRO und Importieren in DonkyCapital zur Analyse von Assets, Balance, Exposition und Performance Ihres Portfolios.",
+        "fr": "Guide complet pour exporter les données de DEGIRO et les importer dans DonkyCapital pour analyser les actifs, l'équilibre, l'exposition et les performances de votre portefeuille.",
+        "es": "Guía completa para exportar datos de DEGIRO e importarlos a DonkyCapital para analizar activos, equilibrio, exposición y rendimiento de tu cartera."
+      }
     }
   },
   "tagline": {
@@ -2380,6 +2412,440 @@
         "de": "Gewicht + Wert",
         "es": "Peso + Valor"
       }
+    }
+  },
+  "fineco": {
+    "pageTitle": {
+      "it": "Fineco Portfolio Tracker: come importare il portafoglio Fineco in DonkyCapital",
+      "en": "Fineco Portfolio Tracker: How to Import Your Fineco Portfolio to DonkyCapital",
+      "de": "Fineco Portfolio Tracker: Fineco Portfolio in DonkyCapital importieren",
+      "fr": "Fineco Tracker Portefeuille: Importer votre portefeuille Fineco vers DonkyCapital",
+      "es": "Fineco Rastreador Cartera: Cómo importar tu cartera Fineco a DonkyCapital"
+    },
+    "intro": {
+      "it": "Se utilizzi <strong>Fineco</strong> per investire in ETF, azioni o fondi comuni, ora puoi monitorare facilmente tutte le tue operazioni con <strong>DonkyCapital</strong>. In questa guida completa ti spiegherò <strong>come esportare il tuo portafoglio Fineco</strong> direttamente dalla piattaforma (senza bisogno di estensioni) e <strong>come importarlo in DonkyCapital</strong>, il portfolio tracker che ti permette di gestire tutti i tuoi investimenti in un'unica dashboard avanzata.",
+      "en": "If you use <strong>Fineco</strong> to invest in ETFs, stocks, or mutual funds, you can now easily track all your operations with <strong>DonkyCapital</strong>. In this complete guide, I'll explain <strong>how to export your Fineco portfolio</strong> directly from the platform (no extensions needed) and <strong>how to import it into DonkyCapital</strong>, the portfolio tracker that lets you manage all your investments in a single advanced dashboard.",
+      "de": "Wenn Sie <strong>Fineco</strong> für Investitionen in ETFs, Aktien oder Investmentfonds nutzen, können Sie jetzt alle Ihre Operationen einfach mit <strong>DonkyCapital</strong> verfolgen. In diesem umfassenden Leitfaden erkläre ich, <strong>wie Sie Ihr Fineco-Portfolio</strong> direkt von der Plattform exportieren (keine Erweiterungen erforderlich) und <strong>wie Sie es in DonkyCapital importieren</strong>, den Portfolio-Tracker, mit dem Sie alle Ihre Investitionen in einem einzigen erweiterten Dashboard verwalten können.",
+      "fr": "Si vous utilisez <strong>Fineco</strong> pour investir dans des ETF, des actions ou des fonds communs, vous pouvez désormais facilement suivre toutes vos opérations avec <strong>DonkyCapital</strong>. Dans ce guide complet, j'expliquerai <strong>comment exporter votre portefeuille Fineco</strong> directement depuis la plateforme (sans extensions) et <strong>comment l'importer dans DonkyCapital</strong>, le tracker de portefeuille qui vous permet de gérer tous vos investissements dans un tableau de bord avancé unique.",
+      "es": "Si usas <strong>Fineco</strong> para invertir en ETF, acciones o fondos mutuos, ahora puedes rastrear fácilmente todas tus operaciones con <strong>DonkyCapital</strong>. En esta guía completa, explicaré <strong>cómo exportar tu cartera Fineco</strong> directamente desde la plataforma (sin necesidad de extensiones) y <strong>cómo importarla a DonkyCapital</strong>, el rastreador de cartera que te permite gestionar todas tus inversiones en un único panel avanzado."
+    },
+    "whyExportTitle": {
+      "it": "Perché esportare il portafoglio da Fineco",
+      "en": "Why Export Your Portfolio from Fineco",
+      "de": "Warum Ihr Portfolio von Fineco exportieren",
+      "fr": "Pourquoi exporter votre portefeuille depuis Fineco",
+      "es": "Por qué exportar tu cartera desde Fineco"
+    },
+    "whyExportText1": {
+      "it": "Fineco è una delle banche più innovative d'Italia, con una piattaforma trading completa e commissioni competitive.",
+      "en": "Fineco is one of Italy's most innovative banks, with a complete trading platform and competitive commissions.",
+      "de": "Fineco ist eine der innovativsten Banken Italiens mit einer vollständigen Handelsplattform und wettbewerbsfähigen Provisionen.",
+      "fr": "Fineco est l'une des banques les plus innovantes d'Italie, avec une plateforme de trading complète et des commissions compétitives.",
+      "es": "Fineco es uno de los bancos más innovadores de Italia, con una plataforma de trading completa y comisiones competitivas."
+    },
+    "whyExportText2": {
+      "it": "L'esportazione dei dati da Fineco è <strong>semplice e diretta</strong>: non servono estensioni o strumenti di terze parti. Basta accedere alla sezione Reports e scaricare il file Excel con tutte le tue operazioni.",
+      "en": "Exporting data from Fineco is <strong>simple and straightforward</strong>: no extensions or third-party tools needed. Just access the Reports section and download the Excel file with all your transactions.",
+      "de": "Der Export von Daten aus Fineco ist <strong>einfach und unkompliziert</strong>: Es sind keine Erweiterungen oder Tools von Drittanbietern erforderlich. Greifen Sie einfach auf den Bereich Berichte zu und laden Sie die Excel-Datei mit allen Ihren Transaktionen herunter.",
+      "fr": "L'exportation de données depuis Fineco est <strong>simple et directe</strong>: aucune extension ou outil tiers nécessaire. Accédez simplement à la section Rapports et téléchargez le fichier Excel avec toutes vos transactions.",
+      "es": "Exportar datos desde Fineco es <strong>simple y directo</strong>: no se necesitan extensiones o herramientas de terceros. Solo accede a la sección de Informes y descarga el archivo Excel con todas tus transacciones."
+    },
+    "whyExportList": {
+      "it": [
+        "Esportare facilmente tutte le operazioni in formato <strong>XLSX</strong> direttamente da Fineco;",
+        "Mantenere tutti i dati <strong>sul tuo dispositivo</strong>, senza condividere credenziali di accesso;",
+        "Importare i file in DonkyCapital per analisi avanzate;",
+        "Ottenere report dettagliati su asset allocation, performance e rischio."
+      ],
+      "en": [
+        "Easily export all operations in <strong>XLSX</strong> format directly from Fineco;",
+        "Keep all data <strong>on your device</strong>, without sharing login credentials;",
+        "Import files into DonkyCapital for advanced analysis;",
+        "Get detailed reports on asset allocation, performance, and risk."
+      ],
+      "de": [
+        "Exportieren Sie alle Operationen einfach im <strong>XLSX</strong>-Format direkt aus Fineco;",
+        "Bewahren Sie alle Daten <strong>auf Ihrem Gerät</strong> auf, ohne Anmeldedaten zu teilen;",
+        "Importieren Sie Dateien in DonkyCapital für erweiterte Analysen;",
+        "Erhalten Sie detaillierte Berichte über Vermögensallokation, Performance und Risiko."
+      ],
+      "fr": [
+        "Exportez facilement toutes les opérations au format <strong>XLSX</strong> directement depuis Fineco;",
+        "Conservez toutes les données <strong>sur votre appareil</strong>, sans partager d'identifiants de connexion;",
+        "Importez les fichiers dans DonkyCapital pour une analyse avancée;",
+        "Obtenez des rapports détaillés sur l'allocation d'actifs, les performances et le risque."
+      ],
+      "es": [
+        "Exporta fácilmente todas las operaciones en formato <strong>XLSX</strong> directamente desde Fineco;",
+        "Mantén todos los datos <strong>en tu dispositivo</strong>, sin compartir credenciales de inicio de sesión;",
+        "Importa archivos a DonkyCapital para análisis avanzado;",
+        "Obtén informes detallados sobre asignación de activos, rendimiento y riesgo."
+      ]
+    },
+    "whyExportQuote": {
+      "it": "Con DonkyCapital trasformi i dati grezzi di Fineco in insight strategici per ottimizzare il tuo portafoglio.",
+      "en": "With DonkyCapital, you transform Fineco's raw data into strategic insights to optimize your portfolio.",
+      "de": "Mit DonkyCapital verwandeln Sie die Rohdaten von Fineco in strategische Erkenntnisse zur Optimierung Ihres Portfolios.",
+      "fr": "Avec DonkyCapital, vous transformez les données brutes de Fineco en informations stratégiques pour optimiser votre portefeuille.",
+      "es": "Con DonkyCapital, transformas los datos sin procesar de Fineco en información estratégica para optimizar tu cartera."
+    },
+    "whyDonkyTitle": {
+      "it": "Perché usare DonkyCapital invece della piattaforma Fineco",
+      "en": "Why Use DonkyCapital Instead of Fineco's Platform",
+      "de": "Warum DonkyCapital anstelle der Fineco-Plattform verwenden",
+      "fr": "Pourquoi utiliser DonkyCapital au lieu de la plateforme Fineco",
+      "es": "Por qué usar DonkyCapital en lugar de la plataforma Fineco"
+    },
+    "whyDonkyText1": {
+      "it": "La piattaforma Fineco fornisce uno storico operazioni e reportistica di base. Tuttavia, non offre analisi avanzate come:",
+      "en": "Fineco's platform provides transaction history and basic reporting. However, it doesn't offer advanced analysis such as:",
+      "de": "Die Fineco-Plattform bietet Transaktionshistorie und grundlegende Berichterstattung. Sie bietet jedoch keine erweiterten Analysen wie:",
+      "fr": "La plateforme Fineco fournit un historique des transactions et des rapports de base. Cependant, elle n'offre pas d'analyse avancée telle que:",
+      "es": "La plataforma Fineco proporciona historial de transacciones e informes básicos. Sin embargo, no ofrece análisis avanzado como:"
+    },
+    "whyDonkyList": {
+      "it": [
+        "<strong>Dashboard personalizzabili</strong> con i tuoi KPI preferiti;",
+        "Analisi dettagliata dell'<strong>esposizione settoriale e geografica</strong>;",
+        "<strong>Comparazione multi-portafoglio</strong> se hai investimenti su più piattaforme;",
+        "<strong>Calcolo automatico delle performance</strong> time-weighted e money-weighted;",
+        "Alert e notifiche su <strong>ribilanciamento</strong> e asset allocation."
+      ],
+      "en": [
+        "<strong>Customizable dashboards</strong> with your preferred KPIs;",
+        "Detailed analysis of <strong>sector and geographic exposure</strong>;",
+        "<strong>Multi-portfolio comparison</strong> if you have investments across multiple platforms;",
+        "Automatic calculation of <strong>time-weighted and money-weighted performance</strong>;",
+        "Alerts and notifications on <strong>rebalancing</strong> and asset allocation."
+      ],
+      "de": [
+        "<strong>Anpassbare Dashboards</strong> mit Ihren bevorzugten KPIs;",
+        "Detaillierte Analyse der <strong>Sektor- und geografischen Exposition</strong>;",
+        "<strong>Multi-Portfolio-Vergleich</strong>, wenn Sie Investitionen über mehrere Plattformen haben;",
+        "Automatische Berechnung der <strong>zeitgewichteten und kapitalgewichteten Performance</strong>;",
+        "Warnungen und Benachrichtigungen zu <strong>Umschichtung</strong> und Vermögensallokation."
+      ],
+      "fr": [
+        "<strong>Tableaux de bord personnalisables</strong> avec vos KPI préférés;",
+        "Analyse détaillée de l'<strong>exposition sectorielle et géographique</strong>;",
+        "<strong>Comparaison multi-portefeuilles</strong> si vous avez des investissements sur plusieurs plateformes;",
+        "Calcul automatique des <strong>performances pondérées dans le temps et en capital</strong>;",
+        "Alertes et notifications sur le <strong>rééquilibrage</strong> et l'allocation d'actifs."
+      ],
+      "es": [
+        "<strong>Paneles personalizables</strong> con tus KPI preferidos;",
+        "Análisis detallado de la <strong>exposición sectorial y geográfica</strong>;",
+        "<strong>Comparación multi-cartera</strong> si tienes inversiones en múltiples plataformas;",
+        "Cálculo automático del <strong>rendimiento ponderado por tiempo y capital</strong>;",
+        "Alertas y notificaciones sobre <strong>reequilibrio</strong> y asignación de activos."
+      ]
+    },
+    "whyDonkyText2": {
+      "it": "Con DonkyCapital centralizzi tutti i tuoi investimenti (Fineco, Degiro, Scalable Capital, Moneyfarm, ecc.) in un'unica dashboard professionale.",
+      "en": "With DonkyCapital, you centralize all your investments (Fineco, Degiro, Scalable Capital, Moneyfarm, etc.) in a single professional dashboard.",
+      "de": "Mit DonkyCapital zentralisieren Sie alle Ihre Investitionen (Fineco, Degiro, Scalable Capital, Moneyfarm usw.) in einem einzigen professionellen Dashboard.",
+      "fr": "Avec DonkyCapital, vous centralisez tous vos investissements (Fineco, Degiro, Scalable Capital, Moneyfarm, etc.) dans un seul tableau de bord professionnel.",
+      "es": "Con DonkyCapital, centralizas todas tus inversiones (Fineco, Degiro, Scalable Capital, Moneyfarm, etc.) en un único panel profesional."
+    },
+    "whyDonkyQuote": {
+      "it": "DonkyCapital ti offre il controllo totale del tuo patrimonio, con analisi che Fineco non fornisce nativamente.",
+      "en": "DonkyCapital gives you total control of your wealth, with analysis that Fineco doesn't provide natively.",
+      "de": "DonkyCapital gibt Ihnen die vollständige Kontrolle über Ihr Vermögen mit Analysen, die Fineco nativ nicht bietet.",
+      "fr": "DonkyCapital vous donne un contrôle total sur votre patrimoine, avec des analyses que Fineco ne fournit pas nativement.",
+      "es": "DonkyCapital te da control total de tu patrimonio, con análisis que Fineco no proporciona de forma nativa."
+    },
+    "step1Title": {
+      "it": "Passo 1 — Accedi a Fineco e vai alla sezione Reports",
+      "en": "Step 1 — Access Fineco and Go to the Reports Section",
+      "de": "Schritt 1 — Greifen Sie auf Fineco zu und gehen Sie zum Bereich Berichte",
+      "fr": "Étape 1 — Accédez à Fineco et allez dans la section Rapports",
+      "es": "Paso 1 — Accede a Fineco y ve a la sección de Informes"
+    },
+    "step1List": {
+      "it": [
+        "Accedi alla piattaforma <strong>Fineco</strong> con le tue credenziali;",
+        "Dalla home, vai alla sezione <strong>\"Portafoglio\"</strong>;",
+        "Clicca su <strong>\"Reports\"</strong>;",
+        "Seleziona <strong>\"Ordini e contabili\"</strong>."
+      ],
+      "en": [
+        "Log in to the <strong>Fineco</strong> platform with your credentials;",
+        "From the home page, go to the <strong>\"Portfolio\"</strong> section;",
+        "Click on <strong>\"Reports\"</strong>;",
+        "Select <strong>\"Orders and Accounting\"</strong>."
+      ],
+      "de": [
+        "Melden Sie sich bei der <strong>Fineco</strong>-Plattform mit Ihren Zugangsdaten an;",
+        "Gehen Sie von der Startseite zum Bereich <strong>\"Portfolio\"</strong>;",
+        "Klicken Sie auf <strong>\"Berichte\"</strong>;",
+        "Wählen Sie <strong>\"Aufträge und Buchhaltung\"</strong>."
+      ],
+      "fr": [
+        "Connectez-vous à la plateforme <strong>Fineco</strong> avec vos identifiants;",
+        "Depuis la page d'accueil, allez dans la section <strong>\"Portefeuille\"</strong>;",
+        "Cliquez sur <strong>\"Rapports\"</strong>;",
+        "Sélectionnez <strong>\"Ordres et comptabilité\"</strong>."
+      ],
+      "es": [
+        "Inicia sesión en la plataforma <strong>Fineco</strong> con tus credenciales;",
+        "Desde la página de inicio, ve a la sección <strong>\"Cartera\"</strong>;",
+        "Haz clic en <strong>\"Informes\"</strong>;",
+        "Selecciona <strong>\"Órdenes y contabilidad\"</strong>."
+      ]
+    },
+    "step1Tip": {
+      "it": "Consiglio: esporta l'intero storico delle operazioni per avere un'analisi completa in DonkyCapital.",
+      "en": "Tip: Export your entire transaction history for complete analysis in DonkyCapital.",
+      "de": "Tipp: Exportieren Sie Ihre gesamte Transaktionshistorie für eine vollständige Analyse in DonkyCapital.",
+      "fr": "Conseil: Exportez tout votre historique de transactions pour une analyse complète dans DonkyCapital.",
+      "es": "Consejo: Exporta todo tu historial de transacciones para un análisis completo en DonkyCapital."
+    },
+    "step2Title": {
+      "it": "Passo 2 — Esporta il file Excel (XLSX)",
+      "en": "Step 2 — Export the Excel File (XLSX)",
+      "de": "Schritt 2 — Exportieren Sie die Excel-Datei (XLSX)",
+      "fr": "Étape 2 — Exportez le fichier Excel (XLSX)",
+      "es": "Paso 2 — Exporta el archivo Excel (XLSX)"
+    },
+    "step2List": {
+      "it": [
+        "Nella pagina \"Ordini e contabili\", seleziona il <strong>periodo di riferimento</strong> (consigliato: dall'inizio ad oggi);",
+        "Clicca sul pulsante <strong>\"Esporta in Excel\"</strong> o <strong>\"Download\"</strong>;",
+        "Il file <code>.xlsx</code> verrà scaricato sul tuo computer;",
+        "Salva il file in una cartella facilmente accessibile."
+      ],
+      "en": [
+        "On the \"Orders and Accounting\" page, select the <strong>reference period</strong> (recommended: from inception to date);",
+        "Click the <strong>\"Export to Excel\"</strong> or <strong>\"Download\"</strong> button;",
+        "The <code>.xlsx</code> file will be downloaded to your computer;",
+        "Save the file in an easily accessible folder."
+      ],
+      "de": [
+        "Wählen Sie auf der Seite \"Aufträge und Buchhaltung\" den <strong>Referenzzeitraum</strong> aus (empfohlen: von Beginn bis heute);",
+        "Klicken Sie auf die Schaltfläche <strong>\"Nach Excel exportieren\"</strong> oder <strong>\"Herunterladen\"</strong>;",
+        "Die <code>.xlsx</code>-Datei wird auf Ihren Computer heruntergeladen;",
+        "Speichern Sie die Datei in einem leicht zugänglichen Ordner."
+      ],
+      "fr": [
+        "Sur la page \"Ordres et comptabilité\", sélectionnez la <strong>période de référence</strong> (recommandé: depuis le début jusqu'à aujourd'hui);",
+        "Cliquez sur le bouton <strong>\"Exporter vers Excel\"</strong> ou <strong>\"Télécharger\"</strong>;",
+        "Le fichier <code>.xlsx</code> sera téléchargé sur votre ordinateur;",
+        "Enregistrez le fichier dans un dossier facilement accessible."
+      ],
+      "es": [
+        "En la página \"Órdenes y contabilidad\", selecciona el <strong>período de referencia</strong> (recomendado: desde el inicio hasta la fecha);",
+        "Haz clic en el botón <strong>\"Exportar a Excel\"</strong> o <strong>\"Descargar\"</strong>;",
+        "El archivo <code>.xlsx</code> se descargará en tu computadora;",
+        "Guarda el archivo en una carpeta de fácil acceso."
+      ]
+    },
+    "step2Text": {
+      "it": "Il file Excel contiene tutte le informazioni sulle tue operazioni: data, strumento, quantità, prezzo, commissioni e importo totale.",
+      "en": "The Excel file contains all information about your operations: date, instrument, quantity, price, fees, and total amount.",
+      "de": "Die Excel-Datei enthält alle Informationen zu Ihren Operationen: Datum, Instrument, Menge, Preis, Gebühren und Gesamtbetrag.",
+      "fr": "Le fichier Excel contient toutes les informations sur vos opérations: date, instrument, quantité, prix, frais et montant total.",
+      "es": "El archivo Excel contiene toda la información sobre tus operaciones: fecha, instrumento, cantidad, precio, comisiones e importe total."
+    },
+    "step2Highlight": {
+      "it": "Fineco permette l'esportazione diretta senza bisogno di estensioni browser o strumenti di terze parti.",
+      "en": "Fineco allows direct export without the need for browser extensions or third-party tools.",
+      "de": "Fineco ermöglicht den direkten Export ohne Browser-Erweiterungen oder Tools von Drittanbietern.",
+      "fr": "Fineco permet l'exportation directe sans avoir besoin d'extensions de navigateur ou d'outils tiers.",
+      "es": "Fineco permite la exportación directa sin necesidad de extensiones de navegador o herramientas de terceros."
+    },
+    "step3Title": {
+      "it": "Passo 3 — Importa il file in DonkyCapital",
+      "en": "Step 3 — Import the File into DonkyCapital",
+      "de": "Schritt 3 — Importieren Sie die Datei in DonkyCapital",
+      "fr": "Étape 3 — Importez le fichier dans DonkyCapital",
+      "es": "Paso 3 — Importa el archivo a DonkyCapital"
+    },
+    "step3List": {
+      "it": [
+        "Accedi a <strong>DonkyCapital.com</strong> e apri il tuo account;",
+        "Seleziona il portafoglio in cui importare i dati;",
+        "Clicca su <strong>\"Importa Transazioni\"</strong>;",
+        "Carica il file <code>.xlsx</code> esportato da Fineco;",
+        "Conferma l'importazione e attendi l'elaborazione (pochi secondi)."
+      ],
+      "en": [
+        "Log in to <strong>DonkyCapital.com</strong> and open your account;",
+        "Select the portfolio to import data into;",
+        "Click <strong>\"Import Transactions\"</strong>;",
+        "Upload the <code>.xlsx</code> file exported from Fineco;",
+        "Confirm the import and wait for processing (a few seconds)."
+      ],
+      "de": [
+        "Melden Sie sich bei <strong>DonkyCapital.com</strong> an und öffnen Sie Ihr Konto;",
+        "Wählen Sie das Portfolio aus, in das Sie Daten importieren möchten;",
+        "Klicken Sie auf <strong>\"Transaktionen importieren\"</strong>;",
+        "Laden Sie die aus Fineco exportierte <code>.xlsx</code>-Datei hoch;",
+        "Bestätigen Sie den Import und warten Sie auf die Verarbeitung (einige Sekunden)."
+      ],
+      "fr": [
+        "Connectez-vous à <strong>DonkyCapital.com</strong> et ouvrez votre compte;",
+        "Sélectionnez le portefeuille dans lequel importer les données;",
+        "Cliquez sur <strong>\"Importer les transactions\"</strong>;",
+        "Téléchargez le fichier <code>.xlsx</code> exporté depuis Fineco;",
+        "Confirmez l'importation et attendez le traitement (quelques secondes)."
+      ],
+      "es": [
+        "Inicia sesión en <strong>DonkyCapital.com</strong> y abre tu cuenta;",
+        "Selecciona la cartera en la que importar los datos;",
+        "Haz clic en <strong>\"Importar transacciones\"</strong>;",
+        "Carga el archivo <code>.xlsx</code> exportado desde Fineco;",
+        "Confirma la importación y espera el procesamiento (unos segundos)."
+      ]
+    },
+    "step3Text": {
+      "it": "In pochi secondi, tutte le tue transazioni Fineco saranno visibili nella dashboard DonkyCapital, con report dettagliati su:",
+      "en": "In a few seconds, all your Fineco transactions will be visible in the DonkyCapital dashboard, with detailed reports on:",
+      "de": "In wenigen Sekunden werden alle Ihre Fineco-Transaktionen im DonkyCapital-Dashboard sichtbar sein, mit detaillierten Berichten über:",
+      "fr": "En quelques secondes, toutes vos transactions Fineco seront visibles dans le tableau de bord DonkyCapital, avec des rapports détaillés sur:",
+      "es": "En unos segundos, todas tus transacciones de Fineco serán visibles en el panel de DonkyCapital, con informes detallados sobre:"
+    },
+    "step3ReportList": {
+      "it": [
+        "Composizione del portafoglio per asset class;",
+        "Performance time-weighted e money-weighted;",
+        "Esposizione settoriale e geografica;",
+        "Analisi di bilanciamento e ribilanciamento;",
+        "Confronto con benchmark e altri portafogli."
+      ],
+      "en": [
+        "Portfolio composition by asset class;",
+        "Time-weighted and money-weighted performance;",
+        "Sector and geographic exposure;",
+        "Balance and rebalancing analysis;",
+        "Comparison with benchmarks and other portfolios."
+      ],
+      "de": [
+        "Portfolio-Zusammensetzung nach Anlageklasse;",
+        "Zeitgewichtete und kapitalgewichtete Performance;",
+        "Sektor- und geografische Exposition;",
+        "Balance- und Umschichtungsanalyse;",
+        "Vergleich mit Benchmarks und anderen Portfolios."
+      ],
+      "fr": [
+        "Composition du portefeuille par classe d'actifs;",
+        "Performance pondérée dans le temps et en capital;",
+        "Exposition sectorielle et géographique;",
+        "Analyse d'équilibre et de rééquilibrage;",
+        "Comparaison avec des benchmarks et d'autres portefeuilles."
+      ],
+      "es": [
+        "Composición de cartera por clase de activo;",
+        "Rendimiento ponderado por tiempo y capital;",
+        "Exposición sectorial y geográfica;",
+        "Análisis de balance y reequilibrio;",
+        "Comparación con benchmarks y otras carteras."
+      ]
+    },
+    "step3Highlight": {
+      "it": "Questo livello di analisi <strong>non è disponibile nativamente su Fineco</strong>, che si concentra principalmente sul trading e non sull'asset allocation strategica.",
+      "en": "This level of analysis <strong>is not natively available on Fineco</strong>, which focuses primarily on trading rather than strategic asset allocation.",
+      "de": "Dieses Analyseniveau <strong>ist auf Fineco nativ nicht verfügbar</strong>, da es sich hauptsächlich auf den Handel und nicht auf strategische Vermögensallokation konzentriert.",
+      "fr": "Ce niveau d'analyse <strong>n'est pas disponible nativement sur Fineco</strong>, qui se concentre principalement sur le trading plutôt que sur l'allocation d'actifs stratégique.",
+      "es": "Este nivel de análisis <strong>no está disponible de forma nativa en Fineco</strong>, que se centra principalmente en el trading en lugar de la asignación estratégica de activos."
+    },
+    "faqTitle": {
+      "it": "Domande frequenti (FAQ)",
+      "en": "Frequently Asked Questions (FAQ)",
+      "de": "Häufig gestellte Fragen (FAQ)",
+      "fr": "Questions fréquemment posées (FAQ)",
+      "es": "Preguntas frecuentes (FAQ)"
+    },
+    "faq": {
+      "it": [
+        {
+          "question": "Devo modificare il file Excel prima di importarlo?",
+          "answer": "No. Carica il file così come lo esporti da Fineco. DonkyCapital riconosce automaticamente il formato e importa tutte le transazioni."
+        },
+        {
+          "question": "DonkyCapital richiede le credenziali di accesso a Fineco?",
+          "answer": "Assolutamente no. DonkyCapital non ha mai accesso alle tue credenziali bancarie. L'import avviene tramite file Excel che tu esporti e carichi manualmente."
+        },
+        {
+          "question": "Posso importare più portafogli Fineco?",
+          "answer": "Sì, puoi creare portafogli separati in DonkyCapital e importare i dati di ciascun conto Fineco separatamente, oppure unirli in un unico portafoglio consolidato."
+        },
+        {
+          "question": "Come gestisce DonkyCapital le commissioni di Fineco?",
+          "answer": "DonkyCapital importa automaticamente le commissioni presenti nel file Excel di Fineco e le include nel calcolo delle performance reali del portafoglio."
+        }
+      ],
+      "en": [
+        {
+          "question": "Do I need to modify the Excel file before importing?",
+          "answer": "No. Upload the file exactly as you export it from Fineco. DonkyCapital automatically recognizes the format and imports all transactions."
+        },
+        {
+          "question": "Does DonkyCapital require Fineco login credentials?",
+          "answer": "Absolutely not. DonkyCapital never has access to your banking credentials. Import happens via Excel files that you export and upload manually."
+        },
+        {
+          "question": "Can I import multiple Fineco portfolios?",
+          "answer": "Yes, you can create separate portfolios in DonkyCapital and import data from each Fineco account separately, or merge them into a single consolidated portfolio."
+        },
+        {
+          "question": "How does DonkyCapital handle Fineco fees?",
+          "answer": "DonkyCapital automatically imports fees from the Fineco Excel file and includes them in the calculation of your portfolio's actual performance."
+        }
+      ],
+      "de": [
+        {
+          "question": "Muss ich die Excel-Datei vor dem Import ändern?",
+          "answer": "Nein. Laden Sie die Datei genau so hoch, wie Sie sie von Fineco exportieren. DonkyCapital erkennt das Format automatisch und importiert alle Transaktionen."
+        },
+        {
+          "question": "Benötigt DonkyCapital Fineco-Anmeldedaten?",
+          "answer": "Absolut nicht. DonkyCapital hat niemals Zugriff auf Ihre Bankdaten. Der Import erfolgt über Excel-Dateien, die Sie manuell exportieren und hochladen."
+        },
+        {
+          "question": "Kann ich mehrere Fineco-Portfolios importieren?",
+          "answer": "Ja, Sie können separate Portfolios in DonkyCapital erstellen und Daten von jedem Fineco-Konto separat importieren oder sie in einem konsolidierten Portfolio zusammenführen."
+        },
+        {
+          "question": "Wie behandelt DonkyCapital Fineco-Gebühren?",
+          "answer": "DonkyCapital importiert Gebühren automatisch aus der Fineco-Excel-Datei und berücksichtigt sie bei der Berechnung der tatsächlichen Performance Ihres Portfolios."
+        }
+      ],
+      "fr": [
+        {
+          "question": "Dois-je modifier le fichier Excel avant de l'importer?",
+          "answer": "Non. Téléchargez le fichier exactement comme vous l'exportez depuis Fineco. DonkyCapital reconnaît automatiquement le format et importe toutes les transactions."
+        },
+        {
+          "question": "DonkyCapital nécessite-t-il des identifiants de connexion Fineco?",
+          "answer": "Absolument pas. DonkyCapital n'a jamais accès à vos identifiants bancaires. L'importation se fait via des fichiers Excel que vous exportez et téléchargez manuellement."
+        },
+        {
+          "question": "Puis-je importer plusieurs portefeuilles Fineco?",
+          "answer": "Oui, vous pouvez créer des portefeuilles séparés dans DonkyCapital et importer les données de chaque compte Fineco séparément, ou les fusionner dans un portefeuille consolidé unique."
+        },
+        {
+          "question": "Comment DonkyCapital gère-t-il les frais Fineco?",
+          "answer": "DonkyCapital importe automatiquement les frais du fichier Excel Fineco et les inclut dans le calcul de la performance réelle de votre portefeuille."
+        }
+      ],
+      "es": [
+        {
+          "question": "¿Necesito modificar el archivo Excel antes de importarlo?",
+          "answer": "No. Carga el archivo exactamente como lo exportas desde Fineco. DonkyCapital reconoce automáticamente el formato e importa todas las transacciones."
+        },
+        {
+          "question": "¿DonkyCapital requiere credenciales de inicio de sesión de Fineco?",
+          "answer": "Absolutamente no. DonkyCapital nunca tiene acceso a tus credenciales bancarias. La importación se realiza mediante archivos Excel que tú exportas y cargas manualmente."
+        },
+        {
+          "question": "¿Puedo importar varias carteras de Fineco?",
+          "answer": "Sí, puedes crear carteras separadas en DonkyCapital e importar datos de cada cuenta Fineco por separado, o fusionarlas en una única cartera consolidada."
+        },
+        {
+          "question": "¿Cómo maneja DonkyCapital las comisiones de Fineco?",
+          "answer": "DonkyCapital importa automáticamente las comisiones del archivo Excel de Fineco y las incluye en el cálculo del rendimiento real de tu cartera."
+        }
+      ]
     }
   }
 }

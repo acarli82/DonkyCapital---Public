@@ -3,6 +3,7 @@ import type { Dictionary } from '@/lib/i18n/getDictionary'
 import type { Locale } from '@/lib/i18n/config'
 import { scalableCapitalSlugs } from '@/lib/pages/scalable-capital-slugs'
 import { degiroSlugs } from '@/lib/pages/degiro-slugs'
+import { finecoSlugs } from '@/lib/pages/fineco-slugs'
 
 interface FeaturesSectionProps {
   dict: Dictionary
@@ -11,6 +12,7 @@ interface FeaturesSectionProps {
 
 export default function FeaturesSection({ dict, lang = 'en' }: FeaturesSectionProps) {
   const brokerLinks: Record<string, string | null> = {
+    'Fineco': `/${lang}/${finecoSlugs[lang]}`,
     'Scalable': `/${lang}/${scalableCapitalSlugs[lang]}`,
     'Degiro': `/${lang}/${degiroSlugs[lang]}`,
     'Moneyfarm': null,
@@ -49,7 +51,7 @@ export default function FeaturesSection({ dict, lang = 'en' }: FeaturesSectionPr
       ),
       title: dict.landing.features.multiPortfolio.title,
       description: dict.landing.features.multiPortfolio.description,
-      brokers: ['Moneyfarm', 'Degiro', 'Scalable', 'Directa']
+      brokers: ['Fineco', 'Moneyfarm', 'Degiro', 'Scalable', 'Directa']
     }
   ]
 
