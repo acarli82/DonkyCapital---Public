@@ -6,7 +6,7 @@
 $rootDir = "C:\Users\Andrea\Documents\Sites\DonkyCapital - Public\public"
 
 # 2️⃣ Percorso del cwebp.exe
-$cwebpPath = "C:\webp\bin\cwebp.exe"
+$cwebpPath = "C:\Users\Andrea\Downloads\libwebp-1.6.0-windows-x64\libwebp-1.6.0-windows-x64\bin\cwebp.exe"
 
 # 3️⃣ Qualità WebP (0-100)
 $quality = 80

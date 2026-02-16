@@ -11,13 +11,15 @@ export default function MultiBrokerContent({ dict }: MultiBrokerContentProps) {
   return (
     <div className="py-8">
       {/* Page Header */}
-      <div className="mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
-          {mb.pageTitle}
+      <div className="mb-12">
+        <h1 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
+          {(mb.pageTitle || '').split('Portfolio Tracking').map((part: string, i: number, arr: string[]) => (
+            <span key={i}>
+              {i > 0 && <span className="gradient-text">Portfolio Tracking</span>}
+              {part}
+            </span>
+          ))}
         </h1>
-        <p className="text-sm text-white/60">
-          {mb.readingTime}
-        </p>
       </div>
 
       {/* Intro Paragraphs */}

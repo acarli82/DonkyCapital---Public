@@ -5,6 +5,7 @@ import { scalableCapitalSlugs } from '@/lib/pages/scalable-capital-slugs'
 import { degiroSlugs } from '@/lib/pages/degiro-slugs'
 import { finecoSlugs } from '@/lib/pages/fineco-slugs'
 import { multiBrokerSlugs } from '@/lib/pages/multi-broker-slugs'
+import { vsGetquinSlugs } from '@/lib/pages/vs-getquin-slugs'
 
 interface FooterProps {
   dict: Dictionary
@@ -123,6 +124,11 @@ export default function Footer({ dict, lang }: FooterProps) {
             <li>
               <Link href={`/${lang}/${finecoSlugs[lang]}`} className="hover:text-white transition-colors">
                 Fineco
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/${vsGetquinSlugs[lang]}`} className="hover:text-white transition-colors">
+                DonkyCapital vs Getquin
               </Link>
             </li>
           </ul>
