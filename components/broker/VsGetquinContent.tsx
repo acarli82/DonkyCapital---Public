@@ -162,7 +162,6 @@ export default function VsGetquinContent({ dict, lang }: VsGetquinContentProps) 
               alt="DonkyCapital Dashboard"
               width={700}
               height={400}
-              className="rounded-lg"
             />
             <p className="text-xs text-white/50 mt-2">{vg.donkyScreenCaption}</p>
           </div>
@@ -175,7 +174,6 @@ export default function VsGetquinContent({ dict, lang }: VsGetquinContentProps) 
               alt="Getquin Dashboard"
               width={700}
               height={400}
-              className="rounded-lg"
             />
             <p className="text-xs text-white/50 mt-2">{vg.getquinScreenCaption}</p>
           </div>
