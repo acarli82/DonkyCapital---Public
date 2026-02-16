@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { usePathname } from 'next/navigation'
 import { i18n, localeNames, type Locale } from '@/lib/i18n/config'
+import { getLocalizedSlug } from '@/lib/pages/slug-map'
 
 interface LanguageSelectorProps {
   currentLang: Locale
@@ -40,6 +41,12 @@ export default function LanguageSelector({ currentLang }: LanguageSelectorProps)
     }
     // Handle paths that start with locale
     if (normalizedPath.startsWith(`/${currentLang}/`)) {
+      const currentSlug = normalizedPath.replace(`/${currentLang}/`, '')
+      // Check if this page has a localized slug (e.g. /it/tracciare-portafoglio-piu-broker -> /en/track-portfolio-multiple-brokers)
+      const localizedSlug = getLocalizedSlug(currentSlug, currentLang, newLang)
+      if (localizedSlug) {
+        return `/${newLang}/${localizedSlug}`
+      }
       return normalizedPath.replace(`/${currentLang}/`, `/${newLang}/`)
     }
     // Fallback: just return new locale (safest)
