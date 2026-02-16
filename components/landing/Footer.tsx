@@ -3,6 +3,8 @@ import type { Dictionary } from '@/lib/i18n/getDictionary'
 import type { Locale } from '@/lib/i18n/config'
 import { scalableCapitalSlugs } from '@/lib/pages/scalable-capital-slugs'
 import { degiroSlugs } from '@/lib/pages/degiro-slugs'
+import { finecoSlugs } from '@/lib/pages/fineco-slugs'
+import { multiBrokerSlugs } from '@/lib/pages/multi-broker-slugs'
 
 interface FooterProps {
   dict: Dictionary
@@ -99,10 +101,15 @@ export default function Footer({ dict, lang }: FooterProps) {
           </ul>
         </div>
 
-        {/* Platforms Section */}
+        {/* Guides Section */}
         <div>
           <h4 className="font-semibold mb-4">{dict.landing.footer.platforms}</h4>
           <ul className="space-y-2 text-sm text-white/80">
+            <li>
+              <Link href={`/${lang}/${multiBrokerSlugs[lang]}`} className="hover:text-white transition-colors">
+                Portfolio Tracking
+              </Link>
+            </li>
             <li>
               <Link href={`/${lang}/${scalableCapitalSlugs[lang]}`} className="hover:text-white transition-colors">
                 Scalable Capital
@@ -111,6 +118,11 @@ export default function Footer({ dict, lang }: FooterProps) {
             <li>
               <Link href={`/${lang}/${degiroSlugs[lang]}`} className="hover:text-white transition-colors">
                 Degiro
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/${finecoSlugs[lang]}`} className="hover:text-white transition-colors">
+                Fineco
               </Link>
             </li>
           </ul>

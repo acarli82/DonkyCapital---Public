@@ -3,6 +3,7 @@ import { i18n, type Locale } from '@/lib/i18n/config'
 import { scalableCapitalSlugs } from '@/lib/pages/scalable-capital-slugs'
 import { degiroSlugs } from '@/lib/pages/degiro-slugs'
 import { finecoSlugs } from '@/lib/pages/fineco-slugs'
+import { multiBrokerSlugs } from '@/lib/pages/multi-broker-slugs'
 
 const baseUrl = 'https://www.donkycapital.com'
 
@@ -102,6 +103,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9, // Higher priority for Fineco as it's a major Italian broker
+      alternates: {
+        languages: alternates,
+      },
+    })
+  }
+
+  // Add Multi-Broker Portfolio Tracking guide with language-specific slugs
+  for (const locale of i18n.locales) {
+    const slug = multiBrokerSlugs[locale as Locale]
+    const url = `${baseUrl}/${locale}/${slug}`
+
+    const alternates: Record<string, string> = {}
+    for (const altLocale of i18n.locales) {
+      alternates[altLocale] = `${baseUrl}/${altLocale}/${multiBrokerSlugs[altLocale as Locale]}`
+    }
+    alternates['x-default'] = `${baseUrl}/en/${multiBrokerSlugs.en}`
+
+    sitemapEntries.push({
+      url,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.95, // High priority as it's a comprehensive guide
       alternates: {
         languages: alternates,
       },

@@ -155,7 +155,7 @@
       "siteMap": "Site Map",
       "termsAndConditions": "Terms & Conditions",
       "company": "Company",
-      "platforms": "Platforms",
+      "platforms": "Guides",
       "legal": "Legal"
     },
     "header": {
@@ -380,6 +380,10 @@
     "degiro": {
       "title": "How to export data from DEGIRO and import it into DonkyCapital",
       "description": "Complete guide to export data from DEGIRO and import it into DonkyCapital to analyze assets, balance, exposure and performance of your portfolio."
+    },
+    "multiBroker": {
+      "title": "Multi-Broker Portfolio Tracker: Track Investments Across Platforms | DonkyCapital",
+      "description": "Complete 2026 guide to multi-broker portfolio tracking. Track Degiro, Scalable Capital, Fineco in one dashboard. Excel alternative for investment portfolio monitoring."
     }
   },
   "tagline": "Monitor, Analyze, Optimize Your Investments",
@@ -614,5 +618,107 @@
         "answer": "DonkyCapital automatically imports fees from the DEGIRO CSV file and includes them in the calculation of your portfolio's actual performance."
       }
     ]
+  },
+  "multiBroker": {
+    "pageTitle": "Complete Portfolio Tracking Guide: How to Track Investments Across Multiple Brokers (2026)",
+    "readingTime": "Reading time: 12 min | Updated: January 2026",
+    "introParagraphs": [
+      "You have an account on <strong>Scalable Capital</strong> for ETF savings plans, use <strong>Degiro</strong> for US stocks, keep bonds on <strong>Directa</strong> for tax optimization, and maybe have a hardware wallet for <strong>Crypto</strong>.",
+      "If this sounds familiar, you already know the problem: <strong>total chaos</strong>.",
+      "Accessing 4 different apps to understand your net worth is frustrating. Even worse is having no idea of your true risk exposure. <em>How much does the S&P 500 really weigh in your total? Are you overexposed to tech without knowing it?</em>",
+      "In this definitive <strong>Portfolio Tracking</strong> guide, we'll see exactly how to aggregate all your investments into one professional dashboard, the metrics that truly matter (beyond simple gains), and how to do it while keeping your data 100% private."
+    ],
+    "tocTitle": "Table of Contents",
+    "tocItems": [
+      "Why \"Mental Accounting\" Costs You Money",
+      "Tracking Methods: Excel vs Apps vs Hybrid",
+      "What to Track: The Complete Checklist",
+      "Metrics: TWR vs IRR (and why P&L lies)",
+      "3 Common Mistakes in Investment Tracking",
+      "Recommended Tools: The Privacy-First Solution",
+      "Step-by-Step Tutorial: 5-Minute Setup",
+      "FAQ"
+    ],
+    "section1Title": "1. Why \"Mental Accounting\" Costs You Money",
+    "section1Content": [
+      "Many investors fall into the trap of mentally compartmentalizing their money. \"This is retirement money on Scalable\", \"This is trading money on Degiro\".",
+      "Without an aggregated view (Portfolio Tracking), you risk:"
+    ],
+    "section1Risks": [
+      "<strong>Asset Overlap:</strong> You might buy a World ETF on one broker and a Tech ETF on another, ending up with 40% of your portfolio in Apple and Microsoft unintentionally.",
+      "<strong>Tax Inefficiency:</strong> Not seeing capital gains and losses in one screen makes it difficult to plan tax loss harvesting.",
+      "<strong>Asset Allocation Drift:</strong> You wanted a 60/40 stocks/bonds allocation, but market movements brought you to 80/20. Without unified tracking, you don't notice and don't rebalance."
+    ],
+    "section2Title": "2. Tracking Methods: Excel vs Automated Apps vs Hybrid",
+    "section2Intro": "In 2026, you essentially have three ways to monitor your portfolio.",
+    "section2TableHeaderMethod": "Method",
+    "section2TableHeaderPro": "Pros",
+    "section2TableHeaderCon": "Cons",
+    "section2MethodAName": "A. Spreadsheet",
+    "section2MethodASub": "Excel / Google Sheets",
+    "section2MethodAPro": "Infinite customization, free, no data sharing.",
+    "section2MethodACon": "You must enter data manually, formulas break (\"#REF!\"), retrieving real-time prices is complex (Google Finance often fails on European tickers or local exchanges).",
+    "section2MethodBName": "B. Banking API Apps",
+    "section2MethodBSub": "Open Banking",
+    "section2MethodBPro": "Fully automatic.",
+    "section2MethodBCon": "<strong>Privacy:</strong> you must provide login credentials or API tokens to third parties. Connections often drop, requiring continuous reconnections.",
+    "section2MethodCName": "C. Data Import",
+    "section2MethodCSub": "The DonkyCapital Approach",
+    "section2MethodCPro": "<strong>Maximum Privacy</strong> (you never share your broker password), automated calculations (the software does everything), penny-accurate data.",
+    "section2MethodCCon": "Requires 30 seconds per month to upload the updated file.",
+    "section2Verdict": "<strong>The verdict:</strong> If you care about the security of your financial data but don't want to go crazy with Excel, the \"Data Import\" approach is the gold standard of 2026.",
+    "section3Title": "3. What to Track: The Complete Checklist",
+    "section3Intro": "Good tracking doesn't just look at the \"Current Price\". For total control, your dashboard must include:",
+    "section3Items": [
+      "<strong>Asset Class:</strong> Stocks, Bonds, ETFs, Crypto, Cash, P2P Lending.",
+      "<strong>Geography:</strong> How exposed are you to the US? And Europe?",
+      "<strong>Currency:</strong> Too many assets in USD? If the Euro strengthens, your portfolio drops. You need to know.",
+      "<strong>Sectors:</strong> Technology, Healthcare, Energy. Sector diversification is your insurance against specific crises.",
+      "<strong>Costs (TER & Fees):</strong> Often hidden, they erode compound returns."
+    ],
+    "section4Title": "4. Essential Metrics: TWR vs IRR (and why P&L lies)",
+    "section4Intro": "If you only look at the absolute <strong>P&L (Profit & Loss)</strong> (e.g. \"+€500\"), you're not understanding how you invest. Here are the two king metrics you'll find on advanced platforms like <strong>DonkyCapital</strong>:",
+    "section4TWRTitle": "TWR (Time-Weighted Return)",
+    "section4TWRContent": "Measures manager skill (yourself) by eliminating the effect of deposits/withdrawals. Essential for comparing your performance against a benchmark (e.g. S&P 500). If you deposit €10,000 and the market is flat, your value goes up, but your TWR stays at 0%. Correct.",
+    "section4MWRTitle": "MWR / IRR (Money-Weighted Return)",
+    "section4MWRContent": "Takes into account the <em>timing</em> of your cash flows. If you're good at \"buying the dip\", your MWR will be higher than your TWR.",
+    "section4Tip": "Use TWR to understand if your strategy works compared to the market. Use IRR to understand how much you're actually earning in your pocket.",
+    "section5Title": "5. 3 Common Mistakes to Avoid",
+    "section5Error1": "<strong>Ignoring Dividends:</strong> Many Excel sheets only track price. If you invest in <em>Dividend Aristocrats</em>, you could be underestimating your return by 3-4% annually.",
+    "section5Error2": "<strong>Forgetting Cash:</strong> Cash is a position! If 50% of your portfolio is liquid waiting to invest, your risk is low. If you don't track it, you think you're 100% invested.",
+    "section5Error3": "<strong>Wrong Benchmarking:</strong> Don't compare a 60/40 portfolio with the S&P 500 (100% stocks). You'll always feel like you're losing during bull markets, pushing you to take too much risk.",
+    "section6Title": "6. Recommended Tools: DonkyCapital",
+    "section6Intro": "For a European investor using brokers like Scalable Capital, Degiro, Moneyfarm or Directa, the tool choice is critical.",
+    "section6EditorTitle": "Editor's Choice: DonkyCapital",
+    "section6EditorContent": "<strong>DonkyCapital</strong> was born to solve the privacy problem and the complexity of Excel. It's a <strong>Progressive Web App (PWA)</strong>, so it works on desktop and mobile like a native app, but without going through app stores.",
+    "section6WhyTitle": "Why we like it:",
+    "section6Feature1": "<strong>Zero Credentials:</strong> You never have to give your broker password. It works by importing the files your broker already provides.",
+    "section6Feature2": "<strong>Scalable Capital \"Hack\":</strong> Scalable requires the Prime+ plan to see detailed performance. DonkyCapital offers a free Chrome extension that extracts your data from Scalable (even Free plan) and analyzes it for free.",
+    "section6Feature3": "<strong>Customizable Dashboards:</strong> Unlike other rigid tools, here you can move widgets, create pie charts or heatmaps as you please.",
+    "section7Title": "7. Step-by-Step Setup: Unify Your Portfolio in 5 Minutes",
+    "section7Intro": "Here's how to set up professional tracking using DonkyCapital (taking advantage of the <strong>Free Early Access</strong> period).",
+    "section7Step1Title": "Step 1: Create Your Account",
+    "section7Step1Content": "Go to DonkyCapital.com and sign up. Currently the first 100 users get lifetime Premium features for free.",
+    "section7Step2Title": "Step 2: Get Your Data from the Broker",
+    "section7Step2Items": [
+      "<strong>Degiro:</strong> Go to Portfolio -> Export (CSV).",
+      "<strong>Scalable Capital:</strong> Use the DonkyCapital Chrome extension if you have the Free plan, or download the report from \"Profile -> Taxes/Documents\".",
+      "<strong>Others (Directa/Moneyfarm/Trade Republic):</strong> Download the PDF or CSV of transactions."
+    ],
+    "section7Step3Title": "Step 3: Import",
+    "section7Step3Content": "In the DonkyCapital dashboard, click \"Import Portfolio\", select your broker and drag the file.<br/><em>The system will automatically recognize tickers, dates, prices and fees.</em>",
+    "section7Step4Title": "Step 4: Analyze",
+    "section7Step4Content": "Now you have access to the <strong>Sector Heatmap</strong> (to see if you're overexposed to Tech or Finance) and the <strong>Dividend</strong> chart. Configure the dashboard by dragging the widgets you care about most to the top.",
+    "section8Title": "8. FAQ - Frequently Asked Questions",
+    "section8FAQ1Q": "Is it safe to upload my broker files?",
+    "section8FAQ1A": "Yes. CSV/PDF files only contain transaction history. They don't contain passwords, nor allow fund withdrawals. Data on DonkyCapital is encrypted and servers are in Europe (GDPR compliant).",
+    "section8FAQ2Q": "Can I track Crypto?",
+    "section8FAQ2A": "Absolutely yes. You can merge in the same chart your stock portfolio on Degiro and your Bitcoin on Ledger/Binance to see your total wealth.",
+    "section8FAQ3Q": "Does it work on Mobile?",
+    "section8FAQ3A": "Yes, DonkyCapital is a PWA. You can add it to your iPhone or Android home screen and use it like a native app.",
+    "ctaTitle": "Want to Stop Using Excel?",
+    "ctaDescription": "We're opening the Early Access Program. The first users will receive Premium features forever, for free.",
+    "ctaButton": "SIGN UP FREE NOW (Early Access)",
+    "ctaNote": "Includes automated import for Scalable, Degiro, Directa and more."
   }
 }

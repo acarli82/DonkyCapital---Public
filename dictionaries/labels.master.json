@@ -838,11 +838,11 @@
         "es": "Empresa"
       },
       "platforms": {
-        "it": "Piattaforme",
-        "en": "Platforms",
-        "de": "Plattformen",
-        "fr": "Plateformes",
-        "es": "Plataformas"
+        "it": "Guide",
+        "en": "Guides",
+        "de": "Anleitungen",
+        "fr": "Guides",
+        "es": "Guías"
       },
       "legal": {
         "it": "Legale",
@@ -1953,6 +1953,22 @@
         "de": "Vollständiger Leitfaden zum Exportieren von Daten aus DEGIRO und Importieren in DonkyCapital zur Analyse von Assets, Balance, Exposition und Performance Ihres Portfolios.",
         "fr": "Guide complet pour exporter les données de DEGIRO et les importer dans DonkyCapital pour analyser les actifs, l'équilibre, l'exposition et les performances de votre portefeuille.",
         "es": "Guía completa para exportar datos de DEGIRO e importarlos a DonkyCapital para analizar activos, equilibrio, exposición y rendimiento de tu cartera."
+      }
+    },
+    "multiBroker": {
+      "title": {
+        "it": "Portfolio Tracker Multi-Broker: Traccia Investimenti su Piu Piattaforme | DonkyCapital",
+        "en": "Multi-Broker Portfolio Tracker: Track Investments Across Platforms | DonkyCapital",
+        "de": "Multi-Broker Depot-Tracker: Investitionen ueber mehrere Plattformen verfolgen | DonkyCapital",
+        "fr": "Suivi de Portefeuille Multi-Courtiers: Suivez vos Investissements | DonkyCapital",
+        "es": "Seguimiento de Cartera Multi-Broker: Rastrea Inversiones en Multiples Plataformas | DonkyCapital"
+      },
+      "description": {
+        "it": "Guida completa 2026 al portfolio tracking multi-broker. Traccia Degiro, Scalable Capital, Fineco in un'unica dashboard. Alternativa Excel per monitoraggio portafoglio investimenti.",
+        "en": "Complete 2026 guide to multi-broker portfolio tracking. Track Degiro, Scalable Capital, Fineco in one dashboard. Excel alternative for investment portfolio monitoring.",
+        "de": "Vollstaendiger 2026 Leitfaden zum Multi-Broker Portfolio Tracking. Degiro, Scalable Capital, Fineco in einem Dashboard verfolgen. Excel-Alternative fuer Depot-Tracking.",
+        "fr": "Guide complet 2026 du suivi de portefeuille multi-courtiers. Suivez Degiro, Scalable Capital, Fineco dans un tableau de bord. Alternative Excel pour suivi ETF.",
+        "es": "Guia completa 2026 de seguimiento de cartera multi-broker. Rastrea Degiro, Scalable Capital, Fineco en un panel. Alternativa Excel para rastreador de ETF."
       }
     }
   },
@@ -3301,6 +3317,646 @@
           "answer": "DonkyCapital importa automáticamente las comisiones del archivo CSV de DEGIRO y las incluye en el cálculo del rendimiento real de tu cartera."
         }
       ]
+    }
+  },
+  "multiBroker": {
+    "pageTitle": {
+      "it": "Guida Completa al Portfolio Tracking: Come Tracciare Investimenti su Più Broker (2026)",
+      "en": "Complete Portfolio Tracking Guide: How to Track Investments Across Multiple Brokers (2026)",
+      "de": "Vollständiger Portfolio Tracking Leitfaden: Investitionen über mehrere Broker verfolgen (2026)",
+      "fr": "Guide Complet du Portfolio Tracking: Comment Suivre vos Investissements sur Plusieurs Courtiers (2026)",
+      "es": "Guía Completa de Portfolio Tracking: Cómo Rastrear Inversiones en Múltiples Brokers (2026)"
+    },
+    "readingTime": {
+      "it": "Tempo di lettura: 12 min | Aggiornato: Gennaio 2026",
+      "en": "Reading time: 12 min | Updated: January 2026",
+      "de": "Lesezeit: 12 Min | Aktualisiert: Januar 2026",
+      "fr": "Temps de lecture: 12 min | Mis à jour: Janvier 2026",
+      "es": "Tiempo de lectura: 12 min | Actualizado: Enero 2026"
+    },
+    "introParagraphs": {
+      "it": [
+        "Hai un conto su <strong>Scalable Capital</strong> per il PAC in ETF, usi <strong>Degiro</strong> per le azioni americane, tieni le obbligazioni su <strong>Directa</strong> per il regime amministrato e magari hai un wallet hardware per le <strong>Crypto</strong>.",
+        "Se questa situazione ti suona familiare, conosci già il problema: <strong>il caos</strong>.",
+        "Accedere a 4 app diverse per capire quanto vale il tuo patrimonio netto è frustrante. Ancora peggio è non avere idea della tua vera esposizione al rischio. <em>Quanto pesa davvero l'S&P 500 sul tuo totale? Sei sovraesposto sul settore tecnologico senza saperlo?</em>",
+        "In questa guida definitiva al <strong>Portfolio Tracking</strong>, vedremo esattamente come aggregare tutti i tuoi investimenti in un'unica dashboard professionale, le metriche che contano davvero (oltre il semplice guadagno) e come farlo mantenendo i tuoi dati al 100% privati."
+      ],
+      "en": [
+        "You have an account on <strong>Scalable Capital</strong> for ETF savings plans, use <strong>Degiro</strong> for US stocks, keep bonds on <strong>Directa</strong> for tax optimization, and maybe have a hardware wallet for <strong>Crypto</strong>.",
+        "If this sounds familiar, you already know the problem: <strong>total chaos</strong>.",
+        "Accessing 4 different apps to understand your net worth is frustrating. Even worse is having no idea of your true risk exposure. <em>How much does the S&P 500 really weigh in your total? Are you overexposed to tech without knowing it?</em>",
+        "In this definitive <strong>Portfolio Tracking</strong> guide, we'll see exactly how to aggregate all your investments into one professional dashboard, the metrics that truly matter (beyond simple gains), and how to do it while keeping your data 100% private."
+      ],
+      "de": [
+        "Sie haben ein Konto bei <strong>Scalable Capital</strong> für ETF-Sparpläne, nutzen <strong>Degiro</strong> für US-Aktien, bewahren Anleihen bei <strong>Directa</strong> für Steueroptimierung auf und haben vielleicht eine Hardware-Wallet für <strong>Krypto</strong>.",
+        "Wenn Ihnen das bekannt vorkommt, kennen Sie bereits das Problem: <strong>totales Chaos</strong>.",
+        "Der Zugriff auf 4 verschiedene Apps, um Ihr Nettovermögen zu verstehen, ist frustrierend. Noch schlimmer ist es, keine Ahnung von Ihrer wahren Risikoexposition zu haben. <em>Wie viel wiegt der S&P 500 wirklich in Ihrem Gesamtportfolio? Sind Sie unwissentlich im Tech-Sektor übergewichtet?</em>",
+        "In diesem definitiven <strong>Portfolio Tracking</strong> Leitfaden sehen wir genau, wie Sie alle Ihre Investitionen in einem professionellen Dashboard aggregieren, welche Metriken wirklich zählen (über einfache Gewinne hinaus) und wie Sie dies bei 100% Datenschutz tun."
+      ],
+      "fr": [
+        "Vous avez un compte sur <strong>Scalable Capital</strong> pour les plans d'épargne ETF, utilisez <strong>Degiro</strong> pour les actions américaines, conservez des obligations sur <strong>Directa</strong> pour l'optimisation fiscale, et avez peut-être un portefeuille matériel pour les <strong>Crypto</strong>.",
+        "Si cela vous semble familier, vous connaissez déjà le problème: <strong>le chaos total</strong>.",
+        "Accéder à 4 applications différentes pour comprendre votre valeur nette est frustrant. Pire encore, ne pas avoir d'idée de votre véritable exposition au risque. <em>Combien pèse vraiment le S&P 500 dans votre total? Êtes-vous surexposé à la tech sans le savoir?</em>",
+        "Dans ce guide définitif du <strong>Portfolio Tracking</strong>, nous verrons exactement comment agréger tous vos investissements dans un tableau de bord professionnel unique, les métriques qui comptent vraiment (au-delà des simples gains), et comment le faire en gardant vos données 100% privées."
+      ],
+      "es": [
+        "Tienes una cuenta en <strong>Scalable Capital</strong> para planes de ahorro ETF, usas <strong>Degiro</strong> para acciones estadounidenses, mantienes bonos en <strong>Directa</strong> para optimización fiscal, y tal vez tengas una billetera hardware para <strong>Cripto</strong>.",
+        "Si esto te suena familiar, ya conoces el problema: <strong>caos total</strong>.",
+        "Acceder a 4 aplicaciones diferentes para entender tu patrimonio neto es frustrante. Peor aún es no tener idea de tu verdadera exposición al riesgo. <em>¿Cuánto pesa realmente el S&P 500 en tu total? ¿Estás sobreexpuesto al sector tecnológico sin saberlo?</em>",
+        "En esta guía definitiva de <strong>Portfolio Tracking</strong>, veremos exactamente cómo agregar todas tus inversiones en un panel profesional único, las métricas que realmente importan (más allá de las simples ganancias), y cómo hacerlo manteniendo tus datos 100% privados."
+      ]
+    },
+    "tocTitle": {
+      "it": "Indice dei Contenuti",
+      "en": "Table of Contents",
+      "de": "Inhaltsverzeichnis",
+      "fr": "Table des matières",
+      "es": "Índice de Contenidos"
+    },
+    "tocItems": {
+      "it": [
+        "Perché il \"Mental Accounting\" ti fa perdere soldi",
+        "I Metodi di Tracking: Excel vs App vs Ibridi",
+        "Cosa Tracciare: La Checklist Completa",
+        "Metriche: TWR vs IRR (e perché il P&L mente)",
+        "3 Errori Comuni nel Tracciare gli Investimenti",
+        "Tools Consigliati: La Soluzione Privacy-First",
+        "Tutorial Step-by-Step: Setup in 5 Minuti",
+        "FAQ"
+      ],
+      "en": [
+        "Why \"Mental Accounting\" Costs You Money",
+        "Tracking Methods: Excel vs Apps vs Hybrid",
+        "What to Track: The Complete Checklist",
+        "Metrics: TWR vs IRR (and why P&L lies)",
+        "3 Common Mistakes in Investment Tracking",
+        "Recommended Tools: The Privacy-First Solution",
+        "Step-by-Step Tutorial: 5-Minute Setup",
+        "FAQ"
+      ],
+      "de": [
+        "Warum \"Mental Accounting\" Sie Geld kostet",
+        "Tracking-Methoden: Excel vs Apps vs Hybrid",
+        "Was zu verfolgen ist: Die vollständige Checkliste",
+        "Metriken: TWR vs IRR (und warum P&L lügt)",
+        "3 häufige Fehler beim Investment-Tracking",
+        "Empfohlene Tools: Die Privacy-First-Lösung",
+        "Schritt-für-Schritt-Tutorial: 5-Minuten-Setup",
+        "FAQ"
+      ],
+      "fr": [
+        "Pourquoi la \"Comptabilité Mentale\" vous coûte de l'argent",
+        "Méthodes de Tracking: Excel vs Apps vs Hybride",
+        "Que suivre: La liste de contrôle complète",
+        "Métriques: TWR vs IRR (et pourquoi P&L ment)",
+        "3 erreurs courantes dans le suivi des investissements",
+        "Outils recommandés: La solution Privacy-First",
+        "Tutoriel étape par étape: Configuration en 5 minutes",
+        "FAQ"
+      ],
+      "es": [
+        "Por qué la \"Contabilidad Mental\" te cuesta dinero",
+        "Métodos de Tracking: Excel vs Apps vs Híbrido",
+        "Qué rastrear: La lista de verificación completa",
+        "Métricas: TWR vs IRR (y por qué P&L miente)",
+        "3 errores comunes al rastrear inversiones",
+        "Herramientas recomendadas: La solución Privacy-First",
+        "Tutorial paso a paso: Configuración en 5 minutos",
+        "FAQ"
+      ]
+    },
+    "section1Title": {
+      "it": "1. Perché il \"Mental Accounting\" ti fa perdere soldi",
+      "en": "1. Why \"Mental Accounting\" Costs You Money",
+      "de": "1. Warum \"Mental Accounting\" Sie Geld kostet",
+      "fr": "1. Pourquoi la \"Comptabilité Mentale\" vous coûte de l'argent",
+      "es": "1. Por qué la \"Contabilidad Mental\" te cuesta dinero"
+    },
+    "section1Content": {
+      "it": [
+        "Molti investitori cadono nella trappola di compartimentare mentalmente i propri soldi. \"Questi sono i soldi per la pensione su Scalable\", \"Questi sono i soldi per il trading su Degiro\".",
+        "Senza una visione aggregata (Portfolio Tracking), rischi di:"
+      ],
+      "en": [
+        "Many investors fall into the trap of mentally compartmentalizing their money. \"This is retirement money on Scalable\", \"This is trading money on Degiro\".",
+        "Without an aggregated view (Portfolio Tracking), you risk:"
+      ],
+      "de": [
+        "Viele Anleger tappen in die Falle, ihr Geld mental zu unterteilen. \"Das ist Altersvorsorgegeld auf Scalable\", \"Das ist Handelsgeld auf Degiro\".",
+        "Ohne eine aggregierte Ansicht (Portfolio Tracking) riskieren Sie:"
+      ],
+      "fr": [
+        "De nombreux investisseurs tombent dans le piège de compartimenter mentalement leur argent. \"C'est l'argent de la retraite sur Scalable\", \"C'est l'argent de trading sur Degiro\".",
+        "Sans une vue agrégée (Portfolio Tracking), vous risquez:"
+      ],
+      "es": [
+        "Muchos inversores caen en la trampa de compartimentar mentalmente su dinero. \"Este es dinero de jubilación en Scalable\", \"Este es dinero de trading en Degiro\".",
+        "Sin una vista agregada (Portfolio Tracking), arriesgas:"
+      ]
+    },
+    "section1Risks": {
+      "it": [
+        "<strong>Sovrapposizione di Asset:</strong> Magari compri un ETF World su un broker e un ETF Tech sull'altro, finendo per avere il 40% del portafoglio su Apple e Microsoft senza volerlo.",
+        "<strong>Inefficienza Fiscale:</strong> Non vedere le minusvalenze e le plusvalenze in un'unica schermata rende difficile pianificare il tax loss harvesting.",
+        "<strong>Asset Allocation alla deriva:</strong> Volevi un 60/40 azioni/obbligazioni, ma i movimenti di mercato ti hanno portato a un 80/20. Senza tracking unificato, non te ne accorgi e non ribilanci."
+      ],
+      "en": [
+        "<strong>Asset Overlap:</strong> You might buy a World ETF on one broker and a Tech ETF on another, ending up with 40% of your portfolio in Apple and Microsoft unintentionally.",
+        "<strong>Tax Inefficiency:</strong> Not seeing capital gains and losses in one screen makes it difficult to plan tax loss harvesting.",
+        "<strong>Asset Allocation Drift:</strong> You wanted a 60/40 stocks/bonds allocation, but market movements brought you to 80/20. Without unified tracking, you don't notice and don't rebalance."
+      ],
+      "de": [
+        "<strong>Asset-Überschneidung:</strong> Sie kaufen vielleicht einen World ETF bei einem Broker und einen Tech ETF beim anderen und haben am Ende unbeabsichtigt 40% Ihres Portfolios in Apple und Microsoft.",
+        "<strong>Steuerliche Ineffizienz:</strong> Kapitalgewinne und -verluste nicht in einer Ansicht zu sehen, macht es schwierig, Tax Loss Harvesting zu planen.",
+        "<strong>Asset-Allocation-Drift:</strong> Sie wollten eine 60/40 Aktien/Anleihen-Allokation, aber Marktbewegungen haben Sie zu 80/20 gebracht. Ohne einheitliches Tracking bemerken Sie es nicht und rebalancieren nicht."
+      ],
+      "fr": [
+        "<strong>Chevauchement d'actifs:</strong> Vous pourriez acheter un ETF World sur un courtier et un ETF Tech sur un autre, finissant avec 40% de votre portefeuille dans Apple et Microsoft sans le vouloir.",
+        "<strong>Inefficacité fiscale:</strong> Ne pas voir les gains et pertes en capital sur un seul écran rend difficile la planification de la récolte de pertes fiscales.",
+        "<strong>Dérive d'allocation d'actifs:</strong> Vous vouliez une allocation 60/40 actions/obligations, mais les mouvements du marché vous ont amené à 80/20. Sans suivi unifié, vous ne le remarquez pas et ne rééquilibrez pas."
+      ],
+      "es": [
+        "<strong>Superposición de activos:</strong> Podrías comprar un ETF World en un broker y un ETF Tech en otro, terminando con el 40% de tu cartera en Apple y Microsoft sin quererlo.",
+        "<strong>Ineficiencia fiscal:</strong> No ver las ganancias y pérdidas de capital en una sola pantalla dificulta la planificación de la cosecha de pérdidas fiscales.",
+        "<strong>Deriva de asignación de activos:</strong> Querías una asignación 60/40 acciones/bonos, pero los movimientos del mercado te llevaron a 80/20. Sin seguimiento unificado, no lo notas y no rebalanc eas."
+      ]
+    },
+    "section2Title": {
+      "it": "2. I Metodi di Tracking: Excel vs App Automatiche vs Ibridi",
+      "en": "2. Tracking Methods: Excel vs Automated Apps vs Hybrid",
+      "de": "2. Tracking-Methoden: Excel vs Automatische Apps vs Hybrid",
+      "fr": "2. Methodes de Suivi: Excel vs Apps Automatiques vs Hybrides",
+      "es": "2. Metodos de Seguimiento: Excel vs Apps Automaticas vs Hibridos"
+    },
+    "section2Intro": {
+      "it": "Nel 2026, hai essenzialmente tre strade per monitorare il portafoglio.",
+      "en": "In 2026, you essentially have three ways to monitor your portfolio.",
+      "de": "Im Jahr 2026 haben Sie im Wesentlichen drei Wege, Ihr Portfolio zu ueberwachen.",
+      "fr": "En 2026, vous avez essentiellement trois manieres de suivre votre portefeuille.",
+      "es": "En 2026, tienes esencialmente tres formas de monitorear tu cartera."
+    },
+    "section2TableHeaderMethod": {
+      "it": "Metodo",
+      "en": "Method",
+      "de": "Methode",
+      "fr": "Methode",
+      "es": "Metodo"
+    },
+    "section2TableHeaderPro": {
+      "it": "Pro",
+      "en": "Pros",
+      "de": "Vorteile",
+      "fr": "Avantages",
+      "es": "Ventajas"
+    },
+    "section2TableHeaderCon": {
+      "it": "Contro",
+      "en": "Cons",
+      "de": "Nachteile",
+      "fr": "Inconvenients",
+      "es": "Desventajas"
+    },
+    "section2MethodAName": {
+      "it": "A. Foglio di Calcolo",
+      "en": "A. Spreadsheet",
+      "de": "A. Tabellenkalkulation",
+      "fr": "A. Tableur",
+      "es": "A. Hoja de Calculo"
+    },
+    "section2MethodASub": {
+      "it": "Excel / Google Sheets",
+      "en": "Excel / Google Sheets",
+      "de": "Excel / Google Sheets",
+      "fr": "Excel / Google Sheets",
+      "es": "Excel / Google Sheets"
+    },
+    "section2MethodAPro": {
+      "it": "Personalizzazione infinita, gratuito, nessuna condivisione dati.",
+      "en": "Infinite customization, free, no data sharing.",
+      "de": "Unendliche Anpassung, kostenlos, keine Datenweitergabe.",
+      "fr": "Personnalisation infinie, gratuit, aucun partage de donnees.",
+      "es": "Personalizacion infinita, gratuito, sin compartir datos."
+    },
+    "section2MethodACon": {
+      "it": "Devi inserire i dati a mano, le formule si rompono (\"#REF!\"), recuperare i prezzi in tempo reale e complesso (Google Finance spesso fallisce sui ticker europei o su Borsa Italiana).",
+      "en": "You must enter data manually, formulas break (\"#REF!\"), retrieving real-time prices is complex (Google Finance often fails on European tickers or local exchanges).",
+      "de": "Daten muessen manuell eingegeben werden, Formeln brechen (\"#REF!\"), Echtzeitpreise abzurufen ist komplex (Google Finance versagt oft bei europaeischen Tickern oder lokalen Boersen).",
+      "fr": "Vous devez saisir les donnees manuellement, les formules cassent (\"#REF!\"), recuperer les prix en temps reel est complexe (Google Finance echoue souvent sur les tickers europeens ou les bourses locales).",
+      "es": "Debes ingresar los datos manualmente, las formulas se rompen (\"#REF!\"), recuperar precios en tiempo real es complejo (Google Finance falla frecuentemente con tickers europeos o bolsas locales)."
+    },
+    "section2MethodBName": {
+      "it": "B. App con API",
+      "en": "B. Banking API Apps",
+      "de": "B. Banking-API-Apps",
+      "fr": "B. Apps avec API",
+      "es": "B. Apps con API"
+    },
+    "section2MethodBSub": {
+      "it": "Open Banking",
+      "en": "Open Banking",
+      "de": "Open Banking",
+      "fr": "Open Banking",
+      "es": "Open Banking"
+    },
+    "section2MethodBPro": {
+      "it": "Tutto automatico.",
+      "en": "Fully automatic.",
+      "de": "Vollautomatisch.",
+      "fr": "Entierement automatique.",
+      "es": "Totalmente automatico."
+    },
+    "section2MethodBCon": {
+      "it": "<strong>Privacy:</strong> devi fornire le credenziali di accesso o i token API a terze parti. Le connessioni spesso saltano richiedendo riconnessioni continue.",
+      "en": "<strong>Privacy:</strong> you must provide login credentials or API tokens to third parties. Connections often drop, requiring continuous reconnections.",
+      "de": "<strong>Datenschutz:</strong> Sie muessen Zugangsdaten oder API-Tokens an Dritte weitergeben. Verbindungen brechen oft ab und erfordern staendige Neuverbindungen.",
+      "fr": "<strong>Confidentialite:</strong> vous devez fournir vos identifiants ou tokens API a des tiers. Les connexions sautent souvent, necessitant des reconnexions continues.",
+      "es": "<strong>Privacidad:</strong> debes proporcionar credenciales de acceso o tokens API a terceros. Las conexiones se caen frecuentemente, requiriendo reconexiones continuas."
+    },
+    "section2MethodCName": {
+      "it": "C. Importazione Dati",
+      "en": "C. Data Import",
+      "de": "C. Datenimport",
+      "fr": "C. Importation de Donnees",
+      "es": "C. Importacion de Datos"
+    },
+    "section2MethodCSub": {
+      "it": "L'Approccio DonkyCapital",
+      "en": "The DonkyCapital Approach",
+      "de": "Der DonkyCapital-Ansatz",
+      "fr": "L'Approche DonkyCapital",
+      "es": "El Enfoque DonkyCapital"
+    },
+    "section2MethodCPro": {
+      "it": "<strong>Massima Privacy</strong> (non dai mai la password del broker), automazione dei calcoli (fa tutto il software), dati precisi al centesimo.",
+      "en": "<strong>Maximum Privacy</strong> (you never share your broker password), automated calculations (the software does everything), penny-accurate data.",
+      "de": "<strong>Maximale Privatsphaere</strong> (Sie geben nie Ihr Broker-Passwort weiter), automatisierte Berechnungen (die Software erledigt alles), centgenaue Daten.",
+      "fr": "<strong>Confidentialite Maximale</strong> (vous ne partagez jamais votre mot de passe courtier), calculs automatises (le logiciel fait tout), donnees precises au centime.",
+      "es": "<strong>Maxima Privacidad</strong> (nunca compartes la contrasena del broker), calculos automatizados (el software hace todo), datos precisos al centimo."
+    },
+    "section2MethodCCon": {
+      "it": "Richiede 30 secondi al mese per caricare il file aggiornato.",
+      "en": "Requires 30 seconds per month to upload the updated file.",
+      "de": "Erfordert 30 Sekunden pro Monat, um die aktualisierte Datei hochzuladen.",
+      "fr": "Necessite 30 secondes par mois pour telecharger le fichier mis a jour.",
+      "es": "Requiere 30 segundos al mes para cargar el archivo actualizado."
+    },
+    "section2Verdict": {
+      "it": "<strong>Il verdetto:</strong> Se tieni alla sicurezza dei tuoi dati finanziari ma non vuoi impazzire con Excel, l'approccio \"Importazione Dati\" e lo standard d'oro del 2026.",
+      "en": "<strong>The verdict:</strong> If you care about the security of your financial data but don't want to go crazy with Excel, the \"Data Import\" approach is the gold standard of 2026.",
+      "de": "<strong>Das Urteil:</strong> Wenn Ihnen die Sicherheit Ihrer Finanzdaten wichtig ist, Sie aber nicht mit Excel verrueckt werden wollen, ist der \"Datenimport\"-Ansatz der Goldstandard 2026.",
+      "fr": "<strong>Le verdict:</strong> Si vous tenez a la securite de vos donnees financieres mais ne voulez pas devenir fou avec Excel, l'approche \"Importation de Donnees\" est le standard d'or de 2026.",
+      "es": "<strong>El veredicto:</strong> Si te importa la seguridad de tus datos financieros pero no quieres volverte loco con Excel, el enfoque \"Importacion de Datos\" es el estandar de oro de 2026."
+    },
+    "section3Title": {
+      "it": "3. Cosa Tracciare: La Checklist Completa",
+      "en": "3. What to Track: The Complete Checklist",
+      "de": "3. Was verfolgen: Die vollstaendige Checkliste",
+      "fr": "3. Quoi Suivre: La Checklist Complete",
+      "es": "3. Que Rastrear: La Checklist Completa"
+    },
+    "section3Intro": {
+      "it": "Un buon tracking non guarda solo il \"Prezzo attuale\". Per avere il controllo totale, la tua dashboard deve includere:",
+      "en": "Good tracking doesn't just look at the \"Current Price\". For total control, your dashboard must include:",
+      "de": "Gutes Tracking schaut nicht nur auf den \"Aktuellen Preis\". Fuer die totale Kontrolle muss Ihr Dashboard umfassen:",
+      "fr": "Un bon suivi ne regarde pas seulement le \"Prix actuel\". Pour un controle total, votre tableau de bord doit inclure:",
+      "es": "Un buen seguimiento no solo mira el \"Precio actual\". Para tener control total, tu dashboard debe incluir:"
+    },
+    "section3Items": {
+      "it": [
+        "<strong>Asset Class:</strong> Azioni, Obbligazioni, ETF, Crypto, Liquidita, P2P Lending.",
+        "<strong>Geografia:</strong> Quanto sei esposto sugli USA? E sull'Europa?",
+        "<strong>Valuta:</strong> Hai troppi asset in USD? Se l'Euro si rafforza, il tuo portafoglio scende. Devi saperlo.",
+        "<strong>Settori:</strong> Tecnologia, Sanita, Energy. La diversificazione settoriale e la tua assicurazione contro le crisi specifiche.",
+        "<strong>Costi (TER e Commissioni):</strong> Spesso nascosti, erodono il rendimento composto."
+      ],
+      "en": [
+        "<strong>Asset Class:</strong> Stocks, Bonds, ETFs, Crypto, Cash, P2P Lending.",
+        "<strong>Geography:</strong> How exposed are you to the US? And Europe?",
+        "<strong>Currency:</strong> Too many assets in USD? If the Euro strengthens, your portfolio drops. You need to know.",
+        "<strong>Sectors:</strong> Technology, Healthcare, Energy. Sector diversification is your insurance against specific crises.",
+        "<strong>Costs (TER & Fees):</strong> Often hidden, they erode compound returns."
+      ],
+      "de": [
+        "<strong>Anlageklasse:</strong> Aktien, Anleihen, ETFs, Krypto, Bargeld, P2P-Kredite.",
+        "<strong>Geografie:</strong> Wie stark sind Sie in den USA exponiert? Und in Europa?",
+        "<strong>Waehrung:</strong> Zu viele Assets in USD? Wenn der Euro staerker wird, sinkt Ihr Portfolio. Das muessen Sie wissen.",
+        "<strong>Sektoren:</strong> Technologie, Gesundheit, Energie. Sektordiversifikation ist Ihre Versicherung gegen spezifische Krisen.",
+        "<strong>Kosten (TER & Gebuehren):</strong> Oft versteckt, sie erodieren den Zinseszins."
+      ],
+      "fr": [
+        "<strong>Classe d'actifs:</strong> Actions, Obligations, ETF, Crypto, Liquidites, Prets P2P.",
+        "<strong>Geographie:</strong> Quelle est votre exposition aux USA? Et a l'Europe?",
+        "<strong>Devise:</strong> Trop d'actifs en USD? Si l'Euro se renforce, votre portefeuille baisse. Vous devez le savoir.",
+        "<strong>Secteurs:</strong> Technologie, Sante, Energie. La diversification sectorielle est votre assurance contre les crises specifiques.",
+        "<strong>Couts (TER & Frais):</strong> Souvent caches, ils erodent le rendement compose."
+      ],
+      "es": [
+        "<strong>Clase de Activos:</strong> Acciones, Bonos, ETFs, Crypto, Efectivo, Prestamos P2P.",
+        "<strong>Geografia:</strong> Cuanto estas expuesto a EEUU? Y a Europa?",
+        "<strong>Moneda:</strong> Demasiados activos en USD? Si el Euro se fortalece, tu cartera baja. Necesitas saberlo.",
+        "<strong>Sectores:</strong> Tecnologia, Salud, Energia. La diversificacion sectorial es tu seguro contra crisis especificas.",
+        "<strong>Costes (TER y Comisiones):</strong> A menudo ocultos, erosionan el rendimiento compuesto."
+      ]
+    },
+    "section4Title": {
+      "it": "4. Metriche Essenziali: TWR vs IRR (e perche il P&L mente)",
+      "en": "4. Essential Metrics: TWR vs IRR (and why P&L lies)",
+      "de": "4. Wesentliche Kennzahlen: TWR vs IRR (und warum P&L luegt)",
+      "fr": "4. Metriques Essentielles: TWR vs IRR (et pourquoi le P&L ment)",
+      "es": "4. Metricas Esenciales: TWR vs IRR (y por que el P&L miente)"
+    },
+    "section4Intro": {
+      "it": "Se guardi solo il <strong>P&L (Profit & Loss)</strong> assoluto (es. \"+€500\"), non stai capendo come investi. Ecco le due metriche re che troverai su piattaforme avanzate come <strong>DonkyCapital</strong>:",
+      "en": "If you only look at the absolute <strong>P&L (Profit & Loss)</strong> (e.g. \"+€500\"), you're not understanding how you invest. Here are the two king metrics you'll find on advanced platforms like <strong>DonkyCapital</strong>:",
+      "de": "Wenn Sie nur den absoluten <strong>P&L (Profit & Loss)</strong> betrachten (z.B. \"+500€\"), verstehen Sie nicht, wie Sie investieren. Hier sind die zwei Koenigskennzahlen, die Sie auf fortschrittlichen Plattformen wie <strong>DonkyCapital</strong> finden:",
+      "fr": "Si vous ne regardez que le <strong>P&L (Profit & Loss)</strong> absolu (ex. \"+500€\"), vous ne comprenez pas comment vous investissez. Voici les deux metriques reines que vous trouverez sur des plateformes avancees comme <strong>DonkyCapital</strong>:",
+      "es": "Si solo miras el <strong>P&L (Profit & Loss)</strong> absoluto (ej. \"+500€\"), no estas entendiendo como inviertes. Aqui estan las dos metricas reinas que encontraras en plataformas avanzadas como <strong>DonkyCapital</strong>:"
+    },
+    "section4TWRTitle": {
+      "it": "TWR (Time-Weighted Return)",
+      "en": "TWR (Time-Weighted Return)",
+      "de": "TWR (Time-Weighted Return)",
+      "fr": "TWR (Time-Weighted Return)",
+      "es": "TWR (Time-Weighted Return)"
+    },
+    "section4TWRContent": {
+      "it": "Misura la bravura del gestore (te stesso) eliminando l'effetto dei depositi/prelievi. E essenziale per confrontare la tua performance con un benchmark (es. S&P 500). Se depositi 10.000€ e il mercato e piatto, il tuo valore sale, ma il tuo TWR resta 0%. Corretto.",
+      "en": "Measures manager skill (yourself) by eliminating the effect of deposits/withdrawals. Essential for comparing your performance against a benchmark (e.g. S&P 500). If you deposit €10,000 and the market is flat, your value goes up, but your TWR stays at 0%. Correct.",
+      "de": "Misst die Faehigkeit des Managers (Sie selbst), indem der Effekt von Ein-/Auszahlungen eliminiert wird. Wesentlich fuer den Vergleich Ihrer Performance mit einem Benchmark (z.B. S&P 500). Wenn Sie 10.000€ einzahlen und der Markt flach ist, steigt Ihr Wert, aber Ihr TWR bleibt bei 0%. Korrekt.",
+      "fr": "Mesure la competence du gestionnaire (vous-meme) en eliminant l'effet des depots/retraits. Essentiel pour comparer votre performance avec un benchmark (ex. S&P 500). Si vous deposez 10 000€ et que le marche est plat, votre valeur augmente, mais votre TWR reste a 0%. Correct.",
+      "es": "Mide la habilidad del gestor (tu mismo) eliminando el efecto de depositos/retiros. Esencial para comparar tu rendimiento con un benchmark (ej. S&P 500). Si depositas 10.000€ y el mercado esta plano, tu valor sube, pero tu TWR se queda en 0%. Correcto."
+    },
+    "section4MWRTitle": {
+      "it": "MWR / IRR (Money-Weighted Return)",
+      "en": "MWR / IRR (Money-Weighted Return)",
+      "de": "MWR / IRR (Money-Weighted Return)",
+      "fr": "MWR / IRR (Money-Weighted Return)",
+      "es": "MWR / IRR (Money-Weighted Return)"
+    },
+    "section4MWRContent": {
+      "it": "Tiene conto del <em>timing</em> dei tuoi flussi di cassa. Se sei bravo a \"comprare sui ribassi\" (buy the dip), il tuo MWR sara piu alto del TWR.",
+      "en": "Takes into account the <em>timing</em> of your cash flows. If you're good at \"buying the dip\", your MWR will be higher than your TWR.",
+      "de": "Beruecksichtigt das <em>Timing</em> Ihrer Geldfluesse. Wenn Sie gut darin sind, \"im Dip zu kaufen\" (buy the dip), wird Ihr MWR hoeher sein als Ihr TWR.",
+      "fr": "Prend en compte le <em>timing</em> de vos flux de tresorerie. Si vous etes doue pour \"acheter les baisses\" (buy the dip), votre MWR sera plus eleve que votre TWR.",
+      "es": "Tiene en cuenta el <em>timing</em> de tus flujos de caja. Si eres bueno \"comprando en las bajadas\" (buy the dip), tu MWR sera mayor que tu TWR."
+    },
+    "section4Tip": {
+      "it": "Usa il TWR per capire se la tua strategia funziona rispetto al mercato. Usa l'IRR per capire quanto stai guadagnando realmente in tasca.",
+      "en": "Use TWR to understand if your strategy works compared to the market. Use IRR to understand how much you're actually earning in your pocket.",
+      "de": "Nutzen Sie den TWR, um zu verstehen, ob Ihre Strategie im Vergleich zum Markt funktioniert. Nutzen Sie den IRR, um zu verstehen, wie viel Sie tatsaechlich verdienen.",
+      "fr": "Utilisez le TWR pour comprendre si votre strategie fonctionne par rapport au marche. Utilisez l'IRR pour comprendre combien vous gagnez reellement.",
+      "es": "Usa el TWR para entender si tu estrategia funciona respecto al mercado. Usa el IRR para entender cuanto estas ganando realmente en tu bolsillo."
+    },
+    "section5Title": {
+      "it": "5. 3 Errori Comuni da Evitare",
+      "en": "5. 3 Common Mistakes to Avoid",
+      "de": "5. 3 Haeufige Fehler, die Sie vermeiden sollten",
+      "fr": "5. 3 Erreurs Courantes a Eviter",
+      "es": "5. 3 Errores Comunes a Evitar"
+    },
+    "section5Error1": {
+      "it": "<strong>Ignorare i Dividendi:</strong> Molti fogli Excel tracciano solo il prezzo. Se investi in <em>Dividend Aristocrats</em>, potresti sottostimare il tuo rendimento del 3-4% annuo.",
+      "en": "<strong>Ignoring Dividends:</strong> Many Excel sheets only track price. If you invest in <em>Dividend Aristocrats</em>, you could be underestimating your return by 3-4% annually.",
+      "de": "<strong>Dividenden ignorieren:</strong> Viele Excel-Tabellen verfolgen nur den Kurs. Wenn Sie in <em>Dividend Aristocrats</em> investieren, koennten Sie Ihre Rendite um 3-4% jaehrlich unterschaetzen.",
+      "fr": "<strong>Ignorer les Dividendes:</strong> Beaucoup de feuilles Excel ne suivent que le prix. Si vous investissez dans des <em>Dividend Aristocrats</em>, vous pourriez sous-estimer votre rendement de 3-4% par an.",
+      "es": "<strong>Ignorar los Dividendos:</strong> Muchas hojas Excel solo rastrean el precio. Si inviertes en <em>Dividend Aristocrats</em>, podrias estar subestimando tu rendimiento en un 3-4% anual."
+    },
+    "section5Error2": {
+      "it": "<strong>Dimenticare la Liquidita:</strong> La cassa e una posizione! Se hai il 50% del portafoglio liquido in attesa di investire, il tuo rischio e basso. Se non lo tracci, pensi di essere investito al 100%.",
+      "en": "<strong>Forgetting Cash:</strong> Cash is a position! If 50% of your portfolio is liquid waiting to invest, your risk is low. If you don't track it, you think you're 100% invested.",
+      "de": "<strong>Bargeld vergessen:</strong> Bargeld ist eine Position! Wenn 50% Ihres Portfolios liquide sind und auf Investition warten, ist Ihr Risiko niedrig. Wenn Sie es nicht verfolgen, denken Sie, Sie sind zu 100% investiert.",
+      "fr": "<strong>Oublier la Liquidite:</strong> Le cash est une position! Si 50% de votre portefeuille est liquide en attente d'investissement, votre risque est faible. Si vous ne le suivez pas, vous pensez etre investi a 100%.",
+      "es": "<strong>Olvidar la Liquidez:</strong> El efectivo es una posicion! Si el 50% de tu cartera esta liquido esperando invertir, tu riesgo es bajo. Si no lo rastreas, piensas que estas invertido al 100%."
+    },
+    "section5Error3": {
+      "it": "<strong>Benchmarking Sbagliato:</strong> Non confrontare un portafoglio 60/40 con l'S&P 500 (100% azionario). Ti sembrera sempre di perdere nelle fasi rialziste, spingendoti a prendere troppi rischi.",
+      "en": "<strong>Wrong Benchmarking:</strong> Don't compare a 60/40 portfolio with the S&P 500 (100% stocks). You'll always feel like you're losing during bull markets, pushing you to take too much risk.",
+      "de": "<strong>Falsches Benchmarking:</strong> Vergleichen Sie kein 60/40-Portfolio mit dem S&P 500 (100% Aktien). Sie werden sich in Aufwaertsphasen immer als Verlierer fuehlen, was Sie dazu draengt, zu viel Risiko einzugehen.",
+      "fr": "<strong>Mauvais Benchmarking:</strong> Ne comparez pas un portefeuille 60/40 avec le S&P 500 (100% actions). Vous aurez toujours l'impression de perdre en phase haussiere, vous poussant a prendre trop de risques.",
+      "es": "<strong>Benchmarking Incorrecto:</strong> No compares una cartera 60/40 con el S&P 500 (100% acciones). Siempre sentiras que pierdes en las fases alcistas, empujandote a tomar demasiado riesgo."
+    },
+    "section6Title": {
+      "it": "6. Tools Consigliati: DonkyCapital",
+      "en": "6. Recommended Tools: DonkyCapital",
+      "de": "6. Empfohlene Tools: DonkyCapital",
+      "fr": "6. Outils Recommandes: DonkyCapital",
+      "es": "6. Herramientas Recomendadas: DonkyCapital"
+    },
+    "section6Intro": {
+      "it": "Per un investitore europeo che usa broker come Scalable Capital, Degiro, Moneyfarm o Directa, la scelta del tool e critica.",
+      "en": "For a European investor using brokers like Scalable Capital, Degiro, Moneyfarm or Directa, the tool choice is critical.",
+      "de": "Fuer einen europaeischen Anleger, der Broker wie Scalable Capital, Degiro, Moneyfarm oder Directa nutzt, ist die Tool-Wahl entscheidend.",
+      "fr": "Pour un investisseur europeen utilisant des courtiers comme Scalable Capital, Degiro, Moneyfarm ou Directa, le choix de l'outil est critique.",
+      "es": "Para un inversor europeo que usa brokers como Scalable Capital, Degiro, Moneyfarm o Directa, la eleccion de la herramienta es critica."
+    },
+    "section6EditorTitle": {
+      "it": "La Scelta Editor's Choice: DonkyCapital",
+      "en": "Editor's Choice: DonkyCapital",
+      "de": "Editor's Choice: DonkyCapital",
+      "fr": "Le Choix de la Redaction: DonkyCapital",
+      "es": "Eleccion del Editor: DonkyCapital"
+    },
+    "section6EditorContent": {
+      "it": "<strong>DonkyCapital</strong> e nato per risolvere il problema della privacy e della complessita di Excel. E una <strong>Progressive Web App (PWA)</strong>, quindi funziona su desktop e mobile come un'app nativa, ma senza passare dagli store.",
+      "en": "<strong>DonkyCapital</strong> was born to solve the privacy problem and the complexity of Excel. It's a <strong>Progressive Web App (PWA)</strong>, so it works on desktop and mobile like a native app, but without going through app stores.",
+      "de": "<strong>DonkyCapital</strong> wurde entwickelt, um das Problem der Privatsphaere und der Komplexitaet von Excel zu loesen. Es ist eine <strong>Progressive Web App (PWA)</strong>, funktioniert also auf Desktop und Mobil wie eine native App, aber ohne App-Stores.",
+      "fr": "<strong>DonkyCapital</strong> est ne pour resoudre le probleme de la confidentialite et de la complexite d'Excel. C'est une <strong>Progressive Web App (PWA)</strong>, donc elle fonctionne sur ordinateur et mobile comme une app native, mais sans passer par les stores.",
+      "es": "<strong>DonkyCapital</strong> nacio para resolver el problema de la privacidad y la complejidad de Excel. Es una <strong>Progressive Web App (PWA)</strong>, asi que funciona en escritorio y movil como una app nativa, pero sin pasar por las tiendas de apps."
+    },
+    "section6WhyTitle": {
+      "it": "Perche ci piace:",
+      "en": "Why we like it:",
+      "de": "Warum es uns gefaellt:",
+      "fr": "Pourquoi nous l'aimons:",
+      "es": "Por que nos gusta:"
+    },
+    "section6Feature1": {
+      "it": "<strong>Zero Credenziali:</strong> Non devi mai dare la password del tuo broker. Funziona importando i file che il broker ti da gia.",
+      "en": "<strong>Zero Credentials:</strong> You never have to give your broker password. It works by importing the files your broker already provides.",
+      "de": "<strong>Keine Zugangsdaten:</strong> Sie muessen nie Ihr Broker-Passwort herausgeben. Es funktioniert durch den Import der Dateien, die Ihr Broker bereits bereitstellt.",
+      "fr": "<strong>Zero Identifiants:</strong> Vous n'avez jamais a donner votre mot de passe courtier. Cela fonctionne en important les fichiers que votre courtier vous fournit deja.",
+      "es": "<strong>Cero Credenciales:</strong> Nunca tienes que dar la contrasena de tu broker. Funciona importando los archivos que tu broker ya te proporciona."
+    },
+    "section6Feature2": {
+      "it": "<strong>Scalable Capital \"Hack\":</strong> Scalable richiede il piano Prime+ per vedere le performance dettagliate. DonkyCapital offre un'estensione Chrome gratuita che estrae i tuoi dati da Scalable (anche piano Free) e li analizza gratuitamente.",
+      "en": "<strong>Scalable Capital \"Hack\":</strong> Scalable requires the Prime+ plan to see detailed performance. DonkyCapital offers a free Chrome extension that extracts your data from Scalable (even Free plan) and analyzes it for free.",
+      "de": "<strong>Scalable Capital \"Hack\":</strong> Scalable erfordert den Prime+ Plan fuer detaillierte Performance. DonkyCapital bietet eine kostenlose Chrome-Erweiterung, die Ihre Daten aus Scalable (auch Free-Plan) extrahiert und kostenlos analysiert.",
+      "fr": "<strong>Scalable Capital \"Hack\":</strong> Scalable necessite le plan Prime+ pour voir les performances detaillees. DonkyCapital offre une extension Chrome gratuite qui extrait vos donnees de Scalable (meme plan Free) et les analyse gratuitement.",
+      "es": "<strong>Scalable Capital \"Hack\":</strong> Scalable requiere el plan Prime+ para ver el rendimiento detallado. DonkyCapital ofrece una extension Chrome gratuita que extrae tus datos de Scalable (incluso plan Free) y los analiza gratis."
+    },
+    "section6Feature3": {
+      "it": "<strong>Dashboards Personalizzabili:</strong> A differenza di altri tool rigidi, qui puoi spostare widget, creare grafici a torta o heatmap a piacimento.",
+      "en": "<strong>Customizable Dashboards:</strong> Unlike other rigid tools, here you can move widgets, create pie charts or heatmaps as you please.",
+      "de": "<strong>Anpassbare Dashboards:</strong> Im Gegensatz zu anderen starren Tools koennen Sie hier Widgets verschieben, Tortendiagramme oder Heatmaps nach Belieben erstellen.",
+      "fr": "<strong>Tableaux de Bord Personnalisables:</strong> Contrairement a d'autres outils rigides, ici vous pouvez deplacer les widgets, creer des graphiques en camembert ou des heatmaps a volonte.",
+      "es": "<strong>Dashboards Personalizables:</strong> A diferencia de otras herramientas rigidas, aqui puedes mover widgets, crear graficos de pastel o heatmaps a tu gusto."
+    },
+    "section7Title": {
+      "it": "7. Step-by-Step Setup: Unifica il tuo Portafoglio in 5 Minuti",
+      "en": "7. Step-by-Step Setup: Unify Your Portfolio in 5 Minutes",
+      "de": "7. Schritt-fuer-Schritt-Setup: Portfolio in 5 Minuten vereinen",
+      "fr": "7. Setup Etape par Etape: Unifiez votre Portefeuille en 5 Minutes",
+      "es": "7. Configuracion Paso a Paso: Unifica tu Cartera en 5 Minutos"
+    },
+    "section7Intro": {
+      "it": "Ecco come configurare il tracking professionale usando DonkyCapital (sfruttando il periodo <strong>Early Access Gratuito</strong>).",
+      "en": "Here's how to set up professional tracking using DonkyCapital (taking advantage of the <strong>Free Early Access</strong> period).",
+      "de": "So richten Sie professionelles Tracking mit DonkyCapital ein (nutzen Sie den <strong>kostenlosen Early Access</strong>-Zeitraum).",
+      "fr": "Voici comment configurer le suivi professionnel avec DonkyCapital (en profitant de la periode <strong>Early Access Gratuit</strong>).",
+      "es": "Asi es como configurar el seguimiento profesional usando DonkyCapital (aprovechando el periodo de <strong>Early Access Gratuito</strong>)."
+    },
+    "section7Step1Title": {
+      "it": "Passo 1: Crea l'Account",
+      "en": "Step 1: Create Your Account",
+      "de": "Schritt 1: Konto erstellen",
+      "fr": "Etape 1: Creez votre Compte",
+      "es": "Paso 1: Crea tu Cuenta"
+    },
+    "section7Step1Content": {
+      "it": "Vai su DonkyCapital.com e registrati. Attualmente i primi 100 utenti ottengono le funzionalita Premium a vita gratis.",
+      "en": "Go to DonkyCapital.com and sign up. Currently the first 100 users get lifetime Premium features for free.",
+      "de": "Gehen Sie zu DonkyCapital.com und registrieren Sie sich. Derzeit erhalten die ersten 100 Nutzer die Premium-Funktionen lebenslang kostenlos.",
+      "fr": "Allez sur DonkyCapital.com et inscrivez-vous. Actuellement les 100 premiers utilisateurs obtiennent les fonctionnalites Premium a vie gratuitement.",
+      "es": "Ve a DonkyCapital.com y registrate. Actualmente los primeros 100 usuarios obtienen las funcionalidades Premium de por vida gratis."
+    },
+    "section7Step2Title": {
+      "it": "Passo 2: Recupera i dati dal Broker",
+      "en": "Step 2: Get Your Data from the Broker",
+      "de": "Schritt 2: Daten vom Broker abrufen",
+      "fr": "Etape 2: Recuperez vos Donnees du Courtier",
+      "es": "Paso 2: Obtener los Datos del Broker"
+    },
+    "section7Step2Items": {
+      "it": [
+        "<strong>Degiro:</strong> Vai su Portafoglio -> Esporta (CSV).",
+        "<strong>Scalable Capital:</strong> Usa l'estensione Chrome di DonkyCapital se hai il piano Free, oppure scarica il report da \"Profile -> Taxes/Documents\".",
+        "<strong>Altri (Directa/Moneyfarm/Trade Republic):</strong> Scarica il PDF o CSV delle transazioni."
+      ],
+      "en": [
+        "<strong>Degiro:</strong> Go to Portfolio -> Export (CSV).",
+        "<strong>Scalable Capital:</strong> Use the DonkyCapital Chrome extension if you have the Free plan, or download the report from \"Profile -> Taxes/Documents\".",
+        "<strong>Others (Directa/Moneyfarm/Trade Republic):</strong> Download the PDF or CSV of transactions."
+      ],
+      "de": [
+        "<strong>Degiro:</strong> Gehen Sie zu Portfolio -> Exportieren (CSV).",
+        "<strong>Scalable Capital:</strong> Nutzen Sie die DonkyCapital Chrome-Erweiterung, wenn Sie den Free-Plan haben, oder laden Sie den Bericht von \"Profil -> Steuern/Dokumente\" herunter.",
+        "<strong>Andere (Directa/Moneyfarm/Trade Republic):</strong> Laden Sie die PDF- oder CSV-Datei der Transaktionen herunter."
+      ],
+      "fr": [
+        "<strong>Degiro:</strong> Allez dans Portefeuille -> Exporter (CSV).",
+        "<strong>Scalable Capital:</strong> Utilisez l'extension Chrome de DonkyCapital si vous avez le plan Free, ou telechargez le rapport depuis \"Profil -> Impots/Documents\".",
+        "<strong>Autres (Directa/Moneyfarm/Trade Republic):</strong> Telechargez le PDF ou CSV des transactions."
+      ],
+      "es": [
+        "<strong>Degiro:</strong> Ve a Cartera -> Exportar (CSV).",
+        "<strong>Scalable Capital:</strong> Usa la extension Chrome de DonkyCapital si tienes el plan Free, o descarga el informe de \"Perfil -> Impuestos/Documentos\".",
+        "<strong>Otros (Directa/Moneyfarm/Trade Republic):</strong> Descarga el PDF o CSV de las transacciones."
+      ]
+    },
+    "section7Step3Title": {
+      "it": "Passo 3: Importa",
+      "en": "Step 3: Import",
+      "de": "Schritt 3: Importieren",
+      "fr": "Etape 3: Importez",
+      "es": "Paso 3: Importa"
+    },
+    "section7Step3Content": {
+      "it": "Nella dashboard di DonkyCapital, clicca su \"Importa Portafoglio\", seleziona il tuo broker e trascina il file.<br/><em>Il sistema riconoscera automaticamente ticker, date, prezzi e commissioni.</em>",
+      "en": "In the DonkyCapital dashboard, click \"Import Portfolio\", select your broker and drag the file.<br/><em>The system will automatically recognize tickers, dates, prices and fees.</em>",
+      "de": "Klicken Sie im DonkyCapital-Dashboard auf \"Portfolio importieren\", waehlen Sie Ihren Broker und ziehen Sie die Datei.<br/><em>Das System erkennt automatisch Ticker, Daten, Preise und Gebuehren.</em>",
+      "fr": "Dans le tableau de bord DonkyCapital, cliquez sur \"Importer Portefeuille\", selectionnez votre courtier et glissez le fichier.<br/><em>Le systeme reconnaitra automatiquement les tickers, dates, prix et frais.</em>",
+      "es": "En el dashboard de DonkyCapital, haz clic en \"Importar Cartera\", selecciona tu broker y arrastra el archivo.<br/><em>El sistema reconocera automaticamente tickers, fechas, precios y comisiones.</em>"
+    },
+    "section7Step4Title": {
+      "it": "Passo 4: Analizza",
+      "en": "Step 4: Analyze",
+      "de": "Schritt 4: Analysieren",
+      "fr": "Etape 4: Analysez",
+      "es": "Paso 4: Analiza"
+    },
+    "section7Step4Content": {
+      "it": "Ora hai accesso alla <strong>Heatmap Settoriale</strong> (per vedere se sei troppo esposto su Tech o Finance) e al grafico dei <strong>Dividendi</strong>. Configura la dashboard trascinando i widget che ti interessano di piu in alto.",
+      "en": "Now you have access to the <strong>Sector Heatmap</strong> (to see if you're overexposed to Tech or Finance) and the <strong>Dividend</strong> chart. Configure the dashboard by dragging the widgets you care about most to the top.",
+      "de": "Jetzt haben Sie Zugriff auf die <strong>Sektor-Heatmap</strong> (um zu sehen, ob Sie in Tech oder Finance ueberexponiert sind) und das <strong>Dividenden</strong>-Diagramm. Konfigurieren Sie das Dashboard, indem Sie die wichtigsten Widgets nach oben ziehen.",
+      "fr": "Maintenant vous avez acces a la <strong>Heatmap Sectorielle</strong> (pour voir si vous etes surexpose en Tech ou Finance) et au graphique des <strong>Dividendes</strong>. Configurez le tableau de bord en glissant les widgets qui vous interessent le plus en haut.",
+      "es": "Ahora tienes acceso al <strong>Heatmap Sectorial</strong> (para ver si estas sobreexpuesto en Tech o Finance) y al grafico de <strong>Dividendos</strong>. Configura el dashboard arrastrando los widgets que mas te interesen hacia arriba."
+    },
+    "section8Title": {
+      "it": "8. FAQ - Domande Frequenti",
+      "en": "8. FAQ - Frequently Asked Questions",
+      "de": "8. FAQ - Haeufig gestellte Fragen",
+      "fr": "8. FAQ - Questions Frequentes",
+      "es": "8. FAQ - Preguntas Frecuentes"
+    },
+    "section8FAQ1Q": {
+      "it": "E sicuro caricare i miei file del broker?",
+      "en": "Is it safe to upload my broker files?",
+      "de": "Ist es sicher, meine Broker-Dateien hochzuladen?",
+      "fr": "Est-il securise de telecharger mes fichiers de courtier?",
+      "es": "Es seguro subir mis archivos del broker?"
+    },
+    "section8FAQ1A": {
+      "it": "Si. I file CSV/PDF contengono solo lo storico delle transazioni. Non contengono password, ne permettono di prelevare fondi. I dati su DonkyCapital sono criptati e i server sono in Europa (GDPR compliant).",
+      "en": "Yes. CSV/PDF files only contain transaction history. They don't contain passwords, nor allow fund withdrawals. Data on DonkyCapital is encrypted and servers are in Europe (GDPR compliant).",
+      "de": "Ja. CSV/PDF-Dateien enthalten nur die Transaktionshistorie. Sie enthalten keine Passwoerter und ermoeglichen keine Abhebungen. Daten auf DonkyCapital sind verschluesselt und die Server stehen in Europa (DSGVO-konform).",
+      "fr": "Oui. Les fichiers CSV/PDF ne contiennent que l'historique des transactions. Ils ne contiennent pas de mots de passe et ne permettent pas de retirer des fonds. Les donnees sur DonkyCapital sont cryptees et les serveurs sont en Europe (conformes au RGPD).",
+      "es": "Si. Los archivos CSV/PDF solo contienen el historial de transacciones. No contienen contrasenas ni permiten retirar fondos. Los datos en DonkyCapital estan encriptados y los servidores estan en Europa (compatible con GDPR)."
+    },
+    "section8FAQ2Q": {
+      "it": "Posso tracciare le Crypto?",
+      "en": "Can I track Crypto?",
+      "de": "Kann ich Krypto verfolgen?",
+      "fr": "Puis-je suivre les Crypto?",
+      "es": "Puedo rastrear Crypto?"
+    },
+    "section8FAQ2A": {
+      "it": "Assolutamente si. Puoi unire nello stesso grafico il tuo portafoglio azionario su Degiro e il tuo Bitcoin su Ledger/Binance per vedere il patrimonio totale.",
+      "en": "Absolutely yes. You can merge in the same chart your stock portfolio on Degiro and your Bitcoin on Ledger/Binance to see your total wealth.",
+      "de": "Auf jeden Fall. Sie koennen in demselben Diagramm Ihr Aktienportfolio auf Degiro und Ihr Bitcoin auf Ledger/Binance zusammenfuehren, um Ihr Gesamtvermoegen zu sehen.",
+      "fr": "Absolument oui. Vous pouvez fusionner dans le meme graphique votre portefeuille d'actions sur Degiro et votre Bitcoin sur Ledger/Binance pour voir votre patrimoine total.",
+      "es": "Absolutamente si. Puedes unir en el mismo grafico tu cartera de acciones en Degiro y tu Bitcoin en Ledger/Binance para ver tu patrimonio total."
+    },
+    "section8FAQ3Q": {
+      "it": "Funziona su Mobile?",
+      "en": "Does it work on Mobile?",
+      "de": "Funktioniert es auf Mobilgeraeten?",
+      "fr": "Ca fonctionne sur Mobile?",
+      "es": "Funciona en Movil?"
+    },
+    "section8FAQ3A": {
+      "it": "Si, DonkyCapital e una PWA. Puoi aggiungerla alla home del tuo iPhone o Android e usarla come un'app nativa.",
+      "en": "Yes, DonkyCapital is a PWA. You can add it to your iPhone or Android home screen and use it like a native app.",
+      "de": "Ja, DonkyCapital ist eine PWA. Sie koennen es zum Startbildschirm Ihres iPhones oder Android hinzufuegen und wie eine native App nutzen.",
+      "fr": "Oui, DonkyCapital est une PWA. Vous pouvez l'ajouter a l'ecran d'accueil de votre iPhone ou Android et l'utiliser comme une app native.",
+      "es": "Si, DonkyCapital es una PWA. Puedes agregarla a la pantalla de inicio de tu iPhone o Android y usarla como una app nativa."
+    },
+    "ctaTitle": {
+      "it": "Vuoi smettere di usare Excel?",
+      "en": "Want to Stop Using Excel?",
+      "de": "Wollen Sie aufhoeren, Excel zu benutzen?",
+      "fr": "Vous voulez arreter d'utiliser Excel?",
+      "es": "Quieres dejar de usar Excel?"
+    },
+    "ctaDescription": {
+      "it": "Stiamo aprendo l'Early Access Program. I primi utenti riceveranno le funzionalita Premium per sempre, gratis.",
+      "en": "We're opening the Early Access Program. The first users will receive Premium features forever, for free.",
+      "de": "Wir eroeffnen das Early Access Programm. Die ersten Nutzer erhalten die Premium-Funktionen fuer immer kostenlos.",
+      "fr": "Nous ouvrons le Programme d'Acces Anticipe. Les premiers utilisateurs recevront les fonctionnalites Premium pour toujours, gratuitement.",
+      "es": "Estamos abriendo el Programa de Acceso Anticipado. Los primeros usuarios recibiran las funcionalidades Premium para siempre, gratis."
+    },
+    "ctaButton": {
+      "it": "ISCRIVITI GRATIS ORA (Early Access)",
+      "en": "SIGN UP FREE NOW (Early Access)",
+      "de": "JETZT KOSTENLOS ANMELDEN (Early Access)",
+      "fr": "S'INSCRIRE GRATUITEMENT (Acces Anticipe)",
+      "es": "REGISTRATE GRATIS AHORA (Early Access)"
+    },
+    "ctaNote": {
+      "it": "Include l'import automatizzato per Scalable, Degiro, Directa e altri.",
+      "en": "Includes automated import for Scalable, Degiro, Directa and more.",
+      "de": "Beinhaltet automatisierten Import fuer Scalable, Degiro, Directa und weitere.",
+      "fr": "Inclut l'import automatise pour Scalable, Degiro, Directa et plus.",
+      "es": "Incluye importacion automatizada para Scalable, Degiro, Directa y mas."
     }
   }
 }
