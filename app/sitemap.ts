@@ -6,6 +6,7 @@ import { finecoSlugs } from '@/lib/pages/fineco-slugs'
 import { multiBrokerSlugs } from '@/lib/pages/multi-broker-slugs'
 import { vsGetquinSlugs } from '@/lib/pages/vs-getquin-slugs'
 import { capitalManagementSlugs } from '@/lib/pages/capital-management-slugs'
+import { roiGuideSlugs } from '@/lib/pages/roi-guide-slugs'
 
 const baseUrl = 'https://www.donkycapital.com'
 
@@ -174,6 +175,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates: {
         languages: alternates,
       },
+    })
+  }
+
+  // Add ROI / Performance Metrics guide with language-specific slugs
+  for (const locale of i18n.locales) {
+    const slug = roiGuideSlugs[locale as Locale]
+    const url = `${baseUrl}/${locale}/${slug}`
+
+    const alternates: Record<string, string> = {}
+    for (const altLocale of i18n.locales) {
+      alternates[altLocale] = `${baseUrl}/${altLocale}/${roiGuideSlugs[altLocale as Locale]}`
+    }
+    alternates['x-default'] = `${baseUrl}/en/${roiGuideSlugs.en}`
+
+    sitemapEntries.push({
+      url,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+      alternates: { languages: alternates },
     })
   }
 

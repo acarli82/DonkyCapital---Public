@@ -7,6 +7,7 @@ import { finecoSlugs } from '@/lib/pages/fineco-slugs'
 import { multiBrokerSlugs } from '@/lib/pages/multi-broker-slugs'
 import { vsGetquinSlugs } from '@/lib/pages/vs-getquin-slugs'
 import { capitalManagementSlugs } from '@/lib/pages/capital-management-slugs'
+import { roiGuideSlugs } from '@/lib/pages/roi-guide-slugs'
 
 interface FooterProps {
   dict: Dictionary
@@ -139,6 +140,15 @@ export default function Footer({ dict, lang }: FooterProps) {
                  lang === 'fr' ? 'Rééquilibrage Portefeuille' :
                  lang === 'es' ? 'Rebalancear Cartera' :
                  'Portfolio Rebalancing'}
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/${roiGuideSlugs[lang]}`} className="hover:text-white transition-colors">
+                {lang === 'it' ? 'ROI, TWR e IRR' :
+                 lang === 'de' ? 'ROI, TWR und IRR' :
+                 lang === 'fr' ? 'ROI, TWR et IRR' :
+                 lang === 'es' ? 'ROI, TWR e IRR' :
+                 'ROI, TWR & IRR'}
               </Link>
             </li>
           </ul>
