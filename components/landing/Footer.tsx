@@ -6,6 +6,7 @@ import { degiroSlugs } from '@/lib/pages/degiro-slugs'
 import { finecoSlugs } from '@/lib/pages/fineco-slugs'
 import { multiBrokerSlugs } from '@/lib/pages/multi-broker-slugs'
 import { vsGetquinSlugs } from '@/lib/pages/vs-getquin-slugs'
+import { capitalManagementSlugs } from '@/lib/pages/capital-management-slugs'
 
 interface FooterProps {
   dict: Dictionary
@@ -129,6 +130,15 @@ export default function Footer({ dict, lang }: FooterProps) {
             <li>
               <Link href={`/${lang}/${vsGetquinSlugs[lang]}`} className="hover:text-white transition-colors">
                 DonkyCapital vs Getquin
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/${capitalManagementSlugs[lang]}`} className="hover:text-white transition-colors">
+                {lang === 'it' ? 'Ribilanciamento Portafoglio' :
+                 lang === 'de' ? 'Portfolio Rebalancing' :
+                 lang === 'fr' ? 'Rééquilibrage Portefeuille' :
+                 lang === 'es' ? 'Rebalancear Cartera' :
+                 'Portfolio Rebalancing'}
               </Link>
             </li>
           </ul>

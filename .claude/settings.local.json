@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(cmd /c \"dir \"\"C:\\\\Users\\\\Andrea\\\\Documents\\\\Sites\\\\DonkyCapital - Public\\\\public\\\\assets\\\\guides\"\" /b /s\")",
+      "Bash(cmd /c \"dir \"\"C:\\\\Users\\\\Andrea\\\\Documents\\\\Sites\\\\DonkyCapital - Public\\\\public\\\\assets\\\\guides\"\" /b\")",
+      "Bash(cmd /c \"dir \"\"C:\\\\Users\\\\Andrea\\\\Documents\\\\Sites\\\\DonkyCapital - Public\\\\public\"\" /b\")"
     ]
   }
 }
