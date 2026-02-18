@@ -8,6 +8,7 @@ import { multiBrokerSlugs } from '@/lib/pages/multi-broker-slugs'
 import { vsGetquinSlugs } from '@/lib/pages/vs-getquin-slugs'
 import { capitalManagementSlugs } from '@/lib/pages/capital-management-slugs'
 import { roiGuideSlugs } from '@/lib/pages/roi-guide-slugs'
+import { commonMistakesSlugs } from '@/lib/pages/common-mistakes-slugs'
 
 interface FooterProps {
   dict: Dictionary
@@ -149,6 +150,15 @@ export default function Footer({ dict, lang }: FooterProps) {
                  lang === 'fr' ? 'ROI, TWR et IRR' :
                  lang === 'es' ? 'ROI, TWR e IRR' :
                  'ROI, TWR & IRR'}
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/${commonMistakesSlugs[lang]}`} className="hover:text-white transition-colors">
+                {lang === 'it' ? '5 Errori Portfolio Tracking' :
+                 lang === 'de' ? '5 Fehler Portfolio-Tracking' :
+                 lang === 'fr' ? '5 Erreurs Suivi Portefeuille' :
+                 lang === 'es' ? '5 Errores Seguimiento Cartera' :
+                 '5 Portfolio Tracking Mistakes'}
               </Link>
             </li>
           </ul>

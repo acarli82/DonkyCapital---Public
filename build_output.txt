@@ -1,0 +1,167 @@
+  ▲ Next.js 14.2.35
+  - Environments: .env.production
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/115) ...
+   Generating static pages (28/115) 
+   Generating static pages (57/115) 
+   Generating static pages (86/115) 
+ ✓ Generating static pages (115/115)
+   Finalizing page optimization ...
+   Collecting build traces ...
+ ⚠ Statically exporting a Next.js application via `next export` disables API routes and middleware.
+This command is meant for static-only hosts, and is not necessary to make your application static.
+Pages in your application without server-side data dependencies will be automatically statically exported by `next build`, including pages powered by `getStaticProps`.
+Learn more: https://nextjs.org/docs/messages/api-routes-static-export
+
+Route (app)                                                           Size     First Load JS
+┌ ○ /_not-found                                                       151 B          87.4 kB
+├ ● /[lang]                                                           3.35 kB        99.2 kB
+├   ├ /en
+├   ├ /it
+├   ├ /de
+├   └ [+2 more paths]
+├ ● /[lang]/about                                                     297 B          92.7 kB
+├   ├ /en/about
+├   ├ /it/about
+├   ├ /de/about
+├   └ [+2 more paths]
+├ ● /[lang]/calcolo-rendimento-portafoglio                            1.23 kB         102 kB
+├   ├ /en/calcolo-rendimento-portafoglio
+├   ├ /it/calcolo-rendimento-portafoglio
+├   ├ /de/calcolo-rendimento-portafoglio
+├   └ [+2 more paths]
+├ ● /[lang]/calcular-rendimiento-cartera                              1.23 kB         102 kB
+├   ├ /en/calcular-rendimiento-cartera
+├   ├ /it/calcular-rendimiento-cartera
+├   ├ /de/calcular-rendimiento-cartera
+├   └ [+2 more paths]
+├ ● /[lang]/calculer-rendement-portefeuille                           1.23 kB         102 kB
+├   ├ /en/calculer-rendement-portefeuille
+├   ├ /it/calculer-rendement-portefeuille
+├   ├ /de/calculer-rendement-portefeuille
+├   └ [+2 more paths]
+├ ● /[lang]/contact                                                   1.99 kB        89.3 kB
+├   ├ /en/contact
+├   ├ /it/contact
+├   ├ /de/contact
+├   └ [+2 more paths]
+├ ● /[lang]/degiro-daten-importieren                                  1.24 kB         102 kB
+├   └ /de/degiro-daten-importieren
+├ ● /[lang]/donkycapital-vs-getquin-best-portfolio-tracker-2026       1.24 kB         102 kB
+├   └ /en/donkycapital-vs-getquin-best-portfolio-tracker-2026
+├ ● /[lang]/donkycapital-vs-getquin-confronto-2026                    1.24 kB         102 kB
+├   └ /it/donkycapital-vs-getquin-confronto-2026
+├ ● /[lang]/donkycapital-vs-getquin-portfolio-tracker-vergleich-2026  1.24 kB         102 kB
+├   └ /de/donkycapital-vs-getquin-portfolio-tracker-vergleich-2026
+├ ● /[lang]/donkycapital-vs-getquin-rastreador-cartera-2026           1.24 kB         102 kB
+├   └ /es/donkycapital-vs-getquin-rastreador-cartera-2026
+├ ● /[lang]/donkycapital-vs-getquin-suivi-portefeuille-2026           1.24 kB         102 kB
+├   └ /fr/donkycapital-vs-getquin-suivi-portefeuille-2026
+├ ● /[lang]/early-access                                              1.85 kB        89.1 kB
+├   ├ /en/early-access
+├   ├ /it/early-access
+├   ├ /de/early-access
+├   └ [+2 more paths]
+├ ● /[lang]/errori-portfolio-tracking                                 1.23 kB         102 kB
+├   ├ /en/errori-portfolio-tracking
+├   ├ /it/errori-portfolio-tracking
+├   ├ /de/errori-portfolio-tracking
+├   └ [+2 more paths]
+├ ● /[lang]/esportare-transazioni-scalable-capital                    1.54 kB         103 kB
+├   └ /it/esportare-transazioni-scalable-capital
+├ ● /[lang]/export-scalable-capital-transactions                      1.54 kB         103 kB
+├   └ /en/export-scalable-capital-transactions
+├ ● /[lang]/exportar-transacciones-scalable-capital                   1.54 kB         103 kB
+├   └ /es/exportar-transacciones-scalable-capital
+├ ● /[lang]/exporter-transactions-scalable-capital                    1.54 kB         103 kB
+├   └ /fr/exporter-transactions-scalable-capital
+├ ● /[lang]/fineco-portfolio-tracker                                  194 B           101 kB
+├   ├ /en/fineco-portfolio-tracker
+├   ├ /it/fineco-portfolio-tracker
+├   └ /de/fineco-portfolio-tracker
+├ ● /[lang]/fineco-rastreador-cartera                                 194 B           101 kB
+├   └ /es/fineco-rastreador-cartera
+├ ● /[lang]/fineco-tracker-portefeuille                               194 B           101 kB
+├   └ /fr/fineco-tracker-portefeuille
+├ ● /[lang]/how-to-calculate-portfolio-return                         1.23 kB         102 kB
+├   ├ /en/how-to-calculate-portfolio-return
+├   ├ /it/how-to-calculate-portfolio-return
+├   ├ /de/how-to-calculate-portfolio-return
+├   └ [+2 more paths]
+├ ● /[lang]/import-from-degiro                                        1.24 kB         102 kB
+├   └ /en/import-from-degiro
+├ ● /[lang]/importar-datos-degiro                                     1.24 kB         102 kB
+├   └ /es/importar-datos-degiro
+├ ● /[lang]/importare-da-degiro                                       1.24 kB         102 kB
+├   └ /it/importare-da-degiro
+├ ● /[lang]/importer-les-donnees-degiro                               1.24 kB         102 kB
+├   └ /fr/importer-les-donnees-degiro
+├ ● /[lang]/portfolio-rebalancing-guide                               1.23 kB         102 kB
+├   ├ /en/portfolio-rebalancing-guide
+├   ├ /it/portfolio-rebalancing-guide
+├   ├ /de/portfolio-rebalancing-guide
+├   └ [+2 more paths]
+├ ● /[lang]/portfolio-rebalancing-strategie                           1.23 kB         102 kB
+├   ├ /en/portfolio-rebalancing-strategie
+├   ├ /it/portfolio-rebalancing-strategie
+├   ├ /de/portfolio-rebalancing-strategie
+├   └ [+2 more paths]
+├ ● /[lang]/portfolio-rendite-berechnen                               1.23 kB         102 kB
+├   ├ /en/portfolio-rendite-berechnen
+├   ├ /it/portfolio-rendite-berechnen
+├   ├ /de/portfolio-rendite-berechnen
+├   └ [+2 more paths]
+├ ● /[lang]/portfolio-tracking-mehrere-broker                         194 B          96.1 kB
+├   └ /de/portfolio-tracking-mehrere-broker
+├ ● /[lang]/privacy-policy                                            151 B          87.4 kB
+├   ├ /en/privacy-policy
+├   ├ /it/privacy-policy
+├   ├ /de/privacy-policy
+├   └ [+2 more paths]
+├ ● /[lang]/rastrear-cartera-multiples-brokers                        194 B          96.1 kB
+├   └ /es/rastrear-cartera-multiples-brokers
+├ ● /[lang]/rebalancear-cartera-inversiones                           1.23 kB         102 kB
+├   ├ /en/rebalancear-cartera-inversiones
+├   ├ /it/rebalancear-cartera-inversiones
+├   ├ /de/rebalancear-cartera-inversiones
+├   └ [+2 more paths]
+├ ● /[lang]/reequilibrage-portefeuille                                1.23 kB         102 kB
+├   ├ /en/reequilibrage-portefeuille
+├   ├ /it/reequilibrage-portefeuille
+├   ├ /de/reequilibrage-portefeuille
+├   └ [+2 more paths]
+├ ● /[lang]/ribilanciamento-portafoglio                               1.23 kB         102 kB
+├   ├ /en/ribilanciamento-portafoglio
+├   ├ /it/ribilanciamento-portafoglio
+├   ├ /de/ribilanciamento-portafoglio
+├   └ [+2 more paths]
+├ ● /[lang]/scalable-capital-transaktionen-exportieren                1.54 kB         103 kB
+├   └ /de/scalable-capital-transaktionen-exportieren
+├ ● /[lang]/suivre-portefeuille-plusieurs-courtiers                   194 B          96.1 kB
+├   └ /fr/suivre-portefeuille-plusieurs-courtiers
+├ ● /[lang]/terms-and-conditions                                      151 B          87.4 kB
+├   ├ /en/terms-and-conditions
+├   ├ /it/terms-and-conditions
+├   ├ /de/terms-and-conditions
+├   └ [+2 more paths]
+├ ● /[lang]/tracciare-portafoglio-piu-broker                          194 B          96.1 kB
+├   └ /it/tracciare-portafoglio-piu-broker
+├ ● /[lang]/track-portfolio-multiple-brokers                          194 B          96.1 kB
+├   └ /en/track-portfolio-multiple-brokers
+├ ○ /robots.txt                                                       0 B                0 B
+└ ○ /sitemap.xml                                                      0 B                0 B
++ First Load JS shared by all                                         87.3 kB
+  ├ chunks/2117-055234a080e38424.js                                   31.8 kB
+  ├ chunks/fd9d1056-f94d9e7da100abe1.js                               53.6 kB
+  └ other shared chunks (total)                                       1.89 kB
+
+
+ƒ Middleware                                                          26.7 kB
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses getStaticProps)
+
