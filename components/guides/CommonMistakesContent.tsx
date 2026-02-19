@@ -6,6 +6,7 @@ import { roiGuideSlugs } from '@/lib/pages/roi-guide-slugs'
 import { degiroSlugs } from '@/lib/pages/degiro-slugs'
 import { scalableCapitalSlugs } from '@/lib/pages/scalable-capital-slugs'
 import { multiBrokerSlugs } from '@/lib/pages/multi-broker-slugs'
+import { benchmarkGuideSlugs } from '@/lib/pages/benchmark-guide-slugs'
 
 interface Props {
   lang: Locale
@@ -242,6 +243,9 @@ export default function CommonMistakesContent({ lang }: Props) {
           <div className="card p-4 border-primary/20 bg-primary/5">
             <p className="text-primary text-sm font-semibold mb-1">{t.fixTitle}</p>
             <p>{t.e5FixBody}</p>
+            <Link href={`/${lang}/${benchmarkGuideSlugs[lang]}`} className="mt-2 inline-block text-sm text-primary hover:underline">
+              {t.e5FixLinkText}
+            </Link>
           </div>
         </div>
       </section>

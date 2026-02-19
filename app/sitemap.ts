@@ -8,6 +8,7 @@ import { vsGetquinSlugs } from '@/lib/pages/vs-getquin-slugs'
 import { capitalManagementSlugs } from '@/lib/pages/capital-management-slugs'
 import { roiGuideSlugs } from '@/lib/pages/roi-guide-slugs'
 import { commonMistakesSlugs } from '@/lib/pages/common-mistakes-slugs'
+import { benchmarkGuideSlugs } from '@/lib/pages/benchmark-guide-slugs'
 
 const baseUrl = 'https://www.donkycapital.com'
 
@@ -215,6 +216,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.85,
+      alternates: { languages: alternates },
+    })
+  }
+
+  // Add Benchmark / Inflation guide with language-specific slugs
+  for (const locale of i18n.locales) {
+    const slug = benchmarkGuideSlugs[locale as Locale]
+    const url = `${baseUrl}/${locale}/${slug}`
+
+    const alternates: Record<string, string> = {}
+    for (const altLocale of i18n.locales) {
+      alternates[altLocale] = `${baseUrl}/${altLocale}/${benchmarkGuideSlugs[altLocale as Locale]}`
+    }
+    alternates['x-default'] = `${baseUrl}/en/${benchmarkGuideSlugs.en}`
+
+    sitemapEntries.push({
+      url,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
       alternates: { languages: alternates },
     })
   }

@@ -7,6 +7,7 @@ import { vsGetquinSlugs } from './vs-getquin-slugs'
 import { capitalManagementSlugs } from './capital-management-slugs'
 import { roiGuideSlugs } from './roi-guide-slugs'
 import { commonMistakesSlugs } from './common-mistakes-slugs'
+import { benchmarkGuideSlugs } from './benchmark-guide-slugs'
 
 // All page slug maps grouped together
 const allSlugMaps: Record<Locale, string>[] = [
@@ -18,6 +19,7 @@ const allSlugMaps: Record<Locale, string>[] = [
   capitalManagementSlugs,
   roiGuideSlugs,
   commonMistakesSlugs,
+  benchmarkGuideSlugs,
 ]
 
 /**

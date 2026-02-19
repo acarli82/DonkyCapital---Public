@@ -57,6 +57,7 @@ export interface CommonMistakesTranslations {
   e5ImgAlt: string
   e5ImgCaption: string
   e5FixBody: string
+  e5FixLinkText: string
   // Bonus
   bonusTitle: string
   bonusIntro: string
@@ -171,6 +172,7 @@ const it: CommonMistakesTranslations = {
   e5ImgAlt: 'DonkyCapital — grafico andamento portafoglio nel tempo',
   e5ImgCaption: 'Il grafico di performance mostra l\'andamento nominale — ricorda di confrontarlo con l\'inflazione del periodo per ottenere il rendimento reale.',
   e5FixBody: 'Abituati a calcolare il rendimento reale sottraendo l\'inflazione del periodo dal rendimento nominale. Per valutazioni a lungo termine, usa sempre l\'HICP (Indice dei Prezzi al Consumo Armonizzato) europeo come riferimento.',
+  e5FixLinkText: 'Scopri come monitorare l\'inflazione del tuo portafoglio su DonkyCapital →',
   bonusTitle: 'Bonus: Altri Errori Frequenti',
   bonusIntro: 'Oltre ai cinque errori principali, ecco altri comportamenti che compromettono la qualità del portfolio tracking:',
   bonusItems: [
@@ -324,6 +326,7 @@ const en: CommonMistakesTranslations = {
   e5ImgAlt: 'DonkyCapital — portfolio performance chart over time',
   e5ImgCaption: 'The performance chart shows nominal performance — remember to compare it with the inflation of the period to obtain the real return.',
   e5FixBody: 'Make it a habit to calculate real return by subtracting the period\'s inflation from the nominal return. For long-term evaluations, always use the European HICP (Harmonised Index of Consumer Prices) as a reference.',
+  e5FixLinkText: 'Learn how to track inflation in your portfolio with DonkyCapital →',
   bonusTitle: 'Bonus: Other Common Mistakes',
   bonusIntro: 'Beyond the five main mistakes, here are other behaviors that compromise portfolio tracking quality:',
   bonusItems: [
@@ -477,6 +480,7 @@ const de: CommonMistakesTranslations = {
   e5ImgAlt: 'DonkyCapital — Portfolio-Performancediagramm über die Zeit',
   e5ImgCaption: 'Das Performance-Diagramm zeigt die nominale Entwicklung — denke daran, sie mit der Inflation des Zeitraums zu vergleichen, um die reale Rendite zu erhalten.',
   e5FixBody: 'Gewöhne dich daran, die Realrendite zu berechnen, indem du die Inflation des Zeitraums von der Nominalrendite subtrahierst. Verwende für langfristige Bewertungen immer den europäischen HVPI (Harmonisierter Verbraucherpreisindex) als Referenz.',
+  e5FixLinkText: 'Erfahre, wie du Inflation in deinem Portfolio mit DonkyCapital überwachst →',
   bonusTitle: 'Bonus: Weitere Häufige Fehler',
   bonusIntro: 'Neben den fünf Hauptfehlern gibt es weitere Verhaltensweisen, die die Qualität des Portfolio-Trackings beeinträchtigen:',
   bonusItems: [
@@ -630,6 +634,7 @@ const fr: CommonMistakesTranslations = {
   e5ImgAlt: 'DonkyCapital — graphique de performance du portefeuille dans le temps',
   e5ImgCaption: "Le graphique de performance montre l'évolution nominale — pensez à la comparer avec l'inflation de la période pour obtenir le rendement réel.",
   e5FixBody: "Prenez l'habitude de calculer le rendement réel en soustrayant l'inflation de la période du rendement nominal. Pour les évaluations à long terme, utilisez toujours l'IPCH européen (Indice des Prix à la Consommation Harmonisé) comme référence.",
+  e5FixLinkText: "Découvrez comment suivre l'inflation de votre portefeuille avec DonkyCapital →",
   bonusTitle: 'Bonus : Autres Erreurs Fréquentes',
   bonusIntro: "Au-delà des cinq erreurs principales, voici d'autres comportements qui compromettent la qualité du suivi de portefeuille :",
   bonusItems: [
@@ -783,6 +788,7 @@ const es: CommonMistakesTranslations = {
   e5ImgAlt: 'DonkyCapital — gráfico de rendimiento de cartera en el tiempo',
   e5ImgCaption: 'El gráfico de rendimiento muestra la evolución nominal — recuerda compararlo con la inflación del período para obtener la rentabilidad real.',
   e5FixBody: 'Acostúmbrate a calcular la rentabilidad real restando la inflación del período a la rentabilidad nominal. Para evaluaciones a largo plazo, utiliza siempre el IPCA europeo (Índice de Precios al Consumo Armonizado) como referencia.',
+  e5FixLinkText: 'Aprende a monitorizar la inflación de tu cartera con DonkyCapital →',
   bonusTitle: 'Bonus: Otros Errores Frecuentes',
   bonusIntro: 'Además de los cinco errores principales, aquí hay otros comportamientos que comprometen la calidad del seguimiento de cartera:',
   bonusItems: [

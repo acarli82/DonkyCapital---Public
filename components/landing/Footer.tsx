@@ -9,6 +9,7 @@ import { vsGetquinSlugs } from '@/lib/pages/vs-getquin-slugs'
 import { capitalManagementSlugs } from '@/lib/pages/capital-management-slugs'
 import { roiGuideSlugs } from '@/lib/pages/roi-guide-slugs'
 import { commonMistakesSlugs } from '@/lib/pages/common-mistakes-slugs'
+import { benchmarkGuideSlugs } from '@/lib/pages/benchmark-guide-slugs'
 
 interface FooterProps {
   dict: Dictionary
@@ -159,6 +160,15 @@ export default function Footer({ dict, lang }: FooterProps) {
                  lang === 'fr' ? '5 Erreurs Suivi Portefeuille' :
                  lang === 'es' ? '5 Errores Seguimiento Cartera' :
                  '5 Portfolio Tracking Mistakes'}
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/${benchmarkGuideSlugs[lang]}`} className="hover:text-white transition-colors">
+                {lang === 'it' ? 'Battere l\'Inflazione con Benchmarks' :
+                 lang === 'de' ? 'Inflation mit Benchmarks schlagen' :
+                 lang === 'fr' ? 'Battre l\'Inflation avec Benchmarks' :
+                 lang === 'es' ? 'Batir la Inflación con Benchmarks' :
+                 'Beat Inflation with Benchmarks'}
               </Link>
             </li>
           </ul>
