@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Loc
 
   const alternateLanguages: Record<string, string> = {}
   i18n.locales.forEach((locale) => {
-    alternateLanguages[locale] = `https://www.donkycapital.com/${locale}/`
+    alternateLanguages[locale] = `https://www.donkycapital.com/${locale}`
   })
 
   // Map language codes to Open Graph locale format
@@ -64,10 +64,10 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Loc
       },
     },
     alternates: {
-      canonical: `https://www.donkycapital.com/${lang}/`,
+      canonical: `https://www.donkycapital.com/${lang}`,
       languages: {
         ...alternateLanguages,
-        'x-default': 'https://www.donkycapital.com/en/',
+        'x-default': 'https://www.donkycapital.com/en',
       },
     },
     openGraph: {

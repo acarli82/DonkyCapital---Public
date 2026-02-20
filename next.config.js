@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  trailingSlash: true,
 
   // SWC minification (faster than Terser, default in Next 14 but explicit is better)
   swcMinify: true,

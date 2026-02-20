@@ -188,7 +188,7 @@ export default function CommonMistakesContent({ lang }: Props) {
 
           <div className="rounded-xl overflow-hidden border border-white/10 max-w-sm mx-auto my-6">
             <ZoomableImage
-              src="/assets/widgets/pie-chart.webp"
+              src="/assets/guides/currency_allocation.webp"
               alt={t.e4ImgAlt}
               width={420}
               height={420}

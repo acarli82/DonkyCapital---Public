@@ -12,9 +12,6 @@ import { benchmarkGuideSlugs } from '@/lib/pages/benchmark-guide-slugs'
 
 const baseUrl = 'https://www.donkycapital.com'
 
-function withSlash(url: string): string {
-  return url.endsWith('/') ? url : `${url}/`
-}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Standard pages with the same path across all languages
@@ -32,13 +29,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Add standard pages
   for (const page of standardPages) {
     for (const locale of i18n.locales) {
-      const url = withSlash(`${baseUrl}/${locale}${page.path}`)
+      const url = `${baseUrl}/${locale}${page.path}`)
 
       const alternates: Record<string, string> = {}
       for (const altLocale of i18n.locales) {
-        alternates[altLocale] = withSlash(`${baseUrl}/${altLocale}${page.path}`)
+        alternates[altLocale] = `${baseUrl}/${altLocale}${page.path}`)
       }
-      alternates['x-default'] = withSlash(`${baseUrl}/en${page.path}`)
+      alternates['x-default'] = `${baseUrl}/en${page.path}`)
 
       sitemapEntries.push({
         url,
@@ -55,13 +52,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Add Scalable Capital pages with language-specific slugs
   for (const locale of i18n.locales) {
     const slug = scalableCapitalSlugs[locale as Locale]
-    const url = withSlash(`${baseUrl}/${locale}/${slug}`)
+    const url = `${baseUrl}/${locale}/${slug}`)
 
     const alternates: Record<string, string> = {}
     for (const altLocale of i18n.locales) {
-      alternates[altLocale] = withSlash(`${baseUrl}/${altLocale}/${scalableCapitalSlugs[altLocale as Locale]}`)
+      alternates[altLocale] = `${baseUrl}/${altLocale}/${scalableCapitalSlugs[altLocale as Locale]}`)
     }
-    alternates['x-default'] = withSlash(`${baseUrl}/en/${scalableCapitalSlugs.en}`)
+    alternates['x-default'] = `${baseUrl}/en/${scalableCapitalSlugs.en}`)
 
     sitemapEntries.push({
       url,
@@ -77,13 +74,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Add Degiro pages with language-specific slugs
   for (const locale of i18n.locales) {
     const slug = degiroSlugs[locale as Locale]
-    const url = withSlash(`${baseUrl}/${locale}/${slug}`)
+    const url = `${baseUrl}/${locale}/${slug}`)
 
     const alternates: Record<string, string> = {}
     for (const altLocale of i18n.locales) {
-      alternates[altLocale] = withSlash(`${baseUrl}/${altLocale}/${degiroSlugs[altLocale as Locale]}`)
+      alternates[altLocale] = `${baseUrl}/${altLocale}/${degiroSlugs[altLocale as Locale]}`)
     }
-    alternates['x-default'] = withSlash(`${baseUrl}/en/${degiroSlugs.en}`)
+    alternates['x-default'] = `${baseUrl}/en/${degiroSlugs.en}`)
 
     sitemapEntries.push({
       url,
@@ -99,13 +96,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Add Fineco pages with language-specific slugs
   for (const locale of i18n.locales) {
     const slug = finecoSlugs[locale as Locale]
-    const url = withSlash(`${baseUrl}/${locale}/${slug}`)
+    const url = `${baseUrl}/${locale}/${slug}`)
 
     const alternates: Record<string, string> = {}
     for (const altLocale of i18n.locales) {
-      alternates[altLocale] = withSlash(`${baseUrl}/${altLocale}/${finecoSlugs[altLocale as Locale]}`)
+      alternates[altLocale] = `${baseUrl}/${altLocale}/${finecoSlugs[altLocale as Locale]}`)
     }
-    alternates['x-default'] = withSlash(`${baseUrl}/en/${finecoSlugs.en}`)
+    alternates['x-default'] = `${baseUrl}/en/${finecoSlugs.en}`)
 
     sitemapEntries.push({
       url,
@@ -121,13 +118,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Add Multi-Broker Portfolio Tracking guide with language-specific slugs
   for (const locale of i18n.locales) {
     const slug = multiBrokerSlugs[locale as Locale]
-    const url = withSlash(`${baseUrl}/${locale}/${slug}`)
+    const url = `${baseUrl}/${locale}/${slug}`)
 
     const alternates: Record<string, string> = {}
     for (const altLocale of i18n.locales) {
-      alternates[altLocale] = withSlash(`${baseUrl}/${altLocale}/${multiBrokerSlugs[altLocale as Locale]}`)
+      alternates[altLocale] = `${baseUrl}/${altLocale}/${multiBrokerSlugs[altLocale as Locale]}`)
     }
-    alternates['x-default'] = withSlash(`${baseUrl}/en/${multiBrokerSlugs.en}`)
+    alternates['x-default'] = `${baseUrl}/en/${multiBrokerSlugs.en}`)
 
     sitemapEntries.push({
       url,
@@ -143,13 +140,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Add DonkyCapital vs Getquin comparison page with language-specific slugs
   for (const locale of i18n.locales) {
     const slug = vsGetquinSlugs[locale as Locale]
-    const url = withSlash(`${baseUrl}/${locale}/${slug}`)
+    const url = `${baseUrl}/${locale}/${slug}`)
 
     const alternates: Record<string, string> = {}
     for (const altLocale of i18n.locales) {
-      alternates[altLocale] = withSlash(`${baseUrl}/${altLocale}/${vsGetquinSlugs[altLocale as Locale]}`)
+      alternates[altLocale] = `${baseUrl}/${altLocale}/${vsGetquinSlugs[altLocale as Locale]}`)
     }
-    alternates['x-default'] = withSlash(`${baseUrl}/en/${vsGetquinSlugs.en}`)
+    alternates['x-default'] = `${baseUrl}/en/${vsGetquinSlugs.en}`)
 
     sitemapEntries.push({
       url,
@@ -165,13 +162,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Add Capital Management / Portfolio Rebalancing guide with language-specific slugs
   for (const locale of i18n.locales) {
     const slug = capitalManagementSlugs[locale as Locale]
-    const url = withSlash(`${baseUrl}/${locale}/${slug}`)
+    const url = `${baseUrl}/${locale}/${slug}`)
 
     const alternates: Record<string, string> = {}
     for (const altLocale of i18n.locales) {
-      alternates[altLocale] = withSlash(`${baseUrl}/${altLocale}/${capitalManagementSlugs[altLocale as Locale]}`)
+      alternates[altLocale] = `${baseUrl}/${altLocale}/${capitalManagementSlugs[altLocale as Locale]}`)
     }
-    alternates['x-default'] = withSlash(`${baseUrl}/en/${capitalManagementSlugs.en}`)
+    alternates['x-default'] = `${baseUrl}/en/${capitalManagementSlugs.en}`)
 
     sitemapEntries.push({
       url,
@@ -187,13 +184,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Add ROI / Performance Metrics guide with language-specific slugs
   for (const locale of i18n.locales) {
     const slug = roiGuideSlugs[locale as Locale]
-    const url = withSlash(`${baseUrl}/${locale}/${slug}`)
+    const url = `${baseUrl}/${locale}/${slug}`)
 
     const alternates: Record<string, string> = {}
     for (const altLocale of i18n.locales) {
-      alternates[altLocale] = withSlash(`${baseUrl}/${altLocale}/${roiGuideSlugs[altLocale as Locale]}`)
+      alternates[altLocale] = `${baseUrl}/${altLocale}/${roiGuideSlugs[altLocale as Locale]}`)
     }
-    alternates['x-default'] = withSlash(`${baseUrl}/en/${roiGuideSlugs.en}`)
+    alternates['x-default'] = `${baseUrl}/en/${roiGuideSlugs.en}`)
 
     sitemapEntries.push({
       url,
@@ -207,13 +204,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Add Common Mistakes / Portfolio Tracking Errors guide with language-specific slugs
   for (const locale of i18n.locales) {
     const slug = commonMistakesSlugs[locale as Locale]
-    const url = withSlash(`${baseUrl}/${locale}/${slug}`)
+    const url = `${baseUrl}/${locale}/${slug}`)
 
     const alternates: Record<string, string> = {}
     for (const altLocale of i18n.locales) {
-      alternates[altLocale] = withSlash(`${baseUrl}/${altLocale}/${commonMistakesSlugs[altLocale as Locale]}`)
+      alternates[altLocale] = `${baseUrl}/${altLocale}/${commonMistakesSlugs[altLocale as Locale]}`)
     }
-    alternates['x-default'] = withSlash(`${baseUrl}/en/${commonMistakesSlugs.en}`)
+    alternates['x-default'] = `${baseUrl}/en/${commonMistakesSlugs.en}`)
 
     sitemapEntries.push({
       url,
@@ -227,13 +224,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Add Benchmark / Inflation guide with language-specific slugs
   for (const locale of i18n.locales) {
     const slug = benchmarkGuideSlugs[locale as Locale]
-    const url = withSlash(`${baseUrl}/${locale}/${slug}`)
+    const url = `${baseUrl}/${locale}/${slug}`)
 
     const alternates: Record<string, string> = {}
     for (const altLocale of i18n.locales) {
-      alternates[altLocale] = withSlash(`${baseUrl}/${altLocale}/${benchmarkGuideSlugs[altLocale as Locale]}`)
+      alternates[altLocale] = `${baseUrl}/${altLocale}/${benchmarkGuideSlugs[altLocale as Locale]}`)
     }
-    alternates['x-default'] = withSlash(`${baseUrl}/en/${benchmarkGuideSlugs.en}`)
+    alternates['x-default'] = `${baseUrl}/en/${benchmarkGuideSlugs.en}`)
 
     sitemapEntries.push({
       url,
