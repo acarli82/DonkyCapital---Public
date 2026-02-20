@@ -10,6 +10,11 @@ export const ogLocaleMap: Record<Locale, string> = {
   es: 'es_ES',
 }
 
+// Ensure URL ends with exactly one trailing slash
+function withTrailingSlash(url: string): string {
+  return url.endsWith('/') ? url : `${url}/`
+}
+
 interface PageMetadataOptions {
   lang: Locale
   path: string // e.g., '/about', '/contact', or '' for home
@@ -25,7 +30,17 @@ export function generatePageMetadata({
   description,
   alternateLanguages,
 }: PageMetadataOptions): Metadata {
-  const canonicalUrl = `https://www.donkycapital.com/${lang}${path}`
+  const canonicalUrl = withTrailingSlash(`https://www.donkycapital.com/${lang}${path}`)
+
+  // Normalize all alternate language URLs to have trailing slash
+  const normalizedAlternates: Record<string, string> = {}
+  for (const [locale, url] of Object.entries(alternateLanguages)) {
+    normalizedAlternates[locale] = withTrailingSlash(url)
+  }
+
+  const xDefault =
+    normalizedAlternates['en'] ||
+    withTrailingSlash(`https://www.donkycapital.com/en${path}`)
 
   return {
     title,
@@ -33,8 +48,8 @@ export function generatePageMetadata({
     alternates: {
       canonical: canonicalUrl,
       languages: {
-        ...alternateLanguages,
-        'x-default': alternateLanguages['en'] || `https://www.donkycapital.com/en${path}`,
+        ...normalizedAlternates,
+        'x-default': xDefault,
       },
     },
     openGraph: {
