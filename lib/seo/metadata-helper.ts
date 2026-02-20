@@ -34,7 +34,7 @@ export function generatePageMetadata({
       canonical: canonicalUrl,
       languages: {
         ...alternateLanguages,
-        'x-default': `https://www.donkycapital.com/en${path}`,
+        'x-default': alternateLanguages['en'] || `https://www.donkycapital.com/en${path}`,
       },
     },
     openGraph: {
