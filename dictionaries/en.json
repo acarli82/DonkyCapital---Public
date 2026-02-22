@@ -125,6 +125,14 @@
         {
           "question": "What happens to my data?",
           "answer": "Your data is stored securely in Europe and encrypted. We prioritize your privacy and never ask for your broker credentials."
+        },
+        {
+          "question": "Can I track Bitcoin and other crypto on DonkyCapital?",
+          "answer": "Yes. DonkyCapital has a dedicated cryptocurrency tab with hundreds of supported coins (BTC, ETH, BNB, AAVE and many more) with automatically updated prices. If a crypto isn't in the catalogue yet, you can request its addition directly from the interface."
+        },
+        {
+          "question": "Can I monitor real estate or unlisted investments?",
+          "answer": "Yes. The 'Unlisted Assets' feature lets you add any non-exchange-traded asset — real estate, private equity, art, startups — with manual price updates. You can also record income such as rental payments or dividends."
         }
       ],
       "title": "Frequently Asked Questions"
@@ -143,6 +151,12 @@
         "manyMore": "+ many more being integrated",
         "securityNote": "We never ask for access to your broker. Your data stays yours alone.",
         "title": "Multi-Portfolio"
+      },
+      "allAssets": {
+        "title": "All Your Assets, One Dashboard",
+        "description": "Stocks, ETFs, crypto and unlisted assets (real estate, private equity, art) together in a unified portfolio. Automatic prices for listed instruments, manual updates for the rest.",
+        "cryptoLinkLabel": "Crypto Guide →",
+        "unlistedLinkLabel": "Unlisted Assets Guide →"
       }
     },
     "footer": {
@@ -232,6 +246,10 @@
       "retailInvestor": {
         "quote": "I have ETFs across 3 different brokers: finally I see them all in one place.",
         "title": "Retail Investor"
+      },
+      "altInvestor": {
+        "quote": "I hold Bitcoin, a rental property and startup shares. DonkyCapital is the only place where I see everything together.",
+        "title": "Multi-Asset Investor"
       }
     },
     "widgetsCarousel": {

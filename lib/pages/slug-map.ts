@@ -8,6 +8,8 @@ import { capitalManagementSlugs } from './capital-management-slugs'
 import { roiGuideSlugs } from './roi-guide-slugs'
 import { commonMistakesSlugs } from './common-mistakes-slugs'
 import { benchmarkGuideSlugs } from './benchmark-guide-slugs'
+import { unlistedGuideSlugs } from './unlisted-guide-slugs'
+import { cryptoGuideSlugs } from './crypto-guide-slugs'
 
 // All page slug maps grouped together
 const allSlugMaps: Record<Locale, string>[] = [
@@ -20,6 +22,8 @@ const allSlugMaps: Record<Locale, string>[] = [
   roiGuideSlugs,
   commonMistakesSlugs,
   benchmarkGuideSlugs,
+  unlistedGuideSlugs,
+  cryptoGuideSlugs,
 ]
 
 /**

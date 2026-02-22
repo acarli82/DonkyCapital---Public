@@ -4,6 +4,8 @@ import type { Locale } from '@/lib/i18n/config'
 import { scalableCapitalSlugs } from '@/lib/pages/scalable-capital-slugs'
 import { degiroSlugs } from '@/lib/pages/degiro-slugs'
 import { finecoSlugs } from '@/lib/pages/fineco-slugs'
+import { cryptoGuideSlugs } from '@/lib/pages/crypto-guide-slugs'
+import { unlistedGuideSlugs } from '@/lib/pages/unlisted-guide-slugs'
 
 interface FeaturesSectionProps {
   dict: Dictionary
@@ -52,6 +54,21 @@ export default function FeaturesSection({ dict, lang = 'en' }: FeaturesSectionPr
       title: dict.landing.features.multiPortfolio.title,
       description: dict.landing.features.multiPortfolio.description,
       brokers: ['Fineco', 'Moneyfarm', 'Degiro', 'Scalable', 'Directa']
+    },
+    {
+      icon: (
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
+          <circle cx="12" cy="12" r="2"/>
+          <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+        </svg>
+      ),
+      title: dict.landing.features.allAssets.title,
+      description: dict.landing.features.allAssets.description,
+      brokers: null,
+      assetLinks: [
+        { label: dict.landing.features.allAssets.cryptoLinkLabel, href: `/${lang}/${cryptoGuideSlugs[lang]}` },
+        { label: dict.landing.features.allAssets.unlistedLinkLabel, href: `/${lang}/${unlistedGuideSlugs[lang]}` },
+      ]
     }
   ]
 
@@ -67,7 +84,7 @@ export default function FeaturesSection({ dict, lang = 'en' }: FeaturesSectionPr
         {dict.landing.seoHeadings.h3EtfTracker}
       </h3>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
       {features.map((feature, index) => (
         <div
           key={index}
@@ -124,6 +141,23 @@ export default function FeaturesSection({ dict, lang = 'en' }: FeaturesSectionPr
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
                 </svg>
                 <span>{dict.landing.features.multiPortfolio.securityNote}</span>
+              </div>
+            </div>
+          )}
+
+          {/* Asset Links (only for All Assets card) */}
+          {'assetLinks' in feature && feature.assetLinks && (
+            <div className="mt-3 pt-3 border-t border-white/10">
+              <div className="flex flex-wrap gap-1.5">
+                {feature.assetLinks.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className="px-2 py-0.5 text-xs font-medium rounded bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
               </div>
             </div>
           )}

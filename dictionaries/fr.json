@@ -121,6 +121,14 @@
         {
           "question": "Qu'advient-il de mes données ?",
           "answer": "Vos données sont stockées en Europe et cryptées. Nous respectons votre vie privée : aucun identifiant de courtier n'est jamais stocké."
+        },
+        {
+          "question": "Puis-je suivre Bitcoin et d'autres cryptos sur DonkyCapital ?",
+          "answer": "Oui. DonkyCapital dispose d'un onglet dédié aux cryptomonnaies avec des centaines de coins supportées (BTC, ETH, BNB, AAVE et bien d'autres) avec des prix mis à jour automatiquement. Si une crypto n'est pas encore dans le catalogue, vous pouvez demander son ajout directement depuis l'interface."
+        },
+        {
+          "question": "Puis-je suivre de l'immobilier ou des investissements non cotés ?",
+          "answer": "Oui. La fonctionnalité 'Unlisted Assets' vous permet d'ajouter n'importe quel actif non coté — immobilier, private equity, art, startups — avec mise à jour manuelle du prix. Vous pouvez aussi enregistrer les revenus comme des loyers ou des dividendes."
         }
       ],
       "title": "Questions Fréquemment Posées"
@@ -139,6 +147,12 @@
         "manyMore": "+ beaucoup d'autres en cours d'intégration",
         "securityNote": "Nous ne demandons jamais l'accès à votre courtier. Vos données restent les vôtres.",
         "title": "Multi-Portfolio"
+      },
+      "allAssets": {
+        "title": "Tous vos Actifs, un Tableau de Bord",
+        "description": "Actions, ETF, cryptos et actifs non cotés (immobilier, private equity, art) réunis dans un portefeuille unifié. Prix automatiques pour les instruments cotés, mise à jour manuelle pour les autres.",
+        "cryptoLinkLabel": "Guide Crypto →",
+        "unlistedLinkLabel": "Guide Actifs Non Cotés →"
       }
     },
     "footer": {
@@ -228,6 +242,10 @@
       "retailInvestor": {
         "quote": "J'ai des ETF chez 3 courtiers différents : enfin je les vois tous au même endroit.",
         "title": "Investisseur Particulier"
+      },
+      "altInvestor": {
+        "quote": "Je détiens du Bitcoin, un appartement locatif et des parts de startup. DonkyCapital est le seul endroit où je vois tout ensemble.",
+        "title": "Investisseur Multi-Actifs"
       }
     },
     "widgetsCarousel": {

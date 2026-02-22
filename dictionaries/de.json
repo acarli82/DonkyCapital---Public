@@ -125,6 +125,14 @@
         {
           "question": "Was passiert mit meinen Daten?",
           "answer": "Ihre Daten werden sicher in Europa gespeichert und verschlüsselt. Wir speichern keine Broker-Passwörter und garantieren maximale Privatsphäre."
+        },
+        {
+          "question": "Kann ich Bitcoin und andere Kryptowährungen in DonkyCapital verfolgen?",
+          "answer": "Ja. DonkyCapital hat einen eigenen Kryptowährungs-Tab mit Hunderten unterstützter Coins (BTC, ETH, BNB, AAVE und viele mehr) mit automatisch aktualisierten Preisen. Falls eine Krypto noch nicht im Katalog ist, können Sie deren Aufnahme direkt über die Oberfläche beantragen."
+        },
+        {
+          "question": "Kann ich Immobilien oder nicht börsennotierte Investments überwachen?",
+          "answer": "Ja. Die Funktion 'Unlisted Assets' ermöglicht das Hinzufügen beliebiger nicht börsennotierter Assets — Immobilien, Private Equity, Kunst, Startups — mit manueller Preisaktualisierung. Erträge wie Mieten oder Dividenden können ebenfalls erfasst werden."
         }
       ],
       "title": "Häufig gestellte Fragen"
@@ -143,6 +151,12 @@
         "manyMore": "+ viele weitere werden integriert",
         "securityNote": "Wir fragen nie nach Zugang zu Ihrem Broker. Ihre Daten bleiben Ihre.",
         "title": "Multi-Portfolio"
+      },
+      "allAssets": {
+        "title": "Alle Assets, ein Dashboard",
+        "description": "Aktien, ETFs, Kryptowährungen und nicht börsennotierte Assets (Immobilien, Private Equity, Kunst) in einem vereinten Portfolio. Automatische Preise für börsennotierte Instrumente, manuelle Aktualisierung für die anderen.",
+        "cryptoLinkLabel": "Krypto-Leitfaden →",
+        "unlistedLinkLabel": "Nicht börsennotierte Assets →"
       }
     },
     "footer": {
@@ -232,6 +246,10 @@
       "retailInvestor": {
         "quote": "Ich habe ETFs bei 3 verschiedenen Brokern: Endlich sehe ich alle an einem Ort.",
         "title": "Privatanleger"
+      },
+      "altInvestor": {
+        "quote": "Ich halte Bitcoin, eine Mietimmobilie und Startup-Anteile. DonkyCapital ist der einzige Ort, wo ich alles auf einen Blick sehe.",
+        "title": "Multi-Asset-Anleger"
       }
     },
     "widgetsCarousel": {

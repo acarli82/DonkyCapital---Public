@@ -9,6 +9,8 @@ import { capitalManagementSlugs } from '@/lib/pages/capital-management-slugs'
 import { roiGuideSlugs } from '@/lib/pages/roi-guide-slugs'
 import { commonMistakesSlugs } from '@/lib/pages/common-mistakes-slugs'
 import { benchmarkGuideSlugs } from '@/lib/pages/benchmark-guide-slugs'
+import { unlistedGuideSlugs } from '@/lib/pages/unlisted-guide-slugs'
+import { cryptoGuideSlugs } from '@/lib/pages/crypto-guide-slugs'
 
 const baseUrl = 'https://www.donkycapital.com'
 
@@ -237,6 +239,46 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
+      alternates: { languages: alternates },
+    })
+  }
+
+  // Add Unlisted Assets guide with language-specific slugs
+  for (const locale of i18n.locales) {
+    const slug = unlistedGuideSlugs[locale as Locale]
+    const url = `${baseUrl}/${locale}/${slug}`
+
+    const alternates: Record<string, string> = {}
+    for (const altLocale of i18n.locales) {
+      alternates[altLocale] = `${baseUrl}/${altLocale}/${unlistedGuideSlugs[altLocale as Locale]}`
+    }
+    alternates['x-default'] = `${baseUrl}/en/${unlistedGuideSlugs.en}`
+
+    sitemapEntries.push({
+      url,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+      alternates: { languages: alternates },
+    })
+  }
+
+  // Add Crypto Portfolio guide with language-specific slugs
+  for (const locale of i18n.locales) {
+    const slug = cryptoGuideSlugs[locale as Locale]
+    const url = `${baseUrl}/${locale}/${slug}`
+
+    const alternates: Record<string, string> = {}
+    for (const altLocale of i18n.locales) {
+      alternates[altLocale] = `${baseUrl}/${altLocale}/${cryptoGuideSlugs[altLocale as Locale]}`
+    }
+    alternates['x-default'] = `${baseUrl}/en/${cryptoGuideSlugs.en}`
+
+    sitemapEntries.push({
+      url,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.85,
       alternates: { languages: alternates },
     })
   }

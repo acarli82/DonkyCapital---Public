@@ -10,6 +10,8 @@ import { capitalManagementSlugs } from '@/lib/pages/capital-management-slugs'
 import { roiGuideSlugs } from '@/lib/pages/roi-guide-slugs'
 import { commonMistakesSlugs } from '@/lib/pages/common-mistakes-slugs'
 import { benchmarkGuideSlugs } from '@/lib/pages/benchmark-guide-slugs'
+import { unlistedGuideSlugs } from '@/lib/pages/unlisted-guide-slugs'
+import { cryptoGuideSlugs } from '@/lib/pages/crypto-guide-slugs'
 
 interface FooterProps {
   dict: Dictionary
@@ -169,6 +171,24 @@ export default function Footer({ dict, lang }: FooterProps) {
                  lang === 'fr' ? 'Battre l\'Inflation avec Benchmarks' :
                  lang === 'es' ? 'Batir la Inflación con Benchmarks' :
                  'Beat Inflation with Benchmarks'}
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/${unlistedGuideSlugs[lang]}`} className="hover:text-white transition-colors">
+                {lang === 'it' ? 'Asset Non Quotati' :
+                 lang === 'de' ? 'Nicht börsennotierte Assets' :
+                 lang === 'fr' ? 'Actifs Non Cotés' :
+                 lang === 'es' ? 'Activos No Cotizados' :
+                 'Unlisted Assets'}
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/${cryptoGuideSlugs[lang]}`} className="hover:text-white transition-colors">
+                {lang === 'it' ? 'Monitorare Crypto' :
+                 lang === 'de' ? 'Krypto verfolgen' :
+                 lang === 'fr' ? 'Suivre les Cryptos' :
+                 lang === 'es' ? 'Monitorizar Crypto' :
+                 'Track Crypto'}
               </Link>
             </li>
           </ul>

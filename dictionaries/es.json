@@ -121,6 +121,14 @@
         {
           "question": "¿Qué pasa con mis datos?",
           "answer": "Tus datos están alojados en Europa y encriptados. Priorizamos tu seguridad y nunca solicitamos tus claves de acceso al bróker."
+        },
+        {
+          "question": "¿Puedo monitorizar Bitcoin y otras criptos en DonkyCapital?",
+          "answer": "Sí. DonkyCapital tiene un tab dedicado a las criptomonedas con cientos de monedas soportadas (BTC, ETH, BNB, AAVE y muchas más) con precios actualizados automáticamente. Si una cripto no está en el catálogo, puedes solicitar su añadido directamente desde la interfaz."
+        },
+        {
+          "question": "¿Puedo monitorizar inmuebles o inversiones no cotizadas?",
+          "answer": "Sí. La función 'Unlisted Assets' te permite añadir cualquier activo no cotizado — inmuebles, private equity, arte, startups — con actualización manual del precio. También puedes registrar ingresos como rentas de alquiler o dividendos."
         }
       ],
       "title": "Preguntas Frecuentes"
@@ -139,6 +147,12 @@
         "manyMore": "+ muchos más en proceso de integración",
         "securityNote": "Nunca pedimos acceso a tu corredor. Tus datos permanecen solo tuyos.",
         "title": "Multi-Cartera"
+      },
+      "allAssets": {
+        "title": "Todos tus Activos, un Solo Dashboard",
+        "description": "Acciones, ETFs, criptos y activos no cotizados (inmuebles, private equity, arte) juntos en un portafolio unificado. Precios automáticos para los instrumentos cotizados, actualización manual para los demás.",
+        "cryptoLinkLabel": "Guía Crypto →",
+        "unlistedLinkLabel": "Guía Activos No Cotizados →"
       }
     },
     "footer": {
@@ -228,6 +242,10 @@
       "retailInvestor": {
         "quote": "Tengo ETFs en 3 corredores diferentes: finalmente los veo todos en un solo lugar.",
         "title": "Inversor Particular"
+      },
+      "altInvestor": {
+        "quote": "Tengo Bitcoin, un piso en alquiler y participaciones en una startup. DonkyCapital es el único lugar donde veo todo junto.",
+        "title": "Inversor Multi-Activo"
       }
     },
     "widgetsCarousel": {

@@ -129,6 +129,14 @@
         {
           "question": "Cosa succede ai miei dati?",
           "answer": "La tua privacy è sacra. I dati sono archiviati in Europa e criptati secondo i più alti standard di sicurezza. Nessun dato di accesso al broker viene mai richiesto."
+        },
+        {
+          "question": "Posso tracciare Bitcoin e altre crypto su DonkyCapital?",
+          "answer": "Sì. DonkyCapital ha un tab dedicato alle criptovalute con centinaia di coin supportate (BTC, ETH, BNB, AAVE e molte altre) e prezzi aggiornati automaticamente. Se una crypto non è ancora in catalogo, puoi richiederne l'aggiunta direttamente dall'interfaccia."
+        },
+        {
+          "question": "Posso monitorare immobili o investimenti non quotati in borsa?",
+          "answer": "Sì. La funzionalità 'Unlisted Assets' ti permette di aggiungere qualsiasi asset non quotato — immobili, private equity, arte, startup — con aggiornamento manuale del prezzo. Puoi anche registrare i proventi come canoni di affitto o dividendi."
         }
       ],
       "title": "Domande Frequenti"
@@ -147,6 +155,12 @@
         "manyMore": "+ molti altri in fase di integrazione",
         "securityNote": "Non chiediamo mai accesso al tuo broker. I tuoi dati restano solo tuoi.",
         "title": "Multi-Portfolio"
+      },
+      "allAssets": {
+        "title": "Tutti i Tuoi Asset, un'Unica Dashboard",
+        "description": "Azioni, ETF, crypto e asset non quotati (immobili, private equity, arte) insieme in un portafoglio unificato. Prezzi automatici per gli strumenti quotati, aggiornamento manuale per gli altri.",
+        "cryptoLinkLabel": "Guida Crypto →",
+        "unlistedLinkLabel": "Asset Non Quotati →"
       }
     },
     "footer": {
@@ -236,6 +250,10 @@
       "retailInvestor": {
         "quote": "Ho ETF su 3 broker diversi: finalmente li vedo tutti in un posto.",
         "title": "Investitore Retail"
+      },
+      "altInvestor": {
+        "quote": "Ho Bitcoin, un appartamento a reddito e quote di una startup. DonkyCapital è l'unico posto dove vedo tutto insieme.",
+        "title": "Investitore Multi-Asset"
       }
     },
     "widgetsCarousel": {
