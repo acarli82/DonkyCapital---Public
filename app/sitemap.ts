@@ -11,6 +11,7 @@ import { commonMistakesSlugs } from '@/lib/pages/common-mistakes-slugs'
 import { benchmarkGuideSlugs } from '@/lib/pages/benchmark-guide-slugs'
 import { unlistedGuideSlugs } from '@/lib/pages/unlisted-guide-slugs'
 import { cryptoGuideSlugs } from '@/lib/pages/crypto-guide-slugs'
+import { excelVsSoftwareSlugs } from '@/lib/pages/excel-vs-software-slugs'
 
 const baseUrl = 'https://www.donkycapital.com'
 
@@ -273,6 +274,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates[altLocale] = `${baseUrl}/${altLocale}/${cryptoGuideSlugs[altLocale as Locale]}`
     }
     alternates['x-default'] = `${baseUrl}/en/${cryptoGuideSlugs.en}`
+
+    sitemapEntries.push({
+      url,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+      alternates: { languages: alternates },
+    })
+  }
+
+  // Add Excel vs Software guide with language-specific slugs
+  for (const locale of i18n.locales) {
+    const slug = excelVsSoftwareSlugs[locale as Locale]
+    const url = `${baseUrl}/${locale}/${slug}`
+
+    const alternates: Record<string, string> = {}
+    for (const altLocale of i18n.locales) {
+      alternates[altLocale] = `${baseUrl}/${altLocale}/${excelVsSoftwareSlugs[altLocale as Locale]}`
+    }
+    alternates['x-default'] = `${baseUrl}/en/${excelVsSoftwareSlugs.en}`
 
     sitemapEntries.push({
       url,

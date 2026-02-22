@@ -12,6 +12,7 @@ import { commonMistakesSlugs } from '@/lib/pages/common-mistakes-slugs'
 import { benchmarkGuideSlugs } from '@/lib/pages/benchmark-guide-slugs'
 import { unlistedGuideSlugs } from '@/lib/pages/unlisted-guide-slugs'
 import { cryptoGuideSlugs } from '@/lib/pages/crypto-guide-slugs'
+import { excelVsSoftwareSlugs } from '@/lib/pages/excel-vs-software-slugs'
 
 interface FooterProps {
   dict: Dictionary
@@ -189,6 +190,15 @@ export default function Footer({ dict, lang }: FooterProps) {
                  lang === 'fr' ? 'Suivre les Cryptos' :
                  lang === 'es' ? 'Monitorizar Crypto' :
                  'Track Crypto'}
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/${excelVsSoftwareSlugs[lang]}`} className="hover:text-white transition-colors">
+                {lang === 'it' ? 'Excel vs Software' :
+                 lang === 'de' ? 'Excel vs. Software' :
+                 lang === 'fr' ? 'Excel vs Logiciel' :
+                 lang === 'es' ? 'Excel vs Software' :
+                 'Excel vs Software'}
               </Link>
             </li>
           </ul>

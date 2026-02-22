@@ -10,6 +10,7 @@ import { commonMistakesSlugs } from './common-mistakes-slugs'
 import { benchmarkGuideSlugs } from './benchmark-guide-slugs'
 import { unlistedGuideSlugs } from './unlisted-guide-slugs'
 import { cryptoGuideSlugs } from './crypto-guide-slugs'
+import { excelVsSoftwareSlugs } from './excel-vs-software-slugs'
 
 // All page slug maps grouped together
 const allSlugMaps: Record<Locale, string>[] = [
@@ -24,6 +25,7 @@ const allSlugMaps: Record<Locale, string>[] = [
   benchmarkGuideSlugs,
   unlistedGuideSlugs,
   cryptoGuideSlugs,
+  excelVsSoftwareSlugs,
 ]
 
 /**
